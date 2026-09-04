@@ -1,5 +1,5 @@
 {
-  "latestPatch": "005",
+  "latestPatch": "006",
   "patches": [
     {
       "id": "001",
@@ -48,6 +48,16 @@
       "sha256": "38a43e05021ec3a2c3ad7d8c09f87cd861d74cf9669236829cbe3d3237677e7c",
       "size": 373742294,
       "description": "Fix OmniRoute provider for coding page — always register dynamic adapter before chat requests",
+      "date": "2026-09-04",
+      "restartRequired": true
+    },
+    {
+      "id": "006",
+      "version": "1.0.851",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-006/patch-006.zip",
+      "sha256": "34792cc3e7b056b10f8ba648fbf728325b95310e90925c6bbbfbd18ca9d2e245",
+      "size": 373742294,
+      "description": "Fix coding page OmniRoute — auto-start server, establish session, better errors",
       "date": "2026-09-04",
       "restartRequired": true
     }
