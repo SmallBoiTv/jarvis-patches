@@ -1,5 +1,5 @@
 {
-  "latestPatch": "003",
+  "latestPatch": "004",
   "patches": [
     {
       "id": "001",
@@ -28,6 +28,16 @@
       "sha256": "370c565feb1efc0d240b3aab49caa1d91506ac92d137f38c96d27af0a7d22376",
       "size": 373741328,
       "description": "Fix OmniRoute free model labels + Free filter button",
+      "date": "2026-09-04",
+      "restartRequired": true
+    },
+    {
+      "id": "004",
+      "version": "1.0.849",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-004/patch-004.zip",
+      "sha256": "c2d6bc3eeb84ad02e18b1b1e0cf329f6fc2d9c05b3c29656a27d5a0474022ba0",
+      "size": 373742294,
+      "description": "Expand OmniRoute model dropdown with API provider models",
       "date": "2026-09-04",
       "restartRequired": true
     }
