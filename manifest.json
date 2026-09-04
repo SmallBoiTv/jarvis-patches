@@ -1,5 +1,5 @@
 {
-  "latestPatch": "006",
+  "latestPatch": "007",
   "patches": [
     {
       "id": "001",
@@ -58,6 +58,16 @@
       "sha256": "34792cc3e7b056b10f8ba648fbf728325b95310e90925c6bbbfbd18ca9d2e245",
       "size": 373742294,
       "description": "Fix coding page OmniRoute — auto-start server, establish session, better errors",
+      "date": "2026-09-04",
+      "restartRequired": true
+    },
+    {
+      "id": "007",
+      "version": "1.0.851",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-007/patch-007.zip",
+      "sha256": "5b2eb662812174d7c1ae776e9ca2c0ed230080d6e44eba9913a2c720ddf1c79b",
+      "size": 373742294,
+      "description": "Fix Forbidden error — hot-patch overlay blocked by directory traversal security check",
       "date": "2026-09-04",
       "restartRequired": true
     }
