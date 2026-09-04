@@ -1,5 +1,5 @@
 {
-  "latestPatch": "004",
+  "latestPatch": "005",
   "patches": [
     {
       "id": "001",
@@ -38,6 +38,16 @@
       "sha256": "c2d6bc3eeb84ad02e18b1b1e0cf329f6fc2d9c05b3c29656a27d5a0474022ba0",
       "size": 373742294,
       "description": "Expand OmniRoute model dropdown with API provider models",
+      "date": "2026-09-04",
+      "restartRequired": true
+    },
+    {
+      "id": "005",
+      "version": "1.0.851",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-005/patch-005.zip",
+      "sha256": "38a43e05021ec3a2c3ad7d8c09f87cd861d74cf9669236829cbe3d3237677e7c",
+      "size": 373742294,
+      "description": "Fix OmniRoute provider for coding page — always register dynamic adapter before chat requests",
       "date": "2026-09-04",
       "restartRequired": true
     }
