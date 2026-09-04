@@ -1,4 +1,15 @@
 {
-  "latestPatch": null,
-  "patches": []
+  "latestPatch": "001",
+  "patches": [
+    {
+      "id": "001",
+      "version": "1.0.849",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-001/patch-001.zip",
+      "sha256": "8baef61519333398119fc435ae6e34044a11e2185229a6c98be8e27f6a526fc9",
+      "size": 371465828,
+      "description": "Merge hot patches into App Info page",
+      "date": "2026-09-04",
+      "restartRequired": false
+    }
+  ]
 }
