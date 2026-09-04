@@ -1,5 +1,5 @@
 {
-  "latestPatch": "002",
+  "latestPatch": "003",
   "patches": [
     {
       "id": "001",
@@ -18,6 +18,16 @@
       "sha256": "78782b5a56abfcd7be17a4bfcde57ec8292766c5d9ab19fd8b2aea6be34da8b9",
       "size": 373740875,
       "description": "Fix hot patch download — follow HTTP 302 redirects",
+      "date": "2026-09-04",
+      "restartRequired": true
+    },
+    {
+      "id": "003",
+      "version": "1.0.849",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-003/patch-003.zip",
+      "sha256": "370c565feb1efc0d240b3aab49caa1d91506ac92d137f38c96d27af0a7d22376",
+      "size": 373741328,
+      "description": "Fix OmniRoute free model labels + Free filter button",
       "date": "2026-09-04",
       "restartRequired": true
     }
