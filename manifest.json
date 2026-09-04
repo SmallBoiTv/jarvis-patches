@@ -1,5 +1,5 @@
 {
-  "latestPatch": "001",
+  "latestPatch": "002",
   "patches": [
     {
       "id": "001",
@@ -10,6 +10,16 @@
       "description": "Merge hot patches into App Info page",
       "date": "2026-09-04",
       "restartRequired": false
+    },
+    {
+      "id": "002",
+      "version": "1.0.849",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-002/patch-002.zip",
+      "sha256": "78782b5a56abfcd7be17a4bfcde57ec8292766c5d9ab19fd8b2aea6be34da8b9",
+      "size": 373740875,
+      "description": "Fix hot patch download — follow HTTP 302 redirects",
+      "date": "2026-09-04",
+      "restartRequired": true
     }
   ]
 }
