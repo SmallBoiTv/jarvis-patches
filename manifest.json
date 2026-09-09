@@ -1,5 +1,5 @@
 {
-  "latestPatch": "008",
+  "latestPatch": "009",
   "patches": [
     {
       "id": "001",
@@ -78,6 +78,16 @@
       "sha256": "6ea251316ddb2d018d651064a0e6cfcb30ae6b3a1e08612f0f45bed9c1c96927",
       "size": 372872378,
       "description": "Fix Whisper wake word detection — VAD timer self-termination after first recording cycle",
+      "date": "2026-09-09",
+      "restartRequired": false
+    },
+    {
+      "id": "009",
+      "version": "1.0.876",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-009/patch-009.zip",
+      "sha256": "476335395061fd366a9a2609552aba03da9947420e15b960bb14aa81d075ecfb",
+      "size": 372873969,
+      "description": "Fix morning briefing: markdown artifacts in chat/HUD, TTS reads raw markdown, no stop button",
       "date": "2026-09-09",
       "restartRequired": false
     }
