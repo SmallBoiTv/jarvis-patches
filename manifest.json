@@ -1,5 +1,5 @@
 {
-  "latestPatch": "009",
+  "latestPatch": "010",
   "patches": [
     {
       "id": "001",
@@ -90,6 +90,16 @@
       "description": "Fix morning briefing: markdown artifacts in chat/HUD, TTS reads raw markdown, no stop button",
       "date": "2026-09-09",
       "restartRequired": false
+    },
+    {
+      "id": "010",
+      "version": "1.0.876",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-010/patch-010.zip",
+      "sha256": "3733ac35287be36e3beb6879dcfcbcb6341793159e61b242ecf81bc0ab23ca06",
+      "size": 375354717,
+      "description": "Fix social media posting: Chrome browser accounts, agent mode tool calls, CMD commands, Chrome preview toolbar button",
+      "date": "2026-09-09",
+      "restartRequired": true
     }
   ]
 }
