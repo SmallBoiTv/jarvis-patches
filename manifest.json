@@ -1,5 +1,5 @@
 {
-  "latestPatch": "007",
+  "latestPatch": "008",
   "patches": [
     {
       "id": "001",
@@ -70,6 +70,16 @@
       "description": "Fix Forbidden error — hot-patch overlay blocked by directory traversal security check",
       "date": "2026-09-04",
       "restartRequired": true
+    },
+    {
+      "id": "008",
+      "version": "1.0.876",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-008/patch-008.zip",
+      "sha256": "6ea251316ddb2d018d651064a0e6cfcb30ae6b3a1e08612f0f45bed9c1c96927",
+      "size": 372872378,
+      "description": "Fix Whisper wake word detection — VAD timer self-termination after first recording cycle",
+      "date": "2026-09-09",
+      "restartRequired": false
     }
   ]
 }
