@@ -1,5 +1,5 @@
 {
-  "latestPatch": "14",
+  "latestPatch": "15",
   "patches": [
     {
       "id": "001",
@@ -138,6 +138,16 @@
       "sha256": "a8963f83e882bb5c1d952a49e09f997e8a02c4014edd5e771cee2fe194925764",
       "size": 372897524,
       "description": "autopilot error reporting, compose media attach, reminder save, proactive toast fix, whisper path fix",
+      "date": "2026-09-10",
+      "restartRequired": false
+    },
+    {
+      "id": "15",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-15/patch-15.zip",
+      "sha256": "b284665f35c2b7da3b47b30510192f057257634607e8179e52341e76e09f9c44",
+      "size": 372897844,
+      "description": "Auto-Pilot Stop button, wake word reliability improvements, OmniRoute auto-ready on startup",
       "date": "2026-09-10",
       "restartRequired": false
     }
