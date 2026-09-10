@@ -1,5 +1,5 @@
 {
-  "latestPatch": "012",
+  "latestPatch": "13",
   "patches": [
     {
       "id": "001",
@@ -118,6 +118,16 @@
       "sha256": "82a5b572fa8d19160fea8a7d880fddf2a409145dd5e1dc3795289052199df858",
       "size": 372889535,
       "description": "Fix renderer TDZ crash: startWhisperWakeWordFallback before initialization",
+      "date": "2026-09-10",
+      "restartRequired": false
+    },
+    {
+      "id": "13",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-13/patch-13.zip",
+      "sha256": "da3b29f7c5eb12d9f02ccfa6c659575f597741d0391bb840ea43b5619b5659c8",
+      "size": 372897232,
+      "description": "autopilot error reporting, reminder save button, proactive toast fix, whisper model path fix",
       "date": "2026-09-10",
       "restartRequired": false
     }
