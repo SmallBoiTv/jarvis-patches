@@ -1,5 +1,5 @@
 {
-  "latestPatch": "011",
+  "latestPatch": "012",
   "patches": [
     {
       "id": "001",
@@ -110,6 +110,16 @@
       "description": "Fix chat page: text.startsWith error, raw tool syntax display, agent_reach when Chrome enabled, social mode precedence",
       "date": "2026-09-09",
       "restartRequired": true
+    },
+    {
+      "id": "012",
+      "version": "1.0.884",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-012/patch-012.zip",
+      "sha256": "82a5b572fa8d19160fea8a7d880fddf2a409145dd5e1dc3795289052199df858",
+      "size": 372889535,
+      "description": "Fix renderer TDZ crash: startWhisperWakeWordFallback before initialization",
+      "date": "2026-09-10",
+      "restartRequired": false
     }
   ]
 }
