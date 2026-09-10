@@ -1,5 +1,5 @@
 {
-  "latestPatch": "13",
+  "latestPatch": "14",
   "patches": [
     {
       "id": "001",
@@ -128,6 +128,16 @@
       "sha256": "da3b29f7c5eb12d9f02ccfa6c659575f597741d0391bb840ea43b5619b5659c8",
       "size": 372897232,
       "description": "autopilot error reporting, reminder save button, proactive toast fix, whisper model path fix",
+      "date": "2026-09-10",
+      "restartRequired": false
+    },
+    {
+      "id": "14",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-14/patch-14.zip",
+      "sha256": "a8963f83e882bb5c1d952a49e09f997e8a02c4014edd5e771cee2fe194925764",
+      "size": 372897524,
+      "description": "autopilot error reporting, compose media attach, reminder save, proactive toast fix, whisper path fix",
       "date": "2026-09-10",
       "restartRequired": false
     }
