@@ -1,5 +1,5 @@
 {
-  "latestPatch": "031",
+  "latestPatch": "032",
   "patches": [
     {
       "id": "001",
@@ -310,6 +310,16 @@
       "description": "Fix copy button, clean markdown display, add Space/B keyboard shortcuts, make left and right HUD v18 panels movable/resizable/hideable",
       "date": "2026-09-11",
       "restartRequired": false
+    },
+    {
+      "id": "032",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-032/patch-032.zip",
+      "sha256": "894f6d71ae2cbdde0db7c3c3049a721b2d42844518e93daf63ddf5ba2b75ccf5",
+      "size": 375377881,
+      "description": "Fix social media posting (bypass approval gate, return correct success), fix EADDRINUSE crash on port 1747, include copy button + keyboard shortcuts + movable HUD panels",
+      "date": "2026-09-11",
+      "restartRequired": true
     }
   ]
 }
