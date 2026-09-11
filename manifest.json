@@ -1,5 +1,5 @@
 {
-  "latestPatch": "15",
+  "latestPatch": "16",
   "patches": [
     {
       "id": "001",
@@ -149,6 +149,16 @@
       "size": 372897844,
       "description": "Auto-Pilot Stop button, wake word reliability improvements, OmniRoute auto-ready on startup",
       "date": "2026-09-10",
+      "restartRequired": false
+    },
+    {
+      "id": "16",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-16/patch-16.zip",
+      "sha256": "eda3b1cfe2e1bf2e0271d3c2e6ed1a6537a48d707f4e031280cb08f768a2d438",
+      "size": 372898420,
+      "description": "AutoPilot post size limits (hashtags+emojis included), Compose image posting fix, OmniRoute loading screen waits for models, faster voice end-of-speech detection",
+      "date": "2026-09-11",
       "restartRequired": false
     }
   ]
