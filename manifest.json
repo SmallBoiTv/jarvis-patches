@@ -1,175 +1,185 @@
-{
-  "latestPatch": "17",
-  "patches": [
-    {
-      "id": "001",
-      "version": "1.0.849",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-001/patch-001.zip",
-      "sha256": "8baef61519333398119fc435ae6e34044a11e2185229a6c98be8e27f6a526fc9",
-      "size": 371465828,
-      "description": "Merge hot patches into App Info page",
-      "date": "2026-09-04",
-      "restartRequired": false
-    },
-    {
-      "id": "002",
-      "version": "1.0.849",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-002/patch-002.zip",
-      "sha256": "78782b5a56abfcd7be17a4bfcde57ec8292766c5d9ab19fd8b2aea6be34da8b9",
-      "size": 373740875,
-      "description": "Fix hot patch download — follow HTTP 302 redirects",
-      "date": "2026-09-04",
-      "restartRequired": true
-    },
-    {
-      "id": "003",
-      "version": "1.0.849",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-003/patch-003.zip",
-      "sha256": "370c565feb1efc0d240b3aab49caa1d91506ac92d137f38c96d27af0a7d22376",
-      "size": 373741328,
-      "description": "Fix OmniRoute free model labels + Free filter button",
-      "date": "2026-09-04",
-      "restartRequired": true
-    },
-    {
-      "id": "004",
-      "version": "1.0.849",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-004/patch-004.zip",
-      "sha256": "c2d6bc3eeb84ad02e18b1b1e0cf329f6fc2d9c05b3c29656a27d5a0474022ba0",
-      "size": 373742294,
-      "description": "Expand OmniRoute model dropdown with API provider models",
-      "date": "2026-09-04",
-      "restartRequired": true
-    },
-    {
-      "id": "005",
-      "version": "1.0.851",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-005/patch-005.zip",
-      "sha256": "38a43e05021ec3a2c3ad7d8c09f87cd861d74cf9669236829cbe3d3237677e7c",
-      "size": 373742294,
-      "description": "Fix OmniRoute provider for coding page — always register dynamic adapter before chat requests",
-      "date": "2026-09-04",
-      "restartRequired": true
-    },
-    {
-      "id": "006",
-      "version": "1.0.851",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-006/patch-006.zip",
-      "sha256": "34792cc3e7b056b10f8ba648fbf728325b95310e90925c6bbbfbd18ca9d2e245",
-      "size": 373742294,
-      "description": "Fix coding page OmniRoute — auto-start server, establish session, better errors",
-      "date": "2026-09-04",
-      "restartRequired": true
-    },
-    {
-      "id": "007",
-      "version": "1.0.851",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-007/patch-007.zip",
-      "sha256": "5b2eb662812174d7c1ae776e9ca2c0ed230080d6e44eba9913a2c720ddf1c79b",
-      "size": 373742294,
-      "description": "Fix Forbidden error — hot-patch overlay blocked by directory traversal security check",
-      "date": "2026-09-04",
-      "restartRequired": true
-    },
-    {
-      "id": "008",
-      "version": "1.0.876",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-008/patch-008.zip",
-      "sha256": "6ea251316ddb2d018d651064a0e6cfcb30ae6b3a1e08612f0f45bed9c1c96927",
-      "size": 372872378,
-      "description": "Fix Whisper wake word detection — VAD timer self-termination after first recording cycle",
-      "date": "2026-09-09",
-      "restartRequired": false
-    },
-    {
-      "id": "009",
-      "version": "1.0.876",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-009/patch-009.zip",
-      "sha256": "476335395061fd366a9a2609552aba03da9947420e15b960bb14aa81d075ecfb",
-      "size": 372873969,
-      "description": "Fix morning briefing: markdown artifacts in chat/HUD, TTS reads raw markdown, no stop button",
-      "date": "2026-09-09",
-      "restartRequired": false
-    },
-    {
-      "id": "010",
-      "version": "1.0.876",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-010/patch-010.zip",
-      "sha256": "3733ac35287be36e3beb6879dcfcbcb6341793159e61b242ecf81bc0ab23ca06",
-      "size": 375354717,
-      "description": "Fix social media posting: Chrome browser accounts, agent mode tool calls, CMD commands, Chrome preview toolbar button",
-      "date": "2026-09-09",
-      "restartRequired": true
-    },
-    {
-      "id": "011",
-      "version": "1.0.876",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-011/patch-011.zip",
-      "sha256": "da5b42e8b0ce917555c9f357f282c6deb87cfaa9d6036f49a9390ba20e4b1bc7",
-      "size": 375355333,
-      "description": "Fix chat page: text.startsWith error, raw tool syntax display, agent_reach when Chrome enabled, social mode precedence",
-      "date": "2026-09-09",
-      "restartRequired": true
-    },
-    {
-      "id": "012",
-      "version": "1.0.884",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-012/patch-012.zip",
-      "sha256": "82a5b572fa8d19160fea8a7d880fddf2a409145dd5e1dc3795289052199df858",
-      "size": 372889535,
-      "description": "Fix renderer TDZ crash: startWhisperWakeWordFallback before initialization",
-      "date": "2026-09-10",
-      "restartRequired": false
-    },
-    {
-      "id": "13",
-      "version": "1.0.887",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-13/patch-13.zip",
-      "sha256": "da3b29f7c5eb12d9f02ccfa6c659575f597741d0391bb840ea43b5619b5659c8",
-      "size": 372897232,
-      "description": "autopilot error reporting, reminder save button, proactive toast fix, whisper model path fix",
-      "date": "2026-09-10",
-      "restartRequired": false
-    },
-    {
-      "id": "14",
-      "version": "1.0.887",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-14/patch-14.zip",
-      "sha256": "a8963f83e882bb5c1d952a49e09f997e8a02c4014edd5e771cee2fe194925764",
-      "size": 372897524,
-      "description": "autopilot error reporting, compose media attach, reminder save, proactive toast fix, whisper path fix",
-      "date": "2026-09-10",
-      "restartRequired": false
-    },
-    {
-      "id": "15",
-      "version": "1.0.887",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-15/patch-15.zip",
-      "sha256": "b284665f35c2b7da3b47b30510192f057257634607e8179e52341e76e09f9c44",
-      "size": 372897844,
-      "description": "Auto-Pilot Stop button, wake word reliability improvements, OmniRoute auto-ready on startup",
-      "date": "2026-09-10",
-      "restartRequired": false
-    },
-    {
-      "id": "16",
-      "version": "1.0.887",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-16/patch-16.zip",
-      "sha256": "eda3b1cfe2e1bf2e0271d3c2e6ed1a6537a48d707f4e031280cb08f768a2d438",
-      "size": 372898420,
-      "description": "AutoPilot post size limits (hashtags+emojis included), Compose image posting fix, OmniRoute loading screen waits for models, faster voice end-of-speech detection",
-      "date": "2026-09-11",
-      "restartRequired": false
-    },
-    {
-      "id": "17",
-      "version": "1.0.887",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-17/patch-17.zip",
-      "sha256": "52f941fe082771fd998a4b34de4795fcf33ec392c8a0d0ed2ada92ab1177054e",
-      "size": 372898421,
-      "description": "Fix AI provider/model selection — social media posts and social mode chat now respect user's selected provider/model instead of always using OmniRoute",
-      "date": "2026-09-11",
-      "restartRequired": false
-    }
-  ]
+﻿{
+    "latestPatch":  "18",
+    "patches":  [
+                    {
+                        "id":  "001",
+                        "version":  "1.0.849",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-001/patch-001.zip",
+                        "sha256":  "8baef61519333398119fc435ae6e34044a11e2185229a6c98be8e27f6a526fc9",
+                        "size":  371465828,
+                        "description":  "Merge hot patches into App Info page",
+                        "date":  "2026-09-04",
+                        "restartRequired":  false
+                    },
+                    {
+                        "id":  "002",
+                        "version":  "1.0.849",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-002/patch-002.zip",
+                        "sha256":  "78782b5a56abfcd7be17a4bfcde57ec8292766c5d9ab19fd8b2aea6be34da8b9",
+                        "size":  373740875,
+                        "description":  "Fix hot patch download â€” follow HTTP 302 redirects",
+                        "date":  "2026-09-04",
+                        "restartRequired":  true
+                    },
+                    {
+                        "id":  "003",
+                        "version":  "1.0.849",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-003/patch-003.zip",
+                        "sha256":  "370c565feb1efc0d240b3aab49caa1d91506ac92d137f38c96d27af0a7d22376",
+                        "size":  373741328,
+                        "description":  "Fix OmniRoute free model labels + Free filter button",
+                        "date":  "2026-09-04",
+                        "restartRequired":  true
+                    },
+                    {
+                        "id":  "004",
+                        "version":  "1.0.849",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-004/patch-004.zip",
+                        "sha256":  "c2d6bc3eeb84ad02e18b1b1e0cf329f6fc2d9c05b3c29656a27d5a0474022ba0",
+                        "size":  373742294,
+                        "description":  "Expand OmniRoute model dropdown with API provider models",
+                        "date":  "2026-09-04",
+                        "restartRequired":  true
+                    },
+                    {
+                        "id":  "005",
+                        "version":  "1.0.851",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-005/patch-005.zip",
+                        "sha256":  "38a43e05021ec3a2c3ad7d8c09f87cd861d74cf9669236829cbe3d3237677e7c",
+                        "size":  373742294,
+                        "description":  "Fix OmniRoute provider for coding page â€” always register dynamic adapter before chat requests",
+                        "date":  "2026-09-04",
+                        "restartRequired":  true
+                    },
+                    {
+                        "id":  "006",
+                        "version":  "1.0.851",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-006/patch-006.zip",
+                        "sha256":  "34792cc3e7b056b10f8ba648fbf728325b95310e90925c6bbbfbd18ca9d2e245",
+                        "size":  373742294,
+                        "description":  "Fix coding page OmniRoute â€” auto-start server, establish session, better errors",
+                        "date":  "2026-09-04",
+                        "restartRequired":  true
+                    },
+                    {
+                        "id":  "007",
+                        "version":  "1.0.851",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-007/patch-007.zip",
+                        "sha256":  "5b2eb662812174d7c1ae776e9ca2c0ed230080d6e44eba9913a2c720ddf1c79b",
+                        "size":  373742294,
+                        "description":  "Fix Forbidden error â€” hot-patch overlay blocked by directory traversal security check",
+                        "date":  "2026-09-04",
+                        "restartRequired":  true
+                    },
+                    {
+                        "id":  "008",
+                        "version":  "1.0.876",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-008/patch-008.zip",
+                        "sha256":  "6ea251316ddb2d018d651064a0e6cfcb30ae6b3a1e08612f0f45bed9c1c96927",
+                        "size":  372872378,
+                        "description":  "Fix Whisper wake word detection â€” VAD timer self-termination after first recording cycle",
+                        "date":  "2026-09-09",
+                        "restartRequired":  false
+                    },
+                    {
+                        "id":  "009",
+                        "version":  "1.0.876",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-009/patch-009.zip",
+                        "sha256":  "476335395061fd366a9a2609552aba03da9947420e15b960bb14aa81d075ecfb",
+                        "size":  372873969,
+                        "description":  "Fix morning briefing: markdown artifacts in chat/HUD, TTS reads raw markdown, no stop button",
+                        "date":  "2026-09-09",
+                        "restartRequired":  false
+                    },
+                    {
+                        "id":  "010",
+                        "version":  "1.0.876",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-010/patch-010.zip",
+                        "sha256":  "3733ac35287be36e3beb6879dcfcbcb6341793159e61b242ecf81bc0ab23ca06",
+                        "size":  375354717,
+                        "description":  "Fix social media posting: Chrome browser accounts, agent mode tool calls, CMD commands, Chrome preview toolbar button",
+                        "date":  "2026-09-09",
+                        "restartRequired":  true
+                    },
+                    {
+                        "id":  "011",
+                        "version":  "1.0.876",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-011/patch-011.zip",
+                        "sha256":  "da5b42e8b0ce917555c9f357f282c6deb87cfaa9d6036f49a9390ba20e4b1bc7",
+                        "size":  375355333,
+                        "description":  "Fix chat page: text.startsWith error, raw tool syntax display, agent_reach when Chrome enabled, social mode precedence",
+                        "date":  "2026-09-09",
+                        "restartRequired":  true
+                    },
+                    {
+                        "id":  "012",
+                        "version":  "1.0.884",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-012/patch-012.zip",
+                        "sha256":  "82a5b572fa8d19160fea8a7d880fddf2a409145dd5e1dc3795289052199df858",
+                        "size":  372889535,
+                        "description":  "Fix renderer TDZ crash: startWhisperWakeWordFallback before initialization",
+                        "date":  "2026-09-10",
+                        "restartRequired":  false
+                    },
+                    {
+                        "id":  "13",
+                        "version":  "1.0.887",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-13/patch-13.zip",
+                        "sha256":  "da3b29f7c5eb12d9f02ccfa6c659575f597741d0391bb840ea43b5619b5659c8",
+                        "size":  372897232,
+                        "description":  "autopilot error reporting, reminder save button, proactive toast fix, whisper model path fix",
+                        "date":  "2026-09-10",
+                        "restartRequired":  false
+                    },
+                    {
+                        "id":  "14",
+                        "version":  "1.0.887",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-14/patch-14.zip",
+                        "sha256":  "a8963f83e882bb5c1d952a49e09f997e8a02c4014edd5e771cee2fe194925764",
+                        "size":  372897524,
+                        "description":  "autopilot error reporting, compose media attach, reminder save, proactive toast fix, whisper path fix",
+                        "date":  "2026-09-10",
+                        "restartRequired":  false
+                    },
+                    {
+                        "id":  "15",
+                        "version":  "1.0.887",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-15/patch-15.zip",
+                        "sha256":  "b284665f35c2b7da3b47b30510192f057257634607e8179e52341e76e09f9c44",
+                        "size":  372897844,
+                        "description":  "Auto-Pilot Stop button, wake word reliability improvements, OmniRoute auto-ready on startup",
+                        "date":  "2026-09-10",
+                        "restartRequired":  false
+                    },
+                    {
+                        "id":  "16",
+                        "version":  "1.0.887",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-16/patch-16.zip",
+                        "sha256":  "eda3b1cfe2e1bf2e0271d3c2e6ed1a6537a48d707f4e031280cb08f768a2d438",
+                        "size":  372898420,
+                        "description":  "AutoPilot post size limits (hashtags+emojis included), Compose image posting fix, OmniRoute loading screen waits for models, faster voice end-of-speech detection",
+                        "date":  "2026-09-11",
+                        "restartRequired":  false
+                    },
+                    {
+                        "id":  "17",
+                        "version":  "1.0.887",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-17/patch-17.zip",
+                        "sha256":  "52f941fe082771fd998a4b34de4795fcf33ec392c8a0d0ed2ada92ab1177054e",
+                        "size":  372898421,
+                        "description":  "Fix AI provider/model selection â€” social media posts and social mode chat now respect user\u0027s selected provider/model instead of always using OmniRoute",
+                        "date":  "2026-09-11",
+                        "restartRequired":  false
+                    },
+                    {
+                        "size":  105870440,
+                        "version":  "1.0.887",
+                        "id":  "18",
+                        "url":  "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-18/patch-18.zip",
+                        "description":  "Add separate image/video provider+model dropdowns to Compose tab; enhance AutoPilot dropdowns with OmniRoute image/video models and more cloud providers",
+                        "restartRequired":  false,
+                        "date":  "2026-09-11",
+                        "sha256":  "772ad71f421b7b4a1b448a73e48e9fa33b63080f6e9de1d87acbddf2ff07ea1a"
+                    }
+                ]
 }
