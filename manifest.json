@@ -1,5 +1,5 @@
 {
-  "latestPatch": "038",
+  "latestPatch": "039",
   "patches": [
     {
       "id": "001",
@@ -380,6 +380,16 @@
       "description": "Option cards on all tasks + full content pick + better UI",
       "date": "2026-09-11",
       "restartRequired": false
+    },
+    {
+      "id": "039",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-039/patch-039.zip",
+      "sha256": "7b3c6ed8e82242193fc28f5c0a507e91987a8e1f28b7f2bb8aa4da36fbfb8c5c",
+      "size": 375386141,
+      "description": "Fix social mode focus loss + auto-response controls on reminders page",
+      "date": "2026-09-11",
+      "restartRequired": true
     }
   ]
 }
