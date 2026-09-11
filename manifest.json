@@ -1,5 +1,5 @@
 {
-  "latestPatch": "034",
+  "latestPatch": "035",
   "patches": [
     {
       "id": "001",
@@ -340,6 +340,16 @@
       "description": "Fix random JSON tips/reminders appearing in HUD v18 Jarvis Response panel: proactive AI now uses silent mode, JSON suggestion arrays are detected and rendered as clean text",
       "date": "2026-09-11",
       "restartRequired": true
+    },
+    {
+      "id": "035",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-035/patch-035.zip",
+      "sha256": "c8aad0f9e4d0b3e7bf89e3c5da3d30117d644a73097a59ce289d87cd9071168b",
+      "size": 372907874,
+      "description": "Social mode: clickable option cards with auto-pick, updated system prompt for Chrome browser posting",
+      "date": "2026-09-11",
+      "restartRequired": false
     }
   ]
 }
