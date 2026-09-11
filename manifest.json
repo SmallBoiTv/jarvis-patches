@@ -1,5 +1,5 @@
 {
-  "latestPatch": "035",
+  "latestPatch": "036",
   "patches": [
     {
       "id": "001",
@@ -350,6 +350,16 @@
       "description": "Social mode: clickable option cards with auto-pick, updated system prompt for Chrome browser posting",
       "date": "2026-09-11",
       "restartRequired": false
+    },
+    {
+      "id": "036",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-036/patch-036.zip",
+      "sha256": "bcac16cffc11c902f4bbfd26e94ff351a22c69384281986b22bf611156f67db2",
+      "size": 375382300,
+      "description": "Fix chat input lag from SocialPostOptions rendering, add proactive AI enable/disable toggle button",
+      "date": "2026-09-11",
+      "restartRequired": true
     }
   ]
 }
