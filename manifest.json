@@ -1,5 +1,5 @@
 {
-  "latestPatch": "028",
+  "latestPatch": "029",
   "patches": [
     {
       "id": "001",
@@ -278,6 +278,16 @@
       "sha256": "21f2c1a8254a8899969f73072e7890c04433ec8342937a3339e3b2d3c3a8c7be",
       "size": 372901471,
       "description": "Fix chat crash with image model selected: renderer detects image/video models and uses auto for chat, downloads remote image/video URLs to base64 to avoid agnes timeout",
+      "date": "2026-09-11",
+      "restartRequired": false
+    },
+    {
+      "id": "029",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-029/patch-029.zip",
+      "sha256": "6fec05fba4771052f78b71eba3a0ff3f37b446cdd200c7e2da803049e9a5c18a",
+      "size": 372902142,
+      "description": "Stream chatWithTools response in social/agent mode so input unfreezes, use best-chat for social mode, force social_media_post tool call when user picks option",
       "date": "2026-09-11",
       "restartRequired": false
     }
