@@ -1,5 +1,5 @@
 {
-  "latestPatch": "027",
+  "latestPatch": "028",
   "patches": [
     {
       "id": "001",
@@ -270,6 +270,16 @@
       "description": "Fix chat image/video URL timeout: main process fetches remote image/video URLs and converts to base64 before returning to renderer (fixes agnes platform-outputs timeout), also includes image/video model detection for chat and auto model resolution",
       "date": "2026-09-11",
       "restartRequired": true
+    },
+    {
+      "id": "028",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-028/patch-028.zip",
+      "sha256": "21f2c1a8254a8899969f73072e7890c04433ec8342937a3339e3b2d3c3a8c7be",
+      "size": 372901471,
+      "description": "Fix chat crash with image model selected: renderer detects image/video models and uses auto for chat, downloads remote image/video URLs to base64 to avoid agnes timeout",
+      "date": "2026-09-11",
+      "restartRequired": false
     }
   ]
 }
