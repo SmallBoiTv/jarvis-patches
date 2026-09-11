@@ -1,5 +1,5 @@
 {
-  "latestPatch": "020",
+  "latestPatch": "021",
   "patches": [
     {
       "id": "001",
@@ -200,6 +200,16 @@
       "description": "Add agy (Antigravity CLI) token file import as alternative to broken browser OAuth callback",
       "date": "2026-09-11",
       "restartRequired": false
+    },
+    {
+      "id": "021",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-021/patch-021.zip",
+      "sha256": "b57132c534035be13e8809862579b0e363689a56ac4f0ba91b664b4124a1fc4b",
+      "size": 375366948,
+      "description": "Fix image/video gen preview in compose: handle localPath, add video player, fix readFileBase64 for video MIME",
+      "date": "2026-09-11",
+      "restartRequired": true
     }
   ]
 }
