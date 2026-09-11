@@ -1,5 +1,5 @@
 {
-  "latestPatch": "022",
+  "latestPatch": "023",
   "patches": [
     {
       "id": "001",
@@ -220,6 +220,16 @@
       "description": "Route Compose image/video gen through OmniRoute API (omnirouteImageGen/omnirouteVideoGen) when provider is omniroute/auto - fixes agnes and other OmniRoute image models not working in Compose",
       "date": "2026-09-11",
       "restartRequired": false
+    },
+    {
+      "id": "023",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-023/patch-023.zip",
+      "sha256": "b5ea9fae89a256833295a4a27bb4d11b9e17d5172ec96458d3fbdabfe40e3ef7",
+      "size": 375369357,
+      "description": "Fix chat input freezing after first prompt (add timeouts to context-building), route social media mode image/video gen through OmniRoute /v1/images and /v1/videos when provider is omniroute",
+      "date": "2026-09-11",
+      "restartRequired": true
     }
   ]
 }
