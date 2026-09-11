@@ -1,5 +1,5 @@
 {
-  "latestPatch": "037",
+  "latestPatch": "038",
   "patches": [
     {
       "id": "001",
@@ -370,6 +370,16 @@
       "description": "Disable proactive AI system app-wide",
       "date": "2026-09-11",
       "restartRequired": true
+    },
+    {
+      "id": "038",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-038/patch-038.zip",
+      "sha256": "a7a07da8f3b742bdfc9db2c31f45747adbaa580b1469c6920fa724a5973a0166",
+      "size": 372909275,
+      "description": "Option cards on all tasks + full content pick + better UI",
+      "date": "2026-09-11",
+      "restartRequired": false
     }
   ]
 }
