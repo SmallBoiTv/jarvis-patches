@@ -1,5 +1,5 @@
 {
-  "latestPatch": "033",
+  "latestPatch": "034",
   "patches": [
     {
       "id": "001",
@@ -330,6 +330,16 @@
       "description": "Fix agent+social mode conflict: social mode flow was skipped when agent mode was active, causing posts to not use Chrome browser accounts and tasks to get stuck",
       "date": "2026-09-11",
       "restartRequired": false
+    },
+    {
+      "id": "034",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-034/patch-034.zip",
+      "sha256": "50d057f7ce51dd637361502d83ede5fdc3e37c1170568cc67ccdecfd2e882b4f",
+      "size": 375379364,
+      "description": "Fix random JSON tips/reminders appearing in HUD v18 Jarvis Response panel: proactive AI now uses silent mode, JSON suggestion arrays are detected and rendered as clean text",
+      "date": "2026-09-11",
+      "restartRequired": true
     }
   ]
 }
