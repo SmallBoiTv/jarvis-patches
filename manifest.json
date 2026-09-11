@@ -175,8 +175,8 @@
       "id": "18",
       "version": "1.0.887",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-18/patch-18.zip",
-      "sha256": "772ad71f421b7b4a1b448a73e48e9fa33b63080f6e9de1d87acbddf2ff07ea1a",
-      "size": 105870440,
+      "sha256": "4ca97f2fc93bf0310269c981c32076ab16eb70ae017db97210e96594caa92bde",
+      "size": 372899497,
       "description": "Add separate image/video provider+model dropdowns to Compose tab; enhance AutoPilot dropdowns with OmniRoute image/video models and more cloud providers",
       "date": "2026-09-11",
       "restartRequired": false
