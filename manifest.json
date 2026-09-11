@@ -1,5 +1,5 @@
 {
-  "latestPatch": "19",
+  "latestPatch": "020",
   "patches": [
     {
       "id": "001",
@@ -190,6 +190,16 @@
       "description": "Fix wake word (whisper port conflict + 400 error), agent-style voice commands, reminder save button persistence",
       "date": "2026-09-11",
       "restartRequired": true
+    },
+    {
+      "id": "020",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-020/patch-020.zip",
+      "sha256": "aed620640da410516bce21b1dbc20d759b3e377fda737d0044ff24de0d7371e5",
+      "size": 372899628,
+      "description": "Add agy (Antigravity CLI) token file import as alternative to broken browser OAuth callback",
+      "date": "2026-09-11",
+      "restartRequired": false
     }
   ]
 }
