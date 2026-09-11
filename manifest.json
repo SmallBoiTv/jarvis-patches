@@ -1,5 +1,5 @@
 {
-  "latestPatch": "16",
+  "latestPatch": "17",
   "patches": [
     {
       "id": "001",
@@ -158,6 +158,16 @@
       "sha256": "eda3b1cfe2e1bf2e0271d3c2e6ed1a6537a48d707f4e031280cb08f768a2d438",
       "size": 372898420,
       "description": "AutoPilot post size limits (hashtags+emojis included), Compose image posting fix, OmniRoute loading screen waits for models, faster voice end-of-speech detection",
+      "date": "2026-09-11",
+      "restartRequired": false
+    },
+    {
+      "id": "17",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-17/patch-17.zip",
+      "sha256": "52f941fe082771fd998a4b34de4795fcf33ec392c8a0d0ed2ada92ab1177054e",
+      "size": 372898421,
+      "description": "Fix AI provider/model selection — social media posts and social mode chat now respect user's selected provider/model instead of always using OmniRoute",
       "date": "2026-09-11",
       "restartRequired": false
     }
