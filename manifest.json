@@ -1,5 +1,5 @@
 {
-  "latestPatch": "18",
+  "latestPatch": "19",
   "patches": [
     {
       "id": "001",
@@ -180,6 +180,16 @@
       "description": "Add separate image/video provider+model dropdowns to Compose tab; enhance AutoPilot dropdowns with OmniRoute image/video models and more cloud providers",
       "date": "2026-09-11",
       "restartRequired": false
+    },
+    {
+      "id": "19",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-19/patch-19.zip",
+      "sha256": "4151a1e9aa3a3258f739e6758f0b30ffe3a94cfeb6dda7dc5ba97b7645ff5d77",
+      "size": 375366419,
+      "description": "Fix wake word (whisper port conflict + 400 error), agent-style voice commands, reminder save button persistence",
+      "date": "2026-09-11",
+      "restartRequired": true
     }
   ]
 }
