@@ -1,5 +1,5 @@
 {
-  "latestPatch": "040",
+  "latestPatch": "041",
   "patches": [
     {
       "id": "001",
@@ -398,6 +398,16 @@
       "sha256": "7c647e5211c2042ab8d8a75f3fb279b86c48343a38a4d977ef6b2ffb5b508f3d",
       "size": 372911105,
       "description": "Fix IPC hang that froze renderer + non-blocking auto-response controls",
+      "date": "2026-09-11",
+      "restartRequired": false
+    },
+    {
+      "id": "041",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-041/patch-041.zip",
+      "sha256": "f791ad0f0c37f24e7392b40116b07b1365703efa5d96c92f1f23b6f82fa7e92a",
+      "size": 372911414,
+      "description": "Disable social auto-pilot + filter proactive JSON from chat/HUD",
       "date": "2026-09-11",
       "restartRequired": false
     }
