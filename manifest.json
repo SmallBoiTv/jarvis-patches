@@ -1,5 +1,5 @@
 {
-  "latestPatch": "029",
+  "latestPatch": "030",
   "patches": [
     {
       "id": "001",
@@ -288,6 +288,16 @@
       "sha256": "6fec05fba4771052f78b71eba3a0ff3f37b446cdd200c7e2da803049e9a5c18a",
       "size": 372902142,
       "description": "Stream chatWithTools response in social/agent mode so input unfreezes, use best-chat for social mode, force social_media_post tool call when user picks option",
+      "date": "2026-09-11",
+      "restartRequired": false
+    },
+    {
+      "id": "030",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-030/patch-030.zip",
+      "sha256": "45ddce75e2c63773905a132628685e4e3f02011c7d7853ce3a928a01bec86c76",
+      "size": 372903166,
+      "description": "Add Proactive/Random Messages settings to Reminders tab — disable Jarvis spontaneous messages, floating toasts, and HUD v18 response panel",
       "date": "2026-09-11",
       "restartRequired": false
     }
