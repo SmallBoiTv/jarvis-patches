@@ -1,5 +1,5 @@
 {
-  "latestPatch": "041",
+  "latestPatch": "042",
   "patches": [
     {
       "id": "001",
@@ -410,6 +410,16 @@
       "description": "Disable social auto-pilot + filter proactive JSON from chat/HUD",
       "date": "2026-09-11",
       "restartRequired": false
+    },
+    {
+      "id": "042",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-042/patch-042.zip",
+      "sha256": "aa53ce45ea94a2652feff6642f941650c158566e12026cbc672f724ddc392c82",
+      "size": 375385939,
+      "description": "Fix false-positive social posting: unverified URL change no longer reports success",
+      "date": "2026-09-11",
+      "restartRequired": true
     }
   ]
 }
