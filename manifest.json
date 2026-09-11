@@ -1,5 +1,5 @@
 {
-  "latestPatch": "030",
+  "latestPatch": "031",
   "patches": [
     {
       "id": "001",
@@ -298,6 +298,16 @@
       "sha256": "45ddce75e2c63773905a132628685e4e3f02011c7d7853ce3a928a01bec86c76",
       "size": 372903166,
       "description": "Add Proactive/Random Messages settings to Reminders tab — disable Jarvis spontaneous messages, floating toasts, and HUD v18 response panel",
+      "date": "2026-09-11",
+      "restartRequired": false
+    },
+    {
+      "id": "031",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-031/patch-031.zip",
+      "sha256": "7dba75f977d2a0435e3f3688fc17658817925cd819b0d4784093443a3bd35503",
+      "size": 372905083,
+      "description": "Fix copy button, clean markdown display, add Space/B keyboard shortcuts, make left and right HUD v18 panels movable/resizable/hideable",
       "date": "2026-09-11",
       "restartRequired": false
     }
