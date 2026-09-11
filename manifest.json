@@ -1,5 +1,5 @@
 {
-  "latestPatch": "039",
+  "latestPatch": "040",
   "patches": [
     {
       "id": "001",
@@ -390,6 +390,16 @@
       "description": "Fix social mode focus loss + auto-response controls on reminders page",
       "date": "2026-09-11",
       "restartRequired": true
+    },
+    {
+      "id": "040",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-040/patch-040.zip",
+      "sha256": "7c647e5211c2042ab8d8a75f3fb279b86c48343a38a4d977ef6b2ffb5b508f3d",
+      "size": 372911105,
+      "description": "Fix IPC hang that froze renderer + non-blocking auto-response controls",
+      "date": "2026-09-11",
+      "restartRequired": false
     }
   ]
 }
