@@ -1,5 +1,5 @@
 {
-  "latestPatch": "025",
+  "latestPatch": "026",
   "patches": [
     {
       "id": "001",
@@ -248,6 +248,16 @@
       "sha256": "b2ab3f14da4636159cc50b1ae9b5a91245ac0692619756604f2cf4aaac65e4fa",
       "size": 375370473,
       "description": "Fix OmniRoute chat: use auto/best-chat instead of auto (which OmniRoute misinterprets as openrouter/auto), fix chat input freeze after first prompt, route social media mode image/video through OmniRoute",
+      "date": "2026-09-11",
+      "restartRequired": true
+    },
+    {
+      "id": "026",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-026/patch-026.zip",
+      "sha256": "3b51f6047d7d5866a2e64a46072759ffd5111935b325f8bf3f025598908df2c0",
+      "size": 375371148,
+      "description": "Fix chat stuck when image/video model selected: detect image/video models and fall back to auto/best-chat for chat completions",
       "date": "2026-09-11",
       "restartRequired": true
     }
