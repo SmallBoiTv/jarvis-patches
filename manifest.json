@@ -1,5 +1,5 @@
 {
-  "latestPatch": "036",
+  "latestPatch": "037",
   "patches": [
     {
       "id": "001",
@@ -358,6 +358,16 @@
       "sha256": "bcac16cffc11c902f4bbfd26e94ff351a22c69384281986b22bf611156f67db2",
       "size": 375382300,
       "description": "Fix chat input lag from SocialPostOptions rendering, add proactive AI enable/disable toggle button",
+      "date": "2026-09-11",
+      "restartRequired": true
+    },
+    {
+      "id": "037",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-037/patch-037.zip",
+      "sha256": "9c005206400de831bc3f6316306c7264bd258de1361419dc9c34ef9bcf8f1588",
+      "size": 375383441,
+      "description": "Disable proactive AI system app-wide",
       "date": "2026-09-11",
       "restartRequired": true
     }
