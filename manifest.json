@@ -1,5 +1,5 @@
 {
-  "latestPatch": "021",
+  "latestPatch": "022",
   "patches": [
     {
       "id": "001",
@@ -210,6 +210,16 @@
       "description": "Fix image/video gen preview in compose: handle localPath, add video player, fix readFileBase64 for video MIME",
       "date": "2026-09-11",
       "restartRequired": true
+    },
+    {
+      "id": "022",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-022/patch-022.zip",
+      "sha256": "c5a50930c8af0e2f149da37e8b25edfcc6510ea119e35f8f36bdb924a68fe78f",
+      "size": 372900271,
+      "description": "Route Compose image/video gen through OmniRoute API (omnirouteImageGen/omnirouteVideoGen) when provider is omniroute/auto - fixes agnes and other OmniRoute image models not working in Compose",
+      "date": "2026-09-11",
+      "restartRequired": false
     }
   ]
 }
