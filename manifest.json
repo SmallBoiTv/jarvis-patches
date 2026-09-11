@@ -1,5 +1,5 @@
 {
-  "latestPatch": "026",
+  "latestPatch": "027",
   "patches": [
     {
       "id": "001",
@@ -258,6 +258,16 @@
       "sha256": "3b51f6047d7d5866a2e64a46072759ffd5111935b325f8bf3f025598908df2c0",
       "size": 375371148,
       "description": "Fix chat stuck when image/video model selected: detect image/video models and fall back to auto/best-chat for chat completions",
+      "date": "2026-09-11",
+      "restartRequired": true
+    },
+    {
+      "id": "027",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-027/patch-027.zip",
+      "sha256": "dd462e1bfbbb0ac74d2699e0004b3cd1781de8d57eb87e260602f05d5127f7d2",
+      "size": 375298954,
+      "description": "Fix chat image/video URL timeout: main process fetches remote image/video URLs and converts to base64 before returning to renderer (fixes agnes platform-outputs timeout), also includes image/video model detection for chat and auto model resolution",
       "date": "2026-09-11",
       "restartRequired": true
     }
