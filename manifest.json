@@ -1,5 +1,5 @@
 {
-  "latestPatch": "032",
+  "latestPatch": "033",
   "patches": [
     {
       "id": "001",
@@ -320,6 +320,16 @@
       "description": "Fix social media posting (bypass approval gate, return correct success), fix EADDRINUSE crash on port 1747, include copy button + keyboard shortcuts + movable HUD panels",
       "date": "2026-09-11",
       "restartRequired": true
+    },
+    {
+      "id": "033",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-033/patch-033.zip",
+      "sha256": "caec266a5c89496c5e5d2ec0f20a9bcffe5cc7dd29a7d0cb5a8740435dd3c36f",
+      "size": 372905292,
+      "description": "Fix agent+social mode conflict: social mode flow was skipped when agent mode was active, causing posts to not use Chrome browser accounts and tasks to get stuck",
+      "date": "2026-09-11",
+      "restartRequired": false
     }
   ]
 }
