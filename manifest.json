@@ -455,9 +455,9 @@
       "id": "046",
       "version": "1.0.887",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-046/patch-046.zip",
-      "sha256": "b08d8b1010b4c361fcbf4e1985fba09d9a2ac2cef17d5d1a4cbf2c7dca407b28",
-      "size": 375400603,
-      "description": "MultiBoxing fixes: keep-alive focus spoofing for background windows, fast stale-window pruning via persistent proc (was full PowerShell compile per window per 200ms), AttachThreadInput focus fix, broadcastClick mouse-up fix, engine hook status + per-window diagnose (UIPI detection)",
+      "sha256": "fa8917e612a8e6266ca272d12bf68eee62f1d8da7bfaee77392542d372c0f110",
+      "size": 375672953,
+      "description": "MultiBoxing: fix broadcast engine spawn (EncodedCommand exceeded 32K CreateProcess limit - engine never ran), win32 proc base64 protocol (multi-line scripts were truncated to line 1), keep-alive focus spoofing, fast stale pruning, AttachThreadInput focus, diagnose handler, main-process overlay require hook",
       "date": "2026-09-12",
       "restartRequired": true
     }
