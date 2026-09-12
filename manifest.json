@@ -1,5 +1,5 @@
 {
-  "latestPatch": "049",
+  "latestPatch": "050",
   "patches": [
     {
       "id": "001",
@@ -488,6 +488,16 @@
       "sha256": "4f76c14a8d0ba3c38c7eb5837d6856783248f58eb8c4d85da67e1bbef051663b",
       "size": 380865104,
       "description": "Video: add HuggingFace Spaces free provider + fix Pollinations video (gen.pollinations.ai w/ free key), fix veoaifree-web rate-limit detection (429 fast-fail), handle b64_json video responses, raise omniroute video timeout to 12min",
+      "date": "2026-09-12",
+      "restartRequired": true
+    },
+    {
+      "id": "050",
+      "version": "1.0.888",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-050/patch-050.zip",
+      "sha256": "22096b45e7411ef74a8746b97a68679afc070d1838086350d6282aef312d7401",
+      "size": 380882506,
+      "description": "Show ALL OmniRoute media models: extract full image/video registries via bundled Node+tsx and use the authoritative /v1/models type field (was regex on model names, missed ~130 image models)",
       "date": "2026-09-12",
       "restartRequired": true
     }
