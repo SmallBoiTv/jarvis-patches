@@ -1,5 +1,5 @@
 {
-  "latestPatch": "047",
+  "latestPatch": "048",
   "patches": [
     {
       "id": "001",
@@ -468,6 +468,16 @@
       "sha256": "295b5b51b9918536526fdd65874334b397b8fb31e8d31ead636f065501814967",
       "size": 375673377,
       "description": "Chat: social option cards get 30s countdown before auto-picking Option 1 (was skipping instantly); sync renderer activeConvId to main process before every send (fixes 'new chat / lost context' — chatWithTools/processMessageStream persisted to a phantom conversation)",
+      "date": "2026-09-12",
+      "restartRequired": true
+    },
+    {
+      "id": "048",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-048/patch-048.zip",
+      "sha256": "81fff7ec7eaaa31ad35852cc31a149e55fec1795372b3f0d6a273312248da45c",
+      "size": 375674170,
+      "description": "Social Media autopilot/compose: fix jarvis-core lookup (__jarvisCore is a getter function, was treated as object -> all AI calls fell through to unauthenticated OmniRoute fallback that returned HTTP 401/402). Add OmniRoute auth headers + active URL to fallback, fix local-provider fallback API, expose __jarvisLocalProvider",
       "date": "2026-09-12",
       "restartRequired": true
     }
