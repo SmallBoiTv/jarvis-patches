@@ -1,5 +1,5 @@
 {
-  "latestPatch": "046",
+  "latestPatch": "047",
   "patches": [
     {
       "id": "001",
@@ -458,6 +458,16 @@
       "sha256": "fa8917e612a8e6266ca272d12bf68eee62f1d8da7bfaee77392542d372c0f110",
       "size": 375672953,
       "description": "MultiBoxing: fix broadcast engine spawn (EncodedCommand exceeded 32K CreateProcess limit - engine never ran), win32 proc base64 protocol (multi-line scripts were truncated to line 1), keep-alive focus spoofing, fast stale pruning, AttachThreadInput focus, diagnose handler, main-process overlay require hook",
+      "date": "2026-09-12",
+      "restartRequired": true
+    },
+    {
+      "id": "047",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-047/patch-047.zip",
+      "sha256": "295b5b51b9918536526fdd65874334b397b8fb31e8d31ead636f065501814967",
+      "size": 375673377,
+      "description": "Chat: social option cards get 30s countdown before auto-picking Option 1 (was skipping instantly); sync renderer activeConvId to main process before every send (fixes 'new chat / lost context' — chatWithTools/processMessageStream persisted to a phantom conversation)",
       "date": "2026-09-12",
       "restartRequired": true
     }
