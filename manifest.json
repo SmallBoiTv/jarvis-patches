@@ -1,5 +1,5 @@
 {
-  "latestPatch": "042",
+  "latestPatch": "044",
   "patches": [
     {
       "id": "001",
@@ -419,6 +419,26 @@
       "size": 375385939,
       "description": "Fix false-positive social posting: unverified URL change no longer reports success",
       "date": "2026-09-11",
+      "restartRequired": true
+    },
+    {
+      "id": "043",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-043/patch-043.zip",
+      "sha256": "5e5f95b5626c39ea78b2f812fa19971e4ab3bec0e97108de7e888a0eb29de689",
+      "size": 372911730,
+      "description": "Fix social mode: remove 30s auto-pick, fix harness blocking social mode, fix chat wipe guard, fix imageUrl type error, add social mode error logging",
+      "date": "2026-09-11",
+      "restartRequired": false
+    },
+    {
+      "id": "044",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-044/patch-044.zip",
+      "sha256": "fd40a6934e9ec02fba3f240e7c9b709c4fa7125a4dd461adfb2d58035d39323d",
+      "size": 375394985,
+      "description": "MultiBoxing overhaul: low-level hook broadcast engine (real key/mouse mirroring to all windows, focus gating, client-space coords, round-robin+variable keystrokes fixed), live desktopCapturer video previews + rebuilt VideoFX Live Views window",
+      "date": "2026-09-12",
       "restartRequired": true
     }
   ]
