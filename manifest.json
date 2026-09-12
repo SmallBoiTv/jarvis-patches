@@ -1,5 +1,5 @@
 {
-  "latestPatch": "044",
+  "latestPatch": "045",
   "patches": [
     {
       "id": "001",
@@ -438,6 +438,16 @@
       "sha256": "fd40a6934e9ec02fba3f240e7c9b709c4fa7125a4dd461adfb2d58035d39323d",
       "size": 375394985,
       "description": "MultiBoxing overhaul: low-level hook broadcast engine (real key/mouse mirroring to all windows, focus gating, client-space coords, round-robin+variable keystrokes fixed), live desktopCapturer video previews + rebuilt VideoFX Live Views window",
+      "date": "2026-09-12",
+      "restartRequired": true
+    },
+    {
+      "id": "045",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-045/patch-045.zip",
+      "sha256": "b6d540cb6c6d507f2d2ac12d87a48d6c91d3ae622b75a20b292bf46519b69d86",
+      "size": 375395942,
+      "description": "Chat flow audit fixes: video URL precedence bug, media-model gating for OmniRoute image/video gen, social gen tools use active OmniRoute URL+auth, provider propagation in agentic follow-ups, stream chunk filtering",
       "date": "2026-09-12",
       "restartRequired": true
     }
