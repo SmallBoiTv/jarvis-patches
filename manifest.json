@@ -1,5 +1,5 @@
 {
-  "latestPatch": "045",
+  "latestPatch": "046",
   "patches": [
     {
       "id": "001",
@@ -448,6 +448,16 @@
       "sha256": "b6d540cb6c6d507f2d2ac12d87a48d6c91d3ae622b75a20b292bf46519b69d86",
       "size": 375395942,
       "description": "Chat flow audit fixes: video URL precedence bug, media-model gating for OmniRoute image/video gen, social gen tools use active OmniRoute URL+auth, provider propagation in agentic follow-ups, stream chunk filtering",
+      "date": "2026-09-12",
+      "restartRequired": true
+    },
+    {
+      "id": "046",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-046/patch-046.zip",
+      "sha256": "b08d8b1010b4c361fcbf4e1985fba09d9a2ac2cef17d5d1a4cbf2c7dca407b28",
+      "size": 375400603,
+      "description": "MultiBoxing fixes: keep-alive focus spoofing for background windows, fast stale-window pruning via persistent proc (was full PowerShell compile per window per 200ms), AttachThreadInput focus fix, broadcastClick mouse-up fix, engine hook status + per-window diagnose (UIPI detection)",
       "date": "2026-09-12",
       "restartRequired": true
     }
