@@ -1,5 +1,5 @@
 {
-  "latestPatch": "059",
+  "latestPatch": "060",
   "patches": [
     {
       "id": "001",
@@ -590,6 +590,16 @@
       "description": "Auto-speech control center: central gate + Automation/Reminders toggles for every automatic TTS/proactive source",
       "date": "2026-09-14",
       "restartRequired": true
+    },
+    {
+      "id": "060",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-060/patch-060.zip",
+      "sha256": "e674e0b1e840acb349e7a12f96c7f34468172456fe7be813a57296655e5ee6f7",
+      "size": 422485959,
+      "description": "Video Providers settings: show API key field for free providers that accept keys (pollinations-video, hf-spaces, pexels, pixabay, modal, zhipu, mochi, hunyuan)",
+      "date": "2026-09-14",
+      "restartRequired": false
     }
   ]
 }
