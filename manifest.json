@@ -1,5 +1,5 @@
 {
-  "latestPatch": "056",
+  "latestPatch": "057",
   "patches": [
     {
       "id": "001",
@@ -558,6 +558,16 @@
       "sha256": "55c57d4e83048ad9ab7a6ecf5a5e822b273dd86a786ef58b8b2fdc92371b27d0",
       "size": 425588753,
       "description": "Analytics: browser-account stats scraper — scrape profile/post stats via logged-in Chrome sessions (dedicated tab, no interference with posting), URL field + platform/all scan in Analytics tab",
+      "date": "2026-09-14",
+      "restartRequired": true
+    },
+    {
+      "id": "057",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-057/patch-057.zip",
+      "sha256": "75381f483ceae5b94e9c2f1d669196766439a676e1aa411ebd0e3b2c06060544",
+      "size": 425590091,
+      "description": "Fix duplicated/overlapping voice responses: renderer claims command transcripts so main agent does not double-answer; main drops TTS echo transcripts",
       "date": "2026-09-14",
       "restartRequired": true
     }
