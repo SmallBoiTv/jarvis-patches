@@ -1,5 +1,5 @@
 {
-  "latestPatch": "057",
+  "latestPatch": "059",
   "patches": [
     {
       "id": "001",
@@ -568,6 +568,26 @@
       "sha256": "75381f483ceae5b94e9c2f1d669196766439a676e1aa411ebd0e3b2c06060544",
       "size": 425590091,
       "description": "Fix duplicated/overlapping voice responses: renderer claims command transcripts so main agent does not double-answer; main drops TTS echo transcripts",
+      "date": "2026-09-14",
+      "restartRequired": true
+    },
+    {
+      "id": "058",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-058/patch-058.zip",
+      "sha256": "fc09a17026958c91650d97ffa59cfa7becb0191fede2543d7f8bafd678500ce5",
+      "size": 425591631,
+      "description": "Fix duplicated/overlapping speech: voice fallback double-wrote+spoke, ambient screen-explain double-spoke; add gesture hysteresis + explain cooldown + TTS dedupe",
+      "date": "2026-09-14",
+      "restartRequired": true
+    },
+    {
+      "id": "059",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-059/patch-059.zip",
+      "sha256": "57c0a865944bc512365dba17017e1b552896b58556c651041656402f3b790a1d",
+      "size": 425598622,
+      "description": "Auto-speech control center: central gate + Automation/Reminders toggles for every automatic TTS/proactive source",
       "date": "2026-09-14",
       "restartRequired": true
     }
