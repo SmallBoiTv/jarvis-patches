@@ -1,5 +1,5 @@
 {
-  "latestPatch": "061",
+  "latestPatch": "062",
   "patches": [
     {
       "id": "001",
@@ -608,6 +608,16 @@
       "sha256": "cb388c0422ed11875632c2584ae146319bdab12b4af81ff674ff4b5196220500",
       "size": 425601423,
       "description": "Autopilot: fix X post confirmation (composer-close/toast), record post attempts so min-gap/daily-cap always advance, persist monitor timers across restart, strip ***/--- markdown from posts",
+      "date": "2026-09-14",
+      "restartRequired": true
+    },
+    {
+      "id": "062",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-062/patch-062.zip",
+      "sha256": "3304ecfb45ea5314601bf1c6922c235f73b5e60ab15e0a6cb4045e70bad4ef06",
+      "size": 425608834,
+      "description": "Music Studio: fix provider dropdown, ComfyUI Local provider wired to built-in ComfyUI (ACE-Step songs+instrumentals, MusicGen instrumentals), music models in ComfyUI Models tab",
       "date": "2026-09-14",
       "restartRequired": true
     }
