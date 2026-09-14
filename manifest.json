@@ -555,9 +555,9 @@
       "id": "056",
       "version": "1.0.890",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-056/patch-056.zip",
-      "sha256": "0ec19dce5ef35993dd6aa16aa6f69c5ff98e1b20f99a187879a63849794bf317",
-      "size": 425588674,
-      "description": "Analytics: browser-account stats scraper — scrape profile/post stats via logged-in Chrome sessions, URL field + platform/all scan in Analytics tab",
+      "sha256": "55c57d4e83048ad9ab7a6ecf5a5e822b273dd86a786ef58b8b2fdc92371b27d0",
+      "size": 425588753,
+      "description": "Analytics: browser-account stats scraper — scrape profile/post stats via logged-in Chrome sessions (dedicated tab, no interference with posting), URL field + platform/all scan in Analytics tab",
       "date": "2026-09-14",
       "restartRequired": true
     }
