@@ -1,5 +1,5 @@
 {
-  "latestPatch": "055",
+  "latestPatch": "056",
   "patches": [
     {
       "id": "001",
@@ -548,6 +548,16 @@
       "sha256": "6403e0106a5075c5df27ae33250f46969df2daa9ea6b35fbf537ce94f33f004c",
       "size": 425580956,
       "description": "Auto-Pilot: minute-interval scheduling (5/10/15m+), manual-run URL option (size-limit safe), trending/approval posts now honor media cadence, TOOL_CALL output stripped, 12 new topic presets, 21 image-gen presets",
+      "date": "2026-09-14",
+      "restartRequired": true
+    },
+    {
+      "id": "056",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-056/patch-056.zip",
+      "sha256": "0ec19dce5ef35993dd6aa16aa6f69c5ff98e1b20f99a187879a63849794bf317",
+      "size": 425588674,
+      "description": "Analytics: browser-account stats scraper — scrape profile/post stats via logged-in Chrome sessions, URL field + platform/all scan in Analytics tab",
       "date": "2026-09-14",
       "restartRequired": true
     }
