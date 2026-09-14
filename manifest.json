@@ -1,5 +1,5 @@
 {
-  "latestPatch": "053",
+  "latestPatch": "054",
   "patches": [
     {
       "id": "001",
@@ -528,6 +528,16 @@
       "sha256": "0366edc0961d5641c7ec3b6f48fc67df4c138cdafd54b00f0a1e4715cf05a7d1",
       "size": 425568322,
       "description": "Auto-Pilot posting controls: frequency modes (specific times / every N hours / once daily), enforced min-gap + daily cap across scheduled+trending posts, media every-Nth-post rules, real Stop button that disables autopilot, next/last post status",
+      "date": "2026-09-14",
+      "restartRequired": true
+    },
+    {
+      "id": "054",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-054/patch-054.zip",
+      "sha256": "86b1e732c0d832fbf9cc11690e7f77f3796e15007e60c20edce67180cab93104",
+      "size": 425575068,
+      "description": "Auto-pilot: activity feed, live post links, pause/resume, quiet hours, media/day cap, dry run, skip-next, topic rotation, engagement feedback, best-times",
       "date": "2026-09-14",
       "restartRequired": true
     }
