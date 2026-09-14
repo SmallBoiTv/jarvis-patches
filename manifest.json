@@ -1,5 +1,5 @@
 {
-  "latestPatch": "050",
+  "latestPatch": "053",
   "patches": [
     {
       "id": "001",
@@ -499,6 +499,36 @@
       "size": 380882506,
       "description": "Show ALL OmniRoute media models: extract full image/video registries via bundled Node+tsx and use the authoritative /v1/models type field (was regex on model names, missed ~130 image models)",
       "date": "2026-09-12",
+      "restartRequired": true
+    },
+    {
+      "id": "051",
+      "version": "1.0.888",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-051/patch-051.zip",
+      "sha256": "b31ff2d7a7f7dff4563d98442bff0c194a8ec65e9560fd1b0a607d0cc2f56c9d",
+      "size": 419373080,
+      "description": "Agent Ops + A2A, gaming copilot, gesture calibration, gallery+ComfyUI, crash reports, per-page routing, social drafts, cross-page actions, rules editor",
+      "date": "2026-09-13",
+      "restartRequired": true
+    },
+    {
+      "id": "052",
+      "version": "1.0.887",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-052/patch-052.zip",
+      "sha256": "62fc1614cfb9ee506e7384da06786c9882b29ce49a373ce9736f6930d3dcd24d",
+      "size": 419451549,
+      "description": "Media tab all 6 studios; Music Studio Suno UI; Local Synth + cloud providers incl. Mureka (direct api.mureka.ai + OmniRoute mureka-music format); fixed music IPC names (jarvisExtras/omnirouteMusic*)",
+      "date": "2026-09-13",
+      "restartRequired": true
+    },
+    {
+      "id": "053",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-053/patch-053.zip",
+      "sha256": "0366edc0961d5641c7ec3b6f48fc67df4c138cdafd54b00f0a1e4715cf05a7d1",
+      "size": 425568322,
+      "description": "Auto-Pilot posting controls: frequency modes (specific times / every N hours / once daily), enforced min-gap + daily cap across scheduled+trending posts, media every-Nth-post rules, real Stop button that disables autopilot, next/last post status",
+      "date": "2026-09-14",
       "restartRequired": true
     }
   ]
