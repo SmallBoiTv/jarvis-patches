@@ -1,5 +1,5 @@
 {
-  "latestPatch": "060",
+  "latestPatch": "061",
   "patches": [
     {
       "id": "001",
@@ -600,6 +600,16 @@
       "description": "Video Providers settings: show API key field for free providers that accept keys (pollinations-video, hf-spaces, pexels, pixabay, modal, zhipu, mochi, hunyuan)",
       "date": "2026-09-14",
       "restartRequired": false
+    },
+    {
+      "id": "061",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-061/patch-061.zip",
+      "sha256": "cb388c0422ed11875632c2584ae146319bdab12b4af81ff674ff4b5196220500",
+      "size": 425601423,
+      "description": "Autopilot: fix X post confirmation (composer-close/toast), record post attempts so min-gap/daily-cap always advance, persist monitor timers across restart, strip ***/--- markdown from posts",
+      "date": "2026-09-14",
+      "restartRequired": true
     }
   ]
 }
