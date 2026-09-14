@@ -1,5 +1,5 @@
 {
-  "latestPatch": "054",
+  "latestPatch": "055",
   "patches": [
     {
       "id": "001",
@@ -538,6 +538,16 @@
       "sha256": "86b1e732c0d832fbf9cc11690e7f77f3796e15007e60c20edce67180cab93104",
       "size": 425575068,
       "description": "Auto-pilot: activity feed, live post links, pause/resume, quiet hours, media/day cap, dry run, skip-next, topic rotation, engagement feedback, best-times",
+      "date": "2026-09-14",
+      "restartRequired": true
+    },
+    {
+      "id": "055",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-055/patch-055.zip",
+      "sha256": "6403e0106a5075c5df27ae33250f46969df2daa9ea6b35fbf537ce94f33f004c",
+      "size": 425580956,
+      "description": "Auto-Pilot: minute-interval scheduling (5/10/15m+), manual-run URL option (size-limit safe), trending/approval posts now honor media cadence, TOOL_CALL output stripped, 12 new topic presets, 21 image-gen presets",
       "date": "2026-09-14",
       "restartRequired": true
     }
