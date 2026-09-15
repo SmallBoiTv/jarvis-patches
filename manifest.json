@@ -1,5 +1,5 @@
 {
-  "latestPatch": "070",
+  "latestPatch": "071",
   "patches": [
     {
       "id": "001",
@@ -700,6 +700,16 @@
       "description": "Game Studio panels use theme background color (all presets)",
       "date": "2026-09-15",
       "restartRequired": false
+    },
+    {
+      "id": "071",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-071/patch-071.zip",
+      "sha256": "10fa7112797fda4ca453534527cfd6f220c94eba388e3248918a8c47a9a54972",
+      "size": 425618037,
+      "description": "Video Studio panels use theme background color (all presets)",
+      "date": "2026-09-15",
+      "restartRequired": true
     }
   ]
 }
