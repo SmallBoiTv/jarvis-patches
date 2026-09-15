@@ -1,5 +1,5 @@
 {
-  "latestPatch": "064",
+  "latestPatch": "065",
   "patches": [
     {
       "id": "001",
@@ -638,6 +638,16 @@
       "sha256": "a06fc5b3fc2368a9110d2017199e28d19108309ba857aa84666ef057309c2393",
       "size": 425610742,
       "description": "Fix app freeze: cache sync GPU/Python probes (comfyuiStatus poll blocked main loop); bridge nav to comfyui/freelancer",
+      "date": "2026-09-15",
+      "restartRequired": true
+    },
+    {
+      "id": "065",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-065/patch-065.zip",
+      "sha256": "0973d8e650c658c6a9bb3e28dfbf352ebc1cac8e4f128d94c35c77239a6acb7d",
+      "size": 425611790,
+      "description": "Fix 3s startup freeze: async orphan-probe cleanup + disk-persisted GPU/python detection cache (no sync probes at launch); CORS headers on diffusers stub",
       "date": "2026-09-15",
       "restartRequired": true
     }
