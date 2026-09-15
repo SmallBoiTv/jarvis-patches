@@ -705,8 +705,8 @@
       "id": "071",
       "version": "1.0.890",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-071/patch-071.zip",
-      "sha256": "10fa7112797fda4ca453534527cfd6f220c94eba388e3248918a8c47a9a54972",
-      "size": 425618037,
+      "sha256": "b92e7afd52c58a7a3ec28506cdefa5a21645e2348c4df6046a97b90e3748b810",
+      "size": 425618032,
       "description": "Video Studio panels use theme background color (all presets)",
       "date": "2026-09-15",
       "restartRequired": true
