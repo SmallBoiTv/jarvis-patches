@@ -1,5 +1,5 @@
 {
-  "latestPatch": "062",
+  "latestPatch": "063",
   "patches": [
     {
       "id": "001",
@@ -619,6 +619,16 @@
       "size": 425608834,
       "description": "Music Studio: fix provider dropdown, ComfyUI Local provider wired to built-in ComfyUI (ACE-Step songs+instrumentals, MusicGen instrumentals), music models in ComfyUI Models tab",
       "date": "2026-09-14",
+      "restartRequired": true
+    },
+    {
+      "id": "063",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-063/patch-063.zip",
+      "sha256": "632563782dbd6ad9a289a17be73279ae5ab52aaa17109e9d87a1993dfb0bd50c",
+      "size": 425610033,
+      "description": "Fix app freeze: VAD asset paths + wake-word restart backoff; provider ID fields (cloudflare/higgsfield/nvidia/modal/watsonx/vertex/aws/tencent/iflytek); Higgsfield+Modal ID auth",
+      "date": "2026-09-15",
       "restartRequired": true
     }
   ]
