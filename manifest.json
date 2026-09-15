@@ -1,5 +1,5 @@
 {
-  "latestPatch": "067",
+  "latestPatch": "068",
   "patches": [
     {
       "id": "001",
@@ -670,6 +670,16 @@
       "description": "Higgsfield video support end-to-end (chat provider list, queue, img2vid); chat page image/video use any configured cloud API key; Cloudflare Workers AI image gen",
       "date": "2026-09-15",
       "restartRequired": true
+    },
+    {
+      "id": "068",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-068/patch-068.zip",
+      "sha256": "a7f5576f41f15ecea0636de6c6d6510e088de71aa5bfdb85561049d95223dd7a",
+      "size": 422489361,
+      "description": "Chat user bubble matches AI bubble on all presets; ThemeEngine no longer flattens /alpha classes to solid (yellow/red badges covering text); Jarvis Studio sidebar shortcut under Video Studio; TTS queue — speech no longer talks over itself",
+      "date": "2026-09-15",
+      "restartRequired": false
     }
   ]
 }
