@@ -665,8 +665,8 @@
       "id": "067",
       "version": "1.0.890",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-067/patch-067.zip",
-      "sha256": "b6978a9831fbad936411d4e2590c42893f833d22883c4cd23b8a5bf9ec2cd5fd",
-      "size": 425614910,
+      "sha256": "1b6d422525b16ef4a8e50d7d0a4006966124ff28344b4af0f6bfd6d0aace13f4",
+      "size": 425615190,
       "description": "Higgsfield video support end-to-end (chat provider list, queue, img2vid); chat page image/video use any configured cloud API key; Cloudflare Workers AI image gen",
       "date": "2026-09-15",
       "restartRequired": true
