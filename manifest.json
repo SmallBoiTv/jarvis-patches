@@ -1,5 +1,5 @@
 {
-  "latestPatch": "071",
+  "latestPatch": "072",
   "patches": [
     {
       "id": "001",
@@ -708,6 +708,16 @@
       "sha256": "b92e7afd52c58a7a3ec28506cdefa5a21645e2348c4df6046a97b90e3748b810",
       "size": 425618032,
       "description": "Video Studio panels use theme background color (all presets)",
+      "date": "2026-09-15",
+      "restartRequired": true
+    },
+    {
+      "id": "072",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-072/patch-072.zip",
+      "sha256": "f3b02bd615abb74e8309fdd61820980ff59e629474daa1630c4584d9e6288ee1",
+      "size": 425627313,
+      "description": "Filterable model dropdowns, video provider API fixes, music library persistence",
       "date": "2026-09-15",
       "restartRequired": true
     }
