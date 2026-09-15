@@ -1,5 +1,5 @@
 {
-  "latestPatch": "066",
+  "latestPatch": "067",
   "patches": [
     {
       "id": "001",
@@ -297,7 +297,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-030/patch-030.zip",
       "sha256": "45ddce75e2c63773905a132628685e4e3f02011c7d7853ce3a928a01bec86c76",
       "size": 372903166,
-      "description": "Add Proactive/Random Messages settings to Reminders tab \u00e2\u20ac\u201d disable Jarvis spontaneous messages, floating toasts, and HUD v18 response panel",
+      "description": "Add Proactive/Random Messages settings to Reminders tab â€” disable Jarvis spontaneous messages, floating toasts, and HUD v18 response panel",
       "date": "2026-09-11",
       "restartRequired": false
     },
@@ -467,7 +467,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-047/patch-047.zip",
       "sha256": "295b5b51b9918536526fdd65874334b397b8fb31e8d31ead636f065501814967",
       "size": 375673377,
-      "description": "Chat: social option cards get 30s countdown before auto-picking Option 1 (was skipping instantly); sync renderer activeConvId to main process before every send (fixes 'new chat / lost context' \u00e2\u20ac\u201d chatWithTools/processMessageStream persisted to a phantom conversation)",
+      "description": "Chat: social option cards get 30s countdown before auto-picking Option 1 (was skipping instantly); sync renderer activeConvId to main process before every send (fixes 'new chat / lost context' â€” chatWithTools/processMessageStream persisted to a phantom conversation)",
       "date": "2026-09-12",
       "restartRequired": true
     },
@@ -557,7 +557,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-056/patch-056.zip",
       "sha256": "55c57d4e83048ad9ab7a6ecf5a5e822b273dd86a786ef58b8b2fdc92371b27d0",
       "size": 425588753,
-      "description": "Analytics: browser-account stats scraper \u00e2\u20ac\u201d scrape profile/post stats via logged-in Chrome sessions (dedicated tab, no interference with posting), URL field + platform/all scan in Analytics tab",
+      "description": "Analytics: browser-account stats scraper â€” scrape profile/post stats via logged-in Chrome sessions (dedicated tab, no interference with posting), URL field + platform/all scan in Analytics tab",
       "date": "2026-09-14",
       "restartRequired": true
     },
@@ -660,6 +660,16 @@
       "description": "Fix app freeze/5-10s click lag: gesture MediaPipe detectForVideo ran every animation frame on CPU, saturating the renderer (~6 FPS). Throttled to 250ms interval + 320x240 camera feed.",
       "date": "2026-09-15",
       "restartRequired": false
+    },
+    {
+      "id": "067",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-067/patch-067.zip",
+      "sha256": "b6978a9831fbad936411d4e2590c42893f833d22883c4cd23b8a5bf9ec2cd5fd",
+      "size": 425614910,
+      "description": "Higgsfield video support end-to-end (chat provider list, queue, img2vid); chat page image/video use any configured cloud API key; Cloudflare Workers AI image gen",
+      "date": "2026-09-15",
+      "restartRequired": true
     }
   ]
 }
