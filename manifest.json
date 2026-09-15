@@ -1,5 +1,5 @@
 {
-  "latestPatch": "068",
+  "latestPatch": "069",
   "patches": [
     {
       "id": "001",
@@ -680,6 +680,16 @@
       "description": "Chat user bubble matches AI bubble on all presets; ThemeEngine no longer flattens /alpha classes to solid (yellow/red badges covering text); Jarvis Studio sidebar shortcut under Video Studio; TTS queue — speech no longer talks over itself",
       "date": "2026-09-15",
       "restartRequired": false
+    },
+    {
+      "id": "069",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-069/patch-069.zip",
+      "sha256": "89e937f832ac211677ae50807ff1d2a65a46720cb2a1de14e1a18d56fbdf0239",
+      "size": 425617995,
+      "description": "Fix Higgsfield API auth (Key id:secret) + real DoP/Soul endpoints; Cloudflare account-ID fallback",
+      "date": "2026-09-15",
+      "restartRequired": true
     }
   ]
 }
