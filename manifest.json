@@ -1,5 +1,5 @@
 {
-  "latestPatch": "063",
+  "latestPatch": "064",
   "patches": [
     {
       "id": "001",
@@ -628,6 +628,16 @@
       "sha256": "632563782dbd6ad9a289a17be73279ae5ab52aaa17109e9d87a1993dfb0bd50c",
       "size": 425610033,
       "description": "Fix app freeze: VAD asset paths + wake-word restart backoff; provider ID fields (cloudflare/higgsfield/nvidia/modal/watsonx/vertex/aws/tencent/iflytek); Higgsfield+Modal ID auth",
+      "date": "2026-09-15",
+      "restartRequired": true
+    },
+    {
+      "id": "064",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-064/patch-064.zip",
+      "sha256": "a06fc5b3fc2368a9110d2017199e28d19108309ba857aa84666ef057309c2393",
+      "size": 425610742,
+      "description": "Fix app freeze: cache sync GPU/Python probes (comfyuiStatus poll blocked main loop); bridge nav to comfyui/freelancer",
       "date": "2026-09-15",
       "restartRequired": true
     }
