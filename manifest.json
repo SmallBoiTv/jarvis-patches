@@ -1,5 +1,5 @@
 {
-  "latestPatch": "069",
+  "latestPatch": "070",
   "patches": [
     {
       "id": "001",
@@ -690,6 +690,16 @@
       "description": "Fix Higgsfield API auth (Key id:secret) + real DoP/Soul endpoints; Cloudflare account-ID fallback",
       "date": "2026-09-15",
       "restartRequired": true
+    },
+    {
+      "id": "070",
+      "version": "1.0.890",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-070/patch-070.zip",
+      "sha256": "8141bb9a4021ab6688ead1c00b4bc3113e3e6bc1418938d6ed3cfe24b2bacdf5",
+      "size": 422489398,
+      "description": "Game Studio panels use theme background color (all presets)",
+      "date": "2026-09-15",
+      "restartRequired": false
     }
   ]
 }
