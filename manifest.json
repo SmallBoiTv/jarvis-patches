@@ -1,5 +1,5 @@
 {
-  "latestPatch": "076",
+  "latestPatch": "077",
   "patches": [
     {
       "id": "001",
@@ -760,6 +760,16 @@
       "description": "Deepfake Cam: clean viewer output — feathered regions, dominant-colour face transfer, Jarvis orb hidden on Screen Studio",
       "date": "2026-09-16",
       "restartRequired": true
+    },
+    {
+      "id": "077",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-077/patch-077.zip",
+      "sha256": "c29dc771001b471a7175b73942ca072ade6446a2052ce0cbdf5508fc074d80cd",
+      "size": 422578266,
+      "description": "Screen Studio: idle power — avatar idle render and scene compositor throttle to keepalive when hidden",
+      "date": "2026-09-16",
+      "restartRequired": false
     }
   ]
 }
