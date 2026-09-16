@@ -1,5 +1,5 @@
 {
-  "latestPatch": "072",
+  "latestPatch": "073",
   "patches": [
     {
       "id": "001",
@@ -719,6 +719,16 @@
       "size": 425627313,
       "description": "Filterable model dropdowns, video provider API fixes, music library persistence",
       "date": "2026-09-15",
+      "restartRequired": true
+    },
+    {
+      "id": "073",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-073/patch-073.zip",
+      "sha256": "3a766120ed8544ac8dbe02c7e118509e74bcc874dc2cfffbfe1427b1361a1ca7",
+      "size": 425788722,
+      "description": "Deepfake Cam: skin-tone match, mask coverage, overlays, presets, costume extraction, pluggable swap models, pixel boost, occluder, GLB 3D overlays, pose anchors",
+      "date": "2026-09-16",
       "restartRequired": true
     }
   ]
