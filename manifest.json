@@ -1,5 +1,5 @@
 {
-  "latestPatch": "073",
+  "latestPatch": "074",
   "patches": [
     {
       "id": "001",
@@ -728,6 +728,16 @@
       "sha256": "3a766120ed8544ac8dbe02c7e118509e74bcc874dc2cfffbfe1427b1361a1ca7",
       "size": 425788722,
       "description": "Deepfake Cam: skin-tone match, mask coverage, overlays, presets, costume extraction, pluggable swap models, pixel boost, occluder, GLB 3D overlays, pose anchors",
+      "date": "2026-09-16",
+      "restartRequired": true
+    },
+    {
+      "id": "074",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-074/patch-074.zip",
+      "sha256": "c31a33d0dfe858a8aa6da3ef4041775bbf8044de819d63e624c9194d7ed2b7c9",
+      "size": 425790105,
+      "description": "Deepfake Cam: source face-colour transfer, skin-blend toggle, GPU model recommendations, body tracking, broken-overlay cleanup",
       "date": "2026-09-16",
       "restartRequired": true
     }
