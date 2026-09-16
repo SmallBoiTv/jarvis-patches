@@ -1,5 +1,5 @@
 {
-  "latestPatch": "074",
+  "latestPatch": "076",
   "patches": [
     {
       "id": "001",
@@ -738,6 +738,26 @@
       "sha256": "c31a33d0dfe858a8aa6da3ef4041775bbf8044de819d63e624c9194d7ed2b7c9",
       "size": 425790105,
       "description": "Deepfake Cam: source face-colour transfer, skin-blend toggle, GPU model recommendations, body tracking, broken-overlay cleanup",
+      "date": "2026-09-16",
+      "restartRequired": true
+    },
+    {
+      "id": "075",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-075/patch-075.zip",
+      "sha256": "b24d003a837c0dc6482be819c780206273072b06aedaadf3a019d4a2760487ef",
+      "size": 425790962,
+      "description": "Deepfake Cam: remove tracking-box artifacts from output (feathered skin-blend + sharpening regions, masked tone grade, mouth-mask debug box disabled)",
+      "date": "2026-09-16",
+      "restartRequired": true
+    },
+    {
+      "id": "076",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-076/patch-076.zip",
+      "sha256": "a5e970547b87464d27619839f001a9faacd0fffb63c5fd1a00939b43ed66f65a",
+      "size": 425791129,
+      "description": "Deepfake Cam: clean viewer output — feathered regions, dominant-colour face transfer, Jarvis orb hidden on Screen Studio",
       "date": "2026-09-16",
       "restartRequired": true
     }
