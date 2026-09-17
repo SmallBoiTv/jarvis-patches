@@ -1,5 +1,5 @@
 {
-  "latestPatch": "082",
+  "latestPatch": "083",
   "patches": [
     {
       "id": "001",
@@ -818,6 +818,16 @@
       "sha256": "f08aa6561fbdc1aba39aef70810c78bf8da763a6808b4c002fe948c3891b79cb",
       "size": 425581946,
       "description": "Fix Higgsfield list-all-models + shared registry",
+      "date": "2026-09-17",
+      "restartRequired": true
+    },
+    {
+      "id": "083",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-083/patch-083.zip",
+      "sha256": "7d9f756448e059a3f0fac68f16a9c605cf3965b58505b51e0c2bf13fe3aa65a6",
+      "size": 425585029,
+      "description": "Auto-fetch provider model catalogs (fal/replicate/nvidia/openrouter live), NVIDIA NIM video provider, listAllModels merges scanned catalogs",
       "date": "2026-09-17",
       "restartRequired": true
     }
