@@ -865,9 +865,9 @@
       "id": "087",
       "version": "1.0.892",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-087/patch-087.zip",
-      "sha256": "1d7db61ec1ac4f811b8452a9ac5bdc1a3ae7a20f9d44a3676f56690322d419e1",
-      "size": 425750948,
-      "description": "Low-memory mode toggle, companion orb toggle, automation-browser idle-close + no startup Chrome launch",
+      "sha256": "1ed49e2f1949738994e947df487c1b38162052a0c31783b5a8097b79b8f96e0b",
+      "size": 425769672,
+      "description": "LLM browser agent: goal-driven web automation for all social platforms + general site tasks, live step feed in Browser Automation panel",
       "date": "2026-09-17",
       "restartRequired": true
     }
