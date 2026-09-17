@@ -1,5 +1,5 @@
 {
-  "latestPatch": "077",
+  "latestPatch": "078",
   "patches": [
     {
       "id": "001",
@@ -770,6 +770,16 @@
       "description": "Screen Studio: idle power — avatar idle render and scene compositor throttle to keepalive when hidden",
       "date": "2026-09-16",
       "restartRequired": false
+    },
+    {
+      "id": "078",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-078/patch-078.zip",
+      "sha256": "31f4aea7143004886b2e00ad7dfb827a50dfbdd7f58f7afee116c963b815f4ac",
+      "size": 425791328,
+      "description": "Strict start/stop gating: avatar cam auto-start removed, all loops/polls gated on running/visible; ComfyUI+diffusers auto-start default off (fixes boot RAM spike)",
+      "date": "2026-09-17",
+      "restartRequired": true
     }
   ]
 }
