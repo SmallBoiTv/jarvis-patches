@@ -1,5 +1,5 @@
 {
-  "latestPatch": "079",
+  "latestPatch": "080",
   "patches": [
     {
       "id": "001",
@@ -788,6 +788,16 @@
       "sha256": "28c0376f481a3580c345713d138145d552653321e296ca1779db6c0ebf4ea224",
       "size": 425579263,
       "description": "Remove Avatar Cam system entirely — fixes renderer OOM/black screen; keeps deepfake cam + virtual cam + shared capture path",
+      "date": "2026-09-17",
+      "restartRequired": true
+    },
+    {
+      "id": "080",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-080/patch-080.zip",
+      "sha256": "db1759305d367218111fb1ec3ca55d5d8ad4b5a8e4c220e85e2d9cb8ecef13dd",
+      "size": 425580737,
+      "description": "Higgsfield full model catalog + idle WebGL render throttling",
       "date": "2026-09-17",
       "restartRequired": true
     }
