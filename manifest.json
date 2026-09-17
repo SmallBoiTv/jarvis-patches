@@ -1,5 +1,5 @@
 {
-  "latestPatch": "084",
+  "latestPatch": "085",
   "patches": [
     {
       "id": "001",
@@ -840,6 +840,16 @@
       "description": "All provider/model menus use live API-fetched catalogs; model counts in dropdowns; media-only providers excluded from chat menus",
       "date": "2026-09-17",
       "restartRequired": false
+    },
+    {
+      "id": "085",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-085/patch-085.zip",
+      "sha256": "cdcc6b676a0363b6e35877854baf13731b2ee4936f81da50dec1dae1a14e8448",
+      "size": 425594766,
+      "description": "Desktop FAB companion (Alt+Space): floating robot orb expands to full chat panel with Chat/Prompts/Guide tabs, hotkey recorder in Settings, open-in-main",
+      "date": "2026-09-17",
+      "restartRequired": true
     }
   ]
 }
