@@ -1,5 +1,5 @@
 {
-  "latestPatch": "088",
+  "latestPatch": "087",
   "patches": [
     {
       "id": "001",
@@ -865,9 +865,9 @@
       "id": "087",
       "version": "1.0.892",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-087/patch-087.zip",
-      "sha256": "1ed49e2f1949738994e947df487c1b38162052a0c31783b5a8097b79b8f96e0b",
-      "size": 425769672,
-      "description": "LLM browser agent: goal-driven web automation for all social platforms + general site tasks, live step feed in Browser Automation panel",
+      "sha256": "f40535488414b045cdbb8f981a860a26d2a5e633e0432b8d4d6bc185462ac263",
+      "size": 425792364,
+      "description": "LLM browser agent: goal-driven web automation for all social platforms + general site tasks, live step feed, approval gate, shared-profile context",
       "date": "2026-09-17",
       "restartRequired": true
     },
