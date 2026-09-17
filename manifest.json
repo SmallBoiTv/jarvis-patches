@@ -1,5 +1,5 @@
 {
-  "latestPatch": "083",
+  "latestPatch": "084",
   "patches": [
     {
       "id": "001",
@@ -830,6 +830,16 @@
       "description": "Auto-fetch provider model catalogs (fal/replicate/nvidia/openrouter live), NVIDIA NIM video provider, listAllModels merges scanned catalogs",
       "date": "2026-09-17",
       "restartRequired": true
+    },
+    {
+      "id": "084",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-084/patch-084.zip",
+      "sha256": "e17635b1764ed4eeefefb1e8827bb078560d9e8b6922cc392bbad14226da8929",
+      "size": 422368203,
+      "description": "All provider/model menus use live API-fetched catalogs; model counts in dropdowns; media-only providers excluded from chat menus",
+      "date": "2026-09-17",
+      "restartRequired": false
     }
   ]
 }
