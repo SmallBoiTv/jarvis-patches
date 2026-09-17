@@ -1,5 +1,5 @@
 {
-  "latestPatch": "081",
+  "latestPatch": "082",
   "patches": [
     {
       "id": "001",
@@ -808,6 +808,16 @@
       "sha256": "f17a8926e71c842d1791848d613a922f7b83c0a6b719c42af0b489b5a1528523",
       "size": 425581647,
       "description": "Higgsfield model selector sync + labels + stale avatar source cleanup",
+      "date": "2026-09-17",
+      "restartRequired": true
+    },
+    {
+      "id": "082",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-082/patch-082.zip",
+      "sha256": "f08aa6561fbdc1aba39aef70810c78bf8da763a6808b4c002fe948c3891b79cb",
+      "size": 425581946,
+      "description": "Fix Higgsfield list-all-models + shared registry",
       "date": "2026-09-17",
       "restartRequired": true
     }
