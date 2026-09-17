@@ -1,5 +1,5 @@
 {
-  "latestPatch": "086",
+  "latestPatch": "087",
   "patches": [
     {
       "id": "001",
@@ -858,6 +858,16 @@
       "sha256": "a70776e3d9170fa20af18265b657cb412f453710c1865831bd45a6d27acadfb8",
       "size": 661923840,
       "description": "Fix lag: companion no longer boots a 2nd app instance; code splitting enabled; boot-splash click-eater removed",
+      "date": "2026-09-17",
+      "restartRequired": true
+    },
+    {
+      "id": "087",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-087/patch-087.zip",
+      "sha256": "1d7db61ec1ac4f811b8452a9ac5bdc1a3ae7a20f9d44a3676f56690322d419e1",
+      "size": 425750948,
+      "description": "Low-memory mode toggle, companion orb toggle, automation-browser idle-close + no startup Chrome launch",
       "date": "2026-09-17",
       "restartRequired": true
     }
