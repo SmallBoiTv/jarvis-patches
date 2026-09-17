@@ -1,5 +1,5 @@
 {
-  "latestPatch": "087",
+  "latestPatch": "088",
   "patches": [
     {
       "id": "001",
@@ -868,6 +868,16 @@
       "sha256": "1ed49e2f1949738994e947df487c1b38162052a0c31783b5a8097b79b8f96e0b",
       "size": 425769672,
       "description": "LLM browser agent: goal-driven web automation for all social platforms + general site tasks, live step feed in Browser Automation panel",
+      "date": "2026-09-17",
+      "restartRequired": true
+    },
+    {
+      "id": "088",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-088/patch-088.zip",
+      "sha256": "ace620e02697070fd5c94fa91b77cf5b6869b8a1594684ad8cc83077153f2e91",
+      "size": 425791908,
+      "description": "PC Health tab: kernel pool leak scanner, driver inventory, startup manager, storage/battery/crash reports, background leak watchdog",
       "date": "2026-09-17",
       "restartRequired": true
     }
