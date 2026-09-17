@@ -845,8 +845,8 @@
       "id": "085",
       "version": "1.0.892",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-085/patch-085.zip",
-      "sha256": "cdcc6b676a0363b6e35877854baf13731b2ee4936f81da50dec1dae1a14e8448",
-      "size": 425594766,
+      "sha256": "ccad699370033a0bd3340888ecc5093ac274d93cbd742a27e8b54a8db04f3d93",
+      "size": 425594793,
       "description": "Desktop FAB companion (Alt+Space): floating robot orb expands to full chat panel with Chat/Prompts/Guide tabs, hotkey recorder in Settings, open-in-main",
       "date": "2026-09-17",
       "restartRequired": true
