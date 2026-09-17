@@ -1,5 +1,5 @@
 {
-  "latestPatch": "080",
+  "latestPatch": "081",
   "patches": [
     {
       "id": "001",
@@ -798,6 +798,16 @@
       "sha256": "db1759305d367218111fb1ec3ca55d5d8ad4b5a8e4c220e85e2d9cb8ecef13dd",
       "size": 425580737,
       "description": "Higgsfield full model catalog + idle WebGL render throttling",
+      "date": "2026-09-17",
+      "restartRequired": true
+    },
+    {
+      "id": "081",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-081/patch-081.zip",
+      "sha256": "f17a8926e71c842d1791848d613a922f7b83c0a6b719c42af0b489b5a1528523",
+      "size": 425581647,
+      "description": "Higgsfield model selector sync + labels + stale avatar source cleanup",
       "date": "2026-09-17",
       "restartRequired": true
     }
