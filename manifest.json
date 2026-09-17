@@ -1,5 +1,5 @@
 {
-  "latestPatch": "085",
+  "latestPatch": "086",
   "patches": [
     {
       "id": "001",
@@ -848,6 +848,16 @@
       "sha256": "a81a8db16b7c75abcab02e109875bdf1c29be697b1443c1dfcd9a8cec9974d3f",
       "size": 425594535,
       "description": "Desktop FAB companion (Alt+Space): the JarvisFab orb pops onto the desktop, expands to its full panel (Chat/Prompts/Guide/Game AI/Mesh), hotkey recorder in Settings",
+      "date": "2026-09-17",
+      "restartRequired": true
+    },
+    {
+      "id": "086",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-086/patch-086.zip",
+      "sha256": "a70776e3d9170fa20af18265b657cb412f453710c1865831bd45a6d27acadfb8",
+      "size": 661923840,
+      "description": "Fix lag: companion no longer boots a 2nd app instance; code splitting enabled; boot-splash click-eater removed",
       "date": "2026-09-17",
       "restartRequired": true
     }
