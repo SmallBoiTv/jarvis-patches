@@ -1,5 +1,5 @@
 {
-  "latestPatch": "078",
+  "latestPatch": "079",
   "patches": [
     {
       "id": "001",
@@ -778,6 +778,16 @@
       "sha256": "31f4aea7143004886b2e00ad7dfb827a50dfbdd7f58f7afee116c963b815f4ac",
       "size": 425791328,
       "description": "Strict start/stop gating: avatar cam auto-start removed, all loops/polls gated on running/visible; ComfyUI+diffusers auto-start default off (fixes boot RAM spike)",
+      "date": "2026-09-17",
+      "restartRequired": true
+    },
+    {
+      "id": "079",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-079/patch-079.zip",
+      "sha256": "28c0376f481a3580c345713d138145d552653321e296ca1779db6c0ebf4ea224",
+      "size": 425579263,
+      "description": "Remove Avatar Cam system entirely — fixes renderer OOM/black screen; keeps deepfake cam + virtual cam + shared capture path",
       "date": "2026-09-17",
       "restartRequired": true
     }
