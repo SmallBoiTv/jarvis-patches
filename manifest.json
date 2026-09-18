@@ -1,5 +1,5 @@
 {
-  "latestPatch": "091",
+  "latestPatch": "092",
   "patches": [
     {
       "id": "001",
@@ -910,6 +910,16 @@
       "description": "Freeze fix: stop ~1.9s periodic render stalls — gate model-selector polling+sorts on dropdown-open, decorated sort, screencast once",
       "date": "2026-09-18",
       "restartRequired": false
+    },
+    {
+      "id": "092",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-092/patch-092.zip",
+      "sha256": "5a7ab8cbaf091663ded594c27bc92492ba846c890ffcb28df4d32dec5463b945",
+      "size": 427973177,
+      "description": "Stop busy-cursor flicker: one shared persistent foreground-window monitor replaces per-tick powershell spawns (game-journal, ambient, recall)",
+      "date": "2026-09-18",
+      "restartRequired": true
     }
   ]
 }
