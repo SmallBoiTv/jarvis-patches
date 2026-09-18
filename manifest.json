@@ -1,5 +1,5 @@
 {
-  "latestPatch": "089",
+  "latestPatch": "090",
   "patches": [
     {
       "id": "001",
@@ -297,7 +297,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-030/patch-030.zip",
       "sha256": "45ddce75e2c63773905a132628685e4e3f02011c7d7853ce3a928a01bec86c76",
       "size": 372903166,
-      "description": "Add Proactive/Random Messages settings to Reminders tab \u00e2\u20ac\u201d disable Jarvis spontaneous messages, floating toasts, and HUD v18 response panel",
+      "description": "Add Proactive/Random Messages settings to Reminders tab â€” disable Jarvis spontaneous messages, floating toasts, and HUD v18 response panel",
       "date": "2026-09-11",
       "restartRequired": false
     },
@@ -467,7 +467,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-047/patch-047.zip",
       "sha256": "295b5b51b9918536526fdd65874334b397b8fb31e8d31ead636f065501814967",
       "size": 375673377,
-      "description": "Chat: social option cards get 30s countdown before auto-picking Option 1 (was skipping instantly); sync renderer activeConvId to main process before every send (fixes 'new chat / lost context' \u00e2\u20ac\u201d chatWithTools/processMessageStream persisted to a phantom conversation)",
+      "description": "Chat: social option cards get 30s countdown before auto-picking Option 1 (was skipping instantly); sync renderer activeConvId to main process before every send (fixes 'new chat / lost context' â€” chatWithTools/processMessageStream persisted to a phantom conversation)",
       "date": "2026-09-12",
       "restartRequired": true
     },
@@ -557,7 +557,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-056/patch-056.zip",
       "sha256": "55c57d4e83048ad9ab7a6ecf5a5e822b273dd86a786ef58b8b2fdc92371b27d0",
       "size": 425588753,
-      "description": "Analytics: browser-account stats scraper \u00e2\u20ac\u201d scrape profile/post stats via logged-in Chrome sessions (dedicated tab, no interference with posting), URL field + platform/all scan in Analytics tab",
+      "description": "Analytics: browser-account stats scraper â€” scrape profile/post stats via logged-in Chrome sessions (dedicated tab, no interference with posting), URL field + platform/all scan in Analytics tab",
       "date": "2026-09-14",
       "restartRequired": true
     },
@@ -677,7 +677,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-068/patch-068.zip",
       "sha256": "a7f5576f41f15ecea0636de6c6d6510e088de71aa5bfdb85561049d95223dd7a",
       "size": 422489361,
-      "description": "Chat user bubble matches AI bubble on all presets; ThemeEngine no longer flattens /alpha classes to solid (yellow/red badges covering text); Jarvis Studio sidebar shortcut under Video Studio; TTS queue \u2014 speech no longer talks over itself",
+      "description": "Chat user bubble matches AI bubble on all presets; ThemeEngine no longer flattens /alpha classes to solid (yellow/red badges covering text); Jarvis Studio sidebar shortcut under Video Studio; TTS queue — speech no longer talks over itself",
       "date": "2026-09-15",
       "restartRequired": false
     },
@@ -757,7 +757,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-076/patch-076.zip",
       "sha256": "a5e970547b87464d27619839f001a9faacd0fffb63c5fd1a00939b43ed66f65a",
       "size": 425791129,
-      "description": "Deepfake Cam: clean viewer output \u2014 feathered regions, dominant-colour face transfer, Jarvis orb hidden on Screen Studio",
+      "description": "Deepfake Cam: clean viewer output — feathered regions, dominant-colour face transfer, Jarvis orb hidden on Screen Studio",
       "date": "2026-09-16",
       "restartRequired": true
     },
@@ -767,7 +767,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-077/patch-077.zip",
       "sha256": "c29dc771001b471a7175b73942ca072ade6446a2052ce0cbdf5508fc074d80cd",
       "size": 422578266,
-      "description": "Screen Studio: idle power \u2014 avatar idle render and scene compositor throttle to keepalive when hidden",
+      "description": "Screen Studio: idle power — avatar idle render and scene compositor throttle to keepalive when hidden",
       "date": "2026-09-16",
       "restartRequired": false
     },
@@ -787,7 +787,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-079/patch-079.zip",
       "sha256": "28c0376f481a3580c345713d138145d552653321e296ca1779db6c0ebf4ea224",
       "size": 425579263,
-      "description": "Remove Avatar Cam system entirely \u2014 fixes renderer OOM/black screen; keeps deepfake cam + virtual cam + shared capture path",
+      "description": "Remove Avatar Cam system entirely — fixes renderer OOM/black screen; keeps deepfake cam + virtual cam + shared capture path",
       "date": "2026-09-17",
       "restartRequired": true
     },
@@ -890,6 +890,16 @@
       "description": "Web Agent UX: encrypted form-fill profiles (token-resolved, secrets never reach the model), /fill /signup /agent slash commands, voice commands, Agent-tab profile picker, onboarding docs with real screenshots",
       "date": "2026-09-18",
       "restartRequired": true
+    },
+    {
+      "id": "090",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-090/patch-090.zip",
+      "sha256": "0f7e163c2831814fca3b355d13554d0c3d79bb8ea3d7803702024826547421f3",
+      "size": 424693623,
+      "description": "Renderer responsiveness: stop idle voice-reactivity rAF loop, cap keep-alive mounted views (LRU), skip hidden HUD canvas draws",
+      "date": "2026-09-17",
+      "restartRequired": false
     }
   ]
 }
