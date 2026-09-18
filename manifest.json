@@ -1,5 +1,5 @@
 {
-  "latestPatch": "090",
+  "latestPatch": "091",
   "patches": [
     {
       "id": "001",
@@ -899,6 +899,16 @@
       "size": 424693623,
       "description": "Renderer responsiveness: stop idle voice-reactivity rAF loop, cap keep-alive mounted views (LRU), skip hidden HUD canvas draws",
       "date": "2026-09-17",
+      "restartRequired": false
+    },
+    {
+      "id": "091",
+      "version": "1.0.892",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-091/patch-091.zip",
+      "sha256": "c4fdaa504c2fe9d8ca81af2b1ecc3e8f7d1d0743bcd1ac13e32b0071a70814be",
+      "size": 424693841,
+      "description": "Freeze fix: stop ~1.9s periodic render stalls — gate model-selector polling+sorts on dropdown-open, decorated sort, screencast once",
+      "date": "2026-09-18",
       "restartRequired": false
     }
   ]
