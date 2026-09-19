@@ -1,5 +1,5 @@
 {
-  "latestPatch": "093",
+  "latestPatch": "094",
   "patches": [
     {
       "id": "001",
@@ -928,6 +928,16 @@
       "sha256": "4cc39aa00111c9295cdb64a75fc7a9a67d0981e1ae771c729aaebd1af9c3663c",
       "size": 428024142,
       "description": "Browser social workflow fixes round 2: progress-probe watchdog (no more mid-post context kills), agent fallback holds browser open, dialog-scoped caption selectors fix image-only posts on Bluesky/Threads/LinkedIn, Reddit body field, tab bring-to-front",
+      "date": "2026-09-19",
+      "restartRequired": true
+    },
+    {
+      "id": "094",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-094/patch-094.zip",
+      "sha256": "5f63c3bbcf5afc980fbc7bfabfe6b17916ca0a1fb5ffe7c869d068ee56af0add",
+      "size": 428023936,
+      "description": "Fix dead URLs: crash reports + control-plane pointed to jarvis-ai.com (dead domain) now vercel; sweep all invented domains",
       "date": "2026-09-19",
       "restartRequired": true
     }
