@@ -1,5 +1,5 @@
 {
-  "latestPatch": "092",
+  "latestPatch": "093",
   "patches": [
     {
       "id": "001",
@@ -919,6 +919,16 @@
       "size": 427973177,
       "description": "Stop busy-cursor flicker: one shared persistent foreground-window monitor replaces per-tick powershell spawns (game-journal, ambient, recall)",
       "date": "2026-09-18",
+      "restartRequired": true
+    },
+    {
+      "id": "093",
+      "version": "1.0.893",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-093/patch-093.zip",
+      "sha256": "cc42bfddff8de95eacc3d26feedab68a257edf88d2b27d96d2e6729eb0d4f20e",
+      "size": 428013252,
+      "description": "Lag fix + social autopilot fixes: hidden-page idle gating (rAF/timers on display:none views), autopilot missing post text retry, text-free image prompts, post quality rules, compose re-upload fix, Spotify widget + widget intents, HUD Editor nav",
+      "date": "2026-09-19",
       "restartRequired": true
     }
   ]
