@@ -925,9 +925,9 @@
       "id": "093",
       "version": "1.0.893",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-093/patch-093.zip",
-      "sha256": "b66c04d772ae7bd48cf520995ae878570d5f953077a1ec9cc9c7114a2a91db86",
-      "size": 428016156,
-      "description": "Disabled HUDs never mount + social post fixes (dedup hashtags, postSize, repost loop)",
+      "sha256": "8d3da6bf9a4f97adca28e8430a7a53377fef22316d51d5e29ec2f95ca0800fa7",
+      "size": 428022413,
+      "description": "Fix all browser social workflows: Facebook media caption (Next→caption→Post), YouTube title/description split, Reddit+Pinterest derived titles, Instagram/TikTok platform blocks, media-required guards, agent fallback hints, group posting via browser, threads.com domains",
       "date": "2026-09-19",
       "restartRequired": true
     }
