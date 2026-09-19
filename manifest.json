@@ -925,9 +925,9 @@
       "id": "093",
       "version": "1.0.893",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-093/patch-093.zip",
-      "sha256": "b5ae5a13f68b3bd6a1b2422264f82d4f842d9e825000b88047878ae6de9f65c2",
-      "size": 428014575,
-      "description": "Lag fix + social autopilot fixes: hidden-page idle gating (rAF/timers on display:none views), autopilot missing post text retry, text-free image prompts, post quality rules, compose re-upload fix, Spotify widget + widget intents, HUD Editor nav, disabled-HUD redirect, hudv18 top button bar",
+      "sha256": "2b71d2f75f8f8cf9ec5543b8358d6b3dca19e0b6bad3f9f3bc361c2f43e8837e",
+      "size": 428015439,
+      "description": "Disabled HUDs never mount + social post fixes (dedup hashtags, postSize, repost loop)",
       "date": "2026-09-19",
       "restartRequired": true
     }
