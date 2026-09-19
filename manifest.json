@@ -1,5 +1,5 @@
 {
-  "latestPatch": "095",
+  "latestPatch": "096",
   "patches": [
     {
       "id": "001",
@@ -948,6 +948,16 @@
       "sha256": "deb8b486ac3fe37d032e5aa05105f22f85a266bb029cd0045e51e9c90e0a3197",
       "size": 428025947,
       "description": "Facebook caption fix: atomic insertText for URL captions — link preview re-render was detaching the textbox mid-typing (image+URL posts)",
+      "date": "2026-09-19",
+      "restartRequired": true
+    },
+    {
+      "id": "096",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-096/patch-096.zip",
+      "sha256": "4e7fefa15a76ca4902446298debdde46a1c54ed6488c4220db9c73fff0a86920",
+      "size": 428029231,
+      "description": "Facebook Chrome autopilot fix",
       "date": "2026-09-19",
       "restartRequired": true
     }
