@@ -925,8 +925,8 @@
       "id": "093",
       "version": "1.0.893",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-093/patch-093.zip",
-      "sha256": "2b71d2f75f8f8cf9ec5543b8358d6b3dca19e0b6bad3f9f3bc361c2f43e8837e",
-      "size": 428015439,
+      "sha256": "b66c04d772ae7bd48cf520995ae878570d5f953077a1ec9cc9c7114a2a91db86",
+      "size": 428016156,
       "description": "Disabled HUDs never mount + social post fixes (dedup hashtags, postSize, repost loop)",
       "date": "2026-09-19",
       "restartRequired": true
