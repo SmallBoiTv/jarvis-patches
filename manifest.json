@@ -925,9 +925,9 @@
       "id": "093",
       "version": "1.0.893",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-093/patch-093.zip",
-      "sha256": "8d3da6bf9a4f97adca28e8430a7a53377fef22316d51d5e29ec2f95ca0800fa7",
-      "size": 428022413,
-      "description": "Fix all browser social workflows: Facebook media caption (Next→caption→Post), YouTube title/description split, Reddit+Pinterest derived titles, Instagram/TikTok platform blocks, media-required guards, agent fallback hints, group posting via browser, threads.com domains",
+      "sha256": "4cc39aa00111c9295cdb64a75fc7a9a67d0981e1ae771c729aaebd1af9c3663c",
+      "size": 428024142,
+      "description": "Browser social workflow fixes round 2: progress-probe watchdog (no more mid-post context kills), agent fallback holds browser open, dialog-scoped caption selectors fix image-only posts on Bluesky/Threads/LinkedIn, Reddit body field, tab bring-to-front",
       "date": "2026-09-19",
       "restartRequired": true
     }
