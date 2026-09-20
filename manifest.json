@@ -1,5 +1,5 @@
 {
-  "latestPatch": "105",
+  "latestPatch": "106",
   "patches": [
     {
       "id": "001",
@@ -1050,6 +1050,16 @@
       "description": "Fix Copy diagnostics button on OmniRoute error screen: use Electron clipboard IPC (navigator.clipboard fails silently in renderer), never-disable button, execCommand fallback, expandable diagnostics preview for screenshot fallback, crash-during-startup hint",
       "date": "2026-09-20",
       "restartRequired": false
+    },
+    {
+      "id": "106",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-106/patch-106.zip",
+      "sha256": "e78a64278bd2c96bb16b603ac4c608a5eb7ef8f673719d03591771de3ac823ea",
+      "size": 428094363,
+      "description": "Error reporting pipeline: crashes, service failures (OmniRoute/ComfyUI), and user reports auto-send to admin panel with diagnostics + consent prompt",
+      "date": "2026-09-20",
+      "restartRequired": true
     }
   ]
 }
