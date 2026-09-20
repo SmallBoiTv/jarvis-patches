@@ -1,5 +1,5 @@
 {
-  "latestPatch": "096",
+  "latestPatch": "097",
   "patches": [
     {
       "id": "001",
@@ -959,6 +959,16 @@
       "size": 428029231,
       "description": "Facebook Chrome autopilot fix",
       "date": "2026-09-19",
+      "restartRequired": true
+    },
+    {
+      "id": "097",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-097/patch-097.zip",
+      "sha256": "6a7d44c0cd6468dbdd3bf9ebd2d04227271bfede146c2fc08e9dbe656424ed37",
+      "size": 428029806,
+      "description": "Autopilot enable persistence: AutomationView loads real status, unmount-save guard, eager config load restarts schedule timer",
+      "date": "2026-09-20",
       "restartRequired": true
     }
   ]
