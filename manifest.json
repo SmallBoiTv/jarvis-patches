@@ -1,5 +1,5 @@
 {
-  "latestPatch": "102",
+  "latestPatch": "103",
   "patches": [
     {
       "id": "001",
@@ -1020,6 +1020,16 @@
       "description": "Fix Video Studio stuck on first click: lazy-load ImagesView/OmniRouteMediaGen sub-tabs + pre-warm VideoStudioView chunk during idle after boot",
       "date": "2026-09-20",
       "restartRequired": false
+    },
+    {
+      "id": "103",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-103/patch-103.zip",
+      "sha256": "0f6abc3121ff6a21ec1e4386976752b21135aa3de76b5f7d18becc6502dfdca7",
+      "size": 428081417,
+      "description": "OmniRoute resilience: never kill server on slow boot (4min budget, no timeout-kill), auto-download portable Node 24 runtime when none found, skip hopeless Electron-Node respawns, starting-state status; OmniRoute error screen shows detected cause + one-click fixes + copyable diagnostics report",
+      "date": "2026-09-20",
+      "restartRequired": true
     }
   ]
 }
