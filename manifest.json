@@ -1,5 +1,5 @@
 {
-  "latestPatch": "100",
+  "latestPatch": "101",
   "patches": [
     {
       "id": "001",
@@ -998,6 +998,16 @@
       "sha256": "ad735ed9b53df251366fa8eb37475bb7fb014b5a459f3fa4267d8afdde4da084",
       "size": 428072354,
       "description": "Video Studio overhaul: frame-accurate offline export via ffmpeg session, real compositor isolation (masks/chroma/LUT/split-screen), durable jarvis-media persistence + allowlist, speed/reverse-aware timeline ops, playback clock (no 60fps React churn), real Whisper captions + silence/scene/beat analysis, working proxies + vidstab stabilization",
+      "date": "2026-09-20",
+      "restartRequired": true
+    },
+    {
+      "id": "101",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-101/patch-101.zip",
+      "sha256": "82419aad7d1a257f8c62002f15a70952e4f0b728a74ff9abadab6b6c8f3becd2",
+      "size": 428072354,
+      "description": "Fix web search (multi-backend fallback: DDG-POST + Google/Bing News RSS), chat tool-call execution, search-failure honesty, history sanitization, ephemeral internal prompts; video studio proxies, stabilization, export session, media allowlist",
       "date": "2026-09-20",
       "restartRequired": true
     }
