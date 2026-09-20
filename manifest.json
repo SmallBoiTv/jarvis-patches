@@ -1,5 +1,5 @@
 {
-  "latestPatch": "104",
+  "latestPatch": "105",
   "patches": [
     {
       "id": "001",
@@ -1035,6 +1035,16 @@
       "id": "104",
       "version": "1.0.895",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-104/patch-104.zip",
+      "sha256": "73a06b6006e8a1cf840e302e14db63a21fefc5bbb3c58c2f2e71e58a62487066",
+      "size": 424744777,
+      "description": "Fix video editor playback jitter: playhead no longer rewinds ~250ms on each throttled SEEK commit (echo write-back guard), Timeline playhead style no longer fights the clock subscription, media drift-correction seeks rate-limited + larger threshold (stops audio stutter)",
+      "date": "2026-09-20",
+      "restartRequired": false
+    },
+    {
+      "id": "105",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-105/patch-105.zip",
       "sha256": "d42551066178d89a5467fa7990965c6d4ee683c91a4515e09087da9715bf9abc",
       "size": 424745397,
       "description": "Fix Copy diagnostics button on OmniRoute error screen: use Electron clipboard IPC (navigator.clipboard fails silently in renderer), never-disable button, execCommand fallback, expandable diagnostics preview for screenshot fallback, crash-during-startup hint",
