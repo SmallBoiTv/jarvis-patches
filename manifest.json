@@ -1,5 +1,5 @@
 {
-  "latestPatch": "106",
+  "latestPatch": "107",
   "patches": [
     {
       "id": "001",
@@ -1058,6 +1058,16 @@
       "sha256": "e78a64278bd2c96bb16b603ac4c608a5eb7ef8f673719d03591771de3ac823ea",
       "size": 428094363,
       "description": "Error reporting pipeline: crashes, service failures (OmniRoute/ComfyUI), and user reports auto-send to admin panel with diagnostics + consent prompt",
+      "date": "2026-09-20",
+      "restartRequired": true
+    },
+    {
+      "id": "107",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-107/patch-107.zip",
+      "sha256": "6d2b3426c6218459bafeee7b2f81bda4e62edc4213b4c0d0bf4d6d0637f08437",
+      "size": 428094363,
+      "description": "OmniRoute diagnostics: include OmniRoute's own app.log crash output in copy/send reports, permission/AV hint, accurate runtime label",
       "date": "2026-09-20",
       "restartRequired": true
     }
