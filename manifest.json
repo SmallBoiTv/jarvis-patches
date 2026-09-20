@@ -1,5 +1,5 @@
 {
-  "latestPatch": "107",
+  "latestPatch": "108",
   "patches": [
     {
       "id": "001",
@@ -1068,6 +1068,16 @@
       "sha256": "6d2b3426c6218459bafeee7b2f81bda4e62edc4213b4c0d0bf4d6d0637f08437",
       "size": 428094363,
       "description": "OmniRoute diagnostics: include OmniRoute's own app.log crash output in copy/send reports, permission/AV hint, accurate runtime label",
+      "date": "2026-09-20",
+      "restartRequired": true
+    },
+    {
+      "id": "108",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-108/patch-108.zip",
+      "sha256": "78a607f7a776820414043936ccab19acbc246f546895068225a1dcd4193dcd45",
+      "size": 428113832,
+      "description": "Fix X autopilot posting: dialog-scoped composer selectors (strict-mode violation on duplicate textbox), wait for media upload before typing, wait for Post button to enable before clicking, topmost-match click fallback, agent reports disabled elements",
       "date": "2026-09-20",
       "restartRequired": true
     }
