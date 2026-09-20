@@ -1,5 +1,5 @@
 {
-  "latestPatch": "098",
+  "latestPatch": "099",
   "patches": [
     {
       "id": "001",
@@ -978,6 +978,16 @@
       "sha256": "a2f40f5e2878ce48ca9bf059c905e1469a97e4804a29b8ad8f5b34405dfc2ef7",
       "size": 428030681,
       "description": "Autopilot image relevance: LLM-derived scene subject replaces raw post text, cleared club/promo style, added anti-drift guard",
+      "date": "2026-09-20",
+      "restartRequired": true
+    },
+    {
+      "id": "099",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-099/patch-099.zip",
+      "sha256": "f2f535c2b9c5b05cfb123c5b1563914d4fc8b375ae26ff149662fe4fceb69067",
+      "size": 428040058,
+      "description": "Compose tab overhaul: fix special-type posting (browser routing, per-result checks, isVideo, pending_approval), per-platform captions + char-limit enforcement, media model fixes (kind metadata, URL-based delete, carousel validation/reorder, media library), scheduler postType/expiry preservation, Auto-Pilot reliability (debounced saves, dirty-guard, hidden-tab pause), AI tools grouping + undo + best-time apply, two-column layout",
       "date": "2026-09-20",
       "restartRequired": true
     }
