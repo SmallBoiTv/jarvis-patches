@@ -1,5 +1,5 @@
 {
-  "latestPatch": "101",
+  "latestPatch": "102",
   "patches": [
     {
       "id": "001",
@@ -1010,6 +1010,16 @@
       "description": "Fix web search (multi-backend fallback: DDG-POST + Google/Bing News RSS), chat tool-call execution, search-failure honesty, history sanitization, ephemeral internal prompts; video studio proxies, stabilization, export session, media allowlist",
       "date": "2026-09-20",
       "restartRequired": true
+    },
+    {
+      "id": "102",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-102/patch-102.zip",
+      "sha256": "0fa7c6bdddfcf6229fb60d18d8b204180ecf8411cdce53801af3001f6f539672",
+      "size": 424742552,
+      "description": "Fix Video Studio stuck on first click: lazy-load ImagesView/OmniRouteMediaGen sub-tabs + pre-warm VideoStudioView chunk during idle after boot",
+      "date": "2026-09-20",
+      "restartRequired": false
     }
   ]
 }
