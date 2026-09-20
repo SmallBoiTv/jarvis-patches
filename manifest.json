@@ -1,5 +1,5 @@
 {
-  "latestPatch": "097",
+  "latestPatch": "098",
   "patches": [
     {
       "id": "001",
@@ -968,6 +968,16 @@
       "sha256": "6a7d44c0cd6468dbdd3bf9ebd2d04227271bfede146c2fc08e9dbe656424ed37",
       "size": 428029806,
       "description": "Autopilot enable persistence: AutomationView loads real status, unmount-save guard, eager config load restarts schedule timer",
+      "date": "2026-09-20",
+      "restartRequired": true
+    },
+    {
+      "id": "098",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-098/patch-098.zip",
+      "sha256": "a2f40f5e2878ce48ca9bf059c905e1469a97e4804a29b8ad8f5b34405dfc2ef7",
+      "size": 428030681,
+      "description": "Autopilot image relevance: LLM-derived scene subject replaces raw post text, cleared club/promo style, added anti-drift guard",
       "date": "2026-09-20",
       "restartRequired": true
     }
