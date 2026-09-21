@@ -1,5 +1,5 @@
 {
-  "latestPatch": "110",
+  "latestPatch": "111",
   "patches": [
     {
       "id": "001",
@@ -1098,6 +1098,16 @@
       "sha256": "7968587fb47cb16cdaad15849f7dcbbb92a071b2fb99f8b924fac03ef600c049",
       "size": 428115596,
       "description": "X posting: insert caption atomically via execCommand (char-by-char typing of a URL triggers X link-preview re-render that detaches the textbox and loses keystrokes); accept composer when draft already contains the content",
+      "date": "2026-09-21",
+      "restartRequired": true
+    },
+    {
+      "id": "111",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-111/patch-111.zip",
+      "sha256": "80d2fb8fdc4d84ace5aa67c2d8b1401ed4a0dc60aa46253d524cff5c314de065",
+      "size": 428116875,
+      "description": "X posting: fix verify-evaluate 2-arg bug that made every text check report false (typed text verified as missing -> retries appended duplicate caption copies into the composer); keyboard typing on topmost textbox; alphanumeric-normalized verification; dedupe polluted drafts before posting",
       "date": "2026-09-21",
       "restartRequired": true
     }
