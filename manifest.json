@@ -1,5 +1,5 @@
 {
-  "latestPatch": "109",
+  "latestPatch": "110",
   "patches": [
     {
       "id": "001",
@@ -1088,6 +1088,16 @@
       "sha256": "b2bd2dea92b6b5229eae3eee78a4e32809f68e8ee84d352d175b13d4a9078b51",
       "size": 428115060,
       "description": "Kill orphaned automation browsers holding the profile lock before relaunch (fixes 'Opening in existing browser session' after app crash/force-kill); close automation browser on app quit",
+      "date": "2026-09-21",
+      "restartRequired": true
+    },
+    {
+      "id": "110",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-110/patch-110.zip",
+      "sha256": "7968587fb47cb16cdaad15849f7dcbbb92a071b2fb99f8b924fac03ef600c049",
+      "size": 428115596,
+      "description": "X posting: insert caption atomically via execCommand (char-by-char typing of a URL triggers X link-preview re-render that detaches the textbox and loses keystrokes); accept composer when draft already contains the content",
       "date": "2026-09-21",
       "restartRequired": true
     }
