@@ -1,5 +1,5 @@
 {
-  "latestPatch": "108",
+  "latestPatch": "109",
   "patches": [
     {
       "id": "001",
@@ -1079,6 +1079,16 @@
       "size": 428113832,
       "description": "Fix X autopilot posting: dialog-scoped composer selectors (strict-mode violation on duplicate textbox), wait for media upload before typing, wait for Post button to enable before clicking, topmost-match click fallback, agent reports disabled elements",
       "date": "2026-09-20",
+      "restartRequired": true
+    },
+    {
+      "id": "109",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-109/patch-109.zip",
+      "sha256": "b2bd2dea92b6b5229eae3eee78a4e32809f68e8ee84d352d175b13d4a9078b51",
+      "size": 428115060,
+      "description": "Kill orphaned automation browsers holding the profile lock before relaunch (fixes 'Opening in existing browser session' after app crash/force-kill); close automation browser on app quit",
+      "date": "2026-09-21",
       "restartRequired": true
     }
   ]
