@@ -1,5 +1,5 @@
 {
-  "latestPatch": "114",
+  "latestPatch": "115",
   "patches": [
     {
       "id": "001",
@@ -1138,6 +1138,16 @@
       "sha256": "fdc8840af9b05fa5c50520338a78bc083c782094a59be674cef8aa73ca3ab5e5",
       "size": 428132663,
       "description": "Fix BlueStacks launch (HD-Player.exe per-instance), ADB resolver finds HD-Adb.exe, emulator process detection",
+      "date": "2026-09-25",
+      "restartRequired": true
+    },
+    {
+      "id": "115",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-115/patch-115.zip",
+      "sha256": "f71fc36151706d30b9e55fd9908eb4b5f67dd044a7d275646b9e34b282ba3b7c",
+      "size": 428135313,
+      "description": "Fix mirrored click mapping: normalize over content surface (dominant child/inset) not whole client rect; hit-test mouse messages to child under point; ScreenToClient conversion; wheel screen coords; drag capture pinning; window-normalized inject channel",
       "date": "2026-09-25",
       "restartRequired": true
     }
