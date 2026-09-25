@@ -1,5 +1,5 @@
 {
-  "latestPatch": "112",
+  "latestPatch": "113",
   "patches": [
     {
       "id": "001",
@@ -1118,6 +1118,16 @@
       "sha256": "7291ee60e3ac72f0dce217449573702bd540e4dcf5b08ccad886e6572699859c",
       "size": 428117074,
       "description": "X posting: scope post-verify composer check to the dialog only (unscoped tweetTextarea_0 matched the home feed's inline composer so every successful post reported unverified); agent fallback now uses the omniroute provider",
+      "date": "2026-09-25",
+      "restartRequired": true
+    },
+    {
+      "id": "113",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-113/patch-113.zip",
+      "sha256": "d2bc66601dee215f1209b251032bb5591af1fa8d37f18ff7496cb233eda4fb96",
+      "size": 428130941,
+      "description": "MultiBoxing input overhaul: full keyboard (all VKs+DOM codes), engine-detected hotkeys (no more globalShortcut hijack), held-drag mouse broadcast, per-slot input target/inset, stuck-input release on pause/blur, live-preview fps/res settings, ADB broadcast bridge + emulator tiles",
       "date": "2026-09-25",
       "restartRequired": true
     }
