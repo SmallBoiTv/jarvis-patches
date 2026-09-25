@@ -1,5 +1,5 @@
 {
-  "latestPatch": "111",
+  "latestPatch": "112",
   "patches": [
     {
       "id": "001",
@@ -1109,6 +1109,16 @@
       "size": 428116875,
       "description": "X posting: fix verify-evaluate 2-arg bug that made every text check report false (typed text verified as missing -> retries appended duplicate caption copies into the composer); keyboard typing on topmost textbox; alphanumeric-normalized verification; dedupe polluted drafts before posting",
       "date": "2026-09-21",
+      "restartRequired": true
+    },
+    {
+      "id": "112",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-112/patch-112.zip",
+      "sha256": "7291ee60e3ac72f0dce217449573702bd540e4dcf5b08ccad886e6572699859c",
+      "size": 428117074,
+      "description": "X posting: scope post-verify composer check to the dialog only (unscoped tweetTextarea_0 matched the home feed's inline composer so every successful post reported unverified); agent fallback now uses the omniroute provider",
+      "date": "2026-09-25",
       "restartRequired": true
     }
   ]
