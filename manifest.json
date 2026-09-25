@@ -1,5 +1,5 @@
 {
-  "latestPatch": "113",
+  "latestPatch": "114",
   "patches": [
     {
       "id": "001",
@@ -1128,6 +1128,16 @@
       "sha256": "d2bc66601dee215f1209b251032bb5591af1fa8d37f18ff7496cb233eda4fb96",
       "size": 428130941,
       "description": "MultiBoxing input overhaul: full keyboard (all VKs+DOM codes), engine-detected hotkeys (no more globalShortcut hijack), held-drag mouse broadcast, per-slot input target/inset, stuck-input release on pause/blur, live-preview fps/res settings, ADB broadcast bridge + emulator tiles",
+      "date": "2026-09-25",
+      "restartRequired": true
+    },
+    {
+      "id": "114",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-114/patch-114.zip",
+      "sha256": "fdc8840af9b05fa5c50520338a78bc083c782094a59be674cef8aa73ca3ab5e5",
+      "size": 428132663,
+      "description": "Fix BlueStacks launch (HD-Player.exe per-instance), ADB resolver finds HD-Adb.exe, emulator process detection",
       "date": "2026-09-25",
       "restartRequired": true
     }
