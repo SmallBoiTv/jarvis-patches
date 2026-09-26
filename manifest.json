@@ -1,5 +1,5 @@
 {
-  "latestPatch": "115",
+  "latestPatch": "116",
   "patches": [
     {
       "id": "001",
@@ -1149,6 +1149,16 @@
       "size": 428135313,
       "description": "Fix mirrored click mapping: normalize over content surface (dominant child/inset) not whole client rect; hit-test mouse messages to child under point; ScreenToClient conversion; wheel screen coords; drag capture pinning; window-normalized inject channel",
       "date": "2026-09-25",
+      "restartRequired": true
+    },
+    {
+      "id": "116",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-116/patch-116.zip",
+      "sha256": "fad2d8bfe965fabfa1865da04727e25cd7c4a3fedbc1239ccf018b2835a810b1",
+      "size": 428140881,
+      "description": "OmniRoute: auto-fallback to alternate port when 20128 is unbindable (Windows excluded port range / AV block), wmic->PowerShell Get-CimInstance for Win11 24H2, diagnostics report now includes the real crash-log lines",
+      "date": "2026-09-26",
       "restartRequired": true
     }
   ]
