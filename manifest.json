@@ -1,5 +1,5 @@
 {
-  "latestPatch": "116",
+  "latestPatch": "117",
   "patches": [
     {
       "id": "001",
@@ -1158,6 +1158,16 @@
       "sha256": "fad2d8bfe965fabfa1865da04727e25cd7c4a3fedbc1239ccf018b2835a810b1",
       "size": 428140881,
       "description": "OmniRoute: auto-fallback to alternate port when 20128 is unbindable (Windows excluded port range / AV block), wmic->PowerShell Get-CimInstance for Win11 24H2, diagnostics report now includes the real crash-log lines",
+      "date": "2026-09-26",
+      "restartRequired": true
+    },
+    {
+      "id": "117",
+      "version": "1.0.895",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-117/patch-117.zip",
+      "sha256": "c6f46b318e3ee8c484a0fb72e4970c66d5db70d50c3bd785fbe5a454fd8607dc",
+      "size": 428146017,
+      "description": "Auto-Pilot: combine Marketing Prompt with Custom Topic (custom topic was silently ignored when a marketing prompt was set), unstick wedged cycles so Run Now works again (stale-lock watchdog + Stop releases the lock), refuse to publish AI/provider error text as posts, scrub error entries from post history",
       "date": "2026-09-26",
       "restartRequired": true
     }
