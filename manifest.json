@@ -1,5 +1,5 @@
 {
-  "latestPatch": "118",
+  "latestPatch": "119",
   "patches": [
     {
       "id": "001",
@@ -1180,6 +1180,16 @@
       "description": "Robust portable Node runtime download (in-process https + tar.exe/Expand-Archive, node.exe only) + fix abiCrash false-positive hint",
       "date": "2026-09-27",
       "restartRequired": true
+    },
+    {
+      "id": "119",
+      "version": "1.0.898",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-119/patch-119.zip",
+      "sha256": "3a189e141fc7fda23d87cb8917f49772da8a2e9f9b7bb5f03da12648dc067f94",
+      "size": 424750779,
+      "description": "Remove dead NVIDIA NIM video provider (Cosmos video endpoints retired upstream - 404s) + fix Pollinations/HF-Spaces descriptions",
+      "date": "2026-09-27",
+      "restartRequired": false
     }
   ]
 }
