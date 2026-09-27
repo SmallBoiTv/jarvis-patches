@@ -1175,9 +1175,9 @@
       "id": "118",
       "version": "1.0.897",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-118/patch-118.zip",
-      "sha256": "ae251398eca77b945186aa55bcab5f789d8d9e859f493c3cb28c7f03e8d3994b",
-      "size": 428152999,
-      "description": "Fix portable Node runtime download (in-process https + tar.exe/Expand-Archive, no PowerShell HTML scrape) + tighten abiCrash hint so healthy diagnostics don't trigger 'Node needed' false positive",
+      "sha256": "96cc5694823af794d42e3db399c23891577821c3f32faa41a54028bf713d32db",
+      "size": 428152996,
+      "description": "Robust portable Node runtime download (in-process https + tar.exe/Expand-Archive, node.exe only) + fix abiCrash false-positive hint",
       "date": "2026-09-27",
       "restartRequired": true
     }
