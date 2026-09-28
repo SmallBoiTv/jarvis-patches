@@ -1,5 +1,5 @@
 {
-  "latestPatch": "125",
+  "latestPatch": "126",
   "patches": [
     {
       "id": "001",
@@ -1248,6 +1248,16 @@
       "sha256": "32c81cbdcc1d2f8ad161570de0e738250edd209ac5fa66e792f8fd98b045d1a9",
       "size": 428527230,
       "description": "OmniRoute keepalive stream resilience: forward upstream liveness so watchdogs don't kill slow cold-loads; omniroute classified as local-slow provider (300s/600s timeouts)",
+      "date": "2026-09-28",
+      "restartRequired": true
+    },
+    {
+      "id": "126",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-126/patch-126.zip",
+      "sha256": "bf6be54c0cd0e7506eb0c7e93f38ee2344dc9276073a41a751ab012995cd852f",
+      "size": 428528013,
+      "description": "OmniRoute connect-phase keepalive pump: yield liveness while awaiting response headers so cold routed providers don't trip stream-stall watchdogs",
       "date": "2026-09-28",
       "restartRequired": true
     }
