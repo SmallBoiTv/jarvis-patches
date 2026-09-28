@@ -1,5 +1,5 @@
 {
-  "latestPatch": "119",
+  "latestPatch": "120",
   "patches": [
     {
       "id": "001",
@@ -1190,6 +1190,16 @@
       "description": "Remove dead NVIDIA NIM video provider (Cosmos video endpoints retired upstream - 404s) + fix Pollinations/HF-Spaces descriptions",
       "date": "2026-09-27",
       "restartRequired": false
+    },
+    {
+      "id": "120",
+      "version": "1.0.898",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-120/patch-120.zip",
+      "sha256": "a3af0f5514965f332e2ff4dd532aed3776116b06520ed1ebb690a07ace2f14f0",
+      "size": 428408550,
+      "description": "Agentic-loop + provider safety overhaul: truthful task states, stream error channel, fail-closed approvals, git/fs containment, command translation, preview honesty, atomic persistence, jarvisignore enforcement, omniroute local classification, failover dedup",
+      "date": "2026-09-28",
+      "restartRequired": true
     }
   ]
 }
