@@ -1,5 +1,5 @@
 {
-  "latestPatch": "121",
+  "latestPatch": "122",
   "patches": [
     {
       "id": "001",
@@ -1208,6 +1208,16 @@
       "sha256": "bad2b82503073690b1866915930b686f818ada37dd643526e1089d6f09455eb0",
       "size": 428524610,
       "description": "IPC override layer — hot patches now replace bundled fs/git/run-capture handlers; powershell command dialect; @jarvis packages ship via overlay node_modules",
+      "date": "2026-09-28",
+      "restartRequired": true
+    },
+    {
+      "id": "122",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-122/patch-122.zip",
+      "sha256": "f4dbf82d6f7535f0ad2d425bb4f464b27bf7ea76201cf20fed1d22ed0dcaaf35",
+      "size": 428525183,
+      "description": "Coding page fixes: plan panel scroll cap, fix agent file-wipe (no more empty-content refresh), centralized autosave covers AI-applied files, workspace guard allows default JarvisProjects dir, dialogs register workspace roots",
       "date": "2026-09-28",
       "restartRequired": true
     }
