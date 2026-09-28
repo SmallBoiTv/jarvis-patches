@@ -1,5 +1,5 @@
 {
-  "latestPatch": "123",
+  "latestPatch": "124",
   "patches": [
     {
       "id": "001",
@@ -1228,6 +1228,16 @@
       "sha256": "57b36c06cb2740978a82ccd2610eeeff778a786186aaf622ad1dfd7e4220d145",
       "size": 428525615,
       "description": "coding page: absolute tab paths for autosave, sandbox rm -rf root guard",
+      "date": "2026-09-28",
+      "restartRequired": true
+    },
+    {
+      "id": "124",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-124/patch-124.zip",
+      "sha256": "98c04bf75c69108cd35d22d676f77c116fe6f11d8490b296d5992f5738f2139f",
+      "size": 428526083,
+      "description": "coding: fix Apply All name collisions, AI filename inference, cascade truncation, direct disk writes",
       "date": "2026-09-28",
       "restartRequired": true
     }
