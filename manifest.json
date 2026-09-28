@@ -1,5 +1,5 @@
 {
-  "latestPatch": "128",
+  "latestPatch": "130",
   "patches": [
     {
       "id": "001",
@@ -1280,6 +1280,26 @@
       "description": "OmniRoute auto/* alias-first routing: OmniRoute's own health-aware router is more reliable than direct-model candidates which can hang for minutes",
       "date": "2026-09-28",
       "restartRequired": true
+    },
+    {
+      "id": "129",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-129/patch-129.zip",
+      "sha256": "cc92b9f05cbd32cd8a57308279bf8f15ad96d4be61c287dae55aabe18b5ed365",
+      "size": 424753984,
+      "description": "Collapse/cap Plan panel — max-height + scrollbar + collapse toggle so it can't cover the AI chat",
+      "date": "2026-09-28",
+      "restartRequired": false
+    },
+    {
+      "id": "130",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-130/patch-130.zip",
+      "sha256": "8aa06c8024fd082d31577cb00102c7bb16cba0f54063f4c572f0ac0259775ce6",
+      "size": 424753703,
+      "description": "Fix dropped injected/remote prompts (handleSendRef null on fresh mount) + compact collapsible scrollable plan panel",
+      "date": "2026-09-28",
+      "restartRequired": false
     }
   ]
 }
