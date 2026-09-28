@@ -1205,8 +1205,8 @@
       "id": "121",
       "version": "1.0.898",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-121/patch-121.zip",
-      "sha256": "cf062392c90ca007357eaf048976916b418012b213d3b9753f11bb047477b33c",
-      "size": 428522818,
+      "sha256": "bad2b82503073690b1866915930b686f818ada37dd643526e1089d6f09455eb0",
+      "size": 428524610,
       "description": "IPC override layer — hot patches now replace bundled fs/git/run-capture handlers; powershell command dialect; @jarvis packages ship via overlay node_modules",
       "date": "2026-09-28",
       "restartRequired": true
