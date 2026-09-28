@@ -1,5 +1,5 @@
 {
-  "latestPatch": "124",
+  "latestPatch": "125",
   "patches": [
     {
       "id": "001",
@@ -1238,6 +1238,16 @@
       "sha256": "98c04bf75c69108cd35d22d676f77c116fe6f11d8490b296d5992f5738f2139f",
       "size": 428526083,
       "description": "coding: fix Apply All name collisions, AI filename inference, cascade truncation, direct disk writes",
+      "date": "2026-09-28",
+      "restartRequired": true
+    },
+    {
+      "id": "125",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-125/patch-125.zip",
+      "sha256": "32c81cbdcc1d2f8ad161570de0e738250edd209ac5fa66e792f8fd98b045d1a9",
+      "size": 428527230,
+      "description": "OmniRoute keepalive stream resilience: forward upstream liveness so watchdogs don't kill slow cold-loads; omniroute classified as local-slow provider (300s/600s timeouts)",
       "date": "2026-09-28",
       "restartRequired": true
     }
