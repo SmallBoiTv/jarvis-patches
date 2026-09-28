@@ -1,5 +1,5 @@
 {
-  "latestPatch": "127",
+  "latestPatch": "128",
   "patches": [
     {
       "id": "001",
@@ -1268,6 +1268,16 @@
       "sha256": "9e3fb7f29fe6d77028b4f84058d452e0bd9d796b281e5e2cf6ac87c8bf795ff5",
       "size": 428528448,
       "description": "OmniRoute keepalive broadcast from provider module (works through overlay since main.js entry cannot be replaced)",
+      "date": "2026-09-28",
+      "restartRequired": true
+    },
+    {
+      "id": "128",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-128/patch-128.zip",
+      "sha256": "80e5988d6a217bc9b694cb0b2885f59dbfc6a53106b9428afea318d83641e352",
+      "size": 428528584,
+      "description": "OmniRoute auto/* alias-first routing: OmniRoute's own health-aware router is more reliable than direct-model candidates which can hang for minutes",
       "date": "2026-09-28",
       "restartRequired": true
     }
