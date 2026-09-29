@@ -1,5 +1,5 @@
 {
-  "latestPatch": "137",
+  "latestPatch": "138",
   "patches": [
     {
       "id": "001",
@@ -1368,6 +1368,16 @@
       "sha256": "f1fc963c2f407868ab0643d14d5ea3389f2b609eab6f0bdf3a94e6e70262daa3",
       "size": 425086628,
       "description": "feat(game-studio): mega asset expansion — 85 procedural mesh types + Asset Showcase template",
+      "date": "2026-09-29",
+      "restartRequired": false
+    },
+    {
+      "id": "138",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-138/patch-138.zip",
+      "sha256": "2594538922e6f903b23e14936f2febfb0bf47cdcfb0a951d449959dd39ec7e03",
+      "size": 425103476,
+      "description": "Game Studio: Counter Strike template (Dust Offensive) + runtime fixes — sky clip, raycast ignore, viewmodel materials, buy menu",
       "date": "2026-09-29",
       "restartRequired": false
     }
