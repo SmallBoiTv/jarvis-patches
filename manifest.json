@@ -1,5 +1,5 @@
 {
-  "latestPatch": "130",
+  "latestPatch": "131",
   "patches": [
     {
       "id": "001",
@@ -1300,6 +1300,16 @@
       "description": "Fix dropped injected/remote prompts (handleSendRef null on fresh mount) + compact collapsible scrollable plan panel",
       "date": "2026-09-28",
       "restartRequired": false
+    },
+    {
+      "id": "131",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-131/patch-131.zip",
+      "sha256": "673c9d58d2c2315fae5f8cc5bca6fd331b9c651292811ed43cff847f4df417d4",
+      "size": 428529932,
+      "description": "Fix auto-fix retry self-deadlock (early returns left loading=true, queued retry never dispatched) + PowerShell translator: bare & separator and 2>nul redirection",
+      "date": "2026-09-29",
+      "restartRequired": true
     }
   ]
 }
