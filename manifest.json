@@ -1,5 +1,5 @@
 {
-  "latestPatch": "134",
+  "latestPatch": "135",
   "patches": [
     {
       "id": "001",
@@ -1340,6 +1340,16 @@
       "description": "Game Studio: full runtime fixes — offline three.js export, world-matrix colliders, substep anti-tunneling, live CC/rb getters, raycast composite hits, sRGB post chain, AAA Arena Breach FPS template, preview window w/ eval+capture IPC",
       "date": "2026-09-29",
       "restartRequired": true
+    },
+    {
+      "id": "135",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-135/patch-135.zip",
+      "sha256": "74b8b0b41e55cd425848b5ce8d25318d14e1852a961443e8123c54027b3ab616",
+      "size": 425061119,
+      "description": "Game Studio: realistic asset library (36 mesh types - townhall/goldstorage/elixirstorage/goldmine/collectors/barracks/houses/raiders/soldiers/village props), Clan Siege rebuild with distinct buildings + breachable walls, editor scene reframe, post-processing readability, pointer-lock hint fix",
+      "date": "2026-09-29",
+      "restartRequired": false
     }
   ]
 }
