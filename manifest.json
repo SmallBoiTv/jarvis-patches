@@ -1,5 +1,5 @@
 {
-  "latestPatch": "131",
+  "latestPatch": "134",
   "patches": [
     {
       "id": "001",
@@ -1308,6 +1308,36 @@
       "sha256": "673c9d58d2c2315fae5f8cc5bca6fd331b9c651292811ed43cff847f4df417d4",
       "size": 428529932,
       "description": "Fix auto-fix retry self-deadlock (early returns left loading=true, queued retry never dispatched) + PowerShell translator: bare & separator and 2>nul redirection",
+      "date": "2026-09-29",
+      "restartRequired": true
+    },
+    {
+      "id": "132",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-132/patch-132.zip",
+      "sha256": "f0cdcac9fd24573eacc2b111bb43d82df077c15184975dcea14a45f28e50aaf3",
+      "size": 425043607,
+      "description": "Game Studio AAA upgrade: new export runtime (offline three.js, pointer-lock FPS, physics, raycast, HUD, particles, bloom), JS-class script engine in editor, Arena Breach FPS template, AAA environment kit for all templates",
+      "date": "2026-09-29",
+      "restartRequired": false
+    },
+    {
+      "id": "133",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-133/patch-133.zip",
+      "sha256": "1e4ebc8b09f5d657a6151a31cb3c57e0414fe0ff31d146a8a373b27029747a9f",
+      "size": 425044021,
+      "description": "Fix: disable SSAO in AAA env preset + EffectComposer multisampling=0 (GL depth-stencil feedback loop froze play mode)",
+      "date": "2026-09-29",
+      "restartRequired": false
+    },
+    {
+      "id": "134",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-134/patch-134.zip",
+      "sha256": "764cecb504e1279c70c03a2b14df252f9bfc8fdadc669fda896d78f5bad9fb78",
+      "size": 428823708,
+      "description": "Game Studio: full runtime fixes — offline three.js export, world-matrix colliders, substep anti-tunneling, live CC/rb getters, raycast composite hits, sRGB post chain, AAA Arena Breach FPS template, preview window w/ eval+capture IPC",
       "date": "2026-09-29",
       "restartRequired": true
     }
