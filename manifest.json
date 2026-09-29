@@ -1,5 +1,5 @@
 {
-  "latestPatch": "136",
+  "latestPatch": "137",
   "patches": [
     {
       "id": "001",
@@ -1358,6 +1358,16 @@
       "sha256": "08fc3caa7de795cb6567325c1aad5908d4947d6b66b6b87d8c95eb5c1ed195ef",
       "size": 425070514,
       "description": "Game Studio: kingdom asset kit (49 mesh types — keep/gate/chapel/windmill/blacksmith/market/fountain/statue/inn/king/knight/archer/mage) + interactive shop & menu UI (HUD.panel/button/show/remove), Clan Siege build shop + ESC menu",
+      "date": "2026-09-29",
+      "restartRequired": false
+    },
+    {
+      "id": "137",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-137/patch-137.zip",
+      "sha256": "f1fc963c2f407868ab0643d14d5ea3389f2b609eab6f0bdf3a94e6e70262daa3",
+      "size": 425086628,
+      "description": "feat(game-studio): mega asset expansion — 85 procedural mesh types + Asset Showcase template",
       "date": "2026-09-29",
       "restartRequired": false
     }
