@@ -1,5 +1,5 @@
 {
-  "latestPatch": "135",
+  "latestPatch": "136",
   "patches": [
     {
       "id": "001",
@@ -1348,6 +1348,16 @@
       "sha256": "74b8b0b41e55cd425848b5ce8d25318d14e1852a961443e8123c54027b3ab616",
       "size": 425061119,
       "description": "Game Studio: realistic asset library (36 mesh types - townhall/goldstorage/elixirstorage/goldmine/collectors/barracks/houses/raiders/soldiers/village props), Clan Siege rebuild with distinct buildings + breachable walls, editor scene reframe, post-processing readability, pointer-lock hint fix",
+      "date": "2026-09-29",
+      "restartRequired": false
+    },
+    {
+      "id": "136",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-136/patch-136.zip",
+      "sha256": "08fc3caa7de795cb6567325c1aad5908d4947d6b66b6b87d8c95eb5c1ed195ef",
+      "size": 425070514,
+      "description": "Game Studio: kingdom asset kit (49 mesh types — keep/gate/chapel/windmill/blacksmith/market/fountain/statue/inn/king/knight/archer/mage) + interactive shop & menu UI (HUD.panel/button/show/remove), Clan Siege build shop + ESC menu",
       "date": "2026-09-29",
       "restartRequired": false
     }
