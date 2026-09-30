@@ -1,5 +1,5 @@
 {
-  "latestPatch": "139",
+  "latestPatch": "140",
   "patches": [
     {
       "id": "001",
@@ -1390,6 +1390,16 @@
       "description": "Game Studio: 6 flagship templates (Zombie Siege, Voidrunner, Kart Rush, Chess 3D, 8-Ball Pool, Tower Siege TD) + spaceship asset + overhead camera pitch fixes + AI quality spec",
       "date": "2026-09-30",
       "restartRequired": false
+    },
+    {
+      "id": "140",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-140/patch-140.zip",
+      "sha256": "57c44c2a15d85b57e4503c20b674dbf51c9837ca250b353960db753b026d7c9e",
+      "size": 428959817,
+      "description": "Game Arcade: 598-game catalog, repo source download + CDN vendorization + localhost playback, AI-remake source seeding",
+      "date": "2026-09-30",
+      "restartRequired": true
     }
   ]
 }
