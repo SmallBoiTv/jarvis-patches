@@ -1,5 +1,5 @@
 {
-  "latestPatch": "138",
+  "latestPatch": "139",
   "patches": [
     {
       "id": "001",
@@ -1379,6 +1379,16 @@
       "size": 425103476,
       "description": "Game Studio: Counter Strike template (Dust Offensive) + runtime fixes — sky clip, raycast ignore, viewmodel materials, buy menu",
       "date": "2026-09-29",
+      "restartRequired": false
+    },
+    {
+      "id": "139",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-139/patch-139.zip",
+      "sha256": "b903b026840cef7f4351e7678c0a5c0fca0aba8becad6a3e5762966b9560fb83",
+      "size": 425134788,
+      "description": "Game Studio: 6 flagship templates (Zombie Siege, Voidrunner, Kart Rush, Chess 3D, 8-Ball Pool, Tower Siege TD) + spaceship asset + overhead camera pitch fixes + AI quality spec",
+      "date": "2026-09-30",
       "restartRequired": false
     }
   ]
