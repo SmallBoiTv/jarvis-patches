@@ -1,5 +1,5 @@
 {
-  "latestPatch": "142",
+  "latestPatch": "143",
   "patches": [
     {
       "id": "001",
@@ -1418,6 +1418,16 @@
       "sha256": "83b652a8949ed6aca5fcaf8cf7574f9d143e467d6faef61820853b1562f43886",
       "size": 429047686,
       "description": "Game Arcade: main-process tar extraction for 100-800MB repo archives + recreation prompts for all 680 catalog games",
+      "date": "2026-10-01",
+      "restartRequired": true
+    },
+    {
+      "id": "143",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-143/patch-143.zip",
+      "sha256": "27c8bb8c92394fa5c9845b2bf77e08f14bec32bc17eec97b7228491c7022721d",
+      "size": 429048346,
+      "description": "Game Arcade: prefer built dist over unbuilt shells, GitHub-Pages base-path serving, honest build-required reporting",
       "date": "2026-10-01",
       "restartRequired": true
     }
