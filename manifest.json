@@ -1,5 +1,5 @@
 {
-  "latestPatch": "143",
+  "latestPatch": "144",
   "patches": [
     {
       "id": "001",
@@ -1430,6 +1430,16 @@
       "description": "Game Arcade: prefer built dist over unbuilt shells, GitHub-Pages base-path serving, honest build-required reporting",
       "date": "2026-10-01",
       "restartRequired": true
+    },
+    {
+      "id": "144",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-144/patch-144.zip",
+      "sha256": "199c86f029d0aa948c9361da6763af56d0f475ca1236c5700f9daf48096fc79e",
+      "size": 425265276,
+      "description": "Game Studio: Repo Catalog — all 680 games as one-click AI-remake templates with per-genre quality directives",
+      "date": "2026-10-01",
+      "restartRequired": false
     }
   ]
 }
