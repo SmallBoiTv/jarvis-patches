@@ -1,5 +1,5 @@
 {
-  "latestPatch": "153",
+  "latestPatch": "154",
   "patches": [
     {
       "id": "001",
@@ -1528,6 +1528,16 @@
       "sha256": "07aef9f8627914873d010166c2ed6ac04a342816652febe7603a57abb2cd1802",
       "size": 425313352,
       "description": "Game Arcade: thumbnails for all 680 catalog games (screenshots + repo-card fallback)",
+      "date": "2026-10-01",
+      "restartRequired": false
+    },
+    {
+      "id": "154",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-154/patch-154.zip",
+      "sha256": "e053a7ef28fcdc74b9849869398b435ac033ca7baee4fe9075e7db79a2622466",
+      "size": 425329759,
+      "description": "Game Arcade: descriptions for all games, dead-repo flags, loading-failure UX, unbuilt-shell fix",
       "date": "2026-10-01",
       "restartRequired": false
     }
