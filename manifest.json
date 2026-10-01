@@ -1,5 +1,5 @@
 {
-  "latestPatch": "141",
+  "latestPatch": "142",
   "patches": [
     {
       "id": "001",
@@ -1410,6 +1410,16 @@
       "description": "Game Arcade: full 680-game catalog with embedded recreation prompts for AI remakes",
       "date": "2026-10-01",
       "restartRequired": false
+    },
+    {
+      "id": "142",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-142/patch-142.zip",
+      "sha256": "83b652a8949ed6aca5fcaf8cf7574f9d143e467d6faef61820853b1562f43886",
+      "size": 429047686,
+      "description": "Game Arcade: main-process tar extraction for 100-800MB repo archives + recreation prompts for all 680 catalog games",
+      "date": "2026-10-01",
+      "restartRequired": true
     }
   ]
 }
