@@ -1,5 +1,5 @@
 {
-  "latestPatch": "144",
+  "latestPatch": "145",
   "patches": [
     {
       "id": "001",
@@ -1438,6 +1438,16 @@
       "sha256": "199c86f029d0aa948c9361da6763af56d0f475ca1236c5700f9daf48096fc79e",
       "size": 425265276,
       "description": "Game Studio: Repo Catalog — all 680 games as one-click AI-remake templates with per-genre quality directives",
+      "date": "2026-10-01",
+      "restartRequired": false
+    },
+    {
+      "id": "145",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-145/patch-145.zip",
+      "sha256": "5a1f7ce2e5e164aaae83321bcebf2df8d24cefb4cd0c2915b877cca42efc0487",
+      "size": 425275023,
+      "description": "Jarvis Engine layer: 19 standard behaviors (FPS/TopDown/Vehicle controllers, chase/FPS cameras, enemy AI, weapons, health, GameFlow loop), ATTACH_BEHAVIOR directive, unified script API spec in prompts, script compile validation",
       "date": "2026-10-01",
       "restartRequired": false
     }
