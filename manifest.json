@@ -1515,9 +1515,9 @@
       "id": "152",
       "version": "1.0.901",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-152/patch-152.zip",
-      "sha256": "0401d4baa3a3d2d307b6b63c026edfdaece2522aa2091dcc13d36e1ffd4cda03",
-      "size": 425311982,
-      "description": "Emergency offline session recovery — restores previously-verified users while Supabase is egress-restricted (bounded to Oct 21 quota reset)",
+      "sha256": "1a8a6045cf93bc964841b0098a6e512616f66eae31af6acd40ab213057efbe77",
+      "size": 425312085,
+      "description": "Emergency offline session recovery — restores previously-verified users while Supabase is egress-restricted (bounded to Oct 21 2026 quota reset)",
       "date": "2026-10-01",
       "restartRequired": false
     }
