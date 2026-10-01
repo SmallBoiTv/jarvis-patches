@@ -1445,9 +1445,9 @@
       "id": "145",
       "version": "1.0.901",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-145/patch-145.zip",
-      "sha256": "5a1f7ce2e5e164aaae83321bcebf2df8d24cefb4cd0c2915b877cca42efc0487",
-      "size": 425275023,
-      "description": "Jarvis Engine layer: 19 standard behaviors (FPS/TopDown/Vehicle controllers, chase/FPS cameras, enemy AI, weapons, health, GameFlow loop), ATTACH_BEHAVIOR directive, unified script API spec in prompts, script compile validation",
+      "sha256": "db99d41dd524fe66c4cdf20d768ab5ad47bf0b0bb82649af9e47513dc8057f9a",
+      "size": 425274816,
+      "description": "Jarvis Engine layer: 19 standard behaviors, ATTACH_BEHAVIOR directive, unified script API spec, script compile validation",
       "date": "2026-10-01",
       "restartRequired": false
     }
