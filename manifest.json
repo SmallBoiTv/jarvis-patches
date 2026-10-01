@@ -1,5 +1,5 @@
 {
-  "latestPatch": "150",
+  "latestPatch": "151",
   "patches": [
     {
       "id": "001",
@@ -1498,6 +1498,16 @@
       "sha256": "42582909952c01ca1e4bc94ccf7307ade5a4e80f2404727fb433319d299e5786",
       "size": 425309836,
       "description": "Video Studio: free local model default, 20 dead effects implemented, full theme-token UI, quality analyzer",
+      "date": "2026-10-01",
+      "restartRequired": false
+    },
+    {
+      "id": "151",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-151/patch-151.zip",
+      "sha256": "78555df089f37e2e35e9385828ebcd4b0f5be6447b4f196f7eeae210c77e57d5",
+      "size": 425311897,
+      "description": "Game Studio: all 54 templates verified, cube->box meshType fix, native-game badges + dead-play removal, catalog builds use real repo source",
       "date": "2026-10-01",
       "restartRequired": false
     }
