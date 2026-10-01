@@ -1,5 +1,5 @@
 {
-  "latestPatch": "140",
+  "latestPatch": "141",
   "patches": [
     {
       "id": "001",
@@ -1400,6 +1400,16 @@
       "description": "Game Arcade: 598-game catalog, repo source download + CDN vendorization + localhost playback, AI-remake source seeding",
       "date": "2026-09-30",
       "restartRequired": true
+    },
+    {
+      "id": "141",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-141/patch-141.zip",
+      "sha256": "c6fabee5f006bd0e8f2c8d54098ea182e7323fb5dc52b75903d91eb8b3864c9f",
+      "size": 425260754,
+      "description": "Game Arcade: full 680-game catalog with embedded recreation prompts for AI remakes",
+      "date": "2026-10-01",
+      "restartRequired": false
     }
   ]
 }
