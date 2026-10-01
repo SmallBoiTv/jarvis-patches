@@ -1,5 +1,5 @@
 {
-  "latestPatch": "146",
+  "latestPatch": "147",
   "patches": [
     {
       "id": "001",
@@ -1458,6 +1458,16 @@
       "sha256": "a91e1ddd4e750c6bd88d7caa55777bbdf37ced48ebbfe102e122fe7b0e91558a",
       "size": 429063239,
       "description": "Supabase egress reduction: quota circuit breaker (stops fleet hammering when project is restricted), slim session-list select, slower device/session polls",
+      "date": "2026-10-01",
+      "restartRequired": true
+    },
+    {
+      "id": "147",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-147/patch-147.zip",
+      "sha256": "6a6817c4d3dad26f2bd0d4d16130e21e9d2076a79ccd4db7a874b2347c4a8fe6",
+      "size": 429069891,
+      "description": "Offline entitlement fallback: encrypted cached plan (expiry-bounded, cleared on sign-out) keeps verified users working through Supabase quota/outage; quota circuit breaker + slim session queries + slower polling",
       "date": "2026-10-01",
       "restartRequired": true
     }
