@@ -1,5 +1,5 @@
 {
-  "latestPatch": "145",
+  "latestPatch": "146",
   "patches": [
     {
       "id": "001",
@@ -1450,6 +1450,16 @@
       "description": "Jarvis Engine layer: 19 standard behaviors, ATTACH_BEHAVIOR directive, unified script API spec, script compile validation",
       "date": "2026-10-01",
       "restartRequired": false
+    },
+    {
+      "id": "146",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-146/patch-146.zip",
+      "sha256": "a91e1ddd4e750c6bd88d7caa55777bbdf37ced48ebbfe102e122fe7b0e91558a",
+      "size": 429063239,
+      "description": "Supabase egress reduction: quota circuit breaker (stops fleet hammering when project is restricted), slim session-list select, slower device/session polls",
+      "date": "2026-10-01",
+      "restartRequired": true
     }
   ]
 }
