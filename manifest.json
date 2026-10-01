@@ -1,5 +1,5 @@
 {
-  "latestPatch": "147",
+  "latestPatch": "148",
   "patches": [
     {
       "id": "001",
@@ -1470,6 +1470,16 @@
       "description": "Offline entitlement fallback: encrypted cached plan (expiry-bounded, per-user, cleared on sign-out or server revocation) keeps verified users working through Supabase quota/outage; quota circuit breaker + slim session queries + slower polling",
       "date": "2026-10-01",
       "restartRequired": true
+    },
+    {
+      "id": "148",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-148/patch-148.zip",
+      "sha256": "2664d1274bd54a788fafa5c9ffd4722a7ead412aad41e93a041b28f1cb8f8da6",
+      "size": 425309098,
+      "description": "Game Studio: named composite assets now actually attach (invisible-object fix), 6 genre behaviors (racing/runner/survivors/danmaku), gltf hero assets render in exported games, waypoint prop parsing",
+      "date": "2026-10-01",
+      "restartRequired": false
     }
   ]
 }
