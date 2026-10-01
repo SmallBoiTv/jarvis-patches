@@ -1,5 +1,5 @@
 {
-  "latestPatch": "148",
+  "latestPatch": "149",
   "patches": [
     {
       "id": "001",
@@ -1478,6 +1478,16 @@
       "sha256": "2664d1274bd54a788fafa5c9ffd4722a7ead412aad41e93a041b28f1cb8f8da6",
       "size": 425309098,
       "description": "Game Studio: named composite assets now actually attach (invisible-object fix), 6 genre behaviors (racing/runner/survivors/danmaku), gltf hero assets render in exported games, waypoint prop parsing",
+      "date": "2026-10-01",
+      "restartRequired": false
+    },
+    {
+      "id": "149",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-149/patch-149.zip",
+      "sha256": "1e7db40320b70d757301083950bb8497b76d024fff8a900b62c09f7ba8ecbf7d",
+      "size": 425309349,
+      "description": "Game Studio reliability: SET_MATERIAL accepts named materials (invalid-color fix), case-insensitive object lookup, full self-test guide in GAME_STUDIO.md",
       "date": "2026-10-01",
       "restartRequired": false
     }
