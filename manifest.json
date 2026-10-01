@@ -1465,9 +1465,9 @@
       "id": "147",
       "version": "1.0.901",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-147/patch-147.zip",
-      "sha256": "6a6817c4d3dad26f2bd0d4d16130e21e9d2076a79ccd4db7a874b2347c4a8fe6",
-      "size": 429069891,
-      "description": "Offline entitlement fallback: encrypted cached plan (expiry-bounded, cleared on sign-out) keeps verified users working through Supabase quota/outage; quota circuit breaker + slim session queries + slower polling",
+      "sha256": "13921c06257430e8a1488b29ef2f01506ba11fd3365832c4d6a4b75546a9fc11",
+      "size": 429070096,
+      "description": "Offline entitlement fallback: encrypted cached plan (expiry-bounded, per-user, cleared on sign-out or server revocation) keeps verified users working through Supabase quota/outage; quota circuit breaker + slim session queries + slower polling",
       "date": "2026-10-01",
       "restartRequired": true
     }
