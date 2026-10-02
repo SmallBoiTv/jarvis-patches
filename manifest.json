@@ -1,5 +1,5 @@
 {
-  "latestPatch": "159",
+  "latestPatch": "160",
   "patches": [
     {
       "id": "001",
@@ -1588,6 +1588,16 @@
       "sha256": "3e52be920a454b8c112eed04933d5c2c6ddceaad52c5067a6f21ae804b801e70",
       "size": 429212986,
       "description": "AI Clips studio + jarvis-media protocol fix + STT providers",
+      "date": "2026-10-02",
+      "restartRequired": true
+    },
+    {
+      "id": "160",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-160/patch-160.zip",
+      "sha256": "e960084a523cc1d045fcbad52dd7d644dfc247c2b83614736844daa5e33755a7",
+      "size": 429213774,
+      "description": "AI Clips audit fixes: scene/silence detection on long videos (stderr tail truncation), frame-extraction -t fix, full pipeline subprocess cancel, whisper timeout, clip card render progress",
       "date": "2026-10-02",
       "restartRequired": true
     }
