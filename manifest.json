@@ -1,5 +1,5 @@
 {
-  "latestPatch": "156",
+  "latestPatch": "157",
   "patches": [
     {
       "id": "001",
@@ -1558,6 +1558,16 @@
       "sha256": "ad9f8faabe50f4b287397a0c090122280a0457966413fa9b5e7cf2be7cba3fc1",
       "size": 425331984,
       "description": "Game Studio fixes: arcade Build&Play retry ladder (legacy-peer-deps, openssl-legacy, PM detection, script discovery), idempotent directives (retry-safe builds), chat-error listener (no more hung tasks), ATTACH_SCRIPT multi-script, WRITE_SCRIPT block \\n fix, seeded remake auto-start",
+      "date": "2026-10-02",
+      "restartRequired": false
+    },
+    {
+      "id": "157",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-157/patch-157.zip",
+      "sha256": "eb67e4277bd044b9c35df0e3a814998bf310b47cbfb63a18bfdb5674a9fba769",
+      "size": 425333419,
+      "description": "game-studio: play-mode restart loop + frozen script movement + invisible spawns + C# transpiler fixes + multi-script/component bugs",
       "date": "2026-10-02",
       "restartRequired": false
     }
