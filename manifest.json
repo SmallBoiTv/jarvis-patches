@@ -1,5 +1,5 @@
 {
-  "latestPatch": "157",
+  "latestPatch": "158",
   "patches": [
     {
       "id": "001",
@@ -1568,6 +1568,16 @@
       "sha256": "eb67e4277bd044b9c35df0e3a814998bf310b47cbfb63a18bfdb5674a9fba769",
       "size": 425333419,
       "description": "game-studio: play-mode restart loop + frozen script movement + invisible spawns + C# transpiler fixes + multi-script/component bugs",
+      "date": "2026-10-02",
+      "restartRequired": false
+    },
+    {
+      "id": "158",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-158/patch-158.zip",
+      "sha256": "e52c15e47bba8ea6d99553e2ca01736a66074cd2f285b1e2225b79c4e503008c",
+      "size": 425335857,
+      "description": "game-studio r2: export-runtime C# parity (per-object instances, full transpiler), real coroutines + Invoke/sendMessage, Time API live, spawned clones run scripts",
       "date": "2026-10-02",
       "restartRequired": false
     }
