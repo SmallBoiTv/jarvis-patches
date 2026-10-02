@@ -1,5 +1,5 @@
 {
-  "latestPatch": "155",
+  "latestPatch": "156",
   "patches": [
     {
       "id": "001",
@@ -1550,6 +1550,16 @@
       "description": "OmniRoute auto-updater: checks npm every 6h, swaps package in place (user data untouched), sha512 verified, health-checked, auto-rollback",
       "date": "2026-10-02",
       "restartRequired": true
+    },
+    {
+      "id": "156",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-156/patch-156.zip",
+      "sha256": "ad9f8faabe50f4b287397a0c090122280a0457966413fa9b5e7cf2be7cba3fc1",
+      "size": 425331984,
+      "description": "Game Studio fixes: arcade Build&Play retry ladder (legacy-peer-deps, openssl-legacy, PM detection, script discovery), idempotent directives (retry-safe builds), chat-error listener (no more hung tasks), ATTACH_SCRIPT multi-script, WRITE_SCRIPT block \\n fix, seeded remake auto-start",
+      "date": "2026-10-02",
+      "restartRequired": false
     }
   ]
 }
