@@ -1,5 +1,5 @@
 {
-  "latestPatch": "160",
+  "latestPatch": "161",
   "patches": [
     {
       "id": "001",
@@ -1598,6 +1598,16 @@
       "sha256": "ec477089a74c48b0f112aae2604570d7d3d499d3677746a9af6333bdd6a2b0b4",
       "size": 429214211,
       "description": "AI Clips audit fixes + whisper setup guidance & install button",
+      "date": "2026-10-02",
+      "restartRequired": true
+    },
+    {
+      "id": "161",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-161/patch-161.zip",
+      "sha256": "c0d1130523e06438b2b53c8b4c846e8e3bd861a923b24ffc3bb350e9f843b7e8",
+      "size": 429215346,
+      "description": "AI Clips: fix non-30fps tighten A/V desync, trailing-silence cuts, retry progress, find-more progress+cancel, multi-speaker camera cuts",
       "date": "2026-10-02",
       "restartRequired": true
     }
