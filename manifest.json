@@ -1,5 +1,5 @@
 {
-  "latestPatch": "163",
+  "latestPatch": "164",
   "patches": [
     {
       "id": "001",
@@ -1628,6 +1628,16 @@
       "sha256": "4133532a8d2fb69491fa8ff7fcf9389f13b83daf0bea8273ddb5d85df81075a6",
       "size": 425386904,
       "description": "game-studio r4: class-script scene.instantiate/destroy parity, arcade descriptions, play-on-game-view",
+      "date": "2026-10-02",
+      "restartRequired": false
+    },
+    {
+      "id": "164",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-164/patch-164.zip",
+      "sha256": "7c13a8f792fba0d665c248223cb12ef966043cc016621f27e1ee06fb83629d69",
+      "size": 425402410,
+      "description": "game-studio r5: kingdom/AoE assets + flagship template + swarm test + AI panel height + make-patch staging fix",
       "date": "2026-10-02",
       "restartRequired": false
     }
