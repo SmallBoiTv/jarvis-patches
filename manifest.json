@@ -1,5 +1,5 @@
 {
-  "latestPatch": "161",
+  "latestPatch": "159",
   "patches": [
     {
       "id": "001",
@@ -1585,11 +1585,11 @@
       "id": "159",
       "version": "1.0.901",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-159/patch-159.zip",
-      "sha256": "3e52be920a454b8c112eed04933d5c2c6ddceaad52c5067a6f21ae804b801e70",
-      "size": 429212986,
-      "description": "AI Clips studio + jarvis-media protocol fix + STT providers",
+      "sha256": "6b4b326094b99717f9a64c2e21a02487b51f6895d43f294d399d465b667b66dd",
+      "size": 425380674,
+      "description": "game-studio r3: template-scaffold wipe guard, inline scriptContent compile, spawned-clone physics bodies + destroy cleanup, arcade demo-probe false-negative fix",
       "date": "2026-10-02",
-      "restartRequired": true
+      "restartRequired": false
     },
     {
       "id": "160",
