@@ -1595,9 +1595,9 @@
       "id": "160",
       "version": "1.0.901",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-160/patch-160.zip",
-      "sha256": "e960084a523cc1d045fcbad52dd7d644dfc247c2b83614736844daa5e33755a7",
-      "size": 429213774,
-      "description": "AI Clips audit fixes: scene/silence detection on long videos (stderr tail truncation), frame-extraction -t fix, full pipeline subprocess cancel, whisper timeout, clip card render progress",
+      "sha256": "ec477089a74c48b0f112aae2604570d7d3d499d3677746a9af6333bdd6a2b0b4",
+      "size": 429214211,
+      "description": "AI Clips audit fixes + whisper setup guidance & install button",
       "date": "2026-10-02",
       "restartRequired": true
     }
