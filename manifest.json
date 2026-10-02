@@ -1545,10 +1545,10 @@
       "id": "155",
       "version": "1.0.901",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-155/patch-155.zip",
-      "sha256": "664712a7eacde8e01d1150602ea15d9e0247d36260a3ed4a58a6338bd9befab4",
-      "size": 429137673,
+      "sha256": "c7706537546b9cf9a290e14899af12683a255d0ec94bd83004f5237a4fca9b14",
+      "size": 429138449,
       "description": "OmniRoute auto-updater: checks npm every 6h, swaps package in place (user data untouched), sha512 verified, health-checked, auto-rollback",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "restartRequired": true
     }
   ]
