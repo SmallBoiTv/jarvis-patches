@@ -1,5 +1,5 @@
 {
-  "latestPatch": "171",
+  "latestPatch": "172",
   "patches": [
     {
       "id": "001",
@@ -1708,6 +1708,16 @@
       "sha256": "a056916be06afb6d5f52ab9df1d41a2db1563279842f583efebfe39f503bb543",
       "size": 425431776,
       "description": "Game Studio: ATTACH_SCRIPT miss hints WRITE_SCRIPT remedy + token-subset script resolution (EnemyAttackAI->EnemyAI)",
+      "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "172",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-172/patch-172.zip",
+      "sha256": "1c5af5e50901973543fe8c1dbbff8331784f3bc7a7a303819d41f8494f2509eb",
+      "size": 425431697,
+      "description": "Game Studio: name registries store assets not ids — same-batch WRITE_SCRIPT->ATTACH_SCRIPT no longer misses (stale React state)",
       "date": "2026-10-03",
       "restartRequired": false
     }
