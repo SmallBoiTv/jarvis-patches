@@ -1,5 +1,5 @@
 {
-  "latestPatch": "164",
+  "latestPatch": "165",
   "patches": [
     {
       "id": "001",
@@ -1639,6 +1639,16 @@
       "size": 425402410,
       "description": "game-studio r5: kingdom/AoE assets + flagship template + swarm test + AI panel height + make-patch staging fix",
       "date": "2026-10-02",
+      "restartRequired": false
+    },
+    {
+      "id": "165",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-165/patch-165.zip",
+      "sha256": "69879e26b6c08df3aa07cf3cf5fe72b2b345abacf1b594ebb1a2a55afa954a3b",
+      "size": 425428216,
+      "description": "game-studio r6: RA/SC2 + Aion asset sets, Crimson Front & Abyss Sky War flagship templates",
+      "date": "2026-10-03",
       "restartRequired": false
     }
   ]
