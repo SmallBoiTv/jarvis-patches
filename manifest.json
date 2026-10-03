@@ -1,5 +1,5 @@
 {
-  "latestPatch": "170",
+  "latestPatch": "171",
   "patches": [
     {
       "id": "001",
@@ -1698,6 +1698,16 @@
       "sha256": "87ee8af4128a053258de4dd1e7a8dd245660a919be7cf11d2d92305e2afab643",
       "size": 425431385,
       "description": "Game Studio: crash-proof directive updaters (missing-arg guards + safeUpdater), UPDATE_OBJECT registered, JarvisFab error isolation",
+      "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "171",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-171/patch-171.zip",
+      "sha256": "a056916be06afb6d5f52ab9df1d41a2db1563279842f583efebfe39f503bb543",
+      "size": 425431776,
+      "description": "Game Studio: ATTACH_SCRIPT miss hints WRITE_SCRIPT remedy + token-subset script resolution (EnemyAttackAI->EnemyAI)",
       "date": "2026-10-03",
       "restartRequired": false
     }
