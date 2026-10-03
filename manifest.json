@@ -1,5 +1,5 @@
 {
-  "latestPatch": "165",
+  "latestPatch": "166",
   "patches": [
     {
       "id": "001",
@@ -1648,6 +1648,16 @@
       "sha256": "69879e26b6c08df3aa07cf3cf5fe72b2b345abacf1b594ebb1a2a55afa954a3b",
       "size": 425428216,
       "description": "game-studio r6: RA/SC2 + Aion asset sets, Crimson Front & Abyss Sky War flagship templates",
+      "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "166",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-166/patch-166.zip",
+      "sha256": "5f6b822afe54b69b92dfb3a2596711b8a7d869308e7ee10875f1ee9a077c19fe",
+      "size": 425428932,
+      "description": "game-studio: HUD.button editor-play parity fix + AI-friendly template names",
       "date": "2026-10-03",
       "restartRequired": false
     }
