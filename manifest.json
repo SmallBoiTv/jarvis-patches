@@ -1,5 +1,5 @@
 {
-  "latestPatch": "176",
+  "latestPatch": "177",
   "patches": [
     {
       "id": "001",
@@ -1758,6 +1758,16 @@
       "sha256": "dbcf30024b40566ae31070f4a6b15e36e58a9d5950bbc5e281482806cb3bfdca",
       "size": 425499210,
       "description": "Professional procedural assets — shared RuntimeMeshes library (detailed camo tanks, soldiers, buildings, tesla coils, sci-fi roster), new detail textures, AI quality spec upgrade",
+      "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "177",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-177/patch-177.zip",
+      "sha256": "9e85c2c8e034b9c240b1225ae9f37741918ebf1fd7be1084d550f9d604cac473",
+      "size": 425520436,
+      "description": "Game Studio: 234-type procedural asset roster — warriors/knights variants, castle structures (gatehouse/keep/cathedral/temple/pyramid/pagoda), city buildings (apartment/hospital/police/fire/gas station/stadium), roads & infrastructure (roads/intersections/streetlights/barriers/powerlines/bridge), city vehicles (bus/taxi/police/ambulance/firetruck/bulldozer/tractor), animals (horse/wolf/bear/deer/eagle), siege weapons, nature set, 50+ props, leather texture, full keyword inference + AI roster guidance",
       "date": "2026-10-03",
       "restartRequired": false
     }
