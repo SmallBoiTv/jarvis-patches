@@ -1,5 +1,5 @@
 {
-  "latestPatch": "168",
+  "latestPatch": "169",
   "patches": [
     {
       "id": "001",
@@ -1680,6 +1680,16 @@
       "description": "game-studio r7: faction-aware AI name resolution (SuperTank/OreHarvester resolve, no more silent wrong-target), hot-patch EPERM in-place merge + bootstrap retry, truthful deferred log",
       "date": "2026-10-03",
       "restartRequired": true
+    },
+    {
+      "id": "169",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-169/patch-169.zip",
+      "sha256": "c9afdc2b7f795fe6226a3e5bbaa7b500ddcc546751934f8f10bc3236dfc0027e",
+      "size": 425430844,
+      "description": "game-studio r8: composite-mesh upgrade for AI objects (kirov/hq/tesla names render real assets), camera framing skips giant ground planes, fog readability",
+      "date": "2026-10-03",
+      "restartRequired": false
     }
   ]
 }
