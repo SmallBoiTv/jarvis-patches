@@ -1,5 +1,5 @@
 {
-  "latestPatch": "173",
+  "latestPatch": "174",
   "patches": [
     {
       "id": "001",
@@ -1728,6 +1728,16 @@
       "sha256": "0583a969413f4057a0e7bc233f3bbccc86b55cdcdc1aba31524464a71027e01c",
       "size": 425436779,
       "description": "Game Studio AI full-capability directives: PARENT/DUPLICATE/SPAWN_PREFAB/REMOVE_COMPONENT/SET_PHYSICS/ADD_COLLIDER/ADD_AUDIO, never-invisible ADD_OBJECT, auto-heal UPDATE_COMPONENT/SET_MATERIAL, idempotent prefabs, registry-aware fuzzy lookup",
+      "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "174",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-174/patch-174.zip",
+      "sha256": "cc05460001916d5c547ec82032cdbe4622b4fcd542a99631e024e8e9007228f2",
+      "size": 425438125,
+      "description": "Game AI Builder Ask+Plan modes: ask answers from real scene state without mutating, plan-only no longer scaffolds/builds, Build Plan hand-off button, DUPLICATE registry children fix",
       "date": "2026-10-03",
       "restartRequired": false
     }
