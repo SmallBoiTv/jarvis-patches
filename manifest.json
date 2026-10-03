@@ -1,5 +1,5 @@
 {
-  "latestPatch": "167",
+  "latestPatch": "168",
   "patches": [
     {
       "id": "001",
@@ -1670,6 +1670,16 @@
       "description": "Game Studio: AAA env parity on all templates, editor sky/fog/lighting parity with export, directive error cleanup (DONE/BLOCKED, fuzzy resolve, retry dedupe), auto preview-window open + export runtime error harvest",
       "date": "2026-10-03",
       "restartRequired": false
+    },
+    {
+      "id": "168",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-168/patch-168.zip",
+      "sha256": "48740fd124445b281d8f5cab42de5356888f84ab47adb0c93cc23f95ce7b1745",
+      "size": 429287713,
+      "description": "game-studio r7: faction-aware AI name resolution (SuperTank/OreHarvester resolve, no more silent wrong-target), hot-patch EPERM in-place merge + bootstrap retry, truthful deferred log",
+      "date": "2026-10-03",
+      "restartRequired": true
     }
   ]
 }
