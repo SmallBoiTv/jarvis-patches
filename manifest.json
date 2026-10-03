@@ -1,5 +1,5 @@
 {
-  "latestPatch": "175",
+  "latestPatch": "176",
   "patches": [
     {
       "id": "001",
@@ -1748,6 +1748,16 @@
       "sha256": "6aaaf0bf2fa2370743eab1199f8145e0f80ebfc3ec622aa4ae298b145f587a1a",
       "size": 429325777,
       "description": "Game Studio AAA rendering: World Kit terrain/forests/roads, rebuilt Crimson Front RTS + flagship templates, real RTS controls (select/move/waves/economy), 1080p preview window, AI quality-bar prompt",
+      "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "176",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-176/patch-176.zip",
+      "sha256": "dbcf30024b40566ae31070f4a6b15e36e58a9d5950bbc5e281482806cb3bfdca",
+      "size": 425499210,
+      "description": "Professional procedural assets — shared RuntimeMeshes library (detailed camo tanks, soldiers, buildings, tesla coils, sci-fi roster), new detail textures, AI quality spec upgrade",
       "date": "2026-10-03",
       "restartRequired": false
     }
