@@ -1,5 +1,5 @@
 {
-  "latestPatch": "166",
+  "latestPatch": "167",
   "patches": [
     {
       "id": "001",
@@ -1658,6 +1658,16 @@
       "sha256": "5f6b822afe54b69b92dfb3a2596711b8a7d869308e7ee10875f1ee9a077c19fe",
       "size": 425428932,
       "description": "game-studio: HUD.button editor-play parity fix + AI-friendly template names",
+      "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "167",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-167/patch-167.zip",
+      "sha256": "b2e09c1ca98965406636eefd17f1b90fc26037963a49fa66d4fd591818f70839",
+      "size": 425431024,
+      "description": "Game Studio: AAA env parity on all templates, editor sky/fog/lighting parity with export, directive error cleanup (DONE/BLOCKED, fuzzy resolve, retry dedupe), auto preview-window open + export runtime error harvest",
       "date": "2026-10-03",
       "restartRequired": false
     }
