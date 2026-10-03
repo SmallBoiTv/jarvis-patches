@@ -1,5 +1,5 @@
 {
-  "latestPatch": "174",
+  "latestPatch": "175",
   "patches": [
     {
       "id": "001",
@@ -1738,6 +1738,16 @@
       "sha256": "cc05460001916d5c547ec82032cdbe4622b4fcd542a99631e024e8e9007228f2",
       "size": 425438125,
       "description": "Game AI Builder Ask+Plan modes: ask answers from real scene state without mutating, plan-only no longer scaffolds/builds, Build Plan hand-off button, DUPLICATE registry children fix",
+      "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "175",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-175/patch-175.zip",
+      "sha256": "6aaaf0bf2fa2370743eab1199f8145e0f80ebfc3ec622aa4ae298b145f587a1a",
+      "size": 429325777,
+      "description": "Game Studio AAA rendering: World Kit terrain/forests/roads, rebuilt Crimson Front RTS + flagship templates, real RTS controls (select/move/waves/economy), 1080p preview window, AI quality-bar prompt",
       "date": "2026-10-03",
       "restartRequired": false
     }
