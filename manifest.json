@@ -1,5 +1,5 @@
 {
-  "latestPatch": "169",
+  "latestPatch": "170",
   "patches": [
     {
       "id": "001",
@@ -1688,6 +1688,16 @@
       "sha256": "c9afdc2b7f795fe6226a3e5bbaa7b500ddcc546751934f8f10bc3236dfc0027e",
       "size": 425430844,
       "description": "game-studio r8: composite-mesh upgrade for AI objects (kirov/hq/tesla names render real assets), camera framing skips giant ground planes, fog readability",
+      "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "170",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-170/patch-170.zip",
+      "sha256": "87ee8af4128a053258de4dd1e7a8dd245660a919be7cf11d2d92305e2afab643",
+      "size": 425431385,
+      "description": "Game Studio: crash-proof directive updaters (missing-arg guards + safeUpdater), UPDATE_OBJECT registered, JarvisFab error isolation",
       "date": "2026-10-03",
       "restartRequired": false
     }
