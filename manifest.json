@@ -1,5 +1,5 @@
 {
-  "latestPatch": "172",
+  "latestPatch": "173",
   "patches": [
     {
       "id": "001",
@@ -1718,6 +1718,16 @@
       "sha256": "1c5af5e50901973543fe8c1dbbff8331784f3bc7a7a303819d41f8494f2509eb",
       "size": 425431697,
       "description": "Game Studio: name registries store assets not ids — same-batch WRITE_SCRIPT->ATTACH_SCRIPT no longer misses (stale React state)",
+      "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "173",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-173/patch-173.zip",
+      "sha256": "0583a969413f4057a0e7bc233f3bbccc86b55cdcdc1aba31524464a71027e01c",
+      "size": 425436779,
+      "description": "Game Studio AI full-capability directives: PARENT/DUPLICATE/SPAWN_PREFAB/REMOVE_COMPONENT/SET_PHYSICS/ADD_COLLIDER/ADD_AUDIO, never-invisible ADD_OBJECT, auto-heal UPDATE_COMPONENT/SET_MATERIAL, idempotent prefabs, registry-aware fuzzy lookup",
       "date": "2026-10-03",
       "restartRequired": false
     }
