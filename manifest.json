@@ -1,5 +1,5 @@
 {
-  "latestPatch": "179",
+  "latestPatch": "180",
   "patches": [
     {
       "id": "001",
@@ -1788,6 +1788,16 @@
       "sha256": "c3c5398256b588c616589aa2a27c408578bebfad2d9690f3f21cd908bf7f06ab",
       "size": 425666163,
       "description": "Game Studio: flagship templates get ready-made systems - Elderwild main menu+vendor shop+items+achievements, Sky War/Crimson Front/Counter Strike achievements, Esc pause menu on all",
+      "date": "2026-10-04",
+      "restartRequired": false
+    },
+    {
+      "id": "180",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-180/patch-180.zip",
+      "sha256": "803bc3565af779690293e82a8913061c91a5a5567cd7e0b6cdf7bf1c6e44e49d",
+      "size": 425874804,
+      "description": "Game Studio Asset Store: 6,220 assets — 1,825 procedural variants/kits + 4,395 CC0 (Poly Haven models/PBR/HDRI + ambientCG), real thumbnails, store UI, SPAWN_ASSET AI directive",
       "date": "2026-10-04",
       "restartRequired": false
     }
