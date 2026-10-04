@@ -1,5 +1,5 @@
 {
-  "latestPatch": "180",
+  "latestPatch": "181",
   "patches": [
     {
       "id": "001",
@@ -1798,6 +1798,16 @@
       "sha256": "803bc3565af779690293e82a8913061c91a5a5567cd7e0b6cdf7bf1c6e44e49d",
       "size": 425874804,
       "description": "Game Studio Asset Store: 6,220 assets — 1,825 procedural variants/kits + 4,395 CC0 (Poly Haven models/PBR/HDRI + ambientCG), real thumbnails, store UI, SPAWN_ASSET AI directive",
+      "date": "2026-10-04",
+      "restartRequired": false
+    },
+    {
+      "id": "181",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-181/patch-181.zip",
+      "sha256": "df139beddcd03badd0b6dd1d5a7ebc85e3892b97579dd2a874ad6061d18c8535",
+      "size": 425890279,
+      "description": "Neon Coast open-world city template: drivable cars, traffic, pedestrians, 5-star police wanted, enterable interiors, missions, shops, minimap",
       "date": "2026-10-04",
       "restartRequired": false
     }
