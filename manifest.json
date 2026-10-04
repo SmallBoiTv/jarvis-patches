@@ -1,5 +1,5 @@
 {
-  "latestPatch": "177",
+  "latestPatch": "178",
   "patches": [
     {
       "id": "001",
@@ -1769,6 +1769,16 @@
       "size": 425520436,
       "description": "Game Studio: 234-type procedural asset roster — warriors/knights variants, castle structures (gatehouse/keep/cathedral/temple/pyramid/pagoda), city buildings (apartment/hospital/police/fire/gas station/stadium), roads & infrastructure (roads/intersections/streetlights/barriers/powerlines/bridge), city vehicles (bus/taxi/police/ambulance/firetruck/bulldozer/tractor), animals (horse/wolf/bear/deer/eagle), siege weapons, nature set, 50+ props, leather texture, full keyword inference + AI roster guidance",
       "date": "2026-10-03",
+      "restartRequired": false
+    },
+    {
+      "id": "178",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-178/patch-178.zip",
+      "sha256": "57931d81311fcd13abfc924f1368052b99fd61e0ccf447aaf1e8f5757391b60f",
+      "size": 425664296,
+      "description": "Game Studio: all Play buttons open the game in its own standalone window (no in-editor overlay); AI build autoTest now verifies in the preview window instead of embedded play",
+      "date": "2026-10-04",
       "restartRequired": false
     }
   ]
