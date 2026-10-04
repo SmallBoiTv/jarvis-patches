@@ -1,5 +1,5 @@
 {
-  "latestPatch": "185",
+  "latestPatch": "186",
   "patches": [
     {
       "id": "001",
@@ -1848,6 +1848,16 @@
       "sha256": "4933932a3d3aaa6b3f7c750c8f10837aef4016310422e92942c7f2a629db3545",
       "size": 425896621,
       "description": "Game Studio: shared AAA post-pipeline (SSR/DOF/motion blur/auto-exposure per template), Neon Coast cinematic stack, 13 photoscanned Poly Haven props, human-mesh fidelity pass, realism profiles for Elderwild/Sky War/Crimson/CS",
+      "date": "2026-10-04",
+      "restartRequired": false
+    },
+    {
+      "id": "186",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-186/patch-186.zip",
+      "sha256": "c270a77a8d1360e6da0fb35eadac3c200254f9032233b48cc15788e32c08766a",
+      "size": 425905608,
+      "description": "Game Studio: custom sculpted-geometry tier — __realhuman (7.4-head anatomy, 3-layer eyes, real hands/shoes/clothing), __realcar (profile-extruded shell, clearcoat paint, real wheels, visible interior), __realbld (textured facades, storefronts, roof clutter) — 38 new types, Neon Coast fully switched",
       "date": "2026-10-04",
       "restartRequired": false
     }
