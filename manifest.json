@@ -1,5 +1,5 @@
 {
-  "latestPatch": "178",
+  "latestPatch": "179",
   "patches": [
     {
       "id": "001",
@@ -1778,6 +1778,16 @@
       "sha256": "57931d81311fcd13abfc924f1368052b99fd61e0ccf447aaf1e8f5757391b60f",
       "size": 425664296,
       "description": "Game Studio: all Play buttons open the game in its own standalone window (no in-editor overlay); AI build autoTest now verifies in the preview window instead of embedded play",
+      "date": "2026-10-04",
+      "restartRequired": false
+    },
+    {
+      "id": "179",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-179/patch-179.zip",
+      "sha256": "c3c5398256b588c616589aa2a27c408578bebfad2d9690f3f21cd908bf7f06ab",
+      "size": 425666163,
+      "description": "Game Studio: flagship templates get ready-made systems - Elderwild main menu+vendor shop+items+achievements, Sky War/Crimson Front/Counter Strike achievements, Esc pause menu on all",
       "date": "2026-10-04",
       "restartRequired": false
     }
