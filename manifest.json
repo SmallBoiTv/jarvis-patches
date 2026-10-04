@@ -1,5 +1,5 @@
 {
-  "latestPatch": "181",
+  "latestPatch": "185",
   "patches": [
     {
       "id": "001",
@@ -1808,6 +1808,46 @@
       "sha256": "df139beddcd03badd0b6dd1d5a7ebc85e3892b97579dd2a874ad6061d18c8535",
       "size": 425890279,
       "description": "Neon Coast open-world city template: drivable cars, traffic, pedestrians, 5-star police wanted, enterable interiors, missions, shops, minimap",
+      "date": "2026-10-04",
+      "restartRequired": false
+    },
+    {
+      "id": "182",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-182/patch-182.zip",
+      "sha256": "ed25cca3d94e03fb1eba8a012e8eb6b9553ee81034998b6aff71565a34fd006d",
+      "size": 425885814,
+      "description": "Game Studio: Neon Coast round 2 - police pursuit cruisers, vehicle variety (taxi/van/moto/racecar/ambulance/firetruck), dusk coherence, mobile touch; fixes free-purchase economy sync, inactive spawn, start-order race, drive camera; runtime smoke harness",
+      "date": "2026-10-04",
+      "restartRequired": false
+    },
+    {
+      "id": "183",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-183/patch-183.zip",
+      "sha256": "d71f394759c39ed451d1a1a522be141a2a4ad8176f7b4795c53b941093185d14",
+      "size": 425888056,
+      "description": "Game Studio: Neon Coast GTA-realism pass - 18 modern citizen types (shades/bandana headgear, diverse skin/hair/body), supercar/convertible/SUV/lowrider vehicles, gun-in-hand props on equip, palms, traffic lights, hydrants, benches, billboards, dumpsters, police station, varied car paint",
+      "date": "2026-10-04",
+      "restartRequired": false
+    },
+    {
+      "id": "184",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-184/patch-184.zip",
+      "sha256": "71aed50434bf03ba4374b16d16351b74b92fd57c7eab751b22eefba02b5f156f",
+      "size": 425888765,
+      "description": "Game Studio: Neon Coast realism - real ambientCG PBR photo textures (asphalt, paving stones, concrete, beach sand, grass), zebra crosswalks, curbs, ocean water plane, parking garage, gas station, lighthouse, fire station, water towers; Tudor houses removed",
+      "date": "2026-10-04",
+      "restartRequired": false
+    },
+    {
+      "id": "185",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-185/patch-185.zip",
+      "sha256": "4933932a3d3aaa6b3f7c750c8f10837aef4016310422e92942c7f2a629db3545",
+      "size": 425896621,
+      "description": "Game Studio: shared AAA post-pipeline (SSR/DOF/motion blur/auto-exposure per template), Neon Coast cinematic stack, 13 photoscanned Poly Haven props, human-mesh fidelity pass, realism profiles for Elderwild/Sky War/Crimson/CS",
       "date": "2026-10-04",
       "restartRequired": false
     }
