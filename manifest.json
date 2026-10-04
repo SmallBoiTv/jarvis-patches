@@ -1,5 +1,5 @@
 {
-  "latestPatch": "186",
+  "latestPatch": "187",
   "patches": [
     {
       "id": "001",
@@ -1858,6 +1858,16 @@
       "sha256": "c270a77a8d1360e6da0fb35eadac3c200254f9032233b48cc15788e32c08766a",
       "size": 425905608,
       "description": "Game Studio: custom sculpted-geometry tier — __realhuman (7.4-head anatomy, 3-layer eyes, real hands/shoes/clothing), __realcar (profile-extruded shell, clearcoat paint, real wheels, visible interior), __realbld (textured facades, storefronts, roof clutter) — 38 new types, Neon Coast fully switched",
+      "date": "2026-10-04",
+      "restartRequired": false
+    },
+    {
+      "id": "187",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-187/patch-187.zip",
+      "sha256": "a9e7c56631f8183dcd63801fc0cfcc6b0c3108fb0dca7f0c417085d6246f7fb4",
+      "size": 425905511,
+      "description": "Game Studio: fix per-frame 'state is not defined' crash in anim loop (was tanking FPS to 27), fix spawn inside building, fix sculpted human skin double-tint (was glowing orange)",
       "date": "2026-10-04",
       "restartRequired": false
     }
