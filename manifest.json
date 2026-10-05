@@ -1,5 +1,5 @@
 {
-  "latestPatch": "194",
+  "latestPatch": "195",
   "patches": [
     {
       "id": "001",
@@ -1938,6 +1938,16 @@
       "sha256": "2648fb51508601f467bea8cd8a56f54b126b4f79ba488d939a99bec144847639",
       "size": 425989262,
       "description": "FIX blank game Play window: the generated runtime now inlines its own extractClassName/hasClassDeclaration/fitSunShadow instead of relying on module-scope imports, which threw 'extractClassName is not defined' and left every exported game blank. Also strips ESM exports from inlined shadowFit (a SyntaxError in the generated script). Adds an execution-based runtime regression test and a deterministic Play test hook.",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "195",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-195/patch-195.zip",
+      "sha256": "a19e9786087709deca072755544a54d56e6931d3dbef171ae43f7f5f0fdd04d5",
+      "size": 425989622,
+      "description": "Diagnostics for the Play path: adds a guard-bypassing preview hook that returns the build log, so a failing preview build is diagnosable instead of silent. Includes the blank-Play fix from 194 (inlined runtime helpers).",
       "date": "2026-10-05",
       "restartRequired": false
     }
