@@ -1,5 +1,5 @@
 {
-  "latestPatch": "187",
+  "latestPatch": "188",
   "patches": [
     {
       "id": "001",
@@ -1869,6 +1869,16 @@
       "size": 425905511,
       "description": "Game Studio: fix per-frame 'state is not defined' crash in anim loop (was tanking FPS to 27), fix spawn inside building, fix sculpted human skin double-tint (was glowing orange)",
       "date": "2026-10-04",
+      "restartRequired": false
+    },
+    {
+      "id": "188",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-188/patch-188.zip",
+      "sha256": "1899e477d79a3b20e017559da73433185ce618c7a1f2ac95321fabff51be1fdc",
+      "size": 425906798,
+      "description": "Game Studio QA: fix stuck keys forever killing getKeyDown (missed keyup + blur), inventory I-toggle + Escape closes panels, cars no longer hijack door prompts, peds/player can escape solids they spawn inside, fix Car_17+2 pickups inside buildings, cop-car ram balance, segmented road centerlines",
+      "date": "2026-10-05",
       "restartRequired": false
     }
   ]
