@@ -1883,9 +1883,9 @@
     },
     {
       "id": "189",
-      "version": "1.0.903",
+      "version": "1.0.901",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-189/patch-189.zip",
-      "sha256": "cd5eab1e53836372ec2b82af487ebab3ce3cf71a37b2e040e1b024b5af6d1706",
+      "sha256": "c5d5e0bbf5bcb214df9ee81684df68a9b43ea2fb65dbbf5d994eecd71547139d",
       "size": 425943107,
       "description": "Game Studio: revive 32 silently-dropped AI directives, solid colliders + capability tags for all 6220 store assets, build-quality score gate, generative-3D texture stage, Sanctum of Ash ARPG flagship, stable sun shadows, registry-accurate mesh roster",
       "date": "2026-10-05",
