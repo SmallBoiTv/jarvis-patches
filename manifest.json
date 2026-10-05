@@ -1,5 +1,5 @@
 {
-  "latestPatch": "195",
+  "latestPatch": "196",
   "patches": [
     {
       "id": "001",
@@ -1948,6 +1948,16 @@
       "sha256": "a19e9786087709deca072755544a54d56e6931d3dbef171ae43f7f5f0fdd04d5",
       "size": 425989622,
       "description": "Diagnostics for the Play path: adds a guard-bypassing preview hook that returns the build log, so a failing preview build is diagnosable instead of silent. Includes the blank-Play fix from 194 (inlined runtime helpers).",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "196",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-196/patch-196.zip",
+      "sha256": "ee4992f5e57742b61e3172fa6a4e9c2359bf081a26586ee351f15651d6b3c8c9",
+      "size": 425989500,
+      "description": "Add a build-only probe hook that returns the FULL BuildResult, so a failing game preview is diagnosable. Previously a failure printed 'no HTML output' even when the error list was empty, hiding the cause. Includes the blank-Play runtime-helper fix.",
       "date": "2026-10-05",
       "restartRequired": false
     }
