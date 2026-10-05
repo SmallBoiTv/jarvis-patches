@@ -1,5 +1,5 @@
 {
-  "latestPatch": "199",
+  "latestPatch": "200",
   "patches": [
     {
       "id": "001",
@@ -1988,6 +1988,16 @@
       "sha256": "dc4f933235a84dc2c09ec5dc5188320f2c898afea863e5dfd3ba4d95d11aca8c",
       "size": 425990748,
       "description": "FIX RTS runtime errors: the shared Rts namespace was only published inside RtsCoreSetup.start(), so units, buildings and the AI ran their first updates against an undefined namespace and threw every frame. The namespace is now published at module scope, before any script can tick.",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "200",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-200/patch-200.zip",
+      "sha256": "cc29408e06b35eba0a2bcc42d69e41a6ce28cdf4de8bbbcaa8a5d2c9bd9f3840",
+      "size": 425990535,
+      "description": "FIX RTS runtime errors: the shared Rts/RtsContent namespaces are now resolved through globalThis at each use instead of being snapshotted into a const at script-evaluation time. Script evaluation order is not guaranteed, so the captured binding could be permanently undefined, throwing once per frame in every unit, building, AI and player update.",
       "date": "2026-10-05",
       "restartRequired": false
     }
