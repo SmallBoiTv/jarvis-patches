@@ -1,5 +1,5 @@
 {
-  "latestPatch": "193",
+  "latestPatch": "194",
   "patches": [
     {
       "id": "001",
@@ -1928,6 +1928,16 @@
       "sha256": "871317cbfe16e7b1f1dfa298d71b9e5532704495f049001de513ef8ede2d8e3a",
       "size": 425988953,
       "description": "FIX blank game Play window (definitive): script-source helpers are now inlined from a dedicated no-transform scriptSourceInline.js instead of being imported, so the generated runtime defines extractClassName/hasClassDeclaration itself. Previously every exported game died with 'extractClassName is not defined'. Adds a used-but-not-defined runtime checker and a deterministic preview test hook.",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "194",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-194/patch-194.zip",
+      "sha256": "2648fb51508601f467bea8cd8a56f54b126b4f79ba488d939a99bec144847639",
+      "size": 425989262,
+      "description": "FIX blank game Play window: the generated runtime now inlines its own extractClassName/hasClassDeclaration/fitSunShadow instead of relying on module-scope imports, which threw 'extractClassName is not defined' and left every exported game blank. Also strips ESM exports from inlined shadowFit (a SyntaxError in the generated script). Adds an execution-based runtime regression test and a deterministic Play test hook.",
       "date": "2026-10-05",
       "restartRequired": false
     }
