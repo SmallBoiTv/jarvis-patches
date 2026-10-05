@@ -1,5 +1,5 @@
 {
-  "latestPatch": "196",
+  "latestPatch": "197",
   "patches": [
     {
       "id": "001",
@@ -1958,6 +1958,16 @@
       "sha256": "ee4992f5e57742b61e3172fa6a4e9c2359bf081a26586ee351f15651d6b3c8c9",
       "size": 425989500,
       "description": "Add a build-only probe hook that returns the FULL BuildResult, so a failing game preview is diagnosable. Previously a failure printed 'no HTML output' even when the error list was empty, hiding the cause. Includes the blank-Play runtime-helper fix.",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "197",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-197/patch-197.zip",
+      "sha256": "a24e45c045349d92d360e969932f7932c6bec55c3a566351eaff55b4b8ac0de3",
+      "size": 425990050,
+      "description": "FIX blank Play for the RTS templates: RtsCore declared RtsContent twice (colliding with the core script) so the game failed to compile, and the unit prelude emitted a literal backslash-n instead of a newline. Red Alert and StarCraft now build and start. Adds scripts/validate-rts-scripts.mjs which reconstructs and syntax-checks every emitted script.",
       "date": "2026-10-05",
       "restartRequired": false
     }
