@@ -1,5 +1,5 @@
 {
-  "latestPatch": "200",
+  "latestPatch": "201",
   "patches": [
     {
       "id": "001",
@@ -1998,6 +1998,16 @@
       "sha256": "cc29408e06b35eba0a2bcc42d69e41a6ce28cdf4de8bbbcaa8a5d2c9bd9f3840",
       "size": 425990535,
       "description": "FIX RTS runtime errors: the shared Rts/RtsContent namespaces are now resolved through globalThis at each use instead of being snapshotted into a const at script-evaluation time. Script evaluation order is not guaranteed, so the captured binding could be permanently undefined, throwing once per frame in every unit, building, AI and player update.",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "201",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-201/patch-201.zip",
+      "sha256": "3440caf9690b6374d5a667b71dd9fdf4de5da486df1745aa7292807c6b2dbc37",
+      "size": 425991221,
+      "description": "FIX blank Play for the MMO templates (World of Warcraft and Aion 2): MmoCore declared MmoContent twice, colliding with the core script, so the game failed to compile. Namespaces now resolve through globalThis at each use and are published at module scope. Same class of fix already applied to the RTS templates. Adds scripts/validate-mmo-scripts.mjs.",
       "date": "2026-10-05",
       "restartRequired": false
     }
