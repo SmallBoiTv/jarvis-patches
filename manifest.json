@@ -1,5 +1,5 @@
 {
-  "latestPatch": "189",
+  "latestPatch": "190",
   "patches": [
     {
       "id": "001",
@@ -1888,6 +1888,16 @@
       "sha256": "c5d5e0bbf5bcb214df9ee81684df68a9b43ea2fb65dbbf5d994eecd71547139d",
       "size": 425943107,
       "description": "Game Studio: revive 32 silently-dropped AI directives, solid colliders + capability tags for all 6220 store assets, build-quality score gate, generative-3D texture stage, Sanctum of Ash ARPG flagship, stable sun shadows, registry-accurate mesh roster",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "190",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-190/patch-190.zip",
+      "sha256": "e99d09bf2ca93aa394aba40a7214807bfab2d6c285c5efdf708ca08fa05ed48d",
+      "size": 425981776,
+      "description": "Game Studio flagships: Red Alert RTS, StarCraft-style asymmetric RTS, World of Warcraft MMO and Aion 2 winged MMO - full base-building, quests, talents, trainer, professions, reputation, flight paths, dungeon instances, day/night; plus revived AI directives, store-asset colliders, build-quality gate, generative-3D textures, stable sun shadows",
       "date": "2026-10-05",
       "restartRequired": false
     }
