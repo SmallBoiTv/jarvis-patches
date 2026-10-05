@@ -1,5 +1,5 @@
 {
-  "latestPatch": "190",
+  "latestPatch": "191",
   "patches": [
     {
       "id": "001",
@@ -1898,6 +1898,16 @@
       "sha256": "e99d09bf2ca93aa394aba40a7214807bfab2d6c285c5efdf708ca08fa05ed48d",
       "size": 425981776,
       "description": "Game Studio flagships: Red Alert RTS, StarCraft-style asymmetric RTS, World of Warcraft MMO and Aion 2 winged MMO - full base-building, quests, talents, trainer, professions, reputation, flight paths, dungeon instances, day/night; plus revived AI directives, store-asset colliders, build-quality gate, generative-3D textures, stable sun shadows",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "191",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-191/patch-191.zip",
+      "sha256": "7a37fa4943435c44797737e6d7ffb80431e1ffb035f86312b8c7122b8574ded2",
+      "size": 425987823,
+      "description": "Real Rapier physics in exported games (rotation, torque, stacking, joints, real raycasts, deterministic fixed timestep) - closes the editor/export physics divergence; plus the four RTS/MMO flagships and the trust/render fixes",
       "date": "2026-10-05",
       "restartRequired": false
     }
