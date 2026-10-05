@@ -1,5 +1,5 @@
 {
-  "latestPatch": "188",
+  "latestPatch": "189",
   "patches": [
     {
       "id": "001",
@@ -1878,6 +1878,16 @@
       "sha256": "1899e477d79a3b20e017559da73433185ce618c7a1f2ac95321fabff51be1fdc",
       "size": 425906798,
       "description": "Game Studio QA: fix stuck keys forever killing getKeyDown (missed keyup + blur), inventory I-toggle + Escape closes panels, cars no longer hijack door prompts, peds/player can escape solids they spawn inside, fix Car_17+2 pickups inside buildings, cop-car ram balance, segmented road centerlines",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "189",
+      "version": "1.0.903",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-189/patch-189.zip",
+      "sha256": "cd5eab1e53836372ec2b82af487ebab3ce3cf71a37b2e040e1b024b5af6d1706",
+      "size": 425943107,
+      "description": "Game Studio: revive 32 silently-dropped AI directives, solid colliders + capability tags for all 6220 store assets, build-quality score gate, generative-3D texture stage, Sanctum of Ash ARPG flagship, stable sun shadows, registry-accurate mesh roster",
       "date": "2026-10-05",
       "restartRequired": false
     }
