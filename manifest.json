@@ -1,5 +1,5 @@
 {
-  "latestPatch": "192",
+  "latestPatch": "193",
   "patches": [
     {
       "id": "001",
@@ -1918,6 +1918,16 @@
       "sha256": "1e84cf45395e4db346026adf811f349585be216fe83d618f204694dc26fdeece",
       "size": 425989149,
       "description": "FIX blank game preview: extractClassName/hasClassDeclaration were imported but never inlined into the generated runtime, so every exported game died with 'extractClassName is not defined' and Play showed a blank window. Also adds a static used-but-not-defined checker for the runtime.",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "193",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-193/patch-193.zip",
+      "sha256": "871317cbfe16e7b1f1dfa298d71b9e5532704495f049001de513ef8ede2d8e3a",
+      "size": 425988953,
+      "description": "FIX blank game Play window (definitive): script-source helpers are now inlined from a dedicated no-transform scriptSourceInline.js instead of being imported, so the generated runtime defines extractClassName/hasClassDeclaration itself. Previously every exported game died with 'extractClassName is not defined'. Adds a used-but-not-defined runtime checker and a deterministic preview test hook.",
       "date": "2026-10-05",
       "restartRequired": false
     }
