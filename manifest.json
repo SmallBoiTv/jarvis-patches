@@ -1,5 +1,5 @@
 {
-  "latestPatch": "191",
+  "latestPatch": "192",
   "patches": [
     {
       "id": "001",
@@ -1908,6 +1908,16 @@
       "sha256": "7a37fa4943435c44797737e6d7ffb80431e1ffb035f86312b8c7122b8574ded2",
       "size": 425987823,
       "description": "Real Rapier physics in exported games (rotation, torque, stacking, joints, real raycasts, deterministic fixed timestep) - closes the editor/export physics divergence; plus the four RTS/MMO flagships and the trust/render fixes",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "192",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-192/patch-192.zip",
+      "sha256": "1e84cf45395e4db346026adf811f349585be216fe83d618f204694dc26fdeece",
+      "size": 425989149,
+      "description": "FIX blank game preview: extractClassName/hasClassDeclaration were imported but never inlined into the generated runtime, so every exported game died with 'extractClassName is not defined' and Play showed a blank window. Also adds a static used-but-not-defined checker for the runtime.",
       "date": "2026-10-05",
       "restartRequired": false
     }
