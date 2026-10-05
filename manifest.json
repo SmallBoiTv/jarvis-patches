@@ -1,5 +1,5 @@
 {
-  "latestPatch": "198",
+  "latestPatch": "199",
   "patches": [
     {
       "id": "001",
@@ -1978,6 +1978,16 @@
       "sha256": "0c4e353f2c65304a3f0fd0a554b6632f61de570ad5e5417f1c3fa306c8fb5518",
       "size": 425990626,
       "description": "FIX blank Play (root cause): applying a game template appended scripts instead of replacing them, so stale broken script copies stayed in the project and every build failed. Project scripts had grown to 499 for 184 objects. addScript is now idempotent by name and applyTemplate clears the previous template's scripts first.",
+      "date": "2026-10-05",
+      "restartRequired": false
+    },
+    {
+      "id": "199",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-199/patch-199.zip",
+      "sha256": "dc4f933235a84dc2c09ec5dc5188320f2c898afea863e5dfd3ba4d95d11aca8c",
+      "size": 425990748,
+      "description": "FIX RTS runtime errors: the shared Rts namespace was only published inside RtsCoreSetup.start(), so units, buildings and the AI ran their first updates against an undefined namespace and threw every frame. The namespace is now published at module scope, before any script can tick.",
       "date": "2026-10-05",
       "restartRequired": false
     }
