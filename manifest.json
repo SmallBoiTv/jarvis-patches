@@ -1,5 +1,5 @@
 {
-  "latestPatch": "205",
+  "latestPatch": "206",
   "patches": [
     {
       "id": "001",
@@ -2050,6 +2050,16 @@
       "description": "Fix the large black slab covering the terrain: the sun's shadow bias was tuned for a 60-unit shadow frustum but the view-following fit widens it to 160, so the bias became far too small and the terrain self-shadowed (shadow acne). Bias and normalBias now scale with shadow texel size. Also includes the FPS core module for the new first-person template family.",
       "date": "2026-10-06",
       "restartRequired": false
+    },
+    {
+      "id": "206",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-206/patch-206.zip",
+      "sha256": "79f8beb508ea44c90c9934d5a95972f06d573ec7f9b596e0e0682309b8f11a05",
+      "size": 429875640,
+      "description": "Add Kiln as an optional third asset source for text-to-3D authoring. Kiln (matthew-kissinger/kiln, MIT) is a local engine that turns a JavaScript program into parametric hard-surface geometry and exports GLB with rendered review and structural QA. Verified end to end on this machine: release checksum matches, installs, renders a valid GLB. Additive only - nothing bundled, nothing replaced; when Kiln is absent the app behaves exactly as before. Hard-surface only (Kiln reports skinning:false), so rigged characters still come from the CC0 catalogue.",
+      "date": "2026-10-06",
+      "restartRequired": true
     }
   ]
 }
