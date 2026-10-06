@@ -1,5 +1,5 @@
 {
-  "latestPatch": "203",
+  "latestPatch": "204",
   "patches": [
     {
       "id": "001",
@@ -2028,6 +2028,16 @@
       "sha256": "1ac51209b0363d2e434e9189214597abe7c32f7186009b40326f8ade28f8ffe3",
       "size": 426001284,
       "description": "Terrain visuals: fix fog that buried the world (fog began at playRadius*2.2 ~= 369 units in a 940-unit world, so all ground beyond it faded to a dark fog colour and the foreground rendered black). Terrain now uses MeshStandardMaterial with a normal map derived from the height field (adds surface detail with zero extra triangles) at 360 segments. SSAO enabled in game presets - it was fully implemented but intensity was 0. Fixes a TypeScript annotation and a named-export list that both broke the generated runtime.",
+      "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "204",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-204/patch-204.zip",
+      "sha256": "39e1ec4471d10831ce1d204d02b56328072ae3122da7a5c873da98a5055a408b",
+      "size": 426001608,
+      "description": "Fix the black RTS view: the game camera was never positioned. It sat at the world origin with a zero direction vector because Camera.follow only lerps toward its target and there were two competing camera objects. The RTS command camera is now set deterministically at match start (elevated, pitched down at the base), and the duplicate camera object is removed.",
       "date": "2026-10-06",
       "restartRequired": false
     }
