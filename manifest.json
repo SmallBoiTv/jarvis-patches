@@ -1,5 +1,5 @@
 {
-  "latestPatch": "206",
+  "latestPatch": "207",
   "patches": [
     {
       "id": "001",
@@ -2058,6 +2058,16 @@
       "sha256": "a88d6c75ba260961301a72fd71750e1084bd186503ad09476fe400aa76d3a748",
       "size": 426002168,
       "description": "Remove the dark ground slab covering the RTS play area. Diagnosed by elimination: it was not the terrain (hiding __terrain changed nothing), not shadows (disabling all shadow casting changed nothing) and not post-processing (bypassing it revealed the true cause) - it was a hand-placed dungeonfloor box whose dark grid rendered on top of terrain that already exists, with a hard edge at ~163 units in a 760-unit world.",
+      "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "207",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-207/patch-207.zip",
+      "sha256": "ec8138a71a79ac39af34fbf264d3ad1c2e60e4fd69328d10f3e0b8fe7245f281",
+      "size": 426002480,
+      "description": "Fix black terrain: the detail texture was tiled 108 times across the world (repeat = size/7), so every pixel sampled below one texel, the mip chain resolved to the texture average and the multiply collapsed the surface to black. Found by measuring the terrain: vertex colours were healthy (mean luminance 0.786, zero near-black) so the colour data was fine and the MATERIAL was destroying it. Tiling is now anchored to 24 world units per repeat.",
       "date": "2026-10-06",
       "restartRequired": false
     }
