@@ -1,5 +1,5 @@
 {
-  "latestPatch": "208",
+  "latestPatch": "209",
   "patches": [
     {
       "id": "001",
@@ -2078,6 +2078,16 @@
       "sha256": "2cd8f12e9c86277270df3e56bf16a6f14236971f07ba4cda7037060f43c727b7",
       "size": 426003062,
       "description": "FIX all games rendering too dark: the shadow bias I introduced to cure acne was unbounded and produced -0.036, about 100x the useful range, which flips the shadow depth comparison so surfaces compare as fully shadowed and the world goes nearly black. Bias is now clamped to a working range. This is a global lighting fix, so it applies to every game template at once.",
+      "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "209",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-209/patch-209.zip",
+      "sha256": "0d97beed4f11e69db357dd632c90183db4cbeb9e62f9b450a166b28d24e350d1",
+      "size": 426004012,
+      "description": "Fix flickering graphics and smooth the image: (1) shadow focus now snaps to the shadow texel grid, so shadows stop crawling and sparking as the camera moves, with the sun position recomputed from the snapped focus so the light direction cannot wobble; (2) anisotropic filtering plus mipmaps on the generated terrain detail and normal maps, which were previously sampled at full resolution at every distance - the classic cause of ground shimmer; normal-map tiling reduced and strength eased from 1.35 to 0.85. Applies to every game template.",
       "date": "2026-10-06",
       "restartRequired": false
     }
