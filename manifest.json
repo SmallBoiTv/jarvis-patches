@@ -1,5 +1,5 @@
 {
-  "latestPatch": "204",
+  "latestPatch": "205",
   "patches": [
     {
       "id": "001",
@@ -2038,6 +2038,16 @@
       "sha256": "39e1ec4471d10831ce1d204d02b56328072ae3122da7a5c873da98a5055a408b",
       "size": 426001608,
       "description": "Fix the black RTS view: the game camera was never positioned. It sat at the world origin with a zero direction vector because Camera.follow only lerps toward its target and there were two competing camera objects. The RTS command camera is now set deterministically at match start (elevated, pitched down at the base), and the duplicate camera object is removed.",
+      "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "205",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-205/patch-205.zip",
+      "sha256": "81641c6ef66c8f6837ec2e9146746fb274912cb21216c5e951a5186df9232f0c",
+      "size": 426001957,
+      "description": "Fix the large black slab covering the terrain: the sun's shadow bias was tuned for a 60-unit shadow frustum but the view-following fit widens it to 160, so the bias became far too small and the terrain self-shadowed (shadow acne). Bias and normalBias now scale with shadow texel size. Also includes the FPS core module for the new first-person template family.",
       "date": "2026-10-06",
       "restartRequired": false
     }
