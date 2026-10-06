@@ -1,5 +1,5 @@
 {
-  "latestPatch": "210",
+  "latestPatch": "211",
   "patches": [
     {
       "id": "001",
@@ -2098,6 +2098,16 @@
       "sha256": "4ae0587f8577a8b818b4349a1446aecba70ed57659374f62fd006ba8c138e660",
       "size": 426004043,
       "description": "Brighten all four flagship games: ambient and hemisphere light were too low to read the terrain (Star Command had ambient 0.4 and hemi 0.62 against a very dark sci-fi sky). Red Alert, Star Command, Azeroth Reborn and Aether Ascendant now use ambient 0.95-1.05 and hemisphere 1.35-1.5 with lighter ambient colours. Also raises the sky and ground hemisphere tints so terrain reads at distance.",
+      "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "211",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-211/patch-211.zip",
+      "sha256": "29cde939e08b8e9f61613ed40c3ba71b40d21afda725992eac9930249645008c",
+      "size": 426003809,
+      "description": "Fix Star Command and Aether Ascendant rendering near-black: the alien biome palette was itself very dark (ground #3e2a5a, rock #3a2e4a, mountains #4a3a6a), so the terrain was textured correctly but nearly invisible against the dark sci-fi sky. Palette lifted to readable mid-tones (ground #8a6ab8, rock #8a7ab0, mountains #9a8ac8) and the snow line lowered so peaks catch light. Red Alert was unaffected because its desert biome is already bright.",
       "date": "2026-10-06",
       "restartRequired": false
     }
