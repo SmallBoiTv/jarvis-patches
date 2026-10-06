@@ -1,5 +1,5 @@
 {
-  "latestPatch": "207",
+  "latestPatch": "208",
   "patches": [
     {
       "id": "001",
@@ -2068,6 +2068,16 @@
       "sha256": "ec8138a71a79ac39af34fbf264d3ad1c2e60e4fd69328d10f3e0b8fe7245f281",
       "size": 426002480,
       "description": "Fix black terrain: the detail texture was tiled 108 times across the world (repeat = size/7), so every pixel sampled below one texel, the mip chain resolved to the texture average and the multiply collapsed the surface to black. Found by measuring the terrain: vertex colours were healthy (mean luminance 0.786, zero near-black) so the colour data was fine and the MATERIAL was destroying it. Tiling is now anchored to 24 world units per repeat.",
+      "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "208",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-208/patch-208.zip",
+      "sha256": "2cd8f12e9c86277270df3e56bf16a6f14236971f07ba4cda7037060f43c727b7",
+      "size": 426003062,
+      "description": "FIX all games rendering too dark: the shadow bias I introduced to cure acne was unbounded and produced -0.036, about 100x the useful range, which flips the shadow depth comparison so surfaces compare as fully shadowed and the world goes nearly black. Bias is now clamped to a working range. This is a global lighting fix, so it applies to every game template at once.",
       "date": "2026-10-06",
       "restartRequired": false
     }
