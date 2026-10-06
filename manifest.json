@@ -1,5 +1,5 @@
 {
-  "latestPatch": "209",
+  "latestPatch": "210",
   "patches": [
     {
       "id": "001",
@@ -2088,6 +2088,16 @@
       "sha256": "0d97beed4f11e69db357dd632c90183db4cbeb9e62f9b450a166b28d24e350d1",
       "size": 426004012,
       "description": "Fix flickering graphics and smooth the image: (1) shadow focus now snaps to the shadow texel grid, so shadows stop crawling and sparking as the camera moves, with the sun position recomputed from the snapped focus so the light direction cannot wobble; (2) anisotropic filtering plus mipmaps on the generated terrain detail and normal maps, which were previously sampled at full resolution at every distance - the classic cause of ground shimmer; normal-map tiling reduced and strength eased from 1.35 to 0.85. Applies to every game template.",
+      "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "210",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-210/patch-210.zip",
+      "sha256": "4ae0587f8577a8b818b4349a1446aecba70ed57659374f62fd006ba8c138e660",
+      "size": 426004043,
+      "description": "Brighten all four flagship games: ambient and hemisphere light were too low to read the terrain (Star Command had ambient 0.4 and hemi 0.62 against a very dark sci-fi sky). Red Alert, Star Command, Azeroth Reborn and Aether Ascendant now use ambient 0.95-1.05 and hemisphere 1.35-1.5 with lighter ambient colours. Also raises the sky and ground hemisphere tints so terrain reads at distance.",
       "date": "2026-10-06",
       "restartRequired": false
     }
