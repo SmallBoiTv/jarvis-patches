@@ -2055,11 +2055,11 @@
       "id": "206",
       "version": "1.0.901",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-206/patch-206.zip",
-      "sha256": "79f8beb508ea44c90c9934d5a95972f06d573ec7f9b596e0e0682309b8f11a05",
-      "size": 429875640,
-      "description": "Add Kiln as an optional third asset source for text-to-3D authoring. Kiln (matthew-kissinger/kiln, MIT) is a local engine that turns a JavaScript program into parametric hard-surface geometry and exports GLB with rendered review and structural QA. Verified end to end on this machine: release checksum matches, installs, renders a valid GLB. Additive only - nothing bundled, nothing replaced; when Kiln is absent the app behaves exactly as before. Hard-surface only (Kiln reports skinning:false), so rigged characters still come from the CC0 catalogue.",
+      "sha256": "a88d6c75ba260961301a72fd71750e1084bd186503ad09476fe400aa76d3a748",
+      "size": 426002168,
+      "description": "Remove the dark ground slab covering the RTS play area. Diagnosed by elimination: it was not the terrain (hiding __terrain changed nothing), not shadows (disabling all shadow casting changed nothing) and not post-processing (bypassing it revealed the true cause) - it was a hand-placed dungeonfloor box whose dark grid rendered on top of terrain that already exists, with a hard edge at ~163 units in a 760-unit world.",
       "date": "2026-10-06",
-      "restartRequired": true
+      "restartRequired": false
     }
   ]
 }
