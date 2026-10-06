@@ -1,5 +1,5 @@
 {
-  "latestPatch": "212",
+  "latestPatch": "213",
   "patches": [
     {
       "id": "001",
@@ -2118,6 +2118,16 @@
       "sha256": "a99a5a10d3a94f5ace0dbe69be20b652737117d4a0d6fd3b797c7899975179b4",
       "size": 425829347,
       "description": "Fix all flagship games: rebuild terrain so ridged mountains actually generate (size/warp scale bugs put the whole mountain ring outside the mesh), unpin blown-out auto-exposure, soften depth-of-field, raise near-plane for depth precision, fix SSAO buffer, god rays opt-in",
+      "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "213",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-213/patch-213.zip",
+      "sha256": "bb81837d167364f4e4ba9aae4d9f439cc28c0e8be7a4626bd3271ce264b6f901",
+      "size": 425828671,
+      "description": "flagship games deep pass: terrain follow + slope limits, Aion free flight, MMO jump, class-mesh rebuild, rigged creature anims, wind sway, placement fixes",
       "date": "2026-10-06",
       "restartRequired": false
     }
