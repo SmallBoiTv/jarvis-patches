@@ -1,5 +1,5 @@
 {
-  "latestPatch": "211",
+  "latestPatch": "212",
   "patches": [
     {
       "id": "001",
@@ -2108,6 +2108,16 @@
       "sha256": "29cde939e08b8e9f61613ed40c3ba71b40d21afda725992eac9930249645008c",
       "size": 426003809,
       "description": "Fix Star Command and Aether Ascendant rendering near-black: the alien biome palette was itself very dark (ground #3e2a5a, rock #3a2e4a, mountains #4a3a6a), so the terrain was textured correctly but nearly invisible against the dark sci-fi sky. Palette lifted to readable mid-tones (ground #8a6ab8, rock #8a7ab0, mountains #9a8ac8) and the snow line lowered so peaks catch light. Red Alert was unaffected because its desert biome is already bright.",
+      "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "212",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-212/patch-212.zip",
+      "sha256": "a99a5a10d3a94f5ace0dbe69be20b652737117d4a0d6fd3b797c7899975179b4",
+      "size": 425829347,
+      "description": "Fix all flagship games: rebuild terrain so ridged mountains actually generate (size/warp scale bugs put the whole mountain ring outside the mesh), unpin blown-out auto-exposure, soften depth-of-field, raise near-plane for depth precision, fix SSAO buffer, god rays opt-in",
       "date": "2026-10-06",
       "restartRequired": false
     }
