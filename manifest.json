@@ -1,5 +1,5 @@
 {
-  "latestPatch": "202",
+  "latestPatch": "203",
   "patches": [
     {
       "id": "001",
@@ -2018,6 +2018,16 @@
       "sha256": "061bfc1e23612657d272695362803cbc513bc173fab8872ca690e8b63f2e2873",
       "size": 425999020,
       "description": "Real terrain + real assets. Terrain now uses ridged multifractal noise with domain warping and erosion-weighted octaves, replacing plain fBm that produced smooth blobs; the old height function also returned exactly 0 inside the play radius, making the whole playable area a flat plane. Adds a verified CC0 (public domain) GLB model catalogue so templates can use authored models instead of primitives.",
+      "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "203",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-203/patch-203.zip",
+      "sha256": "1ac51209b0363d2e434e9189214597abe7c32f7186009b40326f8ade28f8ffe3",
+      "size": 426001284,
+      "description": "Terrain visuals: fix fog that buried the world (fog began at playRadius*2.2 ~= 369 units in a 940-unit world, so all ground beyond it faded to a dark fog colour and the foreground rendered black). Terrain now uses MeshStandardMaterial with a normal map derived from the height field (adds surface detail with zero extra triangles) at 360 segments. SSAO enabled in game presets - it was fully implemented but intensity was 0. Fixes a TypeScript annotation and a named-export list that both broke the generated runtime.",
       "date": "2026-10-06",
       "restartRequired": false
     }
