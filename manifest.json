@@ -1,5 +1,5 @@
 {
-  "latestPatch": "217",
+  "latestPatch": "218",
   "patches": [
     {
       "id": "001",
@@ -2168,6 +2168,16 @@
       "sha256": "5623ed775230958b575f0a94c8b795df7a3e089f26c58ea49030bd3ca80c47dc",
       "size": 425940128,
       "description": "Elderwild full-game rewrite: walled village + 8 POIs + crypt dungeon, 10 Kiln GLB landmarks, 9 quests, bosses, mount, crafting, save/load",
+      "date": "2026-10-07",
+      "restartRequired": false
+    },
+    {
+      "id": "218",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-218/patch-218.zip",
+      "sha256": "45377c658044d16f45f3475a863751f4418c15be606a37a2e290bf9e85eecdd1",
+      "size": 425943059,
+      "description": "Elderwild gap-fix pass: terrain snap + flats (285 floaters fixed), terrain-following player/mobs, crypt sealed (17m walls, wide floor/ceiling, room clamp for player+camera+mobs), crypt lighting 30+, hero lantern, night stars in sky shader, damage-flash no longer blurs screen, H-key controls overlay",
       "date": "2026-10-07",
       "restartRequired": false
     }
