@@ -1,5 +1,5 @@
 {
-  "latestPatch": "214",
+  "latestPatch": "215",
   "patches": [
     {
       "id": "001",
@@ -2138,6 +2138,16 @@
       "sha256": "d4ad5f5179a1de91b2d865faddd5928e555f1dc7cbcd2bd61ab0da10cd01f26a",
       "size": 425831004,
       "description": "terrain/world graphics: curvature AO baked into vertex colours, irregular rock strata, macro patchiness, forest-floor tint, shoreline foam + depth-tinted water via baked heightmap, soft smooth clouds, terrain-conforming contact shadows under scatter",
+      "date": "2026-10-07",
+      "restartRequired": false
+    },
+    {
+      "id": "215",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-215/patch-215.zip",
+      "sha256": "7f5277ff1e5372601d8aa396f0ad855df2eab9ad8461d236360ff184100d1759",
+      "size": 425860062,
+      "description": "RuneScape full-game template + runtime boot-order fix (item defs/shops/quests ready before scripts start), tools wieldable, trout fishing, banner fixes, QA globals",
       "date": "2026-10-07",
       "restartRequired": false
     }
