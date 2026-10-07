@@ -1,5 +1,5 @@
 {
-  "latestPatch": "213",
+  "latestPatch": "214",
   "patches": [
     {
       "id": "001",
@@ -2129,6 +2129,16 @@
       "size": 425828671,
       "description": "flagship games deep pass: terrain follow + slope limits, Aion free flight, MMO jump, class-mesh rebuild, rigged creature anims, wind sway, placement fixes",
       "date": "2026-10-06",
+      "restartRequired": false
+    },
+    {
+      "id": "214",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-214/patch-214.zip",
+      "sha256": "d4ad5f5179a1de91b2d865faddd5928e555f1dc7cbcd2bd61ab0da10cd01f26a",
+      "size": 425831004,
+      "description": "terrain/world graphics: curvature AO baked into vertex colours, irregular rock strata, macro patchiness, forest-floor tint, shoreline foam + depth-tinted water via baked heightmap, soft smooth clouds, terrain-conforming contact shadows under scatter",
+      "date": "2026-10-07",
       "restartRequired": false
     }
   ]
