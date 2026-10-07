@@ -1,5 +1,5 @@
 {
-  "latestPatch": "216",
+  "latestPatch": "217",
   "patches": [
     {
       "id": "001",
@@ -2158,6 +2158,16 @@
       "sha256": "91c2a5a569d6baf03240eba9e6d1798829d4b135c4193f1980c96639dfb6085b",
       "size": 425860791,
       "description": "night mode lighting fix: moonlit readability floor, sun→moon dimming, cool hemisphere wash, lifted night sky/fog palette",
+      "date": "2026-10-07",
+      "restartRequired": false
+    },
+    {
+      "id": "217",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-217/patch-217.zip",
+      "sha256": "5623ed775230958b575f0a94c8b795df7a3e089f26c58ea49030bd3ca80c47dc",
+      "size": 425940128,
+      "description": "Elderwild full-game rewrite: walled village + 8 POIs + crypt dungeon, 10 Kiln GLB landmarks, 9 quests, bosses, mount, crafting, save/load",
       "date": "2026-10-07",
       "restartRequired": false
     }
