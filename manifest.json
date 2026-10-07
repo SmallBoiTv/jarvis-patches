@@ -1,5 +1,5 @@
 {
-  "latestPatch": "215",
+  "latestPatch": "216",
   "patches": [
     {
       "id": "001",
@@ -2148,6 +2148,16 @@
       "sha256": "7f5277ff1e5372601d8aa396f0ad855df2eab9ad8461d236360ff184100d1759",
       "size": 425860062,
       "description": "RuneScape full-game template + runtime boot-order fix (item defs/shops/quests ready before scripts start), tools wieldable, trout fishing, banner fixes, QA globals",
+      "date": "2026-10-07",
+      "restartRequired": false
+    },
+    {
+      "id": "216",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-216/patch-216.zip",
+      "sha256": "91c2a5a569d6baf03240eba9e6d1798829d4b135c4193f1980c96639dfb6085b",
+      "size": 425860791,
+      "description": "night mode lighting fix: moonlit readability floor, sun→moon dimming, cool hemisphere wash, lifted night sky/fog palette",
       "date": "2026-10-07",
       "restartRequired": false
     }
