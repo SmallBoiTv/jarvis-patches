@@ -1,5 +1,5 @@
 {
-  "latestPatch": "225",
+  "latestPatch": "226",
   "patches": [
     {
       "id": "001",
@@ -2250,6 +2250,16 @@
       "description": "Game Studio 8K support: true 4K/8K render tiers (4320p internal, GPU-clamped), quality-scaled HDRI skies (1k-8k .hdr) + shadow maps (8192), procedural texture detail multiplier, Poly Haven/ambientCG assets download at up to 8K source res via SET_TEXTURE_RES, SET_QUALITY directive + fidelity pre-pass for explicit resolution asks, Screen.setResolution facade",
       "date": "2026-10-08",
       "restartRequired": false
+    },
+    {
+      "id": "226",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-226/patch-226.zip",
+      "sha256": "4cc00f1c7a9fe27da6fb4935a38ab4d6c34c52d0582a3b60eb34445203b795a6",
+      "size": 429953446,
+      "description": "Multi-account social media: unlimited accounts per platform, per-account autopilot config (niche/topics/schedule/media/prompts), isolated browser profiles, per-account API credential keys, cross-account pacing + dedup + circuit breaker + warm-up ramp, account-scoped approval queue, account picker in Compose, per-account settings drawer, legacy migration",
+      "date": "2026-10-08",
+      "restartRequired": true
     }
   ]
 }
