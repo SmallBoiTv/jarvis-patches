@@ -1,5 +1,5 @@
 {
-  "latestPatch": "219",
+  "latestPatch": "220",
   "patches": [
     {
       "id": "001",
@@ -2190,6 +2190,16 @@
       "description": "Game Studio: 962-model CC0/MIT asset catalog (KayKit dungeon/city/rigged chars, Kenney kits), remote GLB/GLTF proxy loading, Poly Pizza live search, Kiln Forge AI mode + KILN_ASSET directive, gltf bundle export embedding",
       "date": "2026-10-08",
       "restartRequired": false
+    },
+    {
+      "id": "220",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-220/patch-220.zip",
+      "sha256": "1979e717700d48b425bc1144fa02bd36b5b4298859241cc658ee3e454163004b",
+      "size": 429819743,
+      "description": "Kiln engine main-process IPC (status/render/validate/discover/verify/read-glb) — activates the Kiln Forge AI mode and KILN_ASSET directive shipped in patch 219",
+      "date": "2026-10-08",
+      "restartRequired": true
     }
   ]
 }
