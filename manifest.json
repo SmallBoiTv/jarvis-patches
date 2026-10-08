@@ -2195,8 +2195,8 @@
       "id": "220",
       "version": "1.0.901",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-220/patch-220.zip",
-      "sha256": "1979e717700d48b425bc1144fa02bd36b5b4298859241cc658ee3e454163004b",
-      "size": 429819743,
+      "sha256": "f925b7317c735091ba5200354c173cb3d78f1ed33d858564bf92171ba088fbec",
+      "size": 429820646,
       "description": "Kiln engine main-process IPC (status/render/validate/discover/verify/read-glb) — activates the Kiln Forge AI mode and KILN_ASSET directive shipped in patch 219",
       "date": "2026-10-08",
       "restartRequired": true
