@@ -1,5 +1,5 @@
 {
-  "latestPatch": "223",
+  "latestPatch": "224",
   "patches": [
     {
       "id": "001",
@@ -2230,6 +2230,16 @@
       "description": "Game Studio: deterministic arcade Remake (imports real source verbatim into editable Source projects) + Source editor view (file tree + Monaco + Play/Build) + AI source-mode directives (WRITE_FILE/READ_FILE/NEW_SOURCE_PROJECT/DELETE_FILE/SOURCE_ENTRY/LIST_SOURCE_FILES) + arcade catalog fixes (dead-repo flags, name dedup) + arcade audit harness",
       "date": "2026-10-08",
       "restartRequired": true
+    },
+    {
+      "id": "224",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-224/patch-224.zip",
+      "sha256": "0ebf45bb22e29655b9f3d0662a44fe39b2287cf8ab48bc8afa4ca03faac8d3d1",
+      "size": 426046445,
+      "description": "Game Studio: deterministic quality auto-fix — bare primitives swap in-place to real Asset Store assets (transforms/scripts preserved), unmaterialized surfaces get heuristic PBR materials, degraded placeholders re-resolve against the store; quality gate now repairs before reporting",
+      "date": "2026-10-08",
+      "restartRequired": false
     }
   ]
 }
