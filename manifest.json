@@ -1,5 +1,5 @@
 {
-  "latestPatch": "218",
+  "latestPatch": "219",
   "patches": [
     {
       "id": "001",
@@ -2179,6 +2179,16 @@
       "size": 425943059,
       "description": "Elderwild gap-fix pass: terrain snap + flats (285 floaters fixed), terrain-following player/mobs, crypt sealed (17m walls, wide floor/ceiling, room clamp for player+camera+mobs), crypt lighting 30+, hero lantern, night stars in sky shader, damage-flash no longer blurs screen, H-key controls overlay",
       "date": "2026-10-07",
+      "restartRequired": false
+    },
+    {
+      "id": "219",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-219/patch-219.zip",
+      "sha256": "bc71520c917d5f0d769cfeedc4825cd2fff6c046e209ca09fea4a1f639b333ab",
+      "size": 425975165,
+      "description": "Game Studio: 962-model CC0/MIT asset catalog (KayKit dungeon/city/rigged chars, Kenney kits), remote GLB/GLTF proxy loading, Poly Pizza live search, Kiln Forge AI mode + KILN_ASSET directive, gltf bundle export embedding",
+      "date": "2026-10-08",
       "restartRequired": false
     }
   ]
