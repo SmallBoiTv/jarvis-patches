@@ -1,5 +1,5 @@
 {
-  "latestPatch": "222",
+  "latestPatch": "223",
   "patches": [
     {
       "id": "001",
@@ -2218,6 +2218,16 @@
       "sha256": "72c0dbd2afe366123a800b3631247a916305bdf7155f665615b3280848e04e6f",
       "size": 429898406,
       "description": "Game Studio: export parity (BT/ragdoll/constraints/LOD/occlusion/tilemap collider), deep playtest, chunked assets+loading bar, texture budgets, terrain chunks, procedural mesh bake, root motion, animator state machines+blend trees+bone masks, runtime IK, managed Python fallback for UniRig/UniMate, WS relay, desktop export fixes, credits/licenses, visual regression, destruction, water volumes, script sandboxing",
+      "date": "2026-10-08",
+      "restartRequired": true
+    },
+    {
+      "id": "223",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-223/patch-223.zip",
+      "sha256": "c8c6d47ef0fb57f7d858c9edc8e500c26a9be5fb19cb39d5c3e17df4a0201ed4",
+      "size": 429909310,
+      "description": "Game Studio: deterministic arcade Remake (imports real source verbatim into editable Source projects) + Source editor view (file tree + Monaco + Play/Build) + AI source-mode directives (WRITE_FILE/READ_FILE/NEW_SOURCE_PROJECT/DELETE_FILE/SOURCE_ENTRY/LIST_SOURCE_FILES) + arcade catalog fixes (dead-repo flags, name dedup) + arcade audit harness",
       "date": "2026-10-08",
       "restartRequired": true
     }
