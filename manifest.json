@@ -1,5 +1,5 @@
 {
-  "latestPatch": "220",
+  "latestPatch": "221",
   "patches": [
     {
       "id": "001",
@@ -2198,6 +2198,16 @@
       "sha256": "f925b7317c735091ba5200354c173cb3d78f1ed33d858564bf92171ba088fbec",
       "size": 429820646,
       "description": "Kiln engine main-process IPC (status/render/validate/discover/verify/read-glb) — activates the Kiln Forge AI mode and KILN_ASSET directive shipped in patch 219",
+      "date": "2026-10-08",
+      "restartRequired": true
+    },
+    {
+      "id": "221",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-221/patch-221.zip",
+      "sha256": "165ab5f573fcf4316bc0475b4be248248706485f72e657d9ee8373549822ce8d",
+      "size": 429849330,
+      "description": "Rigging+animation pipeline: RIG_ASSET/GENERATE_ANIMATION directives, multi-mesh segment-weighted rigger, pivot binding (Kiln Joint_*), 8 procedural clips baked to GLB, bone alias retargeting (Mixamo/KayKit), UniRig+UniMate IPC/install-on-demand, engine status UI",
       "date": "2026-10-08",
       "restartRequired": true
     }
