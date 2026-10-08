@@ -1,5 +1,5 @@
 {
-  "latestPatch": "226",
+  "latestPatch": "227",
   "patches": [
     {
       "id": "001",
@@ -2258,6 +2258,16 @@
       "sha256": "4cc00f1c7a9fe27da6fb4935a38ab4d6c34c52d0582a3b60eb34445203b795a6",
       "size": 429953446,
       "description": "Multi-account social media: unlimited accounts per platform, per-account autopilot config (niche/topics/schedule/media/prompts), isolated browser profiles, per-account API credential keys, cross-account pacing + dedup + circuit breaker + warm-up ramp, account-scoped approval queue, account picker in Compose, per-account settings drawer, legacy migration",
+      "date": "2026-10-08",
+      "restartRequired": true
+    },
+    {
+      "id": "227",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-227/patch-227.zip",
+      "sha256": "1144b922e55c2b8ee7a6b5b3fba253113953d33d5128d655a3e9aa29bf60082c",
+      "size": 429956168,
+      "description": "Auto-Pilot per-platform post variants — new option rewrites each generated post natively per platform (X/Facebook/LinkedIn/etc get tailored text via platformContent), works in browser+API paths and approval queue",
       "date": "2026-10-08",
       "restartRequired": true
     }
