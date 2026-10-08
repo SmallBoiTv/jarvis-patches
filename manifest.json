@@ -1,5 +1,5 @@
 {
-  "latestPatch": "221",
+  "latestPatch": "222",
   "patches": [
     {
       "id": "001",
@@ -2208,6 +2208,16 @@
       "sha256": "078aa8b4906070790e2237b6b5f3fb23e4d26b2fe09b04551f73be04f6dba7fd",
       "size": 429849503,
       "description": "Rigging+animation pipeline: RIG_ASSET/GENERATE_ANIMATION directives, multi-mesh segment-weighted rigger, pivot binding (Kiln Joint_*), 8 procedural clips baked to GLB, bone alias retargeting (Mixamo/KayKit), UniRig+UniMate IPC/install-on-demand, engine status UI",
+      "date": "2026-10-08",
+      "restartRequired": true
+    },
+    {
+      "id": "222",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-222/patch-222.zip",
+      "sha256": "72c0dbd2afe366123a800b3631247a916305bdf7155f665615b3280848e04e6f",
+      "size": 429898406,
+      "description": "Game Studio: export parity (BT/ragdoll/constraints/LOD/occlusion/tilemap collider), deep playtest, chunked assets+loading bar, texture budgets, terrain chunks, procedural mesh bake, root motion, animator state machines+blend trees+bone masks, runtime IK, managed Python fallback for UniRig/UniMate, WS relay, desktop export fixes, credits/licenses, visual regression, destruction, water volumes, script sandboxing",
       "date": "2026-10-08",
       "restartRequired": true
     }
