@@ -1,5 +1,5 @@
 {
-  "latestPatch": "224",
+  "latestPatch": "225",
   "patches": [
     {
       "id": "001",
@@ -2238,6 +2238,16 @@
       "sha256": "0ebf45bb22e29655b9f3d0662a44fe39b2287cf8ab48bc8afa4ca03faac8d3d1",
       "size": 426046445,
       "description": "Game Studio: deterministic quality auto-fix — bare primitives swap in-place to real Asset Store assets (transforms/scripts preserved), unmaterialized surfaces get heuristic PBR materials, degraded placeholders re-resolve against the store; quality gate now repairs before reporting",
+      "date": "2026-10-08",
+      "restartRequired": false
+    },
+    {
+      "id": "225",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-225/patch-225.zip",
+      "sha256": "4ad9aeb3e055e01b372a439b8d0811cd3179539ad5f0e72f67673d33a869fc88",
+      "size": 426049652,
+      "description": "Game Studio 8K support: true 4K/8K render tiers (4320p internal, GPU-clamped), quality-scaled HDRI skies (1k-8k .hdr) + shadow maps (8192), procedural texture detail multiplier, Poly Haven/ambientCG assets download at up to 8K source res via SET_TEXTURE_RES, SET_QUALITY directive + fidelity pre-pass for explicit resolution asks, Screen.setResolution facade",
       "date": "2026-10-08",
       "restartRequired": false
     }
