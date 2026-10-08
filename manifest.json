@@ -2205,8 +2205,8 @@
       "id": "221",
       "version": "1.0.901",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-221/patch-221.zip",
-      "sha256": "165ab5f573fcf4316bc0475b4be248248706485f72e657d9ee8373549822ce8d",
-      "size": 429849330,
+      "sha256": "078aa8b4906070790e2237b6b5f3fb23e4d26b2fe09b04551f73be04f6dba7fd",
+      "size": 429849503,
       "description": "Rigging+animation pipeline: RIG_ASSET/GENERATE_ANIMATION directives, multi-mesh segment-weighted rigger, pivot binding (Kiln Joint_*), 8 procedural clips baked to GLB, bone alias retargeting (Mixamo/KayKit), UniRig+UniMate IPC/install-on-demand, engine status UI",
       "date": "2026-10-08",
       "restartRequired": true
