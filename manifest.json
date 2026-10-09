@@ -1,5 +1,5 @@
 {
-  "latestPatch": "227",
+  "latestPatch": "228",
   "patches": [
     {
       "id": "001",
@@ -2270,6 +2270,16 @@
       "description": "Auto-Pilot per-platform post variants — new option rewrites each generated post natively per platform (X/Facebook/LinkedIn/etc get tailored text via platformContent), works in browser+API paths and approval queue",
       "date": "2026-10-08",
       "restartRequired": true
+    },
+    {
+      "id": "228",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-228/patch-228.zip",
+      "sha256": "b7bc8cd46b7fa0e2f23f96c1675056ec04957d268e1d580d0fd0add22e6458d2",
+      "size": 426061897,
+      "description": "Autopilot scope chips show platform icon, own-browser indicator and live status (enabled/running/circuit-broken tooltip) per managed account",
+      "date": "2026-10-08",
+      "restartRequired": false
     }
   ]
 }
