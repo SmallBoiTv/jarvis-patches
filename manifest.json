@@ -1,5 +1,5 @@
 {
-  "latestPatch": "228",
+  "latestPatch": "229",
   "patches": [
     {
       "id": "001",
@@ -2279,6 +2279,16 @@
       "size": 426061897,
       "description": "Autopilot scope chips show platform icon, own-browser indicator and live status (enabled/running/circuit-broken tooltip) per managed account",
       "date": "2026-10-08",
+      "restartRequired": false
+    },
+    {
+      "id": "229",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-229/patch-229.zip",
+      "sha256": "d8b7da0a2dd698a7c36fb15fa1f78d14c2d5515256f2a67b492cebedb978773f",
+      "size": 426066451,
+      "description": "Game Studio: fix dark game scenes — runtime merges duplicate AAA_Environment carriers (envSystems + lighting preset both apply now); Sanctum of Ash brighter night lighting, PBR ground/crypt materials; Arcade asset harvester + AI builder asset/code reuse",
+      "date": "2026-10-09",
       "restartRequired": false
     }
   ]
