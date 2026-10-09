@@ -1,5 +1,5 @@
 {
-  "latestPatch": "230",
+  "latestPatch": "231",
   "patches": [
     {
       "id": "001",
@@ -2300,6 +2300,16 @@
       "description": "MCP system completion: Settings→MCP Servers page (server mgmt, per-page profiles, trust modes, capabilities, resources/prompts/templates/subscribe/complete/ping, call log, JSON import); marketplace real installs + creative/engine catalog (Unity, Unreal, Godot, Blender, DaVinci, Ableton, OBS, ComfyUI, Meshy, Higgsfield, Runway, ElevenLabs, HA); npx cwd/env fix; reconnect backoff; workflow MCP node pickers; coding-page MCP tool scoping",
       "date": "2026-10-09",
       "restartRequired": true
+    },
+    {
+      "id": "231",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-231/patch-231.zip",
+      "sha256": "8df2a423b06f6642bb2cda4da80ec05d6178a0c6bf0cb5a7d8c99457090eba60",
+      "size": 426079849,
+      "description": "Game Studio audit fixes: standalone export no longer strips textures (embeds local files, keeps remote/data URIs), heavy-asset warnings in Asset Store + AI manifest (>=1M tri flagged HEAVY), SpeedTree panel honesty note",
+      "date": "2026-10-09",
+      "restartRequired": false
     }
   ]
 }
