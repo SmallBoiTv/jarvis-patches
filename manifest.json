@@ -1,5 +1,5 @@
 {
-  "latestPatch": "233",
+  "latestPatch": "234",
   "patches": [
     {
       "id": "001",
@@ -2328,6 +2328,16 @@
       "sha256": "3bd4403683f6a0955f3ea5fe41a85266300ca3ff7b3ab9d40873dd159b713e5e",
       "size": 430011130,
       "description": "Crash Reports diagnostics bundle: Copy to clipboard / Export .json file (with Crashpad minidumps) / Send bundle to admin panel buttons in Settings, backed by new jarvis:export-diagnostics IPC",
+      "date": "2026-10-09",
+      "restartRequired": true
+    },
+    {
+      "id": "234",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-234/patch-234.zip",
+      "sha256": "770d7c40095ebe2c3bbaad8652359fcc7b026b15e1b23cd646437b457ad3839e",
+      "size": 430015426,
+      "description": "OmniRoute self-update fix: carry vendored node_modules into staged package + provision missing deps from registry so npm-tarball updates can actually boot (3.8.51 was blacklisted after failing on missing esbuild/chalk/zod-to-json-schema/ajv). Blacklist entries now reset once when updater logic changes.",
       "date": "2026-10-09",
       "restartRequired": true
     }
