@@ -1,5 +1,5 @@
 {
-  "latestPatch": "231",
+  "latestPatch": "232",
   "patches": [
     {
       "id": "001",
@@ -2308,6 +2308,16 @@
       "sha256": "8df2a423b06f6642bb2cda4da80ec05d6178a0c6bf0cb5a7d8c99457090eba60",
       "size": 426079849,
       "description": "Game Studio audit fixes: standalone export no longer strips textures (embeds local files, keeps remote/data URIs), heavy-asset warnings in Asset Store + AI manifest (>=1M tri flagged HEAVY), SpeedTree panel honesty note",
+      "date": "2026-10-09",
+      "restartRequired": false
+    },
+    {
+      "id": "232",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-232/patch-232.zip",
+      "sha256": "d3242d0c5e000e50d0dd50dd7687f7e601178b86abd5cb5c56015b1016b1d7e9",
+      "size": 426100037,
+      "description": "Game Studio asset pipeline: AssetWorkshop (inspect/repair/LOD/anim-QA/budgets) wired into Jarvis Mesh, lodLevels persisted + THREE.LOD rendering, CharacterKit equipment attach, ARPG photoscanned focal anchors (Poly Haven), project style bible + SET_STYLE_BIBLE + artDirectionVerify",
       "date": "2026-10-09",
       "restartRequired": false
     }
