@@ -1,5 +1,5 @@
 {
-  "latestPatch": "232",
+  "latestPatch": "233",
   "patches": [
     {
       "id": "001",
@@ -2320,6 +2320,16 @@
       "description": "Game Studio asset pipeline: AssetWorkshop (inspect/repair/LOD/anim-QA/budgets) wired into Jarvis Mesh, lodLevels persisted + THREE.LOD rendering, CharacterKit equipment attach, ARPG photoscanned focal anchors (Poly Haven), project style bible + SET_STYLE_BIBLE + artDirectionVerify",
       "date": "2026-10-09",
       "restartRequired": false
+    },
+    {
+      "id": "233",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-233/patch-233.zip",
+      "sha256": "3bd4403683f6a0955f3ea5fe41a85266300ca3ff7b3ab9d40873dd159b713e5e",
+      "size": 430011130,
+      "description": "Crash Reports diagnostics bundle: Copy to clipboard / Export .json file (with Crashpad minidumps) / Send bundle to admin panel buttons in Settings, backed by new jarvis:export-diagnostics IPC",
+      "date": "2026-10-09",
+      "restartRequired": true
     }
   ]
 }
