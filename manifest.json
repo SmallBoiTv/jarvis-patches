@@ -1,5 +1,5 @@
 {
-  "latestPatch": "234",
+  "latestPatch": "235",
   "patches": [
     {
       "id": "001",
@@ -2338,6 +2338,16 @@
       "sha256": "770d7c40095ebe2c3bbaad8652359fcc7b026b15e1b23cd646437b457ad3839e",
       "size": 430015426,
       "description": "OmniRoute self-update fix: carry vendored node_modules into staged package + provision missing deps from registry so npm-tarball updates can actually boot (3.8.51 was blacklisted after failing on missing esbuild/chalk/zod-to-json-schema/ajv). Blacklist entries now reset once when updater logic changes.",
+      "date": "2026-10-09",
+      "restartRequired": true
+    },
+    {
+      "id": "235",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-235/patch-235.zip",
+      "sha256": "1c96bd5be32c9b80f939948f6726c98023be7855a67965cf5049722d9538455f",
+      "size": 430016002,
+      "description": "Fix OmniRoute self-updater: carry vendored node_modules into staged package, provision missing runtime deps from npm registry, retry swap on EPERM, code-stamp blacklist so 3.8.51 retries",
       "date": "2026-10-09",
       "restartRequired": true
     }
