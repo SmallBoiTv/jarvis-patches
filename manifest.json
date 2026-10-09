@@ -1,5 +1,5 @@
 {
-  "latestPatch": "229",
+  "latestPatch": "230",
   "patches": [
     {
       "id": "001",
@@ -2290,6 +2290,16 @@
       "description": "Game Studio: fix dark game scenes — runtime merges duplicate AAA_Environment carriers (envSystems + lighting preset both apply now); Sanctum of Ash brighter night lighting, PBR ground/crypt materials; Arcade asset harvester + AI builder asset/code reuse",
       "date": "2026-10-09",
       "restartRequired": false
+    },
+    {
+      "id": "230",
+      "version": "1.0.901",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-230/patch-230.zip",
+      "sha256": "e623dcfabf4708819edea63139429a8213e609a55717fec8d29ad0f8d21dd9e1",
+      "size": 429983912,
+      "description": "MCP system completion: Settings→MCP Servers page (server mgmt, per-page profiles, trust modes, capabilities, resources/prompts/templates/subscribe/complete/ping, call log, JSON import); marketplace real installs + creative/engine catalog (Unity, Unreal, Godot, Blender, DaVinci, Ableton, OBS, ComfyUI, Meshy, Higgsfield, Runway, ElevenLabs, HA); npx cwd/env fix; reconnect backoff; workflow MCP node pickers; coding-page MCP tool scoping",
+      "date": "2026-10-09",
+      "restartRequired": true
     }
   ]
 }
