@@ -1,5 +1,5 @@
 {
-  "latestPatch": "240",
+  "latestPatch": "241",
   "patches": [
     {
       "id": "001",
@@ -2398,6 +2398,16 @@
       "sha256": "c0a67d7a0f186d6872669862a41f25f2f37d919737dabb4dc887966a5b0e7b16",
       "size": 420251665,
       "description": "Jarvis Mesh: localStorage workspace persistence, live cross-panel sync, activeMesh restore, blob-URL leak fix",
+      "date": "2026-10-10",
+      "restartRequired": false
+    },
+    {
+      "id": "241",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-241/patch-241.zip",
+      "sha256": "316b8e3fab5df9892841d1cdaeab025337e10d75a96feb5289a7ef9b93ab055e",
+      "size": 424279540,
+      "description": "Jarvis Mesh: workspace persisted to IndexedDB (localStorage quota too small), live cross-panel sync, activeMesh restore, URL leak fix",
       "date": "2026-10-10",
       "restartRequired": false
     }
