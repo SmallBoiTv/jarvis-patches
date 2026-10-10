@@ -1,5 +1,5 @@
 {
-  "latestPatch": "239",
+  "latestPatch": "240",
   "patches": [
     {
       "id": "001",
@@ -2388,6 +2388,16 @@
       "sha256": "0684737f7c05d1e7368a0e38f85e084e83cb08567cf99694710ebf45858369e4",
       "size": 420251089,
       "description": "Jarvis Mesh overhaul: real GLB for procedural+imported meshes (rig/workshop-enabled), interactive joint-edit rigger, skeleton+test-motion preview, auto-inspect, cancel fix, session persistence, static thumbnails",
+      "date": "2026-10-10",
+      "restartRequired": false
+    },
+    {
+      "id": "240",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-240/patch-240.zip",
+      "sha256": "c0a67d7a0f186d6872669862a41f25f2f37d919737dabb4dc887966a5b0e7b16",
+      "size": 420251665,
+      "description": "Jarvis Mesh: localStorage workspace persistence, live cross-panel sync, activeMesh restore, blob-URL leak fix",
       "date": "2026-10-10",
       "restartRequired": false
     }
