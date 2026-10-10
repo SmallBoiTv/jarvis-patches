@@ -1,5 +1,5 @@
 {
-  "latestPatch": "235",
+  "latestPatch": "236",
   "patches": [
     {
       "id": "001",
@@ -2349,6 +2349,16 @@
       "size": 430016002,
       "description": "Fix OmniRoute self-updater: carry vendored node_modules into staged package, provision missing runtime deps from npm registry, retry swap on EPERM, code-stamp blacklist so 3.8.51 retries",
       "date": "2026-10-09",
+      "restartRequired": true
+    },
+    {
+      "id": "236",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-236/patch-236.zip",
+      "sha256": "7623448f65c71d980f9fb9b6bd060508b50d5c787fddefdca27fc15d6e5f3e29",
+      "size": 430180763,
+      "description": "30 new features: Model Router, Action Ledger, Personas, Projects, Heartbeat, Monitors, Arena, Connectors, Notifications Center + upgrades across Chat, Email, Calendar, Terminal, Browser, Diagnostics, OmniRoute, Approvals",
+      "date": "2026-10-10",
       "restartRequired": true
     }
   ]
