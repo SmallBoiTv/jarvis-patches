@@ -1,5 +1,5 @@
 {
-  "latestPatch": "238",
+  "latestPatch": "239",
   "patches": [
     {
       "id": "001",
@@ -2380,6 +2380,16 @@
       "description": "Crash reporting catches renderer/child-process deaths + unclean exits: app-level render-process-gone/child-process-gone capture, next-launch Crashpad scan + clean-exit flag, and page/file context pings — crashes like the coding-page file-open crash that produced no report will now reach the admin panel",
       "date": "2026-10-10",
       "restartRequired": true
+    },
+    {
+      "id": "239",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-239/patch-239.zip",
+      "sha256": "0684737f7c05d1e7368a0e38f85e084e83cb08567cf99694710ebf45858369e4",
+      "size": 420251089,
+      "description": "Jarvis Mesh overhaul: real GLB for procedural+imported meshes (rig/workshop-enabled), interactive joint-edit rigger, skeleton+test-motion preview, auto-inspect, cancel fix, session persistence, static thumbnails",
+      "date": "2026-10-10",
+      "restartRequired": false
     }
   ]
 }
