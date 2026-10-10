@@ -1,5 +1,5 @@
 {
-  "latestPatch": "237",
+  "latestPatch": "238",
   "patches": [
     {
       "id": "001",
@@ -2368,6 +2368,16 @@
       "sha256": "02768cc47a3815c4c0b021ffa53f125f238aee9c66857bc85603e1c78ae95e1d",
       "size": 430256893,
       "description": "35-item audit batch: offline outbox, heartbeat intelligence, notification deep-links+mutes, approval rule manager+simulate, connector packs+MCP status, chat persona/pins/cost, TODO scanner+AI fix, agent-run heatmap/fork/checkpoints, monitor channels+cooldowns+extractor-watch, task DAG+catch-up+model override, briefing scheduled delivery, clipboard OCR+stack cycling, focus whitelist+heatmap, vault SRS review+Ask follow-ups, meeting action-items+memory+translate, social dedupe, OmniRoute budget alerts+favorites+auto-tune, email VIP+sender rules, calendar conflicts+ICS, terminal dangerous-cmd+session history, diagnostics trends+redaction, arena blind+Elo, workflow breakpoints+webhook auth+retention, browser macro scheduler+record, recall ranges+context, settings restore points+daily auto-backup",
+      "date": "2026-10-10",
+      "restartRequired": true
+    },
+    {
+      "id": "238",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-238/patch-238.zip",
+      "sha256": "f4ccdc3d0ec3583e04ad41fe1118f259165a8e5570c3e38184e30e027ca30ed1",
+      "size": 424265217,
+      "description": "Crash reporting catches renderer/child-process deaths + unclean exits: app-level render-process-gone/child-process-gone capture, next-launch Crashpad scan + clean-exit flag, and page/file context pings — crashes like the coding-page file-open crash that produced no report will now reach the admin panel",
       "date": "2026-10-10",
       "restartRequired": true
     }
