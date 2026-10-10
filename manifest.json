@@ -1,5 +1,5 @@
 {
-  "latestPatch": "236",
+  "latestPatch": "237",
   "patches": [
     {
       "id": "001",
@@ -2358,6 +2358,16 @@
       "sha256": "7623448f65c71d980f9fb9b6bd060508b50d5c787fddefdca27fc15d6e5f3e29",
       "size": 430180763,
       "description": "30 new features: Model Router, Action Ledger, Personas, Projects, Heartbeat, Monitors, Arena, Connectors, Notifications Center + upgrades across Chat, Email, Calendar, Terminal, Browser, Diagnostics, OmniRoute, Approvals",
+      "date": "2026-10-10",
+      "restartRequired": true
+    },
+    {
+      "id": "237",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-237/patch-237.zip",
+      "sha256": "02768cc47a3815c4c0b021ffa53f125f238aee9c66857bc85603e1c78ae95e1d",
+      "size": 430256893,
+      "description": "35-item audit batch: offline outbox, heartbeat intelligence, notification deep-links+mutes, approval rule manager+simulate, connector packs+MCP status, chat persona/pins/cost, TODO scanner+AI fix, agent-run heatmap/fork/checkpoints, monitor channels+cooldowns+extractor-watch, task DAG+catch-up+model override, briefing scheduled delivery, clipboard OCR+stack cycling, focus whitelist+heatmap, vault SRS review+Ask follow-ups, meeting action-items+memory+translate, social dedupe, OmniRoute budget alerts+favorites+auto-tune, email VIP+sender rules, calendar conflicts+ICS, terminal dangerous-cmd+session history, diagnostics trends+redaction, arena blind+Elo, workflow breakpoints+webhook auth+retention, browser macro scheduler+record, recall ranges+context, settings restore points+daily auto-backup",
       "date": "2026-10-10",
       "restartRequired": true
     }
