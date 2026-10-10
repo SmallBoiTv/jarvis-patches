@@ -1,5 +1,5 @@
 {
-  "latestPatch": "241",
+  "latestPatch": "242",
   "patches": [
     {
       "id": "001",
@@ -2407,7 +2407,17 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-241/patch-241.zip",
       "sha256": "316b8e3fab5df9892841d1cdaeab025337e10d75a96feb5289a7ef9b93ab055e",
       "size": 424279540,
-      "description": "Jarvis Mesh: workspace persisted to IndexedDB (localStorage quota too small), live cross-panel sync, activeMesh restore, URL leak fix",
+      "description": "Video Studio audit fixes — script-gen race, linked-clip double-move, proxy/scopes/social wiring, undo history, cold-start chunk split, real 404 for missing assets (also includes Jarvis Mesh cross-panel sync + session workspace from patch-240 source tree)",
+      "date": "2026-10-10",
+      "restartRequired": false
+    },
+    {
+      "id": "242",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-242/patch-242.zip",
+      "sha256": "96de6522a9cd9bb6cf15230eb44a16d65db91fdb71dff66e74d2526a62867b81",
+      "size": 420258329,
+      "description": "Jarvis Mesh: workspace persisted to IndexedDB, live cross-panel sync, activeMesh restore, URL leak fix",
       "date": "2026-10-10",
       "restartRequired": false
     }
