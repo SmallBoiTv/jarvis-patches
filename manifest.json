@@ -1,5 +1,5 @@
 {
-  "latestPatch": "242",
+  "latestPatch": "243",
   "patches": [
     {
       "id": "001",
@@ -2419,6 +2419,16 @@
       "size": 420258329,
       "description": "Jarvis Mesh: workspace persisted to IndexedDB, live cross-panel sync, activeMesh restore, URL leak fix",
       "date": "2026-10-10",
+      "restartRequired": false
+    },
+    {
+      "id": "243",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-243/patch-243.zip",
+      "sha256": "3d1d477fbfa0b84aa4beb993636822066404c217801e26b773d7706dd3427167",
+      "size": 420263989,
+      "description": "Jarvis Mesh asset-hub batch: Kiln forge + Poly Pizza CC0 library backends, refine loop, baked animation clips + real-clip test motion, project-asset gallery (AI builder visibility), variations batch, rename/duplicate/undo/clear/export-all-zip, send-to-builder, parallel analysis, GENERATE_MESH auto-inspect+budget",
+      "date": "2026-10-11",
       "restartRequired": false
     }
   ]
