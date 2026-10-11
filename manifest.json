@@ -2455,8 +2455,8 @@
       "id": "246",
       "version": "1.0.902",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-246/patch-246.zip",
-      "sha256": "c6d6b4134c88ea42df59906631e553bd563f70cef4f104078ad72be32b06fb7a",
-      "size": 420490605,
+      "sha256": "c304bde29b33b1e2e52b5ef4458ada811992997ece0e23abf41c5bc691be213f",
+      "size": 420490244,
       "description": "Jarvis Mesh capability batch: UniRig AI auto-rig, UniMate text-to-motion, clip picker, collision hull (UCX), decimate-to-target, scale/pivot normalize, side-by-side compare, mesh combine, Draco export, multi-select batch ops, turntable webm, animation-only GLB export, prompt history, persisted settings, GENERATE_MESH backend=/budget= params",
       "date": "2026-10-11",
       "restartRequired": false
