@@ -1,5 +1,5 @@
 {
-  "latestPatch": "246",
+  "latestPatch": "247",
   "patches": [
     {
       "id": "001",
@@ -2458,6 +2458,16 @@
       "sha256": "c304bde29b33b1e2e52b5ef4458ada811992997ece0e23abf41c5bc691be213f",
       "size": 420490244,
       "description": "Jarvis Mesh capability batch: UniRig AI auto-rig, UniMate text-to-motion, clip picker, collision hull (UCX), decimate-to-target, scale/pivot normalize, side-by-side compare, mesh combine, Draco export, multi-select batch ops, turntable webm, animation-only GLB export, prompt history, persisted settings, GENERATE_MESH backend=/budget= params",
+      "date": "2026-10-11",
+      "restartRequired": false
+    },
+    {
+      "id": "247",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-247/patch-247.zip",
+      "sha256": "10dceb52b7e575c45959bfac4b040ecd7ce1259ed16ba0e503ff4156e7a573d0",
+      "size": 420490505,
+      "description": "Game Studio audit fixes: delayed blob-URL revoke across all exports (GUID.tmp fix), stale collision/inspect data invalidated on mutations, generation survives panel unmount, metadata sync propagation",
       "date": "2026-10-11",
       "restartRequired": false
     }
