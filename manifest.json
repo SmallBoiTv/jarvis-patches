@@ -1,5 +1,5 @@
 {
-  "latestPatch": "248",
+  "latestPatch": "249",
   "patches": [
     {
       "id": "001",
@@ -2478,6 +2478,16 @@
       "sha256": "9cb22025435440f9bc86344be7338897a79f894504eac3791bf5e5c36bb28d2c",
       "size": 420495484,
       "description": "Exports use save-dialog IPC (real GUID.tmp fix — blob downloads lose filenames in Electron) across Jarvis Mesh, behavior trees, console logs, heightmaps, perf reports",
+      "date": "2026-10-11",
+      "restartRequired": false
+    },
+    {
+      "id": "249",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-249/patch-249.zip",
+      "sha256": "9dfc718dc46eb3356b39b2f64df26f19e44931faf41aad40749dab43e1c4a7e6",
+      "size": 420500354,
+      "description": "Jarvis Mesh gaps batch: .jmw workspace export/import, clip GLB import+retarget, batch auto-rig, LOD preview switcher, per-part UCX collision hulls, texture VRAM budget checks, budget name aliases (android/balanced/desktop), Export Format label",
       "date": "2026-10-11",
       "restartRequired": false
     }
