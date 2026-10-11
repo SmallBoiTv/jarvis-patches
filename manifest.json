@@ -1,5 +1,5 @@
 {
-  "latestPatch": "247",
+  "latestPatch": "248",
   "patches": [
     {
       "id": "001",
@@ -2468,6 +2468,16 @@
       "sha256": "10dceb52b7e575c45959bfac4b040ecd7ce1259ed16ba0e503ff4156e7a573d0",
       "size": 420490505,
       "description": "Game Studio audit fixes: delayed blob-URL revoke across all exports (GUID.tmp fix), stale collision/inspect data invalidated on mutations, generation survives panel unmount, metadata sync propagation",
+      "date": "2026-10-11",
+      "restartRequired": false
+    },
+    {
+      "id": "248",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-248/patch-248.zip",
+      "sha256": "9cb22025435440f9bc86344be7338897a79f894504eac3791bf5e5c36bb28d2c",
+      "size": 420495484,
+      "description": "Exports use save-dialog IPC (real GUID.tmp fix — blob downloads lose filenames in Electron) across Jarvis Mesh, behavior trees, console logs, heightmaps, perf reports",
       "date": "2026-10-11",
       "restartRequired": false
     }
