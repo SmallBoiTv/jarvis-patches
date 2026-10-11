@@ -1,5 +1,5 @@
 {
-  "latestPatch": "245",
+  "latestPatch": "246",
   "patches": [
     {
       "id": "001",
@@ -2448,6 +2448,16 @@
       "sha256": "03f98b6379972b5b836a7fe73836b621164d28068509a5c500fd0002c6049734",
       "size": 420264869,
       "description": "Jarvis Mesh: Kiln program quality — kilnDiscover helper docs injected into prompt + known-good example program, full render-error feedback in AI repairs",
+      "date": "2026-10-11",
+      "restartRequired": false
+    },
+    {
+      "id": "246",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-246/patch-246.zip",
+      "sha256": "7dd9f8769dd1bde63769b7eef35293df1e0413dc3520ef3f15a313fe9b658915",
+      "size": 420578032,
+      "description": "Jarvis Mesh capability batch: UniRig AI auto-rig, UniMate text-to-motion, clip picker, collision hull (UCX), decimate-to-target, scale/pivot normalize, side-by-side compare, mesh combine, Draco export, multi-select batch ops, turntable webm, animation-only GLB export, prompt history, persisted settings, GENERATE_MESH backend=/budget= params",
       "date": "2026-10-11",
       "restartRequired": false
     }
