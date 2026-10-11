@@ -1,5 +1,5 @@
 {
-  "latestPatch": "244",
+  "latestPatch": "245",
   "patches": [
     {
       "id": "001",
@@ -2438,6 +2438,16 @@
       "sha256": "b5a98837412d3d5786ee7a4e4eb8f06301ff03def8339dd49dc2028095b4abd5",
       "size": 420264458,
       "description": "Jarvis Mesh follow-up: Kiln render-failure AI repair loop, per-mesh inspect reports, live send-to-builder seed, thumb cache cap, workspace merge URL-leak fix, over-budget storage warning, backend badges",
+      "date": "2026-10-11",
+      "restartRequired": false
+    },
+    {
+      "id": "245",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-245/patch-245.zip",
+      "sha256": "03f98b6379972b5b836a7fe73836b621164d28068509a5c500fd0002c6049734",
+      "size": 420264869,
+      "description": "Jarvis Mesh: Kiln program quality — kilnDiscover helper docs injected into prompt + known-good example program, full render-error feedback in AI repairs",
       "date": "2026-10-11",
       "restartRequired": false
     }
