@@ -1,5 +1,5 @@
 {
-  "latestPatch": "243",
+  "latestPatch": "244",
   "patches": [
     {
       "id": "001",
@@ -2428,6 +2428,16 @@
       "sha256": "20aa3bf3e5e20a1178b5c772611d7bd10e31c6a3033e5ba9313d6d96bbd2d819",
       "size": 420264127,
       "description": "Jarvis Mesh asset-hub batch: Kiln forge + Poly Pizza CC0 library, refine loop, baked clips + real-clip test motion, project-asset gallery, variations batch, rename/duplicate/undo/clear/export-all-zip, send-to-builder, parallel analysis, GENERATE_MESH auto-inspect+budget, per-run cancel token + post-cancel regen fix",
+      "date": "2026-10-11",
+      "restartRequired": false
+    },
+    {
+      "id": "244",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-244/patch-244.zip",
+      "sha256": "b5a98837412d3d5786ee7a4e4eb8f06301ff03def8339dd49dc2028095b4abd5",
+      "size": 420264458,
+      "description": "Jarvis Mesh follow-up: Kiln render-failure AI repair loop, per-mesh inspect reports, live send-to-builder seed, thumb cache cap, workspace merge URL-leak fix, over-budget storage warning, backend badges",
       "date": "2026-10-11",
       "restartRequired": false
     }
