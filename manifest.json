@@ -1,5 +1,5 @@
 {
-  "latestPatch": "250",
+  "latestPatch": "251",
   "patches": [
     {
       "id": "001",
@@ -2500,6 +2500,16 @@
       "description": "RE Studio page + REA reverse-engineering backend (rea-agents)",
       "date": "2026-10-12",
       "restartRequired": true
+    },
+    {
+      "id": "251",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-251/patch-251.zip",
+      "sha256": "068de15e05a79fb5405d960253b59e1f434f8579355ad50b5acdf060c24f61e8",
+      "size": 420636885,
+      "description": "Fix editor crash on file open: file-size guard, binary sniff, safe-mode for large/minified files, dispose Monaco models on tab close",
+      "date": "2026-10-12",
+      "restartRequired": false
     }
   ]
 }
