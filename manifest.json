@@ -1,5 +1,5 @@
 {
-  "latestPatch": "251",
+  "latestPatch": "252",
   "patches": [
     {
       "id": "001",
@@ -2508,6 +2508,16 @@
       "sha256": "068de15e05a79fb5405d960253b59e1f434f8579355ad50b5acdf060c24f61e8",
       "size": 420636885,
       "description": "Fix editor crash on file open: file-size guard, binary sniff, safe-mode for large/minified files, dispose Monaco models on tab close",
+      "date": "2026-10-12",
+      "restartRequired": false
+    },
+    {
+      "id": "252",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-252/patch-252.zip",
+      "sha256": "86ab940b5d3f7cd211cb6a5b143ce7f78d500aa5d3eb476f52242ec818e9a918",
+      "size": 425272939,
+      "description": "Migrate desktop clients to new Supabase project (uzorpsdgrtkodykaknqy) — old project permanently quota-restricted; env override via early overlay module",
       "date": "2026-10-12",
       "restartRequired": false
     }
