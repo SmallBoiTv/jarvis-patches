@@ -1,5 +1,5 @@
 {
-  "latestPatch": "249",
+  "latestPatch": "250",
   "patches": [
     {
       "id": "001",
@@ -2490,6 +2490,16 @@
       "description": "Jarvis Mesh gaps batch: .jmw workspace export/import, clip GLB import+retarget, batch auto-rig, LOD preview switcher, per-part UCX collision hulls, texture VRAM budget checks, budget name aliases (android/balanced/desktop), Export Format label",
       "date": "2026-10-11",
       "restartRequired": false
+    },
+    {
+      "id": "250",
+      "version": "1.0.902",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-250/patch-250.zip",
+      "sha256": "ab67dd332cc593cb6365b8340062b2960f3a180238e8242209227c85b281855c",
+      "size": 424683733,
+      "description": "RE Studio page + REA reverse-engineering backend (rea-agents)",
+      "date": "2026-10-12",
+      "restartRequired": true
     }
   ]
 }
