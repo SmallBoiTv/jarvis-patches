@@ -1,5 +1,5 @@
 {
-  "latestPatch": "253",
+  "latestPatch": "254",
   "patches": [
     {
       "id": "001",
@@ -2528,6 +2528,16 @@
       "sha256": "5daba590d5ed352a535da766c3b170dad314d58f99b99f5e3fc977da36a8d47c",
       "size": 467716487,
       "description": "DevSocial: real media uploads, persisted DM reactions, realtime feed+DM (Supabase realtime), server-side feed pagination, post detail view, avatar/banner upload",
+      "date": "2026-10-13",
+      "restartRequired": false
+    },
+    {
+      "id": "254",
+      "version": "1.0.905",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-254/patch-254.zip",
+      "sha256": "7a94917354093dd51313a09fa4977345e56ee17bb42e7bb27f5d7f3b7c3dadf6",
+      "size": 467720725,
+      "description": "Fix Video Studio stuck on Loading on first click — bypass React.lazy Suspense ping with manual async loader",
       "date": "2026-10-13",
       "restartRequired": false
     }
