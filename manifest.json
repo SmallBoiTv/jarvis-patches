@@ -1,5 +1,5 @@
 {
-  "latestPatch": "252",
+  "latestPatch": "253",
   "patches": [
     {
       "id": "001",
@@ -2519,6 +2519,16 @@
       "size": 425272939,
       "description": "Migrate desktop clients to new Supabase project (uzorpsdgrtkodykaknqy) — old project permanently quota-restricted; env override via early overlay module",
       "date": "2026-10-12",
+      "restartRequired": false
+    },
+    {
+      "id": "253",
+      "version": "1.0.904",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-253/patch-253.zip",
+      "sha256": "5daba590d5ed352a535da766c3b170dad314d58f99b99f5e3fc977da36a8d47c",
+      "size": 467716487,
+      "description": "DevSocial: real media uploads, persisted DM reactions, realtime feed+DM (Supabase realtime), server-side feed pagination, post detail view, avatar/banner upload",
+      "date": "2026-10-13",
       "restartRequired": false
     }
   ]
