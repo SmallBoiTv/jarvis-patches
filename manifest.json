@@ -1,5 +1,5 @@
 {
-  "latestPatch": "264",
+  "latestPatch": "265",
   "patches": [
     {
       "id": "001",
@@ -2638,6 +2638,16 @@
       "sha256": "f244db7f11d3c78dce718e3220086eb743ab8c3028ead6b9cf957c2e2599f3d4",
       "size": 467768363,
       "description": "Video Studio copilot: honest asset-generation failure reporting in build_video, render-time reply cleaning for legacy messages",
+      "date": "2026-10-14",
+      "restartRequired": false
+    },
+    {
+      "id": "265",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-265/patch-265.zip",
+      "sha256": "a3d58d2c220d7c90066f50923dedd2b75fa365ba5d7552c02b9e305b77e3cb8a",
+      "size": 467770855,
+      "description": "Video Studio copilot: real footage pipeline — build_video stock/AI-video visual modes, stock_footage + animate_image tools, direct-file stock URLs, path-based video results",
       "date": "2026-10-14",
       "restartRequired": false
     }
