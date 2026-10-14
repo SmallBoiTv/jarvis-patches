@@ -1,5 +1,5 @@
 {
-  "latestPatch": "259",
+  "latestPatch": "260",
   "patches": [
     {
       "id": "001",
@@ -2588,6 +2588,16 @@
       "sha256": "51cdb8ac28579a5759291173b332ca0c59f1a5dc566b83adab9f8e68937c618c",
       "size": 467748506,
       "description": "Jarvis Cutter: floating agentic AI co-editor for Video Studio — draggable/resizable chat panel over all tabs, 40+ editor tools (timeline edits, captions, smart-cut, script→video pipeline, generation, virality scoring, autopilot handoff), per-project chat memory, confirmation gates + one-prompt-one-undo",
+      "date": "2026-10-14",
+      "restartRequired": false
+    },
+    {
+      "id": "260",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-260/patch-260.zip",
+      "sha256": "eee87428fbdb0573bb1ce903c31895eebcd54414795a3dc66a08465a0c201292",
+      "size": 471934891,
+      "description": "Fix duplicate IPC handler registrations killing crash-report/security-center/backup/studio setup; auto-upload Crashpad minidumps to admin panel",
       "date": "2026-10-14",
       "restartRequired": false
     }
