@@ -1,5 +1,5 @@
 {
-  "latestPatch": "260",
+  "latestPatch": "261",
   "patches": [
     {
       "id": "001",
@@ -2600,6 +2600,16 @@
       "description": "Fix duplicate IPC handler registrations killing crash-report/security-center/backup/studio setup; auto-upload Crashpad minidumps to admin panel",
       "date": "2026-10-14",
       "restartRequired": false
+    },
+    {
+      "id": "261",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-261/patch-261.zip",
+      "sha256": "e500cc84544c54a647411d0649ba19fc72e84296740aadf01f4fcae2433958d4",
+      "size": 471984634,
+      "description": "App Forge command center: Forge Agent (chat + agentic coding on repo targets), targets/releases/reports rails, hot-patch pipeline UI, dual-factor admin gate, auth-key self-promotion fix",
+      "date": "2026-10-14",
+      "restartRequired": true
     }
   ]
 }
