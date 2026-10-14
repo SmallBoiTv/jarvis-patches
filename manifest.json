@@ -1,5 +1,5 @@
 {
-  "latestPatch": "267",
+  "latestPatch": "268",
   "patches": [
     {
       "id": "001",
@@ -2670,6 +2670,16 @@
       "description": "Video Studio MCP bridge: editor tools exposed to external MCP clients (video_studio_*), copilot can call downstream MCP tools, preload+main IPC bridge",
       "date": "2026-10-14",
       "restartRequired": true
+    },
+    {
+      "id": "268",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-268/patch-268.zip",
+      "sha256": "dad7e0ab5f96ee825b2349b4b4b0ac1400127bca084dacfb3f152a826d726b4c",
+      "size": 467777565,
+      "description": "Video Studio: video MCP catalog (Higgsfield/fal/Kling/Runway/Replicate OAuth), import_url+style_text tools, text position presets + full styling, caption safe-area placement, higher export bitrates",
+      "date": "2026-10-14",
+      "restartRequired": false
     }
   ]
 }
