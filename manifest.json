@@ -1,5 +1,5 @@
 {
-  "latestPatch": "266",
+  "latestPatch": "267",
   "patches": [
     {
       "id": "001",
@@ -2658,6 +2658,16 @@
       "sha256": "b8963e357f080d3ec5c412a9c2464eb6a0c0966d6a4a833839161f02c36ee566",
       "size": 471991908,
       "description": "Copilot: video-model dropdown (2nd picker, all providers), output-size preset selector with hard enforcement, orientation-aware stock search, video gen honors picked model+aspect",
+      "date": "2026-10-14",
+      "restartRequired": true
+    },
+    {
+      "id": "267",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-267/patch-267.zip",
+      "sha256": "62cf776de7704627ab2bded15ceae7f532b96e04d5f424763c771a966240b812",
+      "size": 471997054,
+      "description": "Video Studio MCP bridge: editor tools exposed to external MCP clients (video_studio_*), copilot can call downstream MCP tools, preload+main IPC bridge",
       "date": "2026-10-14",
       "restartRequired": true
     }
