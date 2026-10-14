@@ -1,5 +1,5 @@
 {
-  "latestPatch": "261",
+  "latestPatch": "262",
   "patches": [
     {
       "id": "001",
@@ -2608,6 +2608,16 @@
       "sha256": "e500cc84544c54a647411d0649ba19fc72e84296740aadf01f4fcae2433958d4",
       "size": 471984634,
       "description": "App Forge command center: Forge Agent (chat + agentic coding on repo targets), targets/releases/reports rails, hot-patch pipeline UI, dual-factor admin gate, auth-key self-promotion fix",
+      "date": "2026-10-14",
+      "restartRequired": true
+    },
+    {
+      "id": "262",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-262/patch-262.zip",
+      "sha256": "e0017121b693f48b0c9283613e0211e5280a2aeac7756520784cc9526cd3c923",
+      "size": 471987642,
+      "description": "Video Studio: Jarvis Cutter Ask/Edit/Create modes + clean replies, build_video transitions/title card, richer project context, timeline ruler 0:00 fix, proxy settings wired, enhancer media URL fix, capture panel, export MP4 presets, dead hover sweep",
       "date": "2026-10-14",
       "restartRequired": true
     }
