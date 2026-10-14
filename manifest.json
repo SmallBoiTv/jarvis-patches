@@ -1,5 +1,5 @@
 {
-  "latestPatch": "254",
+  "latestPatch": "255",
   "patches": [
     {
       "id": "001",
@@ -2539,6 +2539,16 @@
       "size": 467720725,
       "description": "Fix Video Studio stuck on Loading on first click — bypass React.lazy Suspense ping with manual async loader",
       "date": "2026-10-13",
+      "restartRequired": false
+    },
+    {
+      "id": "255",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-255/patch-255.zip",
+      "sha256": "00cf6372019ba306090eeccc154cc5f36505b0b806cdde6b1fcaa16d0d085839",
+      "size": 471892410,
+      "description": "Social Growth Engine: reply engine, trend radar, virality gate, hook attribution, auto-plug, Chrome-account parity",
+      "date": "2026-10-14",
       "restartRequired": false
     }
   ]
