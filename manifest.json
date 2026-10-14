@@ -1,5 +1,5 @@
 {
-  "latestPatch": "262",
+  "latestPatch": "263",
   "patches": [
     {
       "id": "001",
@@ -2618,6 +2618,16 @@
       "sha256": "e0017121b693f48b0c9283613e0211e5280a2aeac7756520784cc9526cd3c923",
       "size": 471987642,
       "description": "Video Studio: Jarvis Cutter Ask/Edit/Create modes + clean replies, build_video transitions/title card, richer project context, timeline ruler 0:00 fix, proxy settings wired, enhancer media URL fix, capture panel, export MP4 presets, dead hover sweep",
+      "date": "2026-10-14",
+      "restartRequired": true
+    },
+    {
+      "id": "263",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-263/patch-263.zip",
+      "sha256": "1d8fc3d89cecfeb9ed8e516ef159c85caeccac5a77a0f338add6e42130c1ddad",
+      "size": 471987800,
+      "description": "Video Studio copilot hardening: auto-create missing tracks, reject unsupported landmark effects, auto_captions restores selection, build_video gap-free fallback visual, voiceover appends at track end",
       "date": "2026-10-14",
       "restartRequired": true
     }
