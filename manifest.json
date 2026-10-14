@@ -1,5 +1,5 @@
 {
-  "latestPatch": "257",
+  "latestPatch": "258",
   "patches": [
     {
       "id": "001",
@@ -2568,6 +2568,16 @@
       "sha256": "735433e241d9e98f36b9bc65c8da7a8eb40efd44bbd23884a226e43ff9fe505c",
       "size": 471902226,
       "description": "Automation page overhaul: functional trigger templates (real scheduler + workflow backends), Scheduled tasks tab, dead-toggle fixes (scheduled msgs, Mark-L monitors, social auto-reminders, HUD panel default), background reminder loop honoring frequency, AppForge embedded Approvals page, forge command-tool approval gating",
+      "date": "2026-10-14",
+      "restartRequired": false
+    },
+    {
+      "id": "258",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-258/patch-258.zip",
+      "sha256": "f87bb9fe3fb4240d6454ca9f95206cdd6aabbe1dc612dd42ca926e7cc7b50d56",
+      "size": 471915921,
+      "description": "AI Clips → Send to Auto-Pilot (per-account API/browser posting), real video uploads for X/TikTok/YouTube/Bluesky/Mastodon, persisted approval queue, dead approval-queue fix",
       "date": "2026-10-14",
       "restartRequired": false
     }
