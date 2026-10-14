@@ -1,5 +1,5 @@
 {
-  "latestPatch": "255",
+  "latestPatch": "256",
   "patches": [
     {
       "id": "001",
@@ -2548,6 +2548,16 @@
       "sha256": "00cf6372019ba306090eeccc154cc5f36505b0b806cdde6b1fcaa16d0d085839",
       "size": 471892410,
       "description": "Social Growth Engine: reply engine, trend radar, virality gate, hook attribution, auto-plug, Chrome-account parity",
+      "date": "2026-10-14",
+      "restartRequired": false
+    },
+    {
+      "id": "256",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-256/patch-256.zip",
+      "sha256": "e669102c68bb5a7f44e7b23fbfb14c2b8ffd7877c47a4be963f3418baa610fce",
+      "size": 471894790,
+      "description": "RE Studio: expanded REA command coverage to full 6.4.0 CLI surface — .NET, APK, artifacts, HAR, firmware, evidence workflows + provider fixes",
       "date": "2026-10-14",
       "restartRequired": false
     }
