@@ -1,5 +1,5 @@
 {
-  "latestPatch": "263",
+  "latestPatch": "264",
   "patches": [
     {
       "id": "001",
@@ -2630,6 +2630,16 @@
       "description": "Video Studio copilot hardening: auto-create missing tracks, reject unsupported landmark effects, auto_captions restores selection, build_video gap-free fallback visual, voiceover appends at track end",
       "date": "2026-10-14",
       "restartRequired": true
+    },
+    {
+      "id": "264",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-264/patch-264.zip",
+      "sha256": "f244db7f11d3c78dce718e3220086eb743ab8c3028ead6b9cf957c2e2599f3d4",
+      "size": 467768363,
+      "description": "Video Studio copilot: honest asset-generation failure reporting in build_video, render-time reply cleaning for legacy messages",
+      "date": "2026-10-14",
+      "restartRequired": false
     }
   ]
 }
