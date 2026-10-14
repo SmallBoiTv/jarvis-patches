@@ -1,5 +1,5 @@
 {
-  "latestPatch": "265",
+  "latestPatch": "266",
   "patches": [
     {
       "id": "001",
@@ -2650,6 +2650,16 @@
       "description": "Video Studio copilot: real footage pipeline — build_video stock/AI-video visual modes, stock_footage + animate_image tools, direct-file stock URLs, path-based video results",
       "date": "2026-10-14",
       "restartRequired": false
+    },
+    {
+      "id": "266",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-266/patch-266.zip",
+      "sha256": "b8963e357f080d3ec5c412a9c2464eb6a0c0966d6a4a833839161f02c36ee566",
+      "size": 471991908,
+      "description": "Copilot: video-model dropdown (2nd picker, all providers), output-size preset selector with hard enforcement, orientation-aware stock search, video gen honors picked model+aspect",
+      "date": "2026-10-14",
+      "restartRequired": true
     }
   ]
 }
