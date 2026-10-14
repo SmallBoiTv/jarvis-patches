@@ -1,5 +1,5 @@
 {
-  "latestPatch": "258",
+  "latestPatch": "259",
   "patches": [
     {
       "id": "001",
@@ -2578,6 +2578,16 @@
       "sha256": "f87bb9fe3fb4240d6454ca9f95206cdd6aabbe1dc612dd42ca926e7cc7b50d56",
       "size": 471915921,
       "description": "AI Clips → Send to Auto-Pilot (per-account API/browser posting), real video uploads for X/TikTok/YouTube/Bluesky/Mastodon, persisted approval queue, dead approval-queue fix",
+      "date": "2026-10-14",
+      "restartRequired": false
+    },
+    {
+      "id": "259",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-259/patch-259.zip",
+      "sha256": "51cdb8ac28579a5759291173b332ca0c59f1a5dc566b83adab9f8e68937c618c",
+      "size": 467748506,
+      "description": "Jarvis Cutter: floating agentic AI co-editor for Video Studio — draggable/resizable chat panel over all tabs, 40+ editor tools (timeline edits, captions, smart-cut, script→video pipeline, generation, virality scoring, autopilot handoff), per-project chat memory, confirmation gates + one-prompt-one-undo",
       "date": "2026-10-14",
       "restartRequired": false
     }
