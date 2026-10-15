@@ -1,5 +1,5 @@
 {
-  "latestPatch": "269",
+  "latestPatch": "270",
   "patches": [
     {
       "id": "001",
@@ -2690,6 +2690,16 @@
       "description": "Video Studio: word-level karaoke captions (captionWords + engine rendering for karaoke/word-by-word/highlight/bouncy/typewriter), real audio ducking via volume keyframes (duck_audio copilot tool + AudioDuckingPanel rewrite replacing static attenuation), export_video headless FFmpeg render tool, validate_video pre-export quality gate, ffmpeg export now honors bitrate/audioBitrate/audioSampleRate + optional -14 LUFS loudness normalization, get_project_state exposes keyframes",
       "date": "2026-10-15",
       "restartRequired": true
+    },
+    {
+      "id": "270",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-270/patch-270.zip",
+      "sha256": "cc9eab9a97a21e327c0e423f96d91ba00e782c036eedab80eeff69a633a297e3",
+      "size": 467782819,
+      "description": "App Forge: Reports sign-in fix (offline session token fallback); nav/route hardening so App Forge can never open for non-admin",
+      "date": "2026-10-15",
+      "restartRequired": false
     }
   ]
 }
