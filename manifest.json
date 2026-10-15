@@ -1,5 +1,5 @@
 {
-  "latestPatch": "271",
+  "latestPatch": "270",
   "patches": [
     {
       "id": "001",
@@ -2693,11 +2693,11 @@
     },
     {
       "id": "270",
-      "version": "1.0.906",
+      "version": "1.0.908",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-270/patch-270.zip",
-      "sha256": "cc9eab9a97a21e327c0e423f96d91ba00e782c036eedab80eeff69a633a297e3",
-      "size": 467782819,
-      "description": "App Forge: Reports sign-in fix (offline session token fallback); nav/route hardening so App Forge can never open for non-admin",
+      "sha256": "b8ce45cb0ddbbb0ecd6e11b92927a655d60d60443298109bccb02da4d60561ce",
+      "size": 467790022,
+      "description": "Video Studio: real caption engine (karaoke/word-by-word/highlight/bouncy/typewriter word-level rendering via captionWords), auto_captions uses Whisper word timing + social-safe band, duck_audio + AudioDuckingPanel now write real volume keyframes (no more flat attenuation), beat_sync tool detects RMS beats -> markers + optional clip-cut snapping, export_video headless render tool, validate_video pre-export quality gate, get_project_state exposes keyframes/markers/captionStyle, highlightColor style arg, Capture card buttons un-squished into a 2-col grid",
       "date": "2026-10-15",
       "restartRequired": false
     },
