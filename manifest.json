@@ -1,5 +1,5 @@
 {
-  "latestPatch": "268",
+  "latestPatch": "269",
   "patches": [
     {
       "id": "001",
@@ -2680,6 +2680,16 @@
       "description": "Video Studio: video MCP catalog (Higgsfield/fal/Kling/Runway/Replicate OAuth), import_url+style_text tools, text position presets + full styling, caption safe-area placement, higher export bitrates",
       "date": "2026-10-14",
       "restartRequired": false
+    },
+    {
+      "id": "269",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-269/patch-269.zip",
+      "sha256": "b75248ba416a99a1ec8e43b27bb04133503e218d74d4e5daae57476cc930f893",
+      "size": 472007870,
+      "description": "Video Studio: word-level karaoke captions (captionWords + engine rendering for karaoke/word-by-word/highlight/bouncy/typewriter), real audio ducking via volume keyframes (duck_audio copilot tool + AudioDuckingPanel rewrite replacing static attenuation), export_video headless FFmpeg render tool, validate_video pre-export quality gate, ffmpeg export now honors bitrate/audioBitrate/audioSampleRate + optional -14 LUFS loudness normalization, get_project_state exposes keyframes",
+      "date": "2026-10-15",
+      "restartRequired": true
     }
   ]
 }
