@@ -1,5 +1,5 @@
 {
-  "latestPatch": "270",
+  "latestPatch": "271",
   "patches": [
     {
       "id": "001",
@@ -2700,6 +2700,16 @@
       "description": "App Forge: Reports sign-in fix (offline session token fallback); nav/route hardening so App Forge can never open for non-admin",
       "date": "2026-10-15",
       "restartRequired": false
+    },
+    {
+      "id": "271",
+      "version": "1.0.906",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-271/patch-271.zip",
+      "sha256": "2011005b68d645c269876b8683d91b6dc4568e994afb4d48bb079f80e31e93d5",
+      "size": 472008728,
+      "description": "App Forge owner-only navigation and logout/login safety; Reports offline-session recovery messages and account-bound token handling; cumulative desktop updates",
+      "date": "2026-10-15",
+      "restartRequired": true
     }
   ]
 }
