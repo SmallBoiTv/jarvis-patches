@@ -1,5 +1,5 @@
 {
-  "latestPatch": "275",
+  "latestPatch": 276,
   "patches": [
     {
       "id": "001",
@@ -2748,6 +2748,16 @@
       "sha256": "235ae67c3df7118e2b0dadce34679216280ca9328a327f8acca55ab43a8603a7",
       "size": 473180868,
       "description": "HUD v18 Trading button opens Trading Desk window + page-window webviewTag fix (pop-out renders Trading correctly) + all AI surfaces honor Jarvis provider+model",
+      "date": "2026-10-16",
+      "restartRequired": true
+    },
+    {
+      "id": "276",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-276/patch-276.zip",
+      "sha256": "f393c4f17e4a382b70186df6efa573844bcdffb59ad25ea1f7bd876e15996626",
+      "size": 473189658,
+      "description": "Trading: EPIPE-safe global error handlers (no console.error death loop) + tw.getWalletPrivateKey/createToken/transfer shims (token creation deploys on-chain, futures fees transfer) + create-auto-buy-rule handler + ML model init fix (advancedStrategies deep-merge)",
       "date": "2026-10-16",
       "restartRequired": true
     }
