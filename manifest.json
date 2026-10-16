@@ -2795,8 +2795,8 @@
       "id": "280",
       "version": "1.0.908",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-280/patch-280.zip",
-      "sha256": "320402d4b911bccfae352d6c9bc83aae8fe8e94f13e64d76ace69c2d0ac272d6",
-      "size": 472137203,
+      "sha256": "935713103e4256b4fcca98078644d79a883ff6928c61cba6aec8c4dc24334b54",
+      "size": 472137294,
       "description": "code_video tool — chat AI renders HTML/CSS/JS animations to real MP4 clips on the timeline (Kimi-style video-from-code); loading-fallback hardening",
       "date": "2026-10-16",
       "restartRequired": true
