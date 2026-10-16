@@ -1,5 +1,5 @@
 {
-  "latestPatch": "277",
+  "latestPatch": 277,
   "patches": [
     {
       "id": "001",
@@ -2768,6 +2768,16 @@
       "sha256": "f5ea6f8b82063c626cae40bbed2e633f06b251858311e30fbc05b9da0aeb3a37",
       "size": 472128198,
       "description": "Decision model layer (jarvisDecide) + model catalog adds (Kev/JEV/moondream/Qwen-VL/UI-TARS/VideoLLaMA3), prompt-injection gating + SearXNG in web search, social content calendar + per-channel preview, copilot vision tools (describe_clip/find_moment), auto-posting autopilot",
+      "date": "2026-10-16",
+      "restartRequired": true
+    },
+    {
+      "id": "277",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-277/patch-277.zip",
+      "sha256": "4cc2a73d5344864443b6482b4369476ad2a02486f3640c09340dbdec1c0c227f",
+      "size": 473309024,
+      "description": "Stocks: window.electron compat unlocks LIVE broker mode + titlebar controls work in pop-outs + paper portfolio persists + real Yahoo candle history",
       "date": "2026-10-16",
       "restartRequired": true
     }
