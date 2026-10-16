@@ -1,5 +1,5 @@
 {
-  "latestPatch": "270",
+  "latestPatch": "272",
   "patches": [
     {
       "id": "001",
@@ -2710,6 +2710,16 @@
       "description": "App Forge owner-only navigation and logout/login safety; Reports offline-session recovery messages and account-bound token handling; cumulative desktop updates",
       "date": "2026-10-15",
       "restartRequired": true
+    },
+    {
+      "id": "272",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-272/patch-272.zip",
+      "sha256": "41bbb1a0a8fcc0196126e44ad120eb9102b9cbf648e31c7495b989a284d5b60b",
+      "size": 473198191,
+      "description": "Trading: swarm backend deploy, MEV engine IPC (startBot/stopBot/status/emergencyStop) with simulation guards at all send boundaries, sniper scan-starvation + telegramId crash fixes, SCC copilot provider/model menus via OmniRoute, tw-open-page SPA nav fix, webview port refresh, trading host lifecycle races, vendor overlay support",
+      "date": "2026-10-16",
+      "restartRequired": false
     }
   ]
 }
