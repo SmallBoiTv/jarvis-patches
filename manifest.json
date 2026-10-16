@@ -1,5 +1,5 @@
 {
-  "latestPatch": "274",
+  "latestPatch": "275",
   "patches": [
     {
       "id": "001",
@@ -2738,6 +2738,16 @@
       "sha256": "c3eae298e88d1c5e970fc183ebba6bd5535bc40ecf645d1c756b05d4eac3852f",
       "size": 473180727,
       "description": "Trading: all AI surfaces honor Jarvis provider+model — jarvis:* routing in tokenAnalyzer/signals/extraChannels, model pass-through, maxTokens floor, upstream config sync, symlink-safe vendor merge with mtime invalidation",
+      "date": "2026-10-16",
+      "restartRequired": true
+    },
+    {
+      "id": "275",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-275/patch-275.zip",
+      "sha256": "235ae67c3df7118e2b0dadce34679216280ca9328a327f8acca55ab43a8603a7",
+      "size": 473180868,
+      "description": "HUD v18 Trading button opens Trading Desk window + page-window webviewTag fix (pop-out renders Trading correctly) + all AI surfaces honor Jarvis provider+model",
       "date": "2026-10-16",
       "restartRequired": true
     }
