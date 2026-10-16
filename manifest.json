@@ -1,5 +1,5 @@
 {
-  "latestPatch": 276,
+  "latestPatch": "277",
   "patches": [
     {
       "id": "001",
@@ -2758,6 +2758,16 @@
       "sha256": "f393c4f17e4a382b70186df6efa573844bcdffb59ad25ea1f7bd876e15996626",
       "size": 473189658,
       "description": "Trading: EPIPE-safe global error handlers (no console.error death loop) + tw.getWalletPrivateKey/createToken/transfer shims (token creation deploys on-chain, futures fees transfer) + create-auto-buy-rule handler + ML model init fix (advancedStrategies deep-merge)",
+      "date": "2026-10-16",
+      "restartRequired": true
+    },
+    {
+      "id": "277",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-277/patch-277.zip",
+      "sha256": "f5ea6f8b82063c626cae40bbed2e633f06b251858311e30fbc05b9da0aeb3a37",
+      "size": 472128198,
+      "description": "Decision model layer (jarvisDecide) + model catalog adds (Kev/JEV/moondream/Qwen-VL/UI-TARS/VideoLLaMA3), prompt-injection gating + SearXNG in web search, social content calendar + per-channel preview, copilot vision tools (describe_clip/find_moment), auto-posting autopilot",
       "date": "2026-10-16",
       "restartRequired": true
     }
