@@ -1,5 +1,5 @@
 {
-  "latestPatch": "273",
+  "latestPatch": "274",
   "patches": [
     {
       "id": "001",
@@ -2730,6 +2730,16 @@
       "description": "Trading: fix sparse vendor overlay host crash (merge overlay over base) + SCC copilot Jarvis provider/model menus (145 providers, provider-aware model cascade) + ai-request provider routing",
       "date": "2026-10-16",
       "restartRequired": false
+    },
+    {
+      "id": "274",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-274/patch-274.zip",
+      "sha256": "c3eae298e88d1c5e970fc183ebba6bd5535bc40ecf645d1c756b05d4eac3852f",
+      "size": 473180727,
+      "description": "Trading: all AI surfaces honor Jarvis provider+model — jarvis:* routing in tokenAnalyzer/signals/extraChannels, model pass-through, maxTokens floor, upstream config sync, symlink-safe vendor merge with mtime invalidation",
+      "date": "2026-10-16",
+      "restartRequired": true
     }
   ]
 }
