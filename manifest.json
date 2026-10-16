@@ -2795,9 +2795,9 @@
       "id": "280",
       "version": "1.0.908",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-280/patch-280.zip",
-      "sha256": "2a0321d230a43220171e71e7b015baae2525f87d15757635e6c43193defcbbf0",
-      "size": 472137422,
-      "description": "code_video tool — chat AI renders HTML/CSS/JS animations to real MP4 clips on the timeline (Kimi-style video-from-code); loading-fallback hardening",
+      "sha256": "2f655196e28a1797d30f457fcba2495618cef02ca690feda774737025388081c",
+      "size": 472137536,
+      "description": "code_video tool for Jarvis Cutter + video studio playback duration restore fix",
       "date": "2026-10-16",
       "restartRequired": true
     }
