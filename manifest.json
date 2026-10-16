@@ -1,5 +1,5 @@
 {
-  "latestPatch": 278,
+  "latestPatch": "279",
   "patches": [
     {
       "id": "001",
@@ -2778,6 +2778,16 @@
       "sha256": "2b9748138c57cad1179b8b2057e8200bb53c9faebfa36f293a4ae07ffcd6982b",
       "size": 472751933,
       "description": "Stocks: window.electron compat unlocks LIVE broker mode + titlebar controls work in pop-outs + paper portfolio persists + real Yahoo candle history",
+      "date": "2026-10-16",
+      "restartRequired": true
+    },
+    {
+      "id": "279",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-279/patch-279.zip",
+      "sha256": "909c68fcefc3c1fc878e9b7b4759c17c81e12fd236c9a0fddba458e4b2c295c8",
+      "size": 473860090,
+      "description": "Trading: wire 30 dead channels — OCO/bracket/time/conditional orders, smart+KOL wallets, funding alerts, risk settings/pause, portfolio risk, backtest, Jupiter Lend; numeric row ids fix ~24 dead onclick buttons",
       "date": "2026-10-16",
       "restartRequired": true
     }
