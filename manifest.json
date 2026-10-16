@@ -1,5 +1,5 @@
 {
-  "latestPatch": "272",
+  "latestPatch": "273",
   "patches": [
     {
       "id": "001",
@@ -2718,6 +2718,16 @@
       "sha256": "c9b5a4c5224102f165249178d6e8a9cd3221f7b6866144b622f230a71b9426fa",
       "size": 473198571,
       "description": "Trading: swarm backend deploy, MEV engine IPC (startBot/stopBot/status/emergencyStop) with simulation guards at all send boundaries, sniper scan-starvation + telegramId crash fixes, SCC copilot provider/model menus via OmniRoute, tw-open-page SPA nav fix, webview port refresh, trading host lifecycle races, vendor overlay support",
+      "date": "2026-10-16",
+      "restartRequired": false
+    },
+    {
+      "id": "273",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-273/patch-273.zip",
+      "sha256": "a020239e042f05782b3f80105087524a250cb26ec544ff462b3e4744f4466296",
+      "size": 473199992,
+      "description": "Trading: fix sparse vendor overlay host crash (merge overlay over base) + SCC copilot Jarvis provider/model menus (145 providers, provider-aware model cascade) + ai-request provider routing",
       "date": "2026-10-16",
       "restartRequired": false
     }
