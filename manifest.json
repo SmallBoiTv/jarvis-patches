@@ -1,5 +1,5 @@
 {
-  "latestPatch": "279",
+  "latestPatch": "280",
   "patches": [
     {
       "id": "001",
@@ -2788,6 +2788,16 @@
       "sha256": "909c68fcefc3c1fc878e9b7b4759c17c81e12fd236c9a0fddba458e4b2c295c8",
       "size": 473860090,
       "description": "Trading: wire 30 dead channels — OCO/bracket/time/conditional orders, smart+KOL wallets, funding alerts, risk settings/pause, portfolio risk, backtest, Jupiter Lend; numeric row ids fix ~24 dead onclick buttons",
+      "date": "2026-10-16",
+      "restartRequired": true
+    },
+    {
+      "id": "280",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-280/patch-280.zip",
+      "sha256": "320402d4b911bccfae352d6c9bc83aae8fe8e94f13e64d76ace69c2d0ac272d6",
+      "size": 472137203,
+      "description": "code_video tool — chat AI renders HTML/CSS/JS animations to real MP4 clips on the timeline (Kimi-style video-from-code); loading-fallback hardening",
       "date": "2026-10-16",
       "restartRequired": true
     }
