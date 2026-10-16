@@ -1,5 +1,5 @@
 {
-  "latestPatch": 277,
+  "latestPatch": 278,
   "patches": [
     {
       "id": "001",
@@ -2772,11 +2772,11 @@
       "restartRequired": true
     },
     {
-      "id": "277",
+      "id": "278",
       "version": "1.0.908",
-      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-277/patch-277.zip",
-      "sha256": "4cc2a73d5344864443b6482b4369476ad2a02486f3640c09340dbdec1c0c227f",
-      "size": 473309024,
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-278/patch-278.zip",
+      "sha256": "2b9748138c57cad1179b8b2057e8200bb53c9faebfa36f293a4ae07ffcd6982b",
+      "size": 472751933,
       "description": "Stocks: window.electron compat unlocks LIVE broker mode + titlebar controls work in pop-outs + paper portfolio persists + real Yahoo candle history",
       "date": "2026-10-16",
       "restartRequired": true
