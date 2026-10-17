@@ -2795,9 +2795,9 @@
       "id": "280",
       "version": "1.0.908",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-280/patch-280.zip",
-      "sha256": "4761c8ec593688066c54eab1803a01fa87b384a27c6d6d5dadc67881ae097ff0",
-      "size": 472139070,
-      "description": "code_video: hide scrollbars in render page + drag hit-test + duration fix",
+      "sha256": "ceb392ce1e23465391cabcaea4f3313ee0a1fe1a7951a331c28e2877428404c4",
+      "size": 472139774,
+      "description": "code_video + playback fix + preview drag + inspector overflow + scrollbar-free renders + LLM visual brief for on-topic scenes + stock dedup",
       "date": "2026-10-17",
       "restartRequired": true
     }
