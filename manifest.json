@@ -2795,9 +2795,9 @@
       "id": "280",
       "version": "1.0.908",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-280/patch-280.zip",
-      "sha256": "ceb392ce1e23465391cabcaea4f3313ee0a1fe1a7951a331c28e2877428404c4",
-      "size": 472139774,
-      "description": "code_video + playback fix + preview drag + inspector overflow + scrollbar-free renders + LLM visual brief for on-topic scenes + stock dedup",
+      "sha256": "80941e84f6513e3caf9d6c74066267f1b5fe95e3f1d940548612f1803398d647",
+      "size": 472141106,
+      "description": "code_video + playback fix + drag + generated-scene pipeline (AI image + rendered motion, no stock) + visual brief",
       "date": "2026-10-17",
       "restartRequired": true
     }
