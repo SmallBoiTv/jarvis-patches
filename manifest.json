@@ -2795,10 +2795,10 @@
       "id": "280",
       "version": "1.0.908",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-280/patch-280.zip",
-      "sha256": "2f655196e28a1797d30f457fcba2495618cef02ca690feda774737025388081c",
-      "size": 472137536,
-      "description": "code_video tool for Jarvis Cutter + video studio playback duration restore fix",
-      "date": "2026-10-16",
+      "sha256": "56f2212c37e993a7cb4cb61ebfaabb8c8e7cc3ce86cfafb8e931a3b03bd67e0c",
+      "size": 472138701,
+      "description": "code_video + playback duration fix + preview drag hit-test + inspector overflow",
+      "date": "2026-10-17",
       "restartRequired": true
     }
   ]
