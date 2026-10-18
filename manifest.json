@@ -1,5 +1,5 @@
 {
-  "latestPatch": "280",
+  "latestPatch": "281",
   "patches": [
     {
       "id": "001",
@@ -2800,6 +2800,16 @@
       "description": "code_video + playback fix + drag + generated-scene pipeline (AI image + rendered motion, no stock) + visual brief",
       "date": "2026-10-17",
       "restartRequired": true
+    },
+    {
+      "id": "281",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-281/patch-281.zip",
+      "sha256": "f5455069afc307235e05781701b9d37a967ec8d395428aba4c96ffee13d2cda6",
+      "size": 527752485,
+      "description": "Game Studio: deterministic playability repair — camera/terrain snap incl. cameras+lights, per-frame camera ground clamp, autoFixPlayability (player controller/collider/camera creation), GLB-first resolver, cloneMeshAliases runtime bridge",
+      "date": "2026-10-18",
+      "restartRequired": false
     }
   ]
 }
