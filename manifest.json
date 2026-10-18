@@ -1,5 +1,5 @@
 {
-  "latestPatch": "282",
+  "latestPatch": "283",
   "patches": [
     {
       "id": "001",
@@ -2820,6 +2820,16 @@
       "description": "RE Studio: full rea-agents command catalog (119 cmds), website-clone pipeline, apple app-graph whitelist fix",
       "date": "2026-10-18",
       "restartRequired": true
+    },
+    {
+      "id": "283",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-283/patch-283.zip",
+      "sha256": "5d3731b98ad6a0043cec169277be812583c6fa8d5a0dd1bb7049a982baa99fe6",
+      "size": 527763091,
+      "description": "Onboarding: RE Studio 3-step guided tour + full usage doc + tour anchors in panel",
+      "date": "2026-10-18",
+      "restartRequired": false
     }
   ]
 }
