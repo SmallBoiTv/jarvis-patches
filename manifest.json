@@ -1,5 +1,5 @@
 {
-  "latestPatch": "281",
+  "latestPatch": "282",
   "patches": [
     {
       "id": "001",
@@ -2810,6 +2810,16 @@
       "description": "Game Studio: deterministic playability repair — camera/terrain snap incl. cameras+lights, per-frame camera ground clamp, autoFixPlayability (player controller/collider/camera creation), GLB-first resolver, cloneMeshAliases runtime bridge",
       "date": "2026-10-18",
       "restartRequired": false
+    },
+    {
+      "id": "282",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-282/patch-282.zip",
+      "sha256": "81bc17e227a998e5d57c6cc68096997581f8321ac495bb9fc5e4702293021797",
+      "size": 532075260,
+      "description": "RE Studio: full rea-agents command catalog (119 cmds), website-clone pipeline, apple app-graph whitelist fix",
+      "date": "2026-10-18",
+      "restartRequired": true
     }
   ]
 }
