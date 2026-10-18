@@ -1,5 +1,5 @@
 {
-  "latestPatch": "283",
+  "latestPatch": "284",
   "patches": [
     {
       "id": "001",
@@ -2828,6 +2828,16 @@
       "sha256": "5d3731b98ad6a0043cec169277be812583c6fa8d5a0dd1bb7049a982baa99fe6",
       "size": 527763091,
       "description": "Onboarding: RE Studio 3-step guided tour + full usage doc + tour anchors in panel",
+      "date": "2026-10-18",
+      "restartRequired": false
+    },
+    {
+      "id": "284",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-284/patch-284.zip",
+      "sha256": "ec575e650bc102f793694d2151c76b992163108ef8fe4ce560414609635a5c32",
+      "size": 527764362,
+      "description": "RE Studio: fix catalog args (shared schemas/quoted keys/factory options), required --flag inputs, Archs env button, MCP re-register",
       "date": "2026-10-18",
       "restartRequired": false
     }
