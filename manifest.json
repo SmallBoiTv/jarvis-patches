@@ -1,5 +1,5 @@
 {
-  "latestPatch": "284",
+  "latestPatch": "285",
   "patches": [
     {
       "id": "001",
@@ -2840,6 +2840,16 @@
       "description": "RE Studio: fix catalog args (shared schemas/quoted keys/factory options), required --flag inputs, Archs env button, MCP re-register",
       "date": "2026-10-18",
       "restartRequired": false
+    },
+    {
+      "id": "285",
+      "version": "1.0.910",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-285/patch-285.zip",
+      "sha256": "a9293735f4a9efb335e604e62a939c865caa960dc6cf8c1de91fccfb2aef2dca",
+      "size": 532079820,
+      "description": "RE Studio: fix website-clone pipeline (full evidence persistence + JSON flag), Chrome/Edge install-path detection, list-architectures target fix",
+      "date": "2026-10-19",
+      "restartRequired": true
     }
   ]
 }
