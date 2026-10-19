@@ -1,5 +1,5 @@
 {
-  "latestPatch": "286",
+  "latestPatch": "287",
   "patches": [
     {
       "id": "001",
@@ -2858,6 +2858,16 @@
       "sha256": "d4aea4d08615c3eaceb92e2fe700d4622bb4425eabb737aa3c2ddafcc36b1d47",
       "size": 532154115,
       "description": "AI Persona Farm + full social browser-account automation suite",
+      "date": "2026-10-19",
+      "restartRequired": true
+    },
+    {
+      "id": "287",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-287/patch-287.zip",
+      "sha256": "b5d7bd95cae37dee3b9c9db1c3d37843ab6cac2463cfb69a44e4854419c9f045",
+      "size": 532155018,
+      "description": "Persona farm fixes: rate-limit retry for free image providers, correct image file extensions via magic-byte sniffing, HuggingFace router endpoint",
       "date": "2026-10-19",
       "restartRequired": true
     }
