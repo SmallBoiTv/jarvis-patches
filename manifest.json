@@ -1,5 +1,5 @@
 {
-  "latestPatch": "287",
+  "latestPatch": "288",
   "patches": [
     {
       "id": "001",
@@ -2868,6 +2868,16 @@
       "sha256": "b5d7bd95cae37dee3b9c9db1c3d37843ab6cac2463cfb69a44e4854419c9f045",
       "size": 532155018,
       "description": "Persona farm fixes: rate-limit retry for free image providers, correct image file extensions via magic-byte sniffing, HuggingFace router endpoint",
+      "date": "2026-10-19",
+      "restartRequired": true
+    },
+    {
+      "id": "288",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-288/patch-288.zip",
+      "sha256": "a5ace3e234fe0e2ae47c199f578f43256268f75b68ea0d871ce54b89dbea14ea",
+      "size": 532176017,
+      "description": "Social ops expansion: checkpoint guard, session backup, shadowban probe, comment-keyword DM funnels, pinned CTA, reply-guy, own-comment replies, competitor watch, viral spikes, recycling, weekly reports, giveaway, persona voiceover/repurpose/narrative-memory/geo-rotation, per-account proxy",
       "date": "2026-10-19",
       "restartRequired": true
     }
