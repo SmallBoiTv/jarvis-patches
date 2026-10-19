@@ -1,5 +1,5 @@
 {
-  "latestPatch": "285",
+  "latestPatch": "286",
   "patches": [
     {
       "id": "001",
@@ -2848,6 +2848,16 @@
       "sha256": "a9293735f4a9efb335e604e62a939c865caa960dc6cf8c1de91fccfb2aef2dca",
       "size": 532079820,
       "description": "RE Studio: fix website-clone pipeline (full evidence persistence + JSON flag), Chrome/Edge install-path detection, list-architectures target fix",
+      "date": "2026-10-19",
+      "restartRequired": true
+    },
+    {
+      "id": "286",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-286/patch-286.zip",
+      "sha256": "d4aea4d08615c3eaceb92e2fe700d4622bb4425eabb737aa3c2ddafcc36b1d47",
+      "size": 532154115,
+      "description": "AI Persona Farm + full social browser-account automation suite",
       "date": "2026-10-19",
       "restartRequired": true
     }
