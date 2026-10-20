@@ -1,5 +1,5 @@
 {
-  "latestPatch": "292",
+  "latestPatch": "293",
   "patches": [
     {
       "id": "001",
@@ -2920,6 +2920,16 @@
       "description": "Niche trending engagement: X Top-tab search mode + scroll loading, engagement-ranked ordering, min-likes gate, independent repost toggle, keyword_search/keyword_scan observability logs",
       "date": "2026-10-20",
       "restartRequired": true
+    },
+    {
+      "id": "293",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-293/patch-293.zip",
+      "sha256": "bf0ab377c2e6ee01d078242d7e94ab82c53e71523b9a03bcfc409af0ef677e80",
+      "size": 527784285,
+      "description": "RE Studio AI agent chat — in-page copilot that runs REA commands itself (analyze/decompile/read-bytes loop) + provider/model selector",
+      "date": "2026-10-20",
+      "restartRequired": false
     }
   ]
 }
