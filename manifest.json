@@ -1,5 +1,5 @@
 {
-  "latestPatch": "289",
+  "latestPatch": "290",
   "patches": [
     {
       "id": "001",
@@ -297,7 +297,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-030/patch-030.zip",
       "sha256": "45ddce75e2c63773905a132628685e4e3f02011c7d7853ce3a928a01bec86c76",
       "size": 372903166,
-      "description": "Add Proactive/Random Messages settings to Reminders tab \u00e2\u20ac\u201d disable Jarvis spontaneous messages, floating toasts, and HUD v18 response panel",
+      "description": "Add Proactive/Random Messages settings to Reminders tab â€” disable Jarvis spontaneous messages, floating toasts, and HUD v18 response panel",
       "date": "2026-09-11",
       "restartRequired": false
     },
@@ -467,7 +467,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-047/patch-047.zip",
       "sha256": "295b5b51b9918536526fdd65874334b397b8fb31e8d31ead636f065501814967",
       "size": 375673377,
-      "description": "Chat: social option cards get 30s countdown before auto-picking Option 1 (was skipping instantly); sync renderer activeConvId to main process before every send (fixes 'new chat / lost context' \u00e2\u20ac\u201d chatWithTools/processMessageStream persisted to a phantom conversation)",
+      "description": "Chat: social option cards get 30s countdown before auto-picking Option 1 (was skipping instantly); sync renderer activeConvId to main process before every send (fixes 'new chat / lost context' â€” chatWithTools/processMessageStream persisted to a phantom conversation)",
       "date": "2026-09-12",
       "restartRequired": true
     },
@@ -557,7 +557,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-056/patch-056.zip",
       "sha256": "55c57d4e83048ad9ab7a6ecf5a5e822b273dd86a786ef58b8b2fdc92371b27d0",
       "size": 425588753,
-      "description": "Analytics: browser-account stats scraper \u00e2\u20ac\u201d scrape profile/post stats via logged-in Chrome sessions (dedicated tab, no interference with posting), URL field + platform/all scan in Analytics tab",
+      "description": "Analytics: browser-account stats scraper â€” scrape profile/post stats via logged-in Chrome sessions (dedicated tab, no interference with posting), URL field + platform/all scan in Analytics tab",
       "date": "2026-09-14",
       "restartRequired": true
     },
@@ -677,7 +677,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-068/patch-068.zip",
       "sha256": "a7f5576f41f15ecea0636de6c6d6510e088de71aa5bfdb85561049d95223dd7a",
       "size": 422489361,
-      "description": "Chat user bubble matches AI bubble on all presets; ThemeEngine no longer flattens /alpha classes to solid (yellow/red badges covering text); Jarvis Studio sidebar shortcut under Video Studio; TTS queue \u2014 speech no longer talks over itself",
+      "description": "Chat user bubble matches AI bubble on all presets; ThemeEngine no longer flattens /alpha classes to solid (yellow/red badges covering text); Jarvis Studio sidebar shortcut under Video Studio; TTS queue — speech no longer talks over itself",
       "date": "2026-09-15",
       "restartRequired": false
     },
@@ -757,7 +757,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-076/patch-076.zip",
       "sha256": "a5e970547b87464d27619839f001a9faacd0fffb63c5fd1a00939b43ed66f65a",
       "size": 425791129,
-      "description": "Deepfake Cam: clean viewer output \u2014 feathered regions, dominant-colour face transfer, Jarvis orb hidden on Screen Studio",
+      "description": "Deepfake Cam: clean viewer output — feathered regions, dominant-colour face transfer, Jarvis orb hidden on Screen Studio",
       "date": "2026-09-16",
       "restartRequired": true
     },
@@ -767,7 +767,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-077/patch-077.zip",
       "sha256": "c29dc771001b471a7175b73942ca072ade6446a2052ce0cbdf5508fc074d80cd",
       "size": 422578266,
-      "description": "Screen Studio: idle power \u2014 avatar idle render and scene compositor throttle to keepalive when hidden",
+      "description": "Screen Studio: idle power — avatar idle render and scene compositor throttle to keepalive when hidden",
       "date": "2026-09-16",
       "restartRequired": false
     },
@@ -787,7 +787,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-079/patch-079.zip",
       "sha256": "28c0376f481a3580c345713d138145d552653321e296ca1779db6c0ebf4ea224",
       "size": 425579263,
-      "description": "Remove Avatar Cam system entirely \u2014 fixes renderer OOM/black screen; keeps deepfake cam + virtual cam + shared capture path",
+      "description": "Remove Avatar Cam system entirely — fixes renderer OOM/black screen; keeps deepfake cam + virtual cam + shared capture path",
       "date": "2026-09-17",
       "restartRequired": true
     },
@@ -907,7 +907,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-091/patch-091.zip",
       "sha256": "c4fdaa504c2fe9d8ca81af2b1ecc3e8f7d1d0743bcd1ac13e32b0071a70814be",
       "size": 424693841,
-      "description": "Freeze fix: stop ~1.9s periodic render stalls \u2014 gate model-selector polling+sorts on dropdown-open, decorated sort, screencast once",
+      "description": "Freeze fix: stop ~1.9s periodic render stalls — gate model-selector polling+sorts on dropdown-open, decorated sort, screencast once",
       "date": "2026-09-18",
       "restartRequired": false
     },
@@ -947,7 +947,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-095/patch-095.zip",
       "sha256": "deb8b486ac3fe37d032e5aa05105f22f85a266bb029cd0045e51e9c90e0a3197",
       "size": 428025947,
-      "description": "Facebook caption fix: atomic insertText for URL captions \u2014 link preview re-render was detaching the textbox mid-typing (image+URL posts)",
+      "description": "Facebook caption fix: atomic insertText for URL captions — link preview re-render was detaching the textbox mid-typing (image+URL posts)",
       "date": "2026-09-19",
       "restartRequired": true
     },
@@ -1207,7 +1207,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-121/patch-121.zip",
       "sha256": "bad2b82503073690b1866915930b686f818ada37dd643526e1089d6f09455eb0",
       "size": 428524610,
-      "description": "IPC override layer \u2014 hot patches now replace bundled fs/git/run-capture handlers; powershell command dialect; @jarvis packages ship via overlay node_modules",
+      "description": "IPC override layer — hot patches now replace bundled fs/git/run-capture handlers; powershell command dialect; @jarvis packages ship via overlay node_modules",
       "date": "2026-09-28",
       "restartRequired": true
     },
@@ -1287,7 +1287,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-129/patch-129.zip",
       "sha256": "cc92b9f05cbd32cd8a57308279bf8f15ad96d4be61c287dae55aabe18b5ed365",
       "size": 424753984,
-      "description": "Collapse/cap Plan panel \u2014 max-height + scrollbar + collapse toggle so it can't cover the AI chat",
+      "description": "Collapse/cap Plan panel — max-height + scrollbar + collapse toggle so it can't cover the AI chat",
       "date": "2026-09-28",
       "restartRequired": false
     },
@@ -1337,7 +1337,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-134/patch-134.zip",
       "sha256": "764cecb504e1279c70c03a2b14df252f9bfc8fdadc669fda896d78f5bad9fb78",
       "size": 428823708,
-      "description": "Game Studio: full runtime fixes \u2014 offline three.js export, world-matrix colliders, substep anti-tunneling, live CC/rb getters, raycast composite hits, sRGB post chain, AAA Arena Breach FPS template, preview window w/ eval+capture IPC",
+      "description": "Game Studio: full runtime fixes — offline three.js export, world-matrix colliders, substep anti-tunneling, live CC/rb getters, raycast composite hits, sRGB post chain, AAA Arena Breach FPS template, preview window w/ eval+capture IPC",
       "date": "2026-09-29",
       "restartRequired": true
     },
@@ -1357,7 +1357,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-136/patch-136.zip",
       "sha256": "08fc3caa7de795cb6567325c1aad5908d4947d6b66b6b87d8c95eb5c1ed195ef",
       "size": 425070514,
-      "description": "Game Studio: kingdom asset kit (49 mesh types \u2014 keep/gate/chapel/windmill/blacksmith/market/fountain/statue/inn/king/knight/archer/mage) + interactive shop & menu UI (HUD.panel/button/show/remove), Clan Siege build shop + ESC menu",
+      "description": "Game Studio: kingdom asset kit (49 mesh types — keep/gate/chapel/windmill/blacksmith/market/fountain/statue/inn/king/knight/archer/mage) + interactive shop & menu UI (HUD.panel/button/show/remove), Clan Siege build shop + ESC menu",
       "date": "2026-09-29",
       "restartRequired": false
     },
@@ -1367,7 +1367,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-137/patch-137.zip",
       "sha256": "f1fc963c2f407868ab0643d14d5ea3389f2b609eab6f0bdf3a94e6e70262daa3",
       "size": 425086628,
-      "description": "feat(game-studio): mega asset expansion \u2014 85 procedural mesh types + Asset Showcase template",
+      "description": "feat(game-studio): mega asset expansion — 85 procedural mesh types + Asset Showcase template",
       "date": "2026-09-29",
       "restartRequired": false
     },
@@ -1377,7 +1377,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-138/patch-138.zip",
       "sha256": "2594538922e6f903b23e14936f2febfb0bf47cdcfb0a951d449959dd39ec7e03",
       "size": 425103476,
-      "description": "Game Studio: Counter Strike template (Dust Offensive) + runtime fixes \u2014 sky clip, raycast ignore, viewmodel materials, buy menu",
+      "description": "Game Studio: Counter Strike template (Dust Offensive) + runtime fixes — sky clip, raycast ignore, viewmodel materials, buy menu",
       "date": "2026-09-29",
       "restartRequired": false
     },
@@ -1437,7 +1437,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-144/patch-144.zip",
       "sha256": "199c86f029d0aa948c9361da6763af56d0f475ca1236c5700f9daf48096fc79e",
       "size": 425265276,
-      "description": "Game Studio: Repo Catalog \u2014 all 680 games as one-click AI-remake templates with per-genre quality directives",
+      "description": "Game Studio: Repo Catalog — all 680 games as one-click AI-remake templates with per-genre quality directives",
       "date": "2026-10-01",
       "restartRequired": false
     },
@@ -1517,7 +1517,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-152/patch-152.zip",
       "sha256": "1a8a6045cf93bc964841b0098a6e512616f66eae31af6acd40ab213057efbe77",
       "size": 425312085,
-      "description": "Emergency offline session recovery \u2014 restores previously-verified users while Supabase is egress-restricted (bounded to Oct 21 2026 quota reset)",
+      "description": "Emergency offline session recovery — restores previously-verified users while Supabase is egress-restricted (bounded to Oct 21 2026 quota reset)",
       "date": "2026-10-01",
       "restartRequired": false
     },
@@ -1717,7 +1717,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-172/patch-172.zip",
       "sha256": "1c5af5e50901973543fe8c1dbbff8331784f3bc7a7a303819d41f8494f2509eb",
       "size": 425431697,
-      "description": "Game Studio: name registries store assets not ids \u2014 same-batch WRITE_SCRIPT->ATTACH_SCRIPT no longer misses (stale React state)",
+      "description": "Game Studio: name registries store assets not ids — same-batch WRITE_SCRIPT->ATTACH_SCRIPT no longer misses (stale React state)",
       "date": "2026-10-03",
       "restartRequired": false
     },
@@ -1757,7 +1757,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-176/patch-176.zip",
       "sha256": "dbcf30024b40566ae31070f4a6b15e36e58a9d5950bbc5e281482806cb3bfdca",
       "size": 425499210,
-      "description": "Professional procedural assets \u2014 shared RuntimeMeshes library (detailed camo tanks, soldiers, buildings, tesla coils, sci-fi roster), new detail textures, AI quality spec upgrade",
+      "description": "Professional procedural assets — shared RuntimeMeshes library (detailed camo tanks, soldiers, buildings, tesla coils, sci-fi roster), new detail textures, AI quality spec upgrade",
       "date": "2026-10-03",
       "restartRequired": false
     },
@@ -1767,7 +1767,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-177/patch-177.zip",
       "sha256": "9e85c2c8e034b9c240b1225ae9f37741918ebf1fd7be1084d550f9d604cac473",
       "size": 425520436,
-      "description": "Game Studio: 234-type procedural asset roster \u2014 warriors/knights variants, castle structures (gatehouse/keep/cathedral/temple/pyramid/pagoda), city buildings (apartment/hospital/police/fire/gas station/stadium), roads & infrastructure (roads/intersections/streetlights/barriers/powerlines/bridge), city vehicles (bus/taxi/police/ambulance/firetruck/bulldozer/tractor), animals (horse/wolf/bear/deer/eagle), siege weapons, nature set, 50+ props, leather texture, full keyword inference + AI roster guidance",
+      "description": "Game Studio: 234-type procedural asset roster — warriors/knights variants, castle structures (gatehouse/keep/cathedral/temple/pyramid/pagoda), city buildings (apartment/hospital/police/fire/gas station/stadium), roads & infrastructure (roads/intersections/streetlights/barriers/powerlines/bridge), city vehicles (bus/taxi/police/ambulance/firetruck/bulldozer/tractor), animals (horse/wolf/bear/deer/eagle), siege weapons, nature set, 50+ props, leather texture, full keyword inference + AI roster guidance",
       "date": "2026-10-03",
       "restartRequired": false
     },
@@ -1797,7 +1797,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-180/patch-180.zip",
       "sha256": "803bc3565af779690293e82a8913061c91a5a5567cd7e0b6cdf7bf1c6e44e49d",
       "size": 425874804,
-      "description": "Game Studio Asset Store: 6,220 assets \u2014 1,825 procedural variants/kits + 4,395 CC0 (Poly Haven models/PBR/HDRI + ambientCG), real thumbnails, store UI, SPAWN_ASSET AI directive",
+      "description": "Game Studio Asset Store: 6,220 assets — 1,825 procedural variants/kits + 4,395 CC0 (Poly Haven models/PBR/HDRI + ambientCG), real thumbnails, store UI, SPAWN_ASSET AI directive",
       "date": "2026-10-04",
       "restartRequired": false
     },
@@ -1857,7 +1857,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-186/patch-186.zip",
       "sha256": "c270a77a8d1360e6da0fb35eadac3c200254f9032233b48cc15788e32c08766a",
       "size": 425905608,
-      "description": "Game Studio: custom sculpted-geometry tier \u2014 __realhuman (7.4-head anatomy, 3-layer eyes, real hands/shoes/clothing), __realcar (profile-extruded shell, clearcoat paint, real wheels, visible interior), __realbld (textured facades, storefronts, roof clutter) \u2014 38 new types, Neon Coast fully switched",
+      "description": "Game Studio: custom sculpted-geometry tier — __realhuman (7.4-head anatomy, 3-layer eyes, real hands/shoes/clothing), __realcar (profile-extruded shell, clearcoat paint, real wheels, visible interior), __realbld (textured facades, storefronts, roof clutter) — 38 new types, Neon Coast fully switched",
       "date": "2026-10-04",
       "restartRequired": false
     },
@@ -2157,7 +2157,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-216/patch-216.zip",
       "sha256": "91c2a5a569d6baf03240eba9e6d1798829d4b135c4193f1980c96639dfb6085b",
       "size": 425860791,
-      "description": "night mode lighting fix: moonlit readability floor, sun\u2192moon dimming, cool hemisphere wash, lifted night sky/fog palette",
+      "description": "night mode lighting fix: moonlit readability floor, sun→moon dimming, cool hemisphere wash, lifted night sky/fog palette",
       "date": "2026-10-07",
       "restartRequired": false
     },
@@ -2197,7 +2197,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-220/patch-220.zip",
       "sha256": "f925b7317c735091ba5200354c173cb3d78f1ed33d858564bf92171ba088fbec",
       "size": 429820646,
-      "description": "Kiln engine main-process IPC (status/render/validate/discover/verify/read-glb) \u2014 activates the Kiln Forge AI mode and KILN_ASSET directive shipped in patch 219",
+      "description": "Kiln engine main-process IPC (status/render/validate/discover/verify/read-glb) — activates the Kiln Forge AI mode and KILN_ASSET directive shipped in patch 219",
       "date": "2026-10-08",
       "restartRequired": true
     },
@@ -2237,7 +2237,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-224/patch-224.zip",
       "sha256": "0ebf45bb22e29655b9f3d0662a44fe39b2287cf8ab48bc8afa4ca03faac8d3d1",
       "size": 426046445,
-      "description": "Game Studio: deterministic quality auto-fix \u2014 bare primitives swap in-place to real Asset Store assets (transforms/scripts preserved), unmaterialized surfaces get heuristic PBR materials, degraded placeholders re-resolve against the store; quality gate now repairs before reporting",
+      "description": "Game Studio: deterministic quality auto-fix — bare primitives swap in-place to real Asset Store assets (transforms/scripts preserved), unmaterialized surfaces get heuristic PBR materials, degraded placeholders re-resolve against the store; quality gate now repairs before reporting",
       "date": "2026-10-08",
       "restartRequired": false
     },
@@ -2267,7 +2267,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-227/patch-227.zip",
       "sha256": "1144b922e55c2b8ee7a6b5b3fba253113953d33d5128d655a3e9aa29bf60082c",
       "size": 429956168,
-      "description": "Auto-Pilot per-platform post variants \u2014 new option rewrites each generated post natively per platform (X/Facebook/LinkedIn/etc get tailored text via platformContent), works in browser+API paths and approval queue",
+      "description": "Auto-Pilot per-platform post variants — new option rewrites each generated post natively per platform (X/Facebook/LinkedIn/etc get tailored text via platformContent), works in browser+API paths and approval queue",
       "date": "2026-10-08",
       "restartRequired": true
     },
@@ -2287,7 +2287,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-229/patch-229.zip",
       "sha256": "d8b7da0a2dd698a7c36fb15fa1f78d14c2d5515256f2a67b492cebedb978773f",
       "size": 426066451,
-      "description": "Game Studio: fix dark game scenes \u2014 runtime merges duplicate AAA_Environment carriers (envSystems + lighting preset both apply now); Sanctum of Ash brighter night lighting, PBR ground/crypt materials; Arcade asset harvester + AI builder asset/code reuse",
+      "description": "Game Studio: fix dark game scenes — runtime merges duplicate AAA_Environment carriers (envSystems + lighting preset both apply now); Sanctum of Ash brighter night lighting, PBR ground/crypt materials; Arcade asset harvester + AI builder asset/code reuse",
       "date": "2026-10-09",
       "restartRequired": false
     },
@@ -2297,7 +2297,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-230/patch-230.zip",
       "sha256": "e623dcfabf4708819edea63139429a8213e609a55717fec8d29ad0f8d21dd9e1",
       "size": 429983912,
-      "description": "MCP system completion: Settings\u2192MCP Servers page (server mgmt, per-page profiles, trust modes, capabilities, resources/prompts/templates/subscribe/complete/ping, call log, JSON import); marketplace real installs + creative/engine catalog (Unity, Unreal, Godot, Blender, DaVinci, Ableton, OBS, ComfyUI, Meshy, Higgsfield, Runway, ElevenLabs, HA); npx cwd/env fix; reconnect backoff; workflow MCP node pickers; coding-page MCP tool scoping",
+      "description": "MCP system completion: Settings→MCP Servers page (server mgmt, per-page profiles, trust modes, capabilities, resources/prompts/templates/subscribe/complete/ping, call log, JSON import); marketplace real installs + creative/engine catalog (Unity, Unreal, Godot, Blender, DaVinci, Ableton, OBS, ComfyUI, Meshy, Higgsfield, Runway, ElevenLabs, HA); npx cwd/env fix; reconnect backoff; workflow MCP node pickers; coding-page MCP tool scoping",
       "date": "2026-10-09",
       "restartRequired": true
     },
@@ -2377,7 +2377,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-238/patch-238.zip",
       "sha256": "f4ccdc3d0ec3583e04ad41fe1118f259165a8e5570c3e38184e30e027ca30ed1",
       "size": 424265217,
-      "description": "Crash reporting catches renderer/child-process deaths + unclean exits: app-level render-process-gone/child-process-gone capture, next-launch Crashpad scan + clean-exit flag, and page/file context pings \u2014 crashes like the coding-page file-open crash that produced no report will now reach the admin panel",
+      "description": "Crash reporting catches renderer/child-process deaths + unclean exits: app-level render-process-gone/child-process-gone capture, next-launch Crashpad scan + clean-exit flag, and page/file context pings — crashes like the coding-page file-open crash that produced no report will now reach the admin panel",
       "date": "2026-10-10",
       "restartRequired": true
     },
@@ -2407,7 +2407,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-241/patch-241.zip",
       "sha256": "316b8e3fab5df9892841d1cdaeab025337e10d75a96feb5289a7ef9b93ab055e",
       "size": 424279540,
-      "description": "Video Studio audit fixes \u2014 script-gen race, linked-clip double-move, proxy/scopes/social wiring, undo history, cold-start chunk split, real 404 for missing assets (also includes Jarvis Mesh cross-panel sync + session workspace from patch-240 source tree)",
+      "description": "Video Studio audit fixes — script-gen race, linked-clip double-move, proxy/scopes/social wiring, undo history, cold-start chunk split, real 404 for missing assets (also includes Jarvis Mesh cross-panel sync + session workspace from patch-240 source tree)",
       "date": "2026-10-10",
       "restartRequired": false
     },
@@ -2447,7 +2447,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-245/patch-245.zip",
       "sha256": "03f98b6379972b5b836a7fe73836b621164d28068509a5c500fd0002c6049734",
       "size": 420264869,
-      "description": "Jarvis Mesh: Kiln program quality \u2014 kilnDiscover helper docs injected into prompt + known-good example program, full render-error feedback in AI repairs",
+      "description": "Jarvis Mesh: Kiln program quality — kilnDiscover helper docs injected into prompt + known-good example program, full render-error feedback in AI repairs",
       "date": "2026-10-11",
       "restartRequired": false
     },
@@ -2477,7 +2477,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-248/patch-248.zip",
       "sha256": "9cb22025435440f9bc86344be7338897a79f894504eac3791bf5e5c36bb28d2c",
       "size": 420495484,
-      "description": "Exports use save-dialog IPC (real GUID.tmp fix \u2014 blob downloads lose filenames in Electron) across Jarvis Mesh, behavior trees, console logs, heightmaps, perf reports",
+      "description": "Exports use save-dialog IPC (real GUID.tmp fix — blob downloads lose filenames in Electron) across Jarvis Mesh, behavior trees, console logs, heightmaps, perf reports",
       "date": "2026-10-11",
       "restartRequired": false
     },
@@ -2517,7 +2517,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-252/patch-252.zip",
       "sha256": "86ab940b5d3f7cd211cb6a5b143ce7f78d500aa5d3eb476f52242ec818e9a918",
       "size": 425272939,
-      "description": "Migrate desktop clients to new Supabase project (uzorpsdgrtkodykaknqy) \u2014 old project permanently quota-restricted; env override via early overlay module",
+      "description": "Migrate desktop clients to new Supabase project (uzorpsdgrtkodykaknqy) — old project permanently quota-restricted; env override via early overlay module",
       "date": "2026-10-12",
       "restartRequired": false
     },
@@ -2537,7 +2537,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-254/patch-254.zip",
       "sha256": "7a94917354093dd51313a09fa4977345e56ee17bb42e7bb27f5d7f3b7c3dadf6",
       "size": 467720725,
-      "description": "Fix Video Studio stuck on Loading on first click \u2014 bypass React.lazy Suspense ping with manual async loader",
+      "description": "Fix Video Studio stuck on Loading on first click — bypass React.lazy Suspense ping with manual async loader",
       "date": "2026-10-13",
       "restartRequired": false
     },
@@ -2557,7 +2557,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-256/patch-256.zip",
       "sha256": "e669102c68bb5a7f44e7b23fbfb14c2b8ffd7877c47a4be963f3418baa610fce",
       "size": 471894790,
-      "description": "RE Studio: expanded REA command coverage to full 6.4.0 CLI surface \u2014 .NET, APK, artifacts, HAR, firmware, evidence workflows + provider fixes",
+      "description": "RE Studio: expanded REA command coverage to full 6.4.0 CLI surface — .NET, APK, artifacts, HAR, firmware, evidence workflows + provider fixes",
       "date": "2026-10-14",
       "restartRequired": false
     },
@@ -2577,7 +2577,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-258/patch-258.zip",
       "sha256": "f87bb9fe3fb4240d6454ca9f95206cdd6aabbe1dc612dd42ca926e7cc7b50d56",
       "size": 471915921,
-      "description": "AI Clips \u2192 Send to Auto-Pilot (per-account API/browser posting), real video uploads for X/TikTok/YouTube/Bluesky/Mastodon, persisted approval queue, dead approval-queue fix",
+      "description": "AI Clips → Send to Auto-Pilot (per-account API/browser posting), real video uploads for X/TikTok/YouTube/Bluesky/Mastodon, persisted approval queue, dead approval-queue fix",
       "date": "2026-10-14",
       "restartRequired": false
     },
@@ -2587,7 +2587,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-259/patch-259.zip",
       "sha256": "51cdb8ac28579a5759291173b332ca0c59f1a5dc566b83adab9f8e68937c618c",
       "size": 467748506,
-      "description": "Jarvis Cutter: floating agentic AI co-editor for Video Studio \u2014 draggable/resizable chat panel over all tabs, 40+ editor tools (timeline edits, captions, smart-cut, script\u2192video pipeline, generation, virality scoring, autopilot handoff), per-project chat memory, confirmation gates + one-prompt-one-undo",
+      "description": "Jarvis Cutter: floating agentic AI co-editor for Video Studio — draggable/resizable chat panel over all tabs, 40+ editor tools (timeline edits, captions, smart-cut, script→video pipeline, generation, virality scoring, autopilot handoff), per-project chat memory, confirmation gates + one-prompt-one-undo",
       "date": "2026-10-14",
       "restartRequired": false
     },
@@ -2647,7 +2647,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-265/patch-265.zip",
       "sha256": "a3d58d2c220d7c90066f50923dedd2b75fa365ba5d7552c02b9e305b77e3cb8a",
       "size": 467770855,
-      "description": "Video Studio copilot: real footage pipeline \u2014 build_video stock/AI-video visual modes, stock_footage + animate_image tools, direct-file stock URLs, path-based video results",
+      "description": "Video Studio copilot: real footage pipeline — build_video stock/AI-video visual modes, stock_footage + animate_image tools, direct-file stock URLs, path-based video results",
       "date": "2026-10-14",
       "restartRequired": false
     },
@@ -2737,7 +2737,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-274/patch-274.zip",
       "sha256": "c3eae298e88d1c5e970fc183ebba6bd5535bc40ecf645d1c756b05d4eac3852f",
       "size": 473180727,
-      "description": "Trading: all AI surfaces honor Jarvis provider+model \u2014 jarvis:* routing in tokenAnalyzer/signals/extraChannels, model pass-through, maxTokens floor, upstream config sync, symlink-safe vendor merge with mtime invalidation",
+      "description": "Trading: all AI surfaces honor Jarvis provider+model — jarvis:* routing in tokenAnalyzer/signals/extraChannels, model pass-through, maxTokens floor, upstream config sync, symlink-safe vendor merge with mtime invalidation",
       "date": "2026-10-16",
       "restartRequired": true
     },
@@ -2787,7 +2787,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-279/patch-279.zip",
       "sha256": "909c68fcefc3c1fc878e9b7b4759c17c81e12fd236c9a0fddba458e4b2c295c8",
       "size": 473860090,
-      "description": "Trading: wire 30 dead channels \u2014 OCO/bracket/time/conditional orders, smart+KOL wallets, funding alerts, risk settings/pause, portfolio risk, backtest, Jupiter Lend; numeric row ids fix ~24 dead onclick buttons",
+      "description": "Trading: wire 30 dead channels — OCO/bracket/time/conditional orders, smart+KOL wallets, funding alerts, risk settings/pause, portfolio risk, backtest, Jupiter Lend; numeric row ids fix ~24 dead onclick buttons",
       "date": "2026-10-16",
       "restartRequired": true
     },
@@ -2807,7 +2807,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-281/patch-281.zip",
       "sha256": "f5455069afc307235e05781701b9d37a967ec8d395428aba4c96ffee13d2cda6",
       "size": 527752485,
-      "description": "Game Studio: deterministic playability repair \u2014 camera/terrain snap incl. cameras+lights, per-frame camera ground clamp, autoFixPlayability (player controller/collider/camera creation), GLB-first resolver, cloneMeshAliases runtime bridge",
+      "description": "Game Studio: deterministic playability repair — camera/terrain snap incl. cameras+lights, per-frame camera ground clamp, autoFixPlayability (player controller/collider/camera creation), GLB-first resolver, cloneMeshAliases runtime bridge",
       "date": "2026-10-18",
       "restartRequired": false
     },
@@ -2889,6 +2889,16 @@
       "size": 532188104,
       "description": "Fix OmniRoute video generation: resolve real provider/model from catalog + health matrix, add segmind/higgsfield/pollinations/hf-spaces/pexels/pixabay fallback chain, overlay-served patch wraps __jarvisGenerateVideo + IPC handler",
       "date": "2026-10-19",
+      "restartRequired": true
+    },
+    {
+      "id": "290",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-290/patch-290.zip",
+      "sha256": "4b91e70fba80aa0509ff76e68d273a8af14eff2a3bb3c35b249799c12461bbdd",
+      "size": 532203477,
+      "description": "Video diagnostics battery + omni-video/AI-tool routing fix: jarvis:video-diagnostics checklist IPC, Diagnostics tab in Video Studio + compact panel on Personas, jarvis:omniroute-video-gen + generate_social_media_video now route through patched generator",
+      "date": "2026-10-20",
       "restartRequired": true
     }
   ]
