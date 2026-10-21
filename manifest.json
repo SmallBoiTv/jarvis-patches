@@ -1,5 +1,5 @@
 {
-  "latestPatch": "298",
+  "latestPatch": "299",
   "patches": [
     {
       "id": "001",
@@ -2978,6 +2978,16 @@
       "sha256": "f9a3e17af26c044804e7fdc17a586799e2d497a72e9fa71344175ce7e7d845f4",
       "size": 532242183,
       "description": "JSON2Video cloud-render provider + live model refresh for all cloud video providers",
+      "date": "2026-10-21",
+      "restartRequired": false
+    },
+    {
+      "id": "299",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-299/patch-299.zip",
+      "sha256": "3cad3f7e8c2c904cfa2a419c566380e4fddec703815951a405f8c7e47ce21288",
+      "size": 527797559,
+      "description": "HF Inference Providers (fal-ai/wavespeed/replicate/novita via one HF token) + ZeroGPU Spaces auto-discovery/failover + live video catalog",
       "date": "2026-10-21",
       "restartRequired": false
     }
