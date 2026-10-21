@@ -1,5 +1,5 @@
 {
-  "latestPatch": "297",
+  "latestPatch": "298",
   "patches": [
     {
       "id": "001",
@@ -2970,6 +2970,16 @@
       "description": "Magic Hour video provider (free-tier ltx-2.5/minimax-h3 at 480p, t2v+i2v, menu + settings + fallback chain + diagnostics) + 5min queue-full retry window for congested free upstreams",
       "date": "2026-10-21",
       "restartRequired": true
+    },
+    {
+      "id": "298",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-298/patch-298.zip",
+      "sha256": "f9a3e17af26c044804e7fdc17a586799e2d497a72e9fa71344175ce7e7d845f4",
+      "size": 532242183,
+      "description": "JSON2Video cloud-render provider + live model refresh for all cloud video providers",
+      "date": "2026-10-21",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
