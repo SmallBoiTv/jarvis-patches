@@ -1,5 +1,5 @@
 {
-  "latestPatch": "299",
+  "latestPatch": "300",
   "patches": [
     {
       "id": "001",
@@ -2990,6 +2990,16 @@
       "description": "HF Inference Providers (fal-ai/wavespeed/replicate/novita via one HF token) + ZeroGPU Spaces auto-discovery/failover + live video catalog",
       "date": "2026-10-21",
       "restartRequired": false
+    },
+    {
+      "id": "300",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-300/patch-300.zip",
+      "sha256": "a5ca6847a76fd4526a0b3a528a6bc1c2f8cfc09dbfae037a2ff28b1d7f7056e8",
+      "size": 532280253,
+      "description": "Web Video Bridge: browser-driven free web tiers (Qwen/Flow/Kling/PixVerse/Dreamina/ModelScope/Genspark/Leonardo/Firefly/Meta/OpenArt/APOB/A2E + Agnes claims) — shared signed-in Chrome profile, quota-check failover, daily-claim scheduler, watermark stripping, Settings health panel, fallback toggle",
+      "date": "2026-10-21",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
