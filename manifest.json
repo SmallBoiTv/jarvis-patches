@@ -1,5 +1,5 @@
 {
-  "latestPatch": "293",
+  "latestPatch": "294",
   "patches": [
     {
       "id": "001",
@@ -2930,6 +2930,17 @@
       "description": "RE Studio AI agent chat — in-page copilot that runs REA commands itself (analyze/decompile/read-bytes loop) + provider/model selector",
       "date": "2026-10-20",
       "restartRequired": false
+    },
+    {
+      "id": "294",
+      "version": "1.0.910",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-294/patch-294.zip",
+      "sha256": "e20bcba8257435ec65472f433ca2ba20b7942268141e9eda5169fc5c0513cb2c",
+      "size": 527796499,
+      "description": "RE Studio workbench: Overview/Code/Files/Rebuild tabs, AI file-write blocks, Auto-RE pipeline, Send-to-Coding handoff",
+      "date": "2026-10-21",
+      "restartRequired": false
     }
-  ]
+  ],
+  "version": "1.0.908"
 }
