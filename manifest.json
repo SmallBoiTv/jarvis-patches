@@ -1,5 +1,5 @@
 {
-  "latestPatch": "294",
+  "latestPatch": "295",
   "patches": [
     {
       "id": "001",
@@ -2938,6 +2938,16 @@
       "sha256": "e20bcba8257435ec65472f433ca2ba20b7942268141e9eda5169fc5c0513cb2c",
       "size": 527796499,
       "description": "RE Studio workbench: Overview/Code/Files/Rebuild tabs, AI file-write blocks, Auto-RE pipeline, Send-to-Coding handoff",
+      "date": "2026-10-21",
+      "restartRequired": false
+    },
+    {
+      "id": "295",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-295/patch-295.zip",
+      "sha256": "88817e75ca52826faa074f54b00bde2326c77039fe6e5f00d3170170043d01ba",
+      "size": 527796493,
+      "description": "RE workbench fixes: mounted tabs keep state, JSON parse skips progress lines, overview saves full evidence, auto-create browse dir",
       "date": "2026-10-21",
       "restartRequired": false
     }
