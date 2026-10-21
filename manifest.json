@@ -1,5 +1,5 @@
 {
-  "latestPatch": "296",
+  "latestPatch": "297",
   "patches": [
     {
       "id": "001",
@@ -2960,6 +2960,16 @@
       "description": "Agnes video fix: correct mode/seconds/720P params, queue-full retries, v2.0 deprioritized, kie aspect_ratio, diagnostics upstream-capacity reporting",
       "date": "2026-10-21",
       "restartRequired": false
+    },
+    {
+      "id": "297",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-297/patch-297.zip",
+      "sha256": "95ab5b629015ba61684991a36f2565a3158a4ef2be05ad5b7a3d28716ae7014f",
+      "size": 532233221,
+      "description": "Magic Hour video provider (free-tier ltx-2.5/minimax-h3 at 480p, t2v+i2v, menu + settings + fallback chain + diagnostics) + 5min queue-full retry window for congested free upstreams",
+      "date": "2026-10-21",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
