@@ -1,5 +1,5 @@
 {
-  "latestPatch": "295",
+  "latestPatch": "296",
   "patches": [
     {
       "id": "001",
@@ -2948,6 +2948,16 @@
       "sha256": "88817e75ca52826faa074f54b00bde2326c77039fe6e5f00d3170170043d01ba",
       "size": 527796493,
       "description": "RE workbench fixes: mounted tabs keep state, JSON parse skips progress lines, overview saves full evidence, auto-create browse dir",
+      "date": "2026-10-21",
+      "restartRequired": false
+    },
+    {
+      "id": "296",
+      "version": "1.0.908",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-296/patch-296.zip",
+      "sha256": "efacc8332e89eb81255a3316a184ef4e09a5b6067afd7023137051f1a90b63f5",
+      "size": 532229121,
+      "description": "Agnes video fix: correct mode/seconds/720P params, queue-full retries, v2.0 deprioritized, kie aspect_ratio, diagnostics upstream-capacity reporting",
       "date": "2026-10-21",
       "restartRequired": false
     }
