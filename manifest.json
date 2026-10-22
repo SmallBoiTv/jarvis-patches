@@ -1,5 +1,5 @@
 {
-  "latestPatch": "300",
+  "latestPatch": "301",
   "patches": [
     {
       "id": "001",
@@ -2999,6 +2999,16 @@
       "size": 532280253,
       "description": "Web Video Bridge: browser-driven free web tiers (Qwen/Flow/Kling/PixVerse/Dreamina/ModelScope/Genspark/Leonardo/Firefly/Meta/OpenArt/APOB/A2E + Agnes claims) — shared signed-in Chrome profile, quota-check failover, daily-claim scheduler, watermark stripping, Settings health panel, fallback toggle",
       "date": "2026-10-21",
+      "restartRequired": true
+    },
+    {
+      "id": "301",
+      "version": "1.0.910",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-301/patch-301.zip",
+      "sha256": "72427b5472e3a0294e11db335324388ed3f0cf3e287afbf89facb829771a1709",
+      "size": 532355848,
+      "description": "Social growth page: platform-scoped configs, X Articles (API+browser), X Communities watch/post, growth AI image+video (post-related), follow-source mode, xlong tier, monitors-gate fix",
+      "date": "2026-10-22",
       "restartRequired": true
     }
   ],
