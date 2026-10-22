@@ -1,5 +1,5 @@
 {
-  "latestPatch": "301",
+  "latestPatch": "302",
   "patches": [
     {
       "id": "001",
@@ -3008,6 +3008,17 @@
       "sha256": "72427b5472e3a0294e11db335324388ed3f0cf3e287afbf89facb829771a1709",
       "size": 532355848,
       "description": "Social growth page: platform-scoped configs, X Articles (API+browser), X Communities watch/post, growth AI image+video (post-related), follow-source mode, xlong tier, monitors-gate fix",
+      "date": "2026-10-22",
+      "restartRequired": true
+    },
+    {
+      "id": "302",
+      "version": "1.0.911",
+      "sourceVersion": "1.0.911",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-302/patch-302.zip",
+      "sha256": "9f74465262cf5680078114c46a057556759a59cb59213e0c7879de5006599ab2",
+      "size": 532378108,
+      "description": "Web Video Bridge AUTO across video menus with provider fallback, separate Growth image/video providers and cadence, X post controls and outreach fixes; reject promotional and stale browser media",
       "date": "2026-10-22",
       "restartRequired": true
     }
