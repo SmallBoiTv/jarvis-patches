@@ -1,5 +1,5 @@
 {
-  "latestPatch": "302",
+  "latestPatch": "303",
   "patches": [
     {
       "id": "001",
@@ -3021,6 +3021,17 @@
       "description": "Web Video Bridge AUTO across video menus with provider fallback, separate Growth image/video providers and cadence, X post controls and outreach fixes; reject promotional and stale browser media",
       "date": "2026-10-22",
       "restartRequired": true
+    },
+    {
+      "id": "303",
+      "version": "1.0.911",
+      "sourceVersion": "1.0.911",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-303/patch-303.zip",
+      "sha256": "760f1134d609e75d498eba9442a6e023a6bc4cc63d7efc2e986e0e9e9f159d92",
+      "size": 532402289,
+      "description": "Connected Browser Accounts card with per-platform Open buttons + session-key fix; per-account AI bio/banner/profile apply (X settings page); labeled behavior toggles + provider/model dropdowns in account settings; Compose video now derives shot prompt from actual post text; web video bridge: real per-site credit balances, visible-text paywall detection, OpenArt t2v fix, Dreamina model-row click fix",
+      "date": "2026-10-23",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
