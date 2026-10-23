@@ -1,5 +1,5 @@
 {
-  "latestPatch": "303",
+  "latestPatch": "304",
   "patches": [
     {
       "id": "001",
@@ -3030,6 +3030,17 @@
       "sha256": "760f1134d609e75d498eba9442a6e023a6bc4cc63d7efc2e986e0e9e9f159d92",
       "size": 532402289,
       "description": "Connected Browser Accounts card with per-platform Open buttons + session-key fix; per-account AI bio/banner/profile apply (X settings page); labeled behavior toggles + provider/model dropdowns in account settings; Compose video now derives shot prompt from actual post text; web video bridge: real per-site credit balances, visible-text paywall detection, OpenArt t2v fix, Dreamina model-row click fix",
+      "date": "2026-10-23",
+      "restartRequired": false
+    },
+    {
+      "id": "304",
+      "version": "1.0.911",
+      "sourceVersion": "1.0.911",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-304/patch-304.zip",
+      "sha256": "0a1e398b20a7418436ae0550bec689c7c5cd9808f38691c61b2767212ed517c3",
+      "size": 532404331,
+      "description": "X Communities: like posts while watching (daily cap), post comments directly via replyAutoPost, attach AI-generated images to community comments with provider/model dropdowns; media attach support on X browser replies",
       "date": "2026-10-23",
       "restartRequired": false
     }
