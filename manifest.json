@@ -1,5 +1,5 @@
 {
-  "latestPatch": "308",
+  "latestPatch": "309",
   "patches": [
     {
       "id": "001",
@@ -3085,6 +3085,17 @@
       "sha256": "4c96a74cda03dcfb0c69357f04a0f480bfc8189d2e53c865a6e4a2276a0d945e",
       "size": 532734091,
       "description": "Safety-preamble reply filter (rejects 'User Safety: safe' style outputs); per-scope provider/model pinning (autopilot menus ignore global provider changes); composer page-model route; Growth tab jump-to-card nav",
+      "date": "2026-10-24",
+      "restartRequired": true
+    },
+    {
+      "id": "309",
+      "version": "1.0.911",
+      "sourceVersion": "1.0.911",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-309/patch-309.zip",
+      "sha256": "479b77d89e49db20610547fb0939d22c10b3807ebb1f0f4fdacefbd80cf115a8",
+      "size": 532734091,
+      "description": "Remote GPU (Colab) + Kaggle video generation — remote ComfyUI server support, kaggle kernels provider, settings UI",
       "date": "2026-10-24",
       "restartRequired": true
     }
