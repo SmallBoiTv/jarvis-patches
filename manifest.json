@@ -1,5 +1,5 @@
 {
-  "latestPatch": "312",
+  "latestPatch": "313",
   "patches": [
     {
       "id": "001",
@@ -3129,6 +3129,17 @@
       "sha256": "74f3dc355bfd2c1b19c571d131ca6e7c3176310fd2ed242bf7dabc21d34417ec",
       "size": 532749376,
       "description": "Kaggle auth fix — writes real kaggle.json + KAGGLE_CONFIG_DIR (env-var creds rejected by newer CLI)",
+      "date": "2026-10-24",
+      "restartRequired": true
+    },
+    {
+      "id": "313",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-313/patch-313.zip",
+      "sha256": "c840f17f3614845c68a53195ccee947d63b039d7bdda9c78a0837bcd20a2cd1b",
+      "size": 532753998,
+      "description": "Colab Automate button + Chrome profile picker — full hands-free setup on user's real browser",
       "date": "2026-10-24",
       "restartRequired": true
     }
