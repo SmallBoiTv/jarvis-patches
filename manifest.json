@@ -1,5 +1,5 @@
 {
-  "latestPatch": "311",
+  "latestPatch": "312",
   "patches": [
     {
       "id": "001",
@@ -3118,6 +3118,17 @@
       "sha256": "3a63ccd43aa287db1674b48331c03bee7337133c80da8b22e5a345159eaabcf8",
       "size": 532749003,
       "description": "Colab Keeper auto-reconnect + notebook button fallback + Kaggle save resilience + settings readability",
+      "date": "2026-10-24",
+      "restartRequired": true
+    },
+    {
+      "id": "312",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-312/patch-312.zip",
+      "sha256": "74f3dc355bfd2c1b19c571d131ca6e7c3176310fd2ed242bf7dabc21d34417ec",
+      "size": 532749376,
+      "description": "Kaggle auth fix — writes real kaggle.json + KAGGLE_CONFIG_DIR (env-var creds rejected by newer CLI)",
       "date": "2026-10-24",
       "restartRequired": true
     }
