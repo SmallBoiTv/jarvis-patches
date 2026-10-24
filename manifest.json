@@ -1,5 +1,5 @@
 {
-  "latestPatch": "309",
+  "latestPatch": 310,
   "patches": [
     {
       "id": "001",
@@ -3093,9 +3093,20 @@
       "version": "1.0.911",
       "sourceVersion": "1.0.911",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-309/patch-309.zip",
+      "sha256": "479b77d89e49db20610547fb0939d22c10b3807ebb1f0f4fdacefbd80cf115a8",
+      "size": 532734091,
+      "description": "Remote GPU (Colab) + Kaggle video generation — remote ComfyUI server support, kaggle kernels provider, settings UI",
+      "date": "2026-10-24",
+      "restartRequired": true
+    },
+    {
+      "id": "310",
+      "version": "1.0.911",
+      "sourceVersion": "1.0.911",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-310/patch-310.zip",
       "sha256": "1fd4f61f00aae2c225c62c1b327eea9d44f0ea21bd30d6f244d58d390b03d2c3",
       "size": 532736113,
-      "description": "Isolated social-page provider/model menus (no global bleed either way); expired plans hard-gated on live access check; billing sign-in fix; App Forge server-verified admin gate; Flow video src-swap detection; support contact button (jarvisaicodingapp@gmail.com)",
+      "description": "Isolated social-page provider/model menus; expired plans hard-gated on live access check; billing sign-in fix; App Forge server-verified admin gate; Flow video src-swap detection; support contact button (jarvisaicodingapp@gmail.com)",
       "date": "2026-10-24",
       "restartRequired": true
     }
