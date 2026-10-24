@@ -1,5 +1,5 @@
 {
-  "latestPatch": "306",
+  "latestPatch": "307",
   "patches": [
     {
       "id": "001",
@@ -3063,6 +3063,17 @@
       "sha256": "0b82399ef4e3b13799c78758b3d9d4a5489134eff8b8b35c0c49d75cd1fdd1f8",
       "size": 532701937,
       "description": "Jarvis VPN: per-profile network exits for browser profiles — sing-box gateway with per-profile SOCKS5 inbounds + kill-switch routing, WireGuard/proxy URL import, IP leak verify + leak reports, WARP exit creation, SSH + Oracle provisioning, VPN page UI",
+      "date": "2026-10-24",
+      "restartRequired": true
+    },
+    {
+      "id": "307",
+      "version": "1.0.911",
+      "sourceVersion": "1.0.911",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-307/patch-307.zip",
+      "sha256": "2ed183e0df06e0a2ff3f9a9960b0efc669d9b02192eeca7c89ff86fde51ff490",
+      "size": 532708268,
+      "description": "Autopilot interval-starvation fix: scheduled posts now run on their own cadence+quota separate from growth/manual posts; failed slots retry with backoff; skip-reason + provider-failure surfaced in status; schedule timezone honored",
       "date": "2026-10-24",
       "restartRequired": true
     }
