@@ -1,5 +1,5 @@
 {
-  "latestPatch": "304",
+  "latestPatch": "305",
   "patches": [
     {
       "id": "001",
@@ -3042,6 +3042,17 @@
       "size": 532404331,
       "description": "X Communities: like posts while watching (daily cap), post comments directly via replyAutoPost, attach AI-generated images to community comments with provider/model dropdowns; media attach support on X browser replies",
       "date": "2026-10-23",
+      "restartRequired": false
+    },
+    {
+      "id": "305",
+      "version": "1.0.911",
+      "sourceVersion": "1.0.911",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-305/patch-305.zip",
+      "sha256": "8c341063dfde6dc8324fffc758002779c8d44efa21a61394b9e02935f8982521",
+      "size": 532631305,
+      "description": "Web Video Bridge: Agnes AI becomes a full generation site — agent-chat composer selectors, commit-verified send (Lexical), prompt echo submit-verify, video-intent prefix, artifact-card result capture. Engine adds promptPrefix/promptEcho/verifyCommit/uiDownload-card support.",
+      "date": "2026-10-24",
       "restartRequired": false
     }
   ],
