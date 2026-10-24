@@ -1,5 +1,5 @@
 {
-  "latestPatch": "307",
+  "latestPatch": "308",
   "patches": [
     {
       "id": "001",
@@ -3074,6 +3074,17 @@
       "sha256": "2ed183e0df06e0a2ff3f9a9960b0efc669d9b02192eeca7c89ff86fde51ff490",
       "size": 532708268,
       "description": "Autopilot interval-starvation fix: scheduled posts now run on their own cadence+quota separate from growth/manual posts; failed slots retry with backoff; skip-reason + provider-failure surfaced in status; schedule timezone honored",
+      "date": "2026-10-24",
+      "restartRequired": true
+    },
+    {
+      "id": "308",
+      "version": "1.0.911",
+      "sourceVersion": "1.0.911",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-308/patch-308.zip",
+      "sha256": "4c96a74cda03dcfb0c69357f04a0f480bfc8189d2e53c865a6e4a2276a0d945e",
+      "size": 532734091,
+      "description": "Safety-preamble reply filter (rejects 'User Safety: safe' style outputs); per-scope provider/model pinning (autopilot menus ignore global provider changes); composer page-model route; Growth tab jump-to-card nav",
       "date": "2026-10-24",
       "restartRequired": true
     }
