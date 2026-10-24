@@ -3112,12 +3112,12 @@
     },
     {
       "id": "311",
-      "version": "1.0.911",
-      "sourceVersion": "1.0.911",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-311/patch-311.zip",
-      "sha256": "1873814608e49ef2dfe4b8cb4ab38dbb1b6303022cad45616ea5327e7595b83e",
-      "size": 532739552,
-      "description": "VPN page fix: render branch for view=vpn (was blank), VPN APIs moved to window.jarvisExtras wiring, installVpnIPC registered via overlay-resolved ipc-guard-installer so patched installs get the engine, sing-box installer uses per-platform ext + pinned SHA256s (upstream has no checksums.txt)",
+      "sha256": "3a63ccd43aa287db1674b48331c03bee7337133c80da8b22e5a345159eaabcf8",
+      "size": 532749003,
+      "description": "Colab Keeper auto-reconnect + notebook button fallback + Kaggle save resilience + settings readability",
       "date": "2026-10-24",
       "restartRequired": true
     }
