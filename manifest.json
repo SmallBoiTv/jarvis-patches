@@ -1,5 +1,5 @@
 {
-  "latestPatch": "305",
+  "latestPatch": "306",
   "patches": [
     {
       "id": "001",
@@ -3054,6 +3054,17 @@
       "description": "Web Video Bridge: Agnes AI becomes a full generation site — agent-chat composer selectors, commit-verified send (Lexical), prompt echo submit-verify, video-intent prefix, artifact-card result capture. Engine adds promptPrefix/promptEcho/verifyCommit/uiDownload-card support.",
       "date": "2026-10-24",
       "restartRequired": false
+    },
+    {
+      "id": "306",
+      "version": "1.0.911",
+      "sourceVersion": "1.0.911",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-306/patch-306.zip",
+      "sha256": "0b82399ef4e3b13799c78758b3d9d4a5489134eff8b8b35c0c49d75cd1fdd1f8",
+      "size": 532701937,
+      "description": "Jarvis VPN: per-profile network exits for browser profiles — sing-box gateway with per-profile SOCKS5 inbounds + kill-switch routing, WireGuard/proxy URL import, IP leak verify + leak reports, WARP exit creation, SSH + Oracle provisioning, VPN page UI",
+      "date": "2026-10-24",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
