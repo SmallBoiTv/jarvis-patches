@@ -1,5 +1,5 @@
 {
-  "latestPatch": "314",
+  "latestPatch": "315",
   "patches": [
     {
       "id": "001",
@@ -3151,6 +3151,17 @@
       "sha256": "59aaa09aee2f2c851d8bc61ec3e81b112f2aa7b4ec6f2edb40637786ccdb1f3d",
       "size": 532756618,
       "description": "Colab Automate hardened end-to-end + wvb tab reuse + Chrome cleanup on quit",
+      "date": "2026-10-25",
+      "restartRequired": true
+    },
+    {
+      "id": "315",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-315/patch-315.zip",
+      "sha256": "68d91e254521d090de63d6db3783cedac152eb40b90d6cd87ac20f487fc470a8",
+      "size": 532769674,
+      "description": "YouTube Shorts/Long-form autopilot + viral SEO titles/tags + longform movie pipeline (storyboard, i2v chaining, ffmpeg stitch) + #Shorts + thumbnail skip on Shorts",
       "date": "2026-10-25",
       "restartRequired": true
     }
