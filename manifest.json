@@ -1,5 +1,5 @@
 {
-  "latestPatch": "315",
+  "latestPatch": "316",
   "patches": [
     {
       "id": "001",
@@ -3162,6 +3162,17 @@
       "sha256": "68d91e254521d090de63d6db3783cedac152eb40b90d6cd87ac20f487fc470a8",
       "size": 532769674,
       "description": "YouTube Shorts/Long-form autopilot + viral SEO titles/tags + longform movie pipeline (storyboard, i2v chaining, ffmpeg stitch) + #Shorts + thumbnail skip on Shorts",
+      "date": "2026-10-25",
+      "restartRequired": true
+    },
+    {
+      "id": "316",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-316/patch-316.zip",
+      "sha256": "fe980834fcb6a79d45b94dd986c4858099c5c8d75609ebfe42a60102b52a463a",
+      "size": 532770362,
+      "description": "Autopilot fix: runNow accountId object-param bug + managed-account gate fallback (YouTube autopilot works)",
       "date": "2026-10-25",
       "restartRequired": true
     }
