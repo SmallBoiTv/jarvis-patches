@@ -1,5 +1,5 @@
 {
-  "latestPatch": "317",
+  "latestPatch": "318",
   "patches": [
     {
       "id": "001",
@@ -3186,6 +3186,17 @@
       "description": "AutoPilot overhaul: AP to top of Composer, portrait video toggle, Jarvis viral image prompt, post-score 1-100 w/ YT/TikTok title+desc rewrite, Colab/Kaggle enable toggles, config-save IPC overrides",
       "date": "2026-10-25",
       "restartRequired": true
+    },
+    {
+      "id": "318",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-318/patch-318.zip",
+      "sha256": "d0e7e1b177c29fe702d0802d868d26f819c3b12395e2d9ab8b1f30ab99494139",
+      "size": 527865329,
+      "description": "AutoPilot post-score UI: gate toggle + min score 1-100 input writes autoPilotConfig (was Growth-only control)",
+      "date": "2026-10-25",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
