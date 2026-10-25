@@ -1,5 +1,5 @@
 {
-  "latestPatch": "316",
+  "latestPatch": "317",
   "patches": [
     {
       "id": "001",
@@ -3173,6 +3173,17 @@
       "sha256": "fe980834fcb6a79d45b94dd986c4858099c5c8d75609ebfe42a60102b52a463a",
       "size": 532770362,
       "description": "Autopilot fix: runNow accountId object-param bug + managed-account gate fallback (YouTube autopilot works)",
+      "date": "2026-10-25",
+      "restartRequired": true
+    },
+    {
+      "id": "317",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-317/patch-317.zip",
+      "sha256": "e40505215893138101fc77909e5931bda57b520ad4572bc4b1e6fdef3bbccae0",
+      "size": 532773630,
+      "description": "AutoPilot overhaul: AP to top of Composer, portrait video toggle, Jarvis viral image prompt, post-score 1-100 w/ YT/TikTok title+desc rewrite, Colab/Kaggle enable toggles, config-save IPC overrides",
       "date": "2026-10-25",
       "restartRequired": true
     }
