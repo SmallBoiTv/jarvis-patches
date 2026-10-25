@@ -1,5 +1,5 @@
 {
-  "latestPatch": "313",
+  "latestPatch": "314",
   "patches": [
     {
       "id": "001",
@@ -3141,6 +3141,17 @@
       "size": 532753998,
       "description": "Colab Automate button + Chrome profile picker — full hands-free setup on user's real browser",
       "date": "2026-10-24",
+      "restartRequired": true
+    },
+    {
+      "id": "314",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-314/patch-314.zip",
+      "sha256": "59aaa09aee2f2c851d8bc61ec3e81b112f2aa7b4ec6f2edb40637786ccdb1f3d",
+      "size": 532756618,
+      "description": "Colab Automate hardened end-to-end + wvb tab reuse + Chrome cleanup on quit",
+      "date": "2026-10-25",
       "restartRequired": true
     }
   ],
