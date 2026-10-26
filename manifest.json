@@ -1,5 +1,5 @@
 {
-  "latestPatch": "330",
+  "latestPatch": "331",
   "patches": [
     {
       "id": "001",
@@ -3327,6 +3327,17 @@
       "sha256": "85032d08e3dced261fa6823c3ecec229a11ac774f108b4c9735c1927ab9ce9d6",
       "size": 532857815,
       "description": "Social accounts slice crash + OmniRoute blacklist retry + key-url bridge routing + leonardo/a2e pipelines",
+      "date": "2026-10-26",
+      "restartRequired": false
+    },
+    {
+      "id": "331",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-331/patch-331.zip",
+      "sha256": "af517378665b36f037942fefbe36622dc1e9b99632bbc06d38a4e7e3896f0832",
+      "size": 532859629,
+      "description": "AutoPilot video audio: narration/voiceover via shared video-audio pipeline + trending-sound mix",
       "date": "2026-10-26",
       "restartRequired": false
     }
