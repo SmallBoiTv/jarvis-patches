@@ -1,5 +1,5 @@
 {
-  "latestPatch": "319",
+  "latestPatch": "320",
   "patches": [
     {
       "id": "001",
@@ -3206,6 +3206,17 @@
       "sha256": "b657e015bd59ef7f431f72c179737adf228f2e6f50465253f23717b57e475e43",
       "size": 532821750,
       "description": "Real Chrome for all social profiles, TikTok trending sounds, thumbnail OmniRoute image models, kimi.ai, open-profile buttons",
+      "date": "2026-10-26",
+      "restartRequired": true
+    },
+    {
+      "id": "320",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-320/patch-320.zip",
+      "sha256": "668622ef249d7edb877a015a45b0309ecbe78bf985bd46d6ff8cd28009c574a1",
+      "size": 532837401,
+      "description": "Full autopilot video improvements + platform-branched Growth tab: quality gate, fallback chain, overlays, loudnorm mix, per-platform durations, cuts, jitter, cooldown, trending sounds, watermark, per-platform growth features",
       "date": "2026-10-26",
       "restartRequired": true
     }
