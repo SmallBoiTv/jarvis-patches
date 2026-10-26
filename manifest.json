@@ -1,5 +1,5 @@
 {
-  "latestPatch": "320",
+  "latestPatch": "321",
   "patches": [
     {
       "id": "001",
@@ -3219,6 +3219,17 @@
       "description": "Full autopilot video improvements + platform-branched Growth tab: quality gate, fallback chain, overlays, loudnorm mix, per-platform durations, cuts, jitter, cooldown, trending sounds, watermark, per-platform growth features",
       "date": "2026-10-26",
       "restartRequired": true
+    },
+    {
+      "id": "321",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-321/patch-321.zip",
+      "sha256": "f95e7417c7c80bace446d5b3d67e6176ea66527998157794341c046b887a3ffd",
+      "size": 532767095,
+      "description": "Mobile App Studio + Jarvis Exchange + Exchange admin + Grok-clone Jarvis Bot fixes",
+      "date": "2026-10-26",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
