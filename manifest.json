@@ -1,5 +1,5 @@
 {
-  "latestPatch": "324",
+  "latestPatch": "325",
   "patches": [
     {
       "id": "001",
@@ -3261,6 +3261,17 @@
       "sha256": "a66ce671d584b7d531fd9c7e3828713c8f5e15398f34ddb68ccfcaa3beeee270",
       "size": 527842253,
       "description": "Jarvis Bot Grok-complete: temporary chat, stop-generating, share, trending, more personas, code copy",
+      "date": "2026-10-26",
+      "restartRequired": false
+    },
+    {
+      "id": "325",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-325/patch-325.zip",
+      "sha256": "a2e9183a66b3f700d56287678457d482703e980370ad63c86b7c7ee24ee2e52e",
+      "size": 532848587,
+      "description": "Fix TikTok scoped-profile posting — browser-profile accounts no longer blocked by global platform toggle",
       "date": "2026-10-26",
       "restartRequired": false
     }
