@@ -1,5 +1,5 @@
 {
-  "latestPatch": "327",
+  "latestPatch": "328",
   "patches": [
     {
       "id": "001",
@@ -3294,6 +3294,17 @@
       "sha256": "8ca62d4c7c596920175f515156908449ebe628783082db9e8e6b36cd3899a199",
       "size": 532850883,
       "description": "AutoPilot crash fix — string-typed config list fields (replyTargets) crashed schedule check",
+      "date": "2026-10-26",
+      "restartRequired": false
+    },
+    {
+      "id": "328",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-328/patch-328.zip",
+      "sha256": "68cd32fa38807d44d4f28cf17dd05ad9b47c7b01897a6cbb3279581bc0a9f5cb",
+      "size": 532854652,
+      "description": "AutoPilot readiness gate + cycle decision logging + durable per-destination outcomes (retry-failed-only)",
       "date": "2026-10-26",
       "restartRequired": false
     }
