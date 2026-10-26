@@ -1,5 +1,5 @@
 {
-  "latestPatch": "321",
+  "latestPatch": "322",
   "patches": [
     {
       "id": "001",
@@ -3228,6 +3228,17 @@
       "sha256": "f95e7417c7c80bace446d5b3d67e6176ea66527998157794341c046b887a3ffd",
       "size": 532767095,
       "description": "Mobile App Studio + Jarvis Exchange + Exchange admin + Grok-clone Jarvis Bot fixes",
+      "date": "2026-10-26",
+      "restartRequired": false
+    },
+    {
+      "id": "322",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-322/patch-322.zip",
+      "sha256": "093bc19c6ea54dab147733e96d44844a83940b0ee3b2b9d79ab455486c2cdd26",
+      "size": 532844264,
+      "description": "AutoPilot config heal + platform sound toggles (TikTok/Shorts/Reels)",
       "date": "2026-10-26",
       "restartRequired": false
     }
