@@ -1,5 +1,5 @@
 {
-  "latestPatch": "322",
+  "latestPatch": "323",
   "patches": [
     {
       "id": "001",
@@ -3239,6 +3239,17 @@
       "sha256": "093bc19c6ea54dab147733e96d44844a83940b0ee3b2b9d79ab455486c2cdd26",
       "size": 532844264,
       "description": "AutoPilot config heal + platform sound toggles (TikTok/Shorts/Reels)",
+      "date": "2026-10-26",
+      "restartRequired": false
+    },
+    {
+      "id": "323",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-323/patch-323.zip",
+      "sha256": "651dc9d91b77c566bd1d0b1834734fee02144895a6bec1051583c122f185b32c",
+      "size": 532846918,
+      "description": "All-platform growth feature ticks (IG/FB/LI/Pinterest/Threads/Discord + TikTok/YouTube/Reddit completion)",
       "date": "2026-10-26",
       "restartRequired": false
     }
