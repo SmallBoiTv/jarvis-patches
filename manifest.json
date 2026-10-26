@@ -1,5 +1,5 @@
 {
-  "latestPatch": "328",
+  "latestPatch": "329",
   "patches": [
     {
       "id": "001",
@@ -3305,6 +3305,17 @@
       "sha256": "68cd32fa38807d44d4f28cf17dd05ad9b47c7b01897a6cbb3279581bc0a9f5cb",
       "size": 532854652,
       "description": "AutoPilot readiness gate + cycle decision logging + durable per-destination outcomes (retry-failed-only)",
+      "date": "2026-10-26",
+      "restartRequired": false
+    },
+    {
+      "id": "329",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-329/patch-329.zip",
+      "sha256": "5cdae6fe945e48d65605cd669c1b282def916a9ead6c5d521705855f99b62cab",
+      "size": 532856251,
+      "description": "Web-video bridge: Kling free-model selection + A2E real pipeline + user site-order picker",
       "date": "2026-10-26",
       "restartRequired": false
     }
