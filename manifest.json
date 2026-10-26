@@ -1,5 +1,5 @@
 {
-  "latestPatch": "318",
+  "latestPatch": "319",
   "patches": [
     {
       "id": "001",
@@ -3197,6 +3197,17 @@
       "description": "AutoPilot post-score UI: gate toggle + min score 1-100 input writes autoPilotConfig (was Growth-only control)",
       "date": "2026-10-25",
       "restartRequired": false
+    },
+    {
+      "id": "319",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-319/patch-319.zip",
+      "sha256": "b657e015bd59ef7f431f72c179737adf228f2e6f50465253f23717b57e475e43",
+      "size": 532821750,
+      "description": "Real Chrome for all social profiles, TikTok trending sounds, thumbnail OmniRoute image models, kimi.ai, open-profile buttons",
+      "date": "2026-10-26",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
