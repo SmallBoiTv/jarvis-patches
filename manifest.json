@@ -1,5 +1,5 @@
 {
-  "latestPatch": "325",
+  "latestPatch": "326",
   "patches": [
     {
       "id": "001",
@@ -3272,6 +3272,17 @@
       "sha256": "a2e9183a66b3f700d56287678457d482703e980370ad63c86b7c7ee24ee2e52e",
       "size": 532848587,
       "description": "Fix TikTok scoped-profile posting — browser-profile accounts no longer blocked by global platform toggle",
+      "date": "2026-10-26",
+      "restartRequired": false
+    },
+    {
+      "id": "326",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-326/patch-326.zip",
+      "sha256": "2d74b044098f201227611b60ff0e0cea47ac493bad4bff0b25b67df5cf3747db",
+      "size": 532849825,
+      "description": "Social model-picker fix + TikTok scoped-profile posting + reasoning-model empty-content fix",
       "date": "2026-10-26",
       "restartRequired": false
     }
