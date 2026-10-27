@@ -1,5 +1,5 @@
 {
-  "latestPatch": "339",
+  "latestPatch": "340",
   "patches": [
     {
       "id": "001",
@@ -3426,6 +3426,17 @@
       "sha256": "74606c4f49a706300b555567c306b2a815edf5208aaa3a79890468f76888b476",
       "size": 532937674,
       "description": "Full safety layer (kill switch/caps/leases/risk) + qualify/draft pipeline + cheap-source discovery + fleet controls + Grok items",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "340",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-340/patch-340.zip",
+      "sha256": "6b5926434ff1b9d879a82e3ba7ab778fdae4dd4408d637630b7ada331ecc5b32",
+      "size": 532908424,
+      "description": "Learn stage (survival/ghost-check/shadow-ban probe) + action verify+screenshot + humanized interaction + pod-boost emit + VPN/IP check + Grok agent-toggle/feedback/media handoffs",
       "date": "2026-10-27",
       "restartRequired": false
     }
