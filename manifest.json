@@ -1,5 +1,5 @@
 {
-  "latestPatch": "335",
+  "latestPatch": "336",
   "patches": [
     {
       "id": "001",
@@ -3382,6 +3382,17 @@
       "sha256": "6bb35b570b418e8f28a9172d92b44d237232e1c504901390eca01f7ca8cd8341",
       "size": 532905720,
       "description": "OmniRoute crash fix + web admin (theme/trial) + Social Bot + composer Chrome + Grok labels",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "336",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-336/patch-336.zip",
+      "sha256": "9d94ad28d80917b60c76bdbe6baae658091fc25ef482b2f4b28db9900287e20b",
+      "size": 532913086,
+      "description": "Social Bot: botaccounts tab + streams + discovery + review + safety; Grok: search toggle + agent roles + verify + voice loop",
       "date": "2026-10-27",
       "restartRequired": false
     }
