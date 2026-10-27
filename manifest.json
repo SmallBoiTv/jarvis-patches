@@ -1,5 +1,5 @@
 {
-  "latestPatch": "340",
+  "latestPatch": "341",
   "patches": [
     {
       "id": "001",
@@ -3437,6 +3437,17 @@
       "sha256": "6b5926434ff1b9d879a82e3ba7ab778fdae4dd4408d637630b7ada331ecc5b32",
       "size": 532908424,
       "description": "Learn stage (survival/ghost-check/shadow-ban probe) + action verify+screenshot + humanized interaction + pod-boost emit + VPN/IP check + Grok agent-toggle/feedback/media handoffs",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "341",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-341/patch-341.zip",
+      "sha256": "2e6bd3c9bd64dd72e2642e50bd572aefa27dbc30a58f3860f3766a4043563e92",
+      "size": 533050050,
+      "description": "Jarvis Bot useCallback crash fix + autopilot post-count bump (X:15 TikTok:8 YT:8) + TikTok/YouTube sound selection + corrupted config repair",
       "date": "2026-10-27",
       "restartRequired": false
     }
