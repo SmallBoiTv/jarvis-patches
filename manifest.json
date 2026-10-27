@@ -1,5 +1,5 @@
 {
-  "latestPatch": "346",
+  "latestPatch": "347",
   "patches": [
     {
       "id": "001",
@@ -3503,6 +3503,17 @@
       "sha256": "c29bc1985717abb662129deb639c8f990b1cc1972a34df248627743d9e8b5381",
       "size": 533058162,
       "description": "Full Grok-parity — specialist orchestration chain (researcher→writer→critic→synthesizer with artifact handoff), job watcher + attention badge, attachments→workspace, plan-before-tools, routines, memory context",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "347",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-347/patch-347.zip",
+      "sha256": "b5df8ce301e2ba6e9864d2f06dd96cc163333f51e248dcb96aa402ded7ad2eb2",
+      "size": 533058991,
+      "description": "Final Grok-parity — memory as learning system (facts as {text,source,confidence,scope,ts} + scope-filtered injection + edit/forget) + project workspace (durable record, task/file tagging, ◆ chip)",
       "date": "2026-10-27",
       "restartRequired": false
     }
