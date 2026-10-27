@@ -1,5 +1,5 @@
 {
-  "latestPatch": "336",
+  "latestPatch": "337",
   "patches": [
     {
       "id": "001",
@@ -3393,6 +3393,17 @@
       "sha256": "9d94ad28d80917b60c76bdbe6baae658091fc25ef482b2f4b28db9900287e20b",
       "size": 532913086,
       "description": "Social Bot: botaccounts tab + streams + discovery + review + safety; Grok: search toggle + agent roles + verify + voice loop",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "337",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-337/patch-337.zip",
+      "sha256": "0f60dc3e6eff1b25c50d42f8d5cc1887cd230857fef6f6535d7a60eb62336019",
+      "size": 532917950,
+      "description": "Bot jobs runner + claim-level verify + jobs drawer + deep discovery (hashtag/comments/rails) + per-exit caps + dm + export",
       "date": "2026-10-27",
       "restartRequired": false
     }
