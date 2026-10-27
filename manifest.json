@@ -1,5 +1,5 @@
 {
-  "latestPatch": "348",
+  "latestPatch": "349",
   "patches": [
     {
       "id": "001",
@@ -3525,6 +3525,17 @@
       "sha256": "9b4f4f8d8994da72dde99fb086010747d4f608e54c3d719f4369743a5f80b36e",
       "size": 533060574,
       "description": "Mobile Studio 100% — real chat-edit (file writes), deps auto-install (feature→package map), _layout.tsx wiring, typecheck fix-loop (3 retries), preview readiness+logs, EAS auth/eas.json/bundle-id/status/artifact, file tree+editor, backend+polish wiring",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "349",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-349/patch-349.zip",
+      "sha256": "b4ed01d3e6e5474b8d851682ecdc95cc472e1c5471a548b6a978590ffef9b89f",
+      "size": 533061485,
+      "description": "Mobile Studio 100% complete — P3 local-Android (SDK check + expo run:android free path + adb install) + P4 hardening (zombie preview cleanup, port scan, build lock, web-compat flag, unit-test hook)",
       "date": "2026-10-27",
       "restartRequired": false
     }
