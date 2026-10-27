@@ -1,5 +1,5 @@
 {
-  "latestPatch": "347",
+  "latestPatch": "348",
   "patches": [
     {
       "id": "001",
@@ -3514,6 +3514,17 @@
       "sha256": "b5df8ce301e2ba6e9864d2f06dd96cc163333f51e248dcb96aa402ded7ad2eb2",
       "size": 533058991,
       "description": "Final Grok-parity — memory as learning system (facts as {text,source,confidence,scope,ts} + scope-filtered injection + edit/forget) + project workspace (durable record, task/file tagging, ◆ chip)",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "348",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-348/patch-348.zip",
+      "sha256": "9b4f4f8d8994da72dde99fb086010747d4f608e54c3d719f4369743a5f80b36e",
+      "size": 533060574,
+      "description": "Mobile Studio 100% — real chat-edit (file writes), deps auto-install (feature→package map), _layout.tsx wiring, typecheck fix-loop (3 retries), preview readiness+logs, EAS auth/eas.json/bundle-id/status/artifact, file tree+editor, backend+polish wiring",
       "date": "2026-10-27",
       "restartRequired": false
     }
