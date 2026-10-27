@@ -1,5 +1,5 @@
 {
-  "latestPatch": "350",
+  "latestPatch": "351",
   "patches": [
     {
       "id": "001",
@@ -3547,6 +3547,17 @@
       "sha256": "dbf24b8c1a6b1d9cda194c8dd0413809b766a4cb2708a78c8eafbfb9f7dd7c37",
       "size": 533039024,
       "description": "Social Bot full-blown — like/comment/share/repost on all platforms (shareButton+repostButton selectors for 7 platforms, share/repost actions via cfg.actions) + Bot Accounts merged into Social Bot page (Accounts tab, botaccounts route redirects to socialbot)",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "351",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-351/patch-351.zip",
+      "sha256": "5de61b2d8ae7b90781d514d388d628d97ac0fa2712c87d4db5f08eb75893bd8f",
+      "size": 533039633,
+      "description": "Social Bot full-blown complete — provider/model menu in campaign form (omniroute/local + 8-model list), per-platform action chips (like/comment/share/repost/follow/dm/watch/replyComment/save), model+provider+actions wired into campaign-create for all platforms",
       "date": "2026-10-27",
       "restartRequired": false
     }
