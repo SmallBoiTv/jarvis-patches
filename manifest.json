@@ -1,5 +1,5 @@
 {
-  "latestPatch": "332",
+  "latestPatch": "333",
   "patches": [
     {
       "id": "001",
@@ -3349,6 +3349,17 @@
       "sha256": "7b70fe49d6085e3c90f063edd51925c1e37014a7a4019e5794815ab2775a572f",
       "size": 532872677,
       "description": "Web bridge: draggable site-order picker + move fix, a2e/genspark workspace URLs, Suno web-music bridge",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "333",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-333/patch-333.zip",
+      "sha256": "0ea60ffb74b9f45e815c223802e7dc1a8f40dda1c864b0dbaf526d70b5074984",
+      "size": 532872821,
+      "description": "Web music bridge: Suno prompt-bar expansion selectors (noprompt fix)",
       "date": "2026-10-27",
       "restartRequired": false
     }
