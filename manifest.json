@@ -1,5 +1,5 @@
 {
-  "latestPatch": "334",
+  "latestPatch": "335",
   "patches": [
     {
       "id": "001",
@@ -3371,6 +3371,17 @@
       "sha256": "e2aec0bea0bb47c68b1fdcb791075a5366f69090e7dd79d833294b33c3c45fc2",
       "size": 532877425,
       "description": "Web bridge: draggable picker + move fix, a2e/genspark URLs, Suno web-music bridge (full pipeline)",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "335",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-335/patch-335.zip",
+      "sha256": "6bb35b570b418e8f28a9172d92b44d237232e1c504901390eca01f7ca8cd8341",
+      "size": 532905720,
+      "description": "OmniRoute crash fix + web admin (theme/trial) + Social Bot + composer Chrome + Grok labels",
       "date": "2026-10-27",
       "restartRequired": false
     }
