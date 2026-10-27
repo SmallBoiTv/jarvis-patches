@@ -1,5 +1,5 @@
 {
-  "latestPatch": "345",
+  "latestPatch": "346",
   "patches": [
     {
       "id": "001",
@@ -3492,6 +3492,17 @@
       "sha256": "b56ee7b154064a7a27c9a7aa2fc5408729a149e3a0930beff32c339b5455eebf",
       "size": 533057104,
       "description": "Jarvis Bot Grok-parity — typed job runner (real executors: prompt/search/gen-image/gen-video/file/browser/wait, {{prev}} chaining, AbortController cancel, heartbeat+crash recovery, progress events, approval gates, routines, workspaces) + Tools panel + approvals UI + routines",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "346",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-346/patch-346.zip",
+      "sha256": "c29bc1985717abb662129deb639c8f990b1cc1972a34df248627743d9e8b5381",
+      "size": 533058162,
+      "description": "Full Grok-parity — specialist orchestration chain (researcher→writer→critic→synthesizer with artifact handoff), job watcher + attention badge, attachments→workspace, plan-before-tools, routines, memory context",
       "date": "2026-10-27",
       "restartRequired": false
     }
