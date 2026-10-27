@@ -1,5 +1,5 @@
 {
-  "latestPatch": "331",
+  "latestPatch": "332",
   "patches": [
     {
       "id": "001",
@@ -3339,6 +3339,17 @@
       "size": 532859629,
       "description": "AutoPilot video audio: narration/voiceover via shared video-audio pipeline + trending-sound mix",
       "date": "2026-10-26",
+      "restartRequired": false
+    },
+    {
+      "id": "332",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-332/patch-332.zip",
+      "sha256": "7b70fe49d6085e3c90f063edd51925c1e37014a7a4019e5794815ab2775a572f",
+      "size": 532872677,
+      "description": "Web bridge: draggable site-order picker + move fix, a2e/genspark workspace URLs, Suno web-music bridge",
+      "date": "2026-10-27",
       "restartRequired": false
     }
   ],
