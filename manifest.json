@@ -1,5 +1,5 @@
 {
-  "latestPatch": "338",
+  "latestPatch": "339",
   "patches": [
     {
       "id": "001",
@@ -3415,6 +3415,17 @@
       "sha256": "80e69a2b259d9637f106156588af69aa8d82f07904545e118cd071608162e54b",
       "size": 527854952,
       "description": "Fix socialbot/botaccounts render — visitedViews mount blocks + validViews + pageFeatures + aliases",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "339",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-339/patch-339.zip",
+      "sha256": "74606c4f49a706300b555567c306b2a815edf5208aaa3a79890468f76888b476",
+      "size": 532937674,
+      "description": "Full safety layer (kill switch/caps/leases/risk) + qualify/draft pipeline + cheap-source discovery + fleet controls + Grok items",
       "date": "2026-10-27",
       "restartRequired": false
     }
