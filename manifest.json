@@ -1,5 +1,5 @@
 {
-  "latestPatch": "333",
+  "latestPatch": "334",
   "patches": [
     {
       "id": "001",
@@ -3360,6 +3360,17 @@
       "sha256": "0ea60ffb74b9f45e815c223802e7dc1a8f40dda1c864b0dbaf526d70b5074984",
       "size": 532872821,
       "description": "Web music bridge: Suno prompt-bar expansion selectors (noprompt fix)",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "334",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-334/patch-334.zip",
+      "sha256": "e2aec0bea0bb47c68b1fdcb791075a5366f69090e7dd79d833294b33c3c45fc2",
+      "size": 532877425,
+      "description": "Web bridge: draggable picker + move fix, a2e/genspark URLs, Suno web-music bridge (full pipeline)",
       "date": "2026-10-27",
       "restartRequired": false
     }
