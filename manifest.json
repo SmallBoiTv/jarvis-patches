@@ -1,5 +1,5 @@
 {
-  "latestPatch": "342",
+  "latestPatch": "343",
   "patches": [
     {
       "id": "001",
@@ -3459,6 +3459,17 @@
       "sha256": "688047f1d992dad9c370671b447600bf5fd591f9e002a221cd5f8d83aed5642c",
       "size": 533050361,
       "description": "Social page crash fix — post2.slice on postedHistory object entries (YouTube/TikTok autopilot): data sanitized, writer pushes strings, renderer defensive",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "343",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-343/patch-343.zip",
+      "sha256": "8c789c3fee05aa191404e3903bc06875181222bc39f3d1f571ce05aa4e4b06b3",
+      "size": 533053414,
+      "description": "Remaining gaps — Social: target enrichment, follower-band, pod reciprocity, VOD comments, viewer-band, reddit allowlist, LLM budget, OS toast, typing corrections, A/B styles, bulk queue-edit. Grok: Search X, PTT, projects, tools, share, attachment refs, request IDs",
       "date": "2026-10-27",
       "restartRequired": false
     }
