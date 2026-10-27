@@ -1,5 +1,5 @@
 {
-  "latestPatch": "344",
+  "latestPatch": "345",
   "patches": [
     {
       "id": "001",
@@ -3481,6 +3481,17 @@
       "sha256": "89b599a7587b85c63cbe165c1f7a234f462c847c64c95d9960c10d08acbf26f5",
       "size": 533053190,
       "description": "Custom Suno downloader (usesuno-equivalent) — public link → clip API → DRM-detect → mp4 audio extraction; works for any public song, wired as primary download method + jarvis:web-music-download IPC",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "345",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-345/patch-345.zip",
+      "sha256": "b56ee7b154064a7a27c9a7aa2fc5408729a149e3a0930beff32c339b5455eebf",
+      "size": 533057104,
+      "description": "Jarvis Bot Grok-parity — typed job runner (real executors: prompt/search/gen-image/gen-video/file/browser/wait, {{prev}} chaining, AbortController cancel, heartbeat+crash recovery, progress events, approval gates, routines, workspaces) + Tools panel + approvals UI + routines",
       "date": "2026-10-27",
       "restartRequired": false
     }
