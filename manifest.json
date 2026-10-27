@@ -1,5 +1,5 @@
 {
-  "latestPatch": "341",
+  "latestPatch": "342",
   "patches": [
     {
       "id": "001",
@@ -3448,6 +3448,17 @@
       "sha256": "2e6bd3c9bd64dd72e2642e50bd572aefa27dbc30a58f3860f3766a4043563e92",
       "size": 533050050,
       "description": "Jarvis Bot useCallback crash fix + autopilot post-count bump (X:15 TikTok:8 YT:8) + TikTok/YouTube sound selection + corrupted config repair",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "342",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-342/patch-342.zip",
+      "sha256": "688047f1d992dad9c370671b447600bf5fd591f9e002a221cd5f8d83aed5642c",
+      "size": 533050361,
+      "description": "Social page crash fix — post2.slice on postedHistory object entries (YouTube/TikTok autopilot): data sanitized, writer pushes strings, renderer defensive",
       "date": "2026-10-27",
       "restartRequired": false
     }
