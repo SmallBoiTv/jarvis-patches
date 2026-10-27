@@ -1,5 +1,5 @@
 {
-  "latestPatch": "337",
+  "latestPatch": "338",
   "patches": [
     {
       "id": "001",
@@ -3404,6 +3404,17 @@
       "sha256": "0f60dc3e6eff1b25c50d42f8d5cc1887cd230857fef6f6535d7a60eb62336019",
       "size": 532917950,
       "description": "Bot jobs runner + claim-level verify + jobs drawer + deep discovery (hashtag/comments/rails) + per-exit caps + dm + export",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "338",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-338/patch-338.zip",
+      "sha256": "80e69a2b259d9637f106156588af69aa8d82f07904545e118cd071608162e54b",
+      "size": 527854952,
+      "description": "Fix socialbot/botaccounts render — visitedViews mount blocks + validViews + pageFeatures + aliases",
       "date": "2026-10-27",
       "restartRequired": false
     }
