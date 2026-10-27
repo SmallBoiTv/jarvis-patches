@@ -1,5 +1,5 @@
 {
-  "latestPatch": "352",
+  "latestPatch": "353",
   "patches": [
     {
       "id": "001",
@@ -3569,6 +3569,17 @@
       "sha256": "dd5ff12a432120e2c3622484f53e397050121369d2315c933b1ea96059565b6b",
       "size": 533040042,
       "description": "Social Bot gap-closure — unfollow action (unfollowButton selectors for 7 platforms + click path) + real DM path (messageButton/dmInput/dmSend — open thread→type→send, not live-chat) + unfollow in action chips",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "353",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-353/patch-353.zip",
+      "sha256": "e45c2701789865937ad3cdf781f40803291630773fb5a4ce9241254696937373",
+      "size": 533040205,
+      "description": "Social Bot — all 13 platforms selector-complete (share/repost/unfollow/message/dm selectors for twitch/kick/threads/pinterest/bluesky/discord) + dm→chat mapping fix (dm runs its own open-thread→type→send path)",
       "date": "2026-10-27",
       "restartRequired": false
     }
