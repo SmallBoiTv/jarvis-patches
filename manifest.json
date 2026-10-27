@@ -1,5 +1,5 @@
 {
-  "latestPatch": "349",
+  "latestPatch": "350",
   "patches": [
     {
       "id": "001",
@@ -3536,6 +3536,17 @@
       "sha256": "b4ed01d3e6e5474b8d851682ecdc95cc472e1c5471a548b6a978590ffef9b89f",
       "size": 533061485,
       "description": "Mobile Studio 100% complete — P3 local-Android (SDK check + expo run:android free path + adb install) + P4 hardening (zombie preview cleanup, port scan, build lock, web-compat flag, unit-test hook)",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "350",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-350/patch-350.zip",
+      "sha256": "dbf24b8c1a6b1d9cda194c8dd0413809b766a4cb2708a78c8eafbfb9f7dd7c37",
+      "size": 533039024,
+      "description": "Social Bot full-blown — like/comment/share/repost on all platforms (shareButton+repostButton selectors for 7 platforms, share/repost actions via cfg.actions) + Bot Accounts merged into Social Bot page (Accounts tab, botaccounts route redirects to socialbot)",
       "date": "2026-10-27",
       "restartRequired": false
     }
