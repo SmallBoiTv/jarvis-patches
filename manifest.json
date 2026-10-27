@@ -1,5 +1,5 @@
 {
-  "latestPatch": "353",
+  "latestPatch": "354",
   "patches": [
     {
       "id": "001",
@@ -3580,6 +3580,17 @@
       "sha256": "e45c2701789865937ad3cdf781f40803291630773fb5a4ce9241254696937373",
       "size": 533040205,
       "description": "Social Bot — all 13 platforms selector-complete (share/repost/unfollow/message/dm selectors for twitch/kick/threads/pinterest/bluesky/discord) + dm→chat mapping fix (dm runs its own open-thread→type→send path)",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "354",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-354/patch-354.zip",
+      "sha256": "f027859e6661bac80aeec1d015fc44fb2c345e0c48d2bcd20595ba1b3ebf2e36",
+      "size": 533040171,
+      "description": "Auto-Pilot text provider/model dropdown — the missing caption/post/comment model selector in settings, bound to cfg.provider/model that the text generation actually reads (separate from image/video providers + the page-top selector)",
       "date": "2026-10-27",
       "restartRequired": false
     }
