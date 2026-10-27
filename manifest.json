@@ -1,5 +1,5 @@
 {
-  "latestPatch": "343",
+  "latestPatch": "344",
   "patches": [
     {
       "id": "001",
@@ -3470,6 +3470,17 @@
       "sha256": "8c789c3fee05aa191404e3903bc06875181222bc39f3d1f571ce05aa4e4b06b3",
       "size": 533053414,
       "description": "Remaining gaps — Social: target enrichment, follower-band, pod reciprocity, VOD comments, viewer-band, reddit allowlist, LLM budget, OS toast, typing corrections, A/B styles, bulk queue-edit. Grok: Search X, PTT, projects, tools, share, attachment refs, request IDs",
+      "date": "2026-10-27",
+      "restartRequired": false
+    },
+    {
+      "id": "344",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-344/patch-344.zip",
+      "sha256": "89b599a7587b85c63cbe165c1f7a234f462c847c64c95d9960c10d08acbf26f5",
+      "size": 533053190,
+      "description": "Custom Suno downloader (usesuno-equivalent) — public link → clip API → DRM-detect → mp4 audio extraction; works for any public song, wired as primary download method + jarvis:web-music-download IPC",
       "date": "2026-10-27",
       "restartRequired": false
     }
