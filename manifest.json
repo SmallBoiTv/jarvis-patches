@@ -1,5 +1,5 @@
 {
-  "latestPatch": "362",
+  "latestPatch": "363",
   "patches": [
     {
       "id": "001",
@@ -3679,6 +3679,17 @@
       "sha256": "402e9b403c5b340931a85327216badbf4ed7bd5e3245d3251e872e33cf0b1600",
       "size": 532895955,
       "description": "Mobile Studio gaps — Android emulator check + run-on-device preview, local APK build fallback, EAS build-status surface with artifact URL, icon/splash generation, real supabase/local backend scaffolder, OTA update, store metadata, version bump",
+      "date": "2026-10-28",
+      "restartRequired": false
+    },
+    {
+      "id": "363",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-363/patch-363.zip",
+      "sha256": "aecc86922892e4676af95dcc336fdfa7c5fa55b62857189cef4ae4c29c0653ba",
+      "size": 527795655,
+      "description": "Jarvis Exchange complete — review/report UI wired to live handlers, Flag import fix, voice-commands panel close fix",
       "date": "2026-10-28",
       "restartRequired": false
     }
