@@ -1,5 +1,5 @@
 {
-  "latestPatch": "355",
+  "latestPatch": "354",
   "patches": [
     {
       "id": "001",
@@ -3588,10 +3588,10 @@
       "version": "1.0.912",
       "sourceVersion": "1.0.912",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-354/patch-354.zip",
-      "sha256": "f027859e6661bac80aeec1d015fc44fb2c345e0c48d2bcd20595ba1b3ebf2e36",
-      "size": 533040171,
-      "description": "Auto-Pilot text provider/model dropdown — the missing caption/post/comment model selector in settings, bound to cfg.provider/model that the text generation actually reads (separate from image/video providers + the page-top selector)",
-      "date": "2026-10-27",
+      "sha256": "bc30cced52aa0e308f1dacf2678b539f43390817aa578a3d318f3f41edbfeb54",
+      "size": 532954823,
+      "description": "Revert to patch-353 code state — removes all un-patched post-353 work: autopilot Stop-All change, queue-priority + job-timeout changes, omniroute model-resolution change, autopilot postNow API, autopilot text provider/model dropdowns, browser-profile dir mapping, media-model-list filter",
+      "date": "2026-10-28",
       "restartRequired": false
     },
     {
