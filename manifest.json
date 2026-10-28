@@ -1,5 +1,5 @@
 {
-  "latestPatch": "359",
+  "latestPatch": "360",
   "patches": [
     {
       "id": "001",
@@ -3646,6 +3646,17 @@
       "sha256": "d2a0751d84f55ecef6619379008a21185f9ccbd3c2ae129512f9f816332f3c58",
       "size": 532955161,
       "description": "Restore merge — all pre-revert work back (autopilot-at-top, Music Studio, settings features, all main modules) + post-restore fixes kept (16k gen tokens, bounded research steps, JarvisBotView provider/model selector)",
+      "date": "2026-10-28",
+      "restartRequired": false
+    },
+    {
+      "id": "360",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-360/patch-360.zip",
+      "sha256": "99325222a624156519dd05891a9db7c07ec3fd536fbc396aa2a6ef8796446eb3",
+      "size": 532955343,
+      "description": "TikTok autopilot pipeline fix — realProfileDir aligned to the chrome--<id> session dir: sign-in was writing profile-<id> while posting read chrome--<id>, so every post saw 'not logged in' (verified live: Successfully posted to tiktok); pickSound logging + broader selectors",
       "date": "2026-10-28",
       "restartRequired": false
     }
