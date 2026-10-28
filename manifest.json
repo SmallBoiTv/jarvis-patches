@@ -1,5 +1,5 @@
 {
-  "latestPatch": "357",
+  "latestPatch": "358",
   "patches": [
     {
       "id": "001",
@@ -3624,6 +3624,17 @@
       "sha256": "759fa579a17707027ab435a73c19f393218708e29e3d244002c6a60653e07fe4",
       "size": 532955085,
       "description": "AutoPilot text-gen deep-dive fix — maxTokens 4096→16384 (auto/* aliases route to reasoning models that burned the 4k cap and returned finish_reason:length + empty content — the autopilot-only failures; normal pages use 16k) + OmniRoute readiness probe before stream attempts; page-models provider/model stays authoritative; noFailover kept per no-provider-switch rule",
+      "date": "2026-10-28",
+      "restartRequired": false
+    },
+    {
+      "id": "358",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-358/patch-358.zip",
+      "sha256": "d85010f832bab68b85186ac9668bd5eb079ca99a700f95fb7fa81f821c6a9563",
+      "size": 532955176,
+      "description": "TikTok autopilot pipeline fix — bounded pre-generation research steps (webSearch 60s, researchTrendingHashtags/X-scrape 90s via Promise.race) so a hung browser scrape can't wedge the whole cycle before generation; TikTok videoProvider→rotate + WVB brokenUntil cleared + stale connected:false flag fixed",
       "date": "2026-10-28",
       "restartRequired": false
     }
