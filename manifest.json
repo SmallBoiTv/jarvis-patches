@@ -1,5 +1,5 @@
 {
-  "latestPatch": "354",
+  "latestPatch": "355",
   "patches": [
     {
       "id": "001",
@@ -3599,11 +3599,11 @@
       "version": "1.0.912",
       "sourceVersion": "1.0.912",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-355/patch-355.zip",
-      "sha256": "0ba0794cfc302dab26a48811bf54ed74b7dcb5eec855ef0b6ca68c375b9084ad",
-      "size": 532955261,
-      "description": "TikTok autopilot: enable browser-mode posting (platform was mode:'off' — Chrome never opened), best-coding model fallback, Post Now button",
+      "sha256": "53144d8e06a4dfca6846479a3c3527a7189dcc4bd63a635e6b4365d0727ee5de",
+      "size": 532954794,
+      "description": "AutoPilot text/post generation reads the Social page's top-right provider+model menus (jarvis:page-models['social-media'] authoritative — cfg fields gap-fallback only; image/video gen untouched) + enable flag only changes via the user's toggle: account/platform/stop-all paths stop cycles + clear queues but never write enabled:false",
       "date": "2026-10-28",
-      "restartRequired": true
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
