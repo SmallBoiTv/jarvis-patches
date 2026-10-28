@@ -1,5 +1,5 @@
 {
-  "latestPatch": "358",
+  "latestPatch": "359",
   "patches": [
     {
       "id": "001",
@@ -3635,6 +3635,17 @@
       "sha256": "d85010f832bab68b85186ac9668bd5eb079ca99a700f95fb7fa81f821c6a9563",
       "size": 532955176,
       "description": "TikTok autopilot pipeline fix — bounded pre-generation research steps (webSearch 60s, researchTrendingHashtags/X-scrape 90s via Promise.race) so a hung browser scrape can't wedge the whole cycle before generation; TikTok videoProvider→rotate + WVB brokenUntil cleared + stale connected:false flag fixed",
+      "date": "2026-10-28",
+      "restartRequired": false
+    },
+    {
+      "id": "359",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-359/patch-359.zip",
+      "sha256": "d2a0751d84f55ecef6619379008a21185f9ccbd3c2ae129512f9f816332f3c58",
+      "size": 532955161,
+      "description": "Restore merge — all pre-revert work back (autopilot-at-top, Music Studio, settings features, all main modules) + post-restore fixes kept (16k gen tokens, bounded research steps, JarvisBotView provider/model selector)",
       "date": "2026-10-28",
       "restartRequired": false
     }
