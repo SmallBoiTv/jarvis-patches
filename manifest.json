@@ -1,5 +1,5 @@
 {
-  "latestPatch": "354",
+  "latestPatch": "355",
   "patches": [
     {
       "id": "001",
@@ -3593,6 +3593,17 @@
       "description": "Auto-Pilot text provider/model dropdown — the missing caption/post/comment model selector in settings, bound to cfg.provider/model that the text generation actually reads (separate from image/video providers + the page-top selector)",
       "date": "2026-10-27",
       "restartRequired": false
+    },
+    {
+      "id": "355",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-355/patch-355.zip",
+      "sha256": "0ba0794cfc302dab26a48811bf54ed74b7dcb5eec855ef0b6ca68c375b9084ad",
+      "size": 532955261,
+      "description": "TikTok autopilot: enable browser-mode posting (platform was mode:'off' — Chrome never opened), best-coding model fallback, Post Now button",
+      "date": "2026-10-28",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
