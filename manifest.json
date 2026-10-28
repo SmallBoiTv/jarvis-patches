@@ -1,5 +1,5 @@
 {
-  "latestPatch": "patch-364",
+  "latestPatch": "patch-365",
   "patches": [
     {
       "id": "001",
@@ -3703,6 +3703,17 @@
       "description": "Forge gaps: browser/file/llm/chain tool types + secrets + versioning + scheduling + analytics + auto-forge + categories + multi-step planning + suggestions",
       "date": "2026-10-28",
       "restartRequired": false
+    },
+    {
+      "id": "patch-365",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-patch-365/patch-patch-365.zip",
+      "sha256": "6b21e100422caeba3d818c86859aac929111607e33eb1cc38bed9d899c17d771",
+      "size": 532975984,
+      "description": "Taskbar icon fix: real tray icon (was empty image) + icon.png in overlay",
+      "date": "2026-10-28",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
