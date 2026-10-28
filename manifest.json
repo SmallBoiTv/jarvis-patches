@@ -1,5 +1,5 @@
 {
-  "latestPatch": "363",
+  "latestPatch": "patch-364",
   "patches": [
     {
       "id": "001",
@@ -3690,6 +3690,17 @@
       "sha256": "aecc86922892e4676af95dcc336fdfa7c5fa55b62857189cef4ae4c29c0653ba",
       "size": 527795655,
       "description": "Jarvis Exchange complete — review/report UI wired to live handlers, Flag import fix, voice-commands panel close fix",
+      "date": "2026-10-28",
+      "restartRequired": false
+    },
+    {
+      "id": "patch-364",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-patch-364/patch-patch-364.zip",
+      "sha256": "25b30a4ed850720956913e5a5482b26332aba1ec4e41e65ddafe01382f6068ac",
+      "size": 527798341,
+      "description": "Forge gaps: browser/file/llm/chain tool types + secrets + versioning + scheduling + analytics + auto-forge + categories + multi-step planning + suggestions",
       "date": "2026-10-28",
       "restartRequired": false
     }
