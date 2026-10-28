@@ -1,5 +1,5 @@
 {
-  "latestPatch": "360",
+  "latestPatch": "361",
   "patches": [
     {
       "id": "001",
@@ -3657,6 +3657,17 @@
       "sha256": "99325222a624156519dd05891a9db7c07ec3fd536fbc396aa2a6ef8796446eb3",
       "size": 532955343,
       "description": "TikTok autopilot pipeline fix — realProfileDir aligned to the chrome--<id> session dir: sign-in was writing profile-<id> while posting read chrome--<id>, so every post saw 'not logged in' (verified live: Successfully posted to tiktok); pickSound logging + broader selectors",
+      "date": "2026-10-28",
+      "restartRequired": false
+    },
+    {
+      "id": "361",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-361/patch-361.zip",
+      "sha256": "a4cd40c8de580db73c63339664a836770ef2b6d47ea6e73c597071052801dfb4",
+      "size": 532892693,
+      "description": "Jarvis Bot = Grok Bot — full teammate layer: named bots by message, permissioned tool catalog, bot-to-bot delegation + shared thread, approval inbox + LLM Auto Review, per-bot memory + screens on a shared computer, teach-by-demonstration, routines with plain-words schedules + run history + test runs, webhook/botmail triggers + GitHub/X event polling, mid-step abort",
       "date": "2026-10-28",
       "restartRequired": false
     }
