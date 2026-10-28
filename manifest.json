@@ -1,5 +1,5 @@
 {
-  "latestPatch": "361",
+  "latestPatch": "362",
   "patches": [
     {
       "id": "001",
@@ -3668,6 +3668,17 @@
       "sha256": "a4cd40c8de580db73c63339664a836770ef2b6d47ea6e73c597071052801dfb4",
       "size": 532892693,
       "description": "Jarvis Bot = Grok Bot — full teammate layer: named bots by message, permissioned tool catalog, bot-to-bot delegation + shared thread, approval inbox + LLM Auto Review, per-bot memory + screens on a shared computer, teach-by-demonstration, routines with plain-words schedules + run history + test runs, webhook/botmail triggers + GitHub/X event polling, mid-step abort",
+      "date": "2026-10-28",
+      "restartRequired": false
+    },
+    {
+      "id": "362",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-362/patch-362.zip",
+      "sha256": "402e9b403c5b340931a85327216badbf4ed7bd5e3245d3251e872e33cf0b1600",
+      "size": 532895955,
+      "description": "Mobile Studio gaps — Android emulator check + run-on-device preview, local APK build fallback, EAS build-status surface with artifact URL, icon/splash generation, real supabase/local backend scaffolder, OTA update, store metadata, version bump",
       "date": "2026-10-28",
       "restartRequired": false
     }
