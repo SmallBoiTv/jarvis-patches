@@ -1,5 +1,5 @@
 {
-  "latestPatch": "355",
+  "latestPatch": "356",
   "patches": [
     {
       "id": "001",
@@ -3602,6 +3602,17 @@
       "sha256": "53144d8e06a4dfca6846479a3c3527a7189dcc4bd63a635e6b4365d0727ee5de",
       "size": 532954794,
       "description": "AutoPilot text/post generation reads the Social page's top-right provider+model menus (jarvis:page-models['social-media'] authoritative — cfg fields gap-fallback only; image/video gen untouched) + enable flag only changes via the user's toggle: account/platform/stop-all paths stop cycles + clear queues but never write enabled:false",
+      "date": "2026-10-28",
+      "restartRequired": false
+    },
+    {
+      "id": "356",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-356/patch-356.zip",
+      "sha256": "e78ef7cacd5903dad6f7cfcc6891f7ac95d86e72dfc114e56ea0bea4a3ba3d19",
+      "size": 532954903,
+      "description": "Jarvis Bot — full AIProviderModelSelector (provider+model menus, taskId=jarvisbot, persisted via jarvis:page-models) replaces the model-only select; provider threaded through every chat/search call",
       "date": "2026-10-28",
       "restartRequired": false
     }
