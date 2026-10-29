@@ -1,5 +1,5 @@
 {
-  "latestPatch": "369",
+  "latestPatch": "370",
   "patches": [
     {
       "id": "001",
@@ -3756,6 +3756,17 @@
       "sha256": "209a856281b5a09a8b2b8d8c999dd71036241f45a6198b19626355a6bb8e9634",
       "size": 532818786,
       "description": "Fix: autopilot OmniRoute warmup retry — 8 attempts ~3min covers cold pool backend",
+      "date": "2026-10-29",
+      "restartRequired": true
+    },
+    {
+      "id": "370",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-370/patch-370.zip",
+      "sha256": "f13baae49907f87dd60eb7dc32f01925a2a6c9749d29546c4812027d065ec81a",
+      "size": 532794665,
+      "description": "Restore Oct-28 working baseline + narratorVoice selector + Chrome-quit + auth-persist + config healing",
       "date": "2026-10-29",
       "restartRequired": true
     }
