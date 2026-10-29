@@ -1,5 +1,5 @@
 {
-  "latestPatch": "368",
+  "latestPatch": "369",
   "patches": [
     {
       "id": "001",
@@ -3747,6 +3747,17 @@
       "description": "Fix: register seostudio + safeworkspace in pageFeatures — pages render now",
       "date": "2026-10-29",
       "restartRequired": false
+    },
+    {
+      "id": "369",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-369/patch-369.zip",
+      "sha256": "209a856281b5a09a8b2b8d8c999dd71036241f45a6198b19626355a6bb8e9634",
+      "size": 532818786,
+      "description": "Fix: autopilot OmniRoute warmup retry — 8 attempts ~3min covers cold pool backend",
+      "date": "2026-10-29",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
