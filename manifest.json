@@ -1,5 +1,5 @@
 {
-  "latestPatch": "366",
+  "latestPatch": "367",
   "patches": [
     {
       "id": "001",
@@ -3723,6 +3723,17 @@
       "sha256": "741b43df0e006d55cadefed8b511066200a8138e597a9354ef3da1df56147481",
       "size": 533139800,
       "description": "Fix social profile sign-in loop: unified chrome-- profile dirs, undefined-browser guard, staged session restores actually apply on launch",
+      "date": "2026-10-29",
+      "restartRequired": false
+    },
+    {
+      "id": "367",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-367/patch-367.zip",
+      "sha256": "89c215342f7c3600aabbe5707056ad85904e734b12ae9a9badaf7994e5ab4bee",
+      "size": 533213713,
+      "description": "Accounts tab: per-profile Backup/Restore cookie buttons + auto session backup on confirmed login (works with patch 366's restore-apply)",
       "date": "2026-10-29",
       "restartRequired": false
     }
