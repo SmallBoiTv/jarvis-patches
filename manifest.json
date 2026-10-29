@@ -1,5 +1,5 @@
 {
-  "latestPatch": "367",
+  "latestPatch": "368",
   "patches": [
     {
       "id": "001",
@@ -3734,6 +3734,17 @@
       "sha256": "d730d025a18f361635800680b314252e399767d5ca9247841a7245763e7361fa",
       "size": 527806915,
       "description": "Fix: SeoStudioView infinite-render loop — pages actually render now",
+      "date": "2026-10-29",
+      "restartRequired": false
+    },
+    {
+      "id": "368",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-368/patch-368.zip",
+      "sha256": "f4e081d5378b7169c7b480215a5ef9ca808e15d0cc418217da64d2d35524613b",
+      "size": 527806686,
+      "description": "Fix: register seostudio + safeworkspace in pageFeatures — pages render now",
       "date": "2026-10-29",
       "restartRequired": false
     }
