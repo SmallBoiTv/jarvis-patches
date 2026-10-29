@@ -1,5 +1,5 @@
 {
-  "latestPatch": "370",
+  "latestPatch": "371",
   "patches": [
     {
       "id": "001",
@@ -3769,6 +3769,17 @@
       "description": "Restore Oct-28 working baseline + narratorVoice selector + Chrome-quit + auth-persist + config healing",
       "date": "2026-10-29",
       "restartRequired": true
+    },
+    {
+      "id": "371",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-371/patch-371.zip",
+      "sha256": "598c040b307c6e5cab1289f76a7655787097721863defdc05779b5fb835aafca",
+      "size": 527807021,
+      "description": "Fix SEO Studio + Safe Workspace blank pages — missing visitedViews.has() LRU render entries (never mounted)",
+      "date": "2026-10-29",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
