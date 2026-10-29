@@ -1,5 +1,5 @@
 {
-  "latestPatch": "367",
+  "latestPatch": "366",
   "patches": [
     {
       "id": "001",
@@ -3720,9 +3720,9 @@
       "version": "1.0.912",
       "sourceVersion": "1.0.912",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-366/patch-366.zip",
-      "sha256": "741b43df0e006d55cadefed8b511066200a8138e597a9354ef3da1df56147481",
-      "size": 533139800,
-      "description": "Fix social profile sign-in loop: unified chrome-- profile dirs, undefined-browser guard, staged session restores actually apply on launch",
+      "sha256": "6db1fb7e44a44e9b1d45e0a528ae3455a7dbbd6f39a09bfb1ba81a30a694befa",
+      "size": 527807005,
+      "description": "Fix: remove stale .js shadow files + array guards — SeoStudio/SafeWorkspace render",
       "date": "2026-10-29",
       "restartRequired": false
     },
