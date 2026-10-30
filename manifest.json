@@ -1,5 +1,5 @@
 {
-  "latestPatch": "376",
+  "latestPatch": "377",
   "patches": [
     {
       "id": "001",
@@ -3833,6 +3833,17 @@
       "sha256": "fc4fc1d19ecdec366a86c029c26653b5556ab8d52b4bd7d1d2e1b4ad2c31ca31",
       "size": 532903321,
       "description": "SEO full suite — integrations + analysis + workflow + data/monitor tabs",
+      "date": "2026-10-30",
+      "restartRequired": true
+    },
+    {
+      "id": "377",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-377/patch-377.zip",
+      "sha256": "3326d1e36b3d008b1933f450e2b6d598e065079e06ce76fd90d1a3e056c8c87f",
+      "size": 532908479,
+      "description": "safe-workspace enforcer — unsafe-command routing + egress filter + caps + audit + snapshot/restore",
       "date": "2026-10-30",
       "restartRequired": true
     }
