@@ -1,5 +1,5 @@
 {
-  "latestPatch": "377",
+  "latestPatch": "378",
   "patches": [
     {
       "id": "001",
@@ -3844,6 +3844,17 @@
       "sha256": "3326d1e36b3d008b1933f450e2b6d598e065079e06ce76fd90d1a3e056c8c87f",
       "size": 532908479,
       "description": "safe-workspace enforcer — unsafe-command routing + egress filter + caps + audit + snapshot/restore",
+      "date": "2026-10-30",
+      "restartRequired": true
+    },
+    {
+      "id": "378",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-378/patch-378.zip",
+      "sha256": "39a0e6767abc09260c2233ec58323b69f685960ef4febd1572e62f55b6e11fb7",
+      "size": 532909759,
+      "description": "safe-workspace hardened — Docker real-isolation + obfuscation detection + file-diff + tree-kill",
       "date": "2026-10-30",
       "restartRequired": true
     }
