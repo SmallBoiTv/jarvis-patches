@@ -1,5 +1,5 @@
 {
-  "latestPatch": "384",
+  "latestPatch": "385",
   "patches": [
     {
       "id": "001",
@@ -3921,6 +3921,17 @@
       "sha256": "79447692c49819ec57f1711c8b63d01c7cd4375cde21fdfdbee1cc677a809324",
       "size": 527898079,
       "description": "restore social sidebar tabs (autopilot/automation/templates/mentions/profiles/recycling/seo/listening/linkbio/team) + autopilot render block + appinfo backup-row hardening",
+      "date": "2026-10-30",
+      "restartRequired": false
+    },
+    {
+      "id": "385",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-385/patch-385.zip",
+      "sha256": "86a46efdc722dfe57520451eebac0ae9247494cac30bccfbc9a5209d81752da2",
+      "size": 527898343,
+      "description": "fix social nav RotateCcw->Recycle crash + restore all sidebar tabs",
       "date": "2026-10-30",
       "restartRequired": false
     }
