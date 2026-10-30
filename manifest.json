@@ -1,5 +1,5 @@
 {
-  "latestPatch": "383",
+  "latestPatch": "384",
   "patches": [
     {
       "id": "001",
@@ -3912,6 +3912,17 @@
       "description": "tiktok confirm-dialog post — click the dialog's Post/Confirm after the first Post opens it",
       "date": "2026-10-30",
       "restartRequired": true
+    },
+    {
+      "id": "384",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-384/patch-384.zip",
+      "sha256": "79447692c49819ec57f1711c8b63d01c7cd4375cde21fdfdbee1cc677a809324",
+      "size": 527898079,
+      "description": "restore social sidebar tabs (autopilot/automation/templates/mentions/profiles/recycling/seo/listening/linkbio/team) + autopilot render block + appinfo backup-row hardening",
+      "date": "2026-10-30",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
