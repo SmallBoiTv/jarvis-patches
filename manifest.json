@@ -1,5 +1,5 @@
 {
-  "latestPatch": "378",
+  "latestPatch": "379",
   "patches": [
     {
       "id": "001",
@@ -3855,6 +3855,17 @@
       "sha256": "39a0e6767abc09260c2233ec58323b69f685960ef4febd1572e62f55b6e11fb7",
       "size": 532909759,
       "description": "safe-workspace hardened — Docker real-isolation + obfuscation detection + file-diff + tree-kill",
+      "date": "2026-10-30",
+      "restartRequired": true
+    },
+    {
+      "id": "379",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-379/patch-379.zip",
+      "sha256": "206288e6e287a5b036165e83c49f5490ff39fbc66a940a6607f959d86e43daf3",
+      "size": 532915374,
+      "description": "freevideo integration — MiniMax-H3 engine clone/launch/auto-update + page + provider + dispatcher",
       "date": "2026-10-30",
       "restartRequired": true
     }
