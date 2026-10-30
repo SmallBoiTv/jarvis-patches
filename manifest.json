@@ -1,5 +1,5 @@
 {
-  "latestPatch": "382",
+  "latestPatch": "383",
   "patches": [
     {
       "id": "001",
@@ -3899,6 +3899,17 @@
       "sha256": "5636ad4dfcf5298ae16b8d8ed0d720436028879674b67784a877bceb85ee3cf4",
       "size": 532916597,
       "description": "freevideo-remote worker (Colab/Kaggle NVIDIA) + VRAM QwMemorySize fix",
+      "date": "2026-10-30",
+      "restartRequired": true
+    },
+    {
+      "id": "383",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-383/patch-383.zip",
+      "sha256": "1c8d880f835f03bbf4c4458e2a576e24adfa209639eb8ed740ff95667a1c1526",
+      "size": 532916715,
+      "description": "tiktok confirm-dialog post — click the dialog's Post/Confirm after the first Post opens it",
       "date": "2026-10-30",
       "restartRequired": true
     }
