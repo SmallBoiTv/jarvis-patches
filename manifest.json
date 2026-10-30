@@ -1,5 +1,5 @@
 {
-  "latestPatch": "380",
+  "latestPatch": "381",
   "patches": [
     {
       "id": "001",
@@ -3877,6 +3877,17 @@
       "sha256": "c26d24ce4de39c0a20ea777d72ff7e3ac04c10a6e1dc65b9762e632c339d65fe",
       "size": 532915151,
       "description": "freevideo dispatcher fix — ensure + fvGenerate + dataUrl result",
+      "date": "2026-10-30",
+      "restartRequired": true
+    },
+    {
+      "id": "381",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-381/patch-381.zip",
+      "sha256": "bded4459eb6c1c1f95f654be5040f4af0cdfec4a426cbd61daef25c4c0ba7581",
+      "size": 532915704,
+      "description": "freevideo corrected — real CLI engine (setup + generate), CLI-driven page, doctor/plan",
       "date": "2026-10-30",
       "restartRequired": true
     }
