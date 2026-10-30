@@ -1,5 +1,5 @@
 {
-  "latestPatch": "374",
+  "latestPatch": "375",
   "patches": [
     {
       "id": "001",
@@ -3811,6 +3811,17 @@
       "sha256": "c0af1458be68e595d0f5f225202eebd265ca33ce6fce9c173d321df2287a22d0",
       "size": 532878550,
       "description": "SEO backlink engine — autonomous footprint discovery + multi-type submit + campaign loop + linkbuilder UI",
+      "date": "2026-10-30",
+      "restartRequired": true
+    },
+    {
+      "id": "375",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-375/patch-375.zip",
+      "sha256": "7a322246ff17177ab27863dfdbf8787eda59fb8db5dcb1ca16fc7013adab1d7c",
+      "size": 532885923,
+      "description": "SEO advanced suite — tech audit + real SERP + content-score + local + health + AI-visibility + auto-fix",
       "date": "2026-10-30",
       "restartRequired": true
     }
