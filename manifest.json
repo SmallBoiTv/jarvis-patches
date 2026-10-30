@@ -1,5 +1,5 @@
 {
-  "latestPatch": "371",
+  "latestPatch": "372",
   "patches": [
     {
       "id": "001",
@@ -3780,6 +3780,17 @@
       "description": "Fix SEO Studio + Safe Workspace blank pages — missing visitedViews.has() LRU render entries (never mounted)",
       "date": "2026-10-29",
       "restartRequired": false
+    },
+    {
+      "id": "372",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-372/patch-372.zip",
+      "sha256": "df5aaa7c312c2898d96bdc96a4dcd566e54037cf206087d5111a9add8d4cb014",
+      "size": 532869050,
+      "description": "WVB fix — restored gutted site-pack selectors + web-bridge priority + logging + launch/session fixes",
+      "date": "2026-10-30",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
