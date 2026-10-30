@@ -1,5 +1,5 @@
 {
-  "latestPatch": "375",
+  "latestPatch": "376",
   "patches": [
     {
       "id": "001",
@@ -3822,6 +3822,17 @@
       "sha256": "7a322246ff17177ab27863dfdbf8787eda59fb8db5dcb1ca16fc7013adab1d7c",
       "size": 532885923,
       "description": "SEO advanced suite — tech audit + real SERP + content-score + local + health + AI-visibility + auto-fix",
+      "date": "2026-10-30",
+      "restartRequired": true
+    },
+    {
+      "id": "376",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-376/patch-376.zip",
+      "sha256": "fc4fc1d19ecdec366a86c029c26653b5556ab8d52b4bd7d1d2e1b4ad2c31ca31",
+      "size": 532903321,
+      "description": "SEO full suite — integrations + analysis + workflow + data/monitor tabs",
       "date": "2026-10-30",
       "restartRequired": true
     }
