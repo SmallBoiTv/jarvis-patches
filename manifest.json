@@ -1,5 +1,5 @@
 {
-  "latestPatch": "381",
+  "latestPatch": "382",
   "patches": [
     {
       "id": "001",
@@ -3888,6 +3888,17 @@
       "sha256": "bded4459eb6c1c1f95f654be5040f4af0cdfec4a426cbd61daef25c4c0ba7581",
       "size": 532915704,
       "description": "freevideo corrected — real CLI engine (setup + generate), CLI-driven page, doctor/plan",
+      "date": "2026-10-30",
+      "restartRequired": true
+    },
+    {
+      "id": "382",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-382/patch-382.zip",
+      "sha256": "5636ad4dfcf5298ae16b8d8ed0d720436028879674b67784a877bceb85ee3cf4",
+      "size": 532916597,
+      "description": "freevideo-remote worker (Colab/Kaggle NVIDIA) + VRAM QwMemorySize fix",
       "date": "2026-10-30",
       "restartRequired": true
     }
