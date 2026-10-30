@@ -1,5 +1,5 @@
 {
-  "latestPatch": "379",
+  "latestPatch": "380",
   "patches": [
     {
       "id": "001",
@@ -3866,6 +3866,17 @@
       "sha256": "206288e6e287a5b036165e83c49f5490ff39fbc66a940a6607f959d86e43daf3",
       "size": 532915374,
       "description": "freevideo integration — MiniMax-H3 engine clone/launch/auto-update + page + provider + dispatcher",
+      "date": "2026-10-30",
+      "restartRequired": true
+    },
+    {
+      "id": "380",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.912",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-380/patch-380.zip",
+      "sha256": "c26d24ce4de39c0a20ea777d72ff7e3ac04c10a6e1dc65b9762e632c339d65fe",
+      "size": 532915151,
+      "description": "freevideo dispatcher fix — ensure + fvGenerate + dataUrl result",
       "date": "2026-10-30",
       "restartRequired": true
     }
