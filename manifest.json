@@ -1,5 +1,5 @@
 {
-  "latestPatch": "396",
+  "latestPatch": "397",
   "patches": [
     {
       "id": "001",
@@ -4055,6 +4055,17 @@
       "description": "WVB site-pack fixes \u2014 dreamina card-detection, deepseek/openart 900s waits",
       "date": "2026-10-31",
       "restartRequired": true
+    },
+    {
+      "id": "397",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-397/patch-397.zip",
+      "sha256": "4f64867e2bc1a26eddf59036c28be6142430cb742e71a37b092e5808dac7bfa5",
+      "size": 527890011,
+      "description": "Provider/model persistence \u2014 restore task-model backend\u2192localStorage so saved picks survive restarts",
+      "date": "2026-10-31",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
