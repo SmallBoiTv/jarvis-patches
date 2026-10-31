@@ -1,5 +1,5 @@
 {
-  "latestPatch": "393",
+  "latestPatch": "394",
   "patches": [
     {
       "id": "001",
@@ -4020,6 +4020,17 @@
       "sha256": "666cdc701b6b2b249d6b3a2bbcfab8a0a3471450708b48f6ac62dd08a447375b",
       "size": 533110338,
       "description": "WVB credit-regex + blockedDay-with-credits fix + provider/model persistence (taskModel beats prefs-seed) + redundant text-menu removal",
+      "date": "2026-10-31",
+      "restartRequired": true
+    },
+    {
+      "id": "394",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-394/patch-394.zip",
+      "sha256": "7be1d515efeadbfd23c2ac34574b533f91fba78d41e03a2a624f2a4d1d8edd1d",
+      "size": 533112440,
+      "description": "WVB site-pack model fixes \u2014 dreamina entryButton + seedance-1.5 modelPrefs, pixverse modelButton + free-model prefs + YouTube viral keywords + ~70 natural voices",
       "date": "2026-10-31",
       "restartRequired": true
     }
