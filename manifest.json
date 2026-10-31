@@ -1,5 +1,5 @@
 {
-  "latestPatch": "398",
+  "latestPatch": "399",
   "patches": [
     {
       "id": "001",
@@ -4075,6 +4075,17 @@
       "sha256": "16f5dcc1354d610c6612cca408230e22d4e7d552b688fb26f27099f221f08503",
       "size": 527890516,
       "description": "Provider/model selector \u2014 hydrate-gate the task-model save + retry restore on provider-load (fixes jarvis/default reversion)",
+      "date": "2026-10-31",
+      "restartRequired": false
+    },
+    {
+      "id": "399",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-399/patch-399.zip",
+      "sha256": "4d20415813a8575da54e08a24036c7f555b87ceb09f6ca8dd823bb857c6907f5",
+      "size": 527893179,
+      "description": "SEO Studio professional redesign (dashboard + grouped nav + score rings)",
       "date": "2026-10-31",
       "restartRequired": false
     }
