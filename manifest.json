@@ -1,5 +1,5 @@
 {
-  "latestPatch": "390",
+  "latestPatch": "391",
   "patches": [
     {
       "id": "001",
@@ -3989,6 +3989,17 @@
       "description": "fix React #130 crash \u2014 undefined element in navGroups tabs array from autopilot tab removal + Post Now button on Auto-Pilot card + Composer renamed Social Post",
       "date": "2026-10-31",
       "restartRequired": false
+    },
+    {
+      "id": "391",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-391/patch-391.zip",
+      "sha256": "9c30d7baa4401fd1f2238da1cdab0f32d06875c46a92fb191dfd557c31a512eb",
+      "size": 533108569,
+      "description": "WVB failure classification \u2014 credits/notLoggedIn rotate not circuit-break + lastFailType/blockedToday/needsRelogin in status + Mr Beast YouTube thumbnail prompt",
+      "date": "2026-10-31",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
