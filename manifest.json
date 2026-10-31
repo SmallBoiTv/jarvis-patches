@@ -297,7 +297,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-030/patch-030.zip",
       "sha256": "45ddce75e2c63773905a132628685e4e3f02011c7d7853ce3a928a01bec86c76",
       "size": 372903166,
-      "description": "Add Proactive/Random Messages settings to Reminders tab â€” disable Jarvis spontaneous messages, floating toasts, and HUD v18 response panel",
+      "description": "Add Proactive/Random Messages settings to Reminders tab \u00e2\u20ac\u201d disable Jarvis spontaneous messages, floating toasts, and HUD v18 response panel",
       "date": "2026-09-11",
       "restartRequired": false
     },
@@ -467,7 +467,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-047/patch-047.zip",
       "sha256": "295b5b51b9918536526fdd65874334b397b8fb31e8d31ead636f065501814967",
       "size": 375673377,
-      "description": "Chat: social option cards get 30s countdown before auto-picking Option 1 (was skipping instantly); sync renderer activeConvId to main process before every send (fixes 'new chat / lost context' â€” chatWithTools/processMessageStream persisted to a phantom conversation)",
+      "description": "Chat: social option cards get 30s countdown before auto-picking Option 1 (was skipping instantly); sync renderer activeConvId to main process before every send (fixes 'new chat / lost context' \u00e2\u20ac\u201d chatWithTools/processMessageStream persisted to a phantom conversation)",
       "date": "2026-09-12",
       "restartRequired": true
     },
@@ -557,7 +557,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-056/patch-056.zip",
       "sha256": "55c57d4e83048ad9ab7a6ecf5a5e822b273dd86a786ef58b8b2fdc92371b27d0",
       "size": 425588753,
-      "description": "Analytics: browser-account stats scraper â€” scrape profile/post stats via logged-in Chrome sessions (dedicated tab, no interference with posting), URL field + platform/all scan in Analytics tab",
+      "description": "Analytics: browser-account stats scraper \u00e2\u20ac\u201d scrape profile/post stats via logged-in Chrome sessions (dedicated tab, no interference with posting), URL field + platform/all scan in Analytics tab",
       "date": "2026-09-14",
       "restartRequired": true
     },
@@ -677,7 +677,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-068/patch-068.zip",
       "sha256": "a7f5576f41f15ecea0636de6c6d6510e088de71aa5bfdb85561049d95223dd7a",
       "size": 422489361,
-      "description": "Chat user bubble matches AI bubble on all presets; ThemeEngine no longer flattens /alpha classes to solid (yellow/red badges covering text); Jarvis Studio sidebar shortcut under Video Studio; TTS queue — speech no longer talks over itself",
+      "description": "Chat user bubble matches AI bubble on all presets; ThemeEngine no longer flattens /alpha classes to solid (yellow/red badges covering text); Jarvis Studio sidebar shortcut under Video Studio; TTS queue \u2014 speech no longer talks over itself",
       "date": "2026-09-15",
       "restartRequired": false
     },
@@ -757,7 +757,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-076/patch-076.zip",
       "sha256": "a5e970547b87464d27619839f001a9faacd0fffb63c5fd1a00939b43ed66f65a",
       "size": 425791129,
-      "description": "Deepfake Cam: clean viewer output — feathered regions, dominant-colour face transfer, Jarvis orb hidden on Screen Studio",
+      "description": "Deepfake Cam: clean viewer output \u2014 feathered regions, dominant-colour face transfer, Jarvis orb hidden on Screen Studio",
       "date": "2026-09-16",
       "restartRequired": true
     },
@@ -767,7 +767,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-077/patch-077.zip",
       "sha256": "c29dc771001b471a7175b73942ca072ade6446a2052ce0cbdf5508fc074d80cd",
       "size": 422578266,
-      "description": "Screen Studio: idle power — avatar idle render and scene compositor throttle to keepalive when hidden",
+      "description": "Screen Studio: idle power \u2014 avatar idle render and scene compositor throttle to keepalive when hidden",
       "date": "2026-09-16",
       "restartRequired": false
     },
@@ -787,7 +787,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-079/patch-079.zip",
       "sha256": "28c0376f481a3580c345713d138145d552653321e296ca1779db6c0ebf4ea224",
       "size": 425579263,
-      "description": "Remove Avatar Cam system entirely — fixes renderer OOM/black screen; keeps deepfake cam + virtual cam + shared capture path",
+      "description": "Remove Avatar Cam system entirely \u2014 fixes renderer OOM/black screen; keeps deepfake cam + virtual cam + shared capture path",
       "date": "2026-09-17",
       "restartRequired": true
     },
@@ -907,7 +907,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-091/patch-091.zip",
       "sha256": "c4fdaa504c2fe9d8ca81af2b1ecc3e8f7d1d0743bcd1ac13e32b0071a70814be",
       "size": 424693841,
-      "description": "Freeze fix: stop ~1.9s periodic render stalls — gate model-selector polling+sorts on dropdown-open, decorated sort, screencast once",
+      "description": "Freeze fix: stop ~1.9s periodic render stalls \u2014 gate model-selector polling+sorts on dropdown-open, decorated sort, screencast once",
       "date": "2026-09-18",
       "restartRequired": false
     },
@@ -947,7 +947,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-095/patch-095.zip",
       "sha256": "deb8b486ac3fe37d032e5aa05105f22f85a266bb029cd0045e51e9c90e0a3197",
       "size": 428025947,
-      "description": "Facebook caption fix: atomic insertText for URL captions — link preview re-render was detaching the textbox mid-typing (image+URL posts)",
+      "description": "Facebook caption fix: atomic insertText for URL captions \u2014 link preview re-render was detaching the textbox mid-typing (image+URL posts)",
       "date": "2026-09-19",
       "restartRequired": true
     },
@@ -1207,7 +1207,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-121/patch-121.zip",
       "sha256": "bad2b82503073690b1866915930b686f818ada37dd643526e1089d6f09455eb0",
       "size": 428524610,
-      "description": "IPC override layer — hot patches now replace bundled fs/git/run-capture handlers; powershell command dialect; @jarvis packages ship via overlay node_modules",
+      "description": "IPC override layer \u2014 hot patches now replace bundled fs/git/run-capture handlers; powershell command dialect; @jarvis packages ship via overlay node_modules",
       "date": "2026-09-28",
       "restartRequired": true
     },
@@ -1287,7 +1287,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-129/patch-129.zip",
       "sha256": "cc92b9f05cbd32cd8a57308279bf8f15ad96d4be61c287dae55aabe18b5ed365",
       "size": 424753984,
-      "description": "Collapse/cap Plan panel — max-height + scrollbar + collapse toggle so it can't cover the AI chat",
+      "description": "Collapse/cap Plan panel \u2014 max-height + scrollbar + collapse toggle so it can't cover the AI chat",
       "date": "2026-09-28",
       "restartRequired": false
     },
@@ -1337,7 +1337,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-134/patch-134.zip",
       "sha256": "764cecb504e1279c70c03a2b14df252f9bfc8fdadc669fda896d78f5bad9fb78",
       "size": 428823708,
-      "description": "Game Studio: full runtime fixes — offline three.js export, world-matrix colliders, substep anti-tunneling, live CC/rb getters, raycast composite hits, sRGB post chain, AAA Arena Breach FPS template, preview window w/ eval+capture IPC",
+      "description": "Game Studio: full runtime fixes \u2014 offline three.js export, world-matrix colliders, substep anti-tunneling, live CC/rb getters, raycast composite hits, sRGB post chain, AAA Arena Breach FPS template, preview window w/ eval+capture IPC",
       "date": "2026-09-29",
       "restartRequired": true
     },
@@ -1357,7 +1357,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-136/patch-136.zip",
       "sha256": "08fc3caa7de795cb6567325c1aad5908d4947d6b66b6b87d8c95eb5c1ed195ef",
       "size": 425070514,
-      "description": "Game Studio: kingdom asset kit (49 mesh types — keep/gate/chapel/windmill/blacksmith/market/fountain/statue/inn/king/knight/archer/mage) + interactive shop & menu UI (HUD.panel/button/show/remove), Clan Siege build shop + ESC menu",
+      "description": "Game Studio: kingdom asset kit (49 mesh types \u2014 keep/gate/chapel/windmill/blacksmith/market/fountain/statue/inn/king/knight/archer/mage) + interactive shop & menu UI (HUD.panel/button/show/remove), Clan Siege build shop + ESC menu",
       "date": "2026-09-29",
       "restartRequired": false
     },
@@ -1367,7 +1367,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-137/patch-137.zip",
       "sha256": "f1fc963c2f407868ab0643d14d5ea3389f2b609eab6f0bdf3a94e6e70262daa3",
       "size": 425086628,
-      "description": "feat(game-studio): mega asset expansion — 85 procedural mesh types + Asset Showcase template",
+      "description": "feat(game-studio): mega asset expansion \u2014 85 procedural mesh types + Asset Showcase template",
       "date": "2026-09-29",
       "restartRequired": false
     },
@@ -1377,7 +1377,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-138/patch-138.zip",
       "sha256": "2594538922e6f903b23e14936f2febfb0bf47cdcfb0a951d449959dd39ec7e03",
       "size": 425103476,
-      "description": "Game Studio: Counter Strike template (Dust Offensive) + runtime fixes — sky clip, raycast ignore, viewmodel materials, buy menu",
+      "description": "Game Studio: Counter Strike template (Dust Offensive) + runtime fixes \u2014 sky clip, raycast ignore, viewmodel materials, buy menu",
       "date": "2026-09-29",
       "restartRequired": false
     },
@@ -1437,7 +1437,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-144/patch-144.zip",
       "sha256": "199c86f029d0aa948c9361da6763af56d0f475ca1236c5700f9daf48096fc79e",
       "size": 425265276,
-      "description": "Game Studio: Repo Catalog — all 680 games as one-click AI-remake templates with per-genre quality directives",
+      "description": "Game Studio: Repo Catalog \u2014 all 680 games as one-click AI-remake templates with per-genre quality directives",
       "date": "2026-10-01",
       "restartRequired": false
     },
@@ -1517,7 +1517,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-152/patch-152.zip",
       "sha256": "1a8a6045cf93bc964841b0098a6e512616f66eae31af6acd40ab213057efbe77",
       "size": 425312085,
-      "description": "Emergency offline session recovery — restores previously-verified users while Supabase is egress-restricted (bounded to Oct 21 2026 quota reset)",
+      "description": "Emergency offline session recovery \u2014 restores previously-verified users while Supabase is egress-restricted (bounded to Oct 21 2026 quota reset)",
       "date": "2026-10-01",
       "restartRequired": false
     },
@@ -1717,7 +1717,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-172/patch-172.zip",
       "sha256": "1c5af5e50901973543fe8c1dbbff8331784f3bc7a7a303819d41f8494f2509eb",
       "size": 425431697,
-      "description": "Game Studio: name registries store assets not ids — same-batch WRITE_SCRIPT->ATTACH_SCRIPT no longer misses (stale React state)",
+      "description": "Game Studio: name registries store assets not ids \u2014 same-batch WRITE_SCRIPT->ATTACH_SCRIPT no longer misses (stale React state)",
       "date": "2026-10-03",
       "restartRequired": false
     },
@@ -1757,7 +1757,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-176/patch-176.zip",
       "sha256": "dbcf30024b40566ae31070f4a6b15e36e58a9d5950bbc5e281482806cb3bfdca",
       "size": 425499210,
-      "description": "Professional procedural assets — shared RuntimeMeshes library (detailed camo tanks, soldiers, buildings, tesla coils, sci-fi roster), new detail textures, AI quality spec upgrade",
+      "description": "Professional procedural assets \u2014 shared RuntimeMeshes library (detailed camo tanks, soldiers, buildings, tesla coils, sci-fi roster), new detail textures, AI quality spec upgrade",
       "date": "2026-10-03",
       "restartRequired": false
     },
@@ -1767,7 +1767,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-177/patch-177.zip",
       "sha256": "9e85c2c8e034b9c240b1225ae9f37741918ebf1fd7be1084d550f9d604cac473",
       "size": 425520436,
-      "description": "Game Studio: 234-type procedural asset roster — warriors/knights variants, castle structures (gatehouse/keep/cathedral/temple/pyramid/pagoda), city buildings (apartment/hospital/police/fire/gas station/stadium), roads & infrastructure (roads/intersections/streetlights/barriers/powerlines/bridge), city vehicles (bus/taxi/police/ambulance/firetruck/bulldozer/tractor), animals (horse/wolf/bear/deer/eagle), siege weapons, nature set, 50+ props, leather texture, full keyword inference + AI roster guidance",
+      "description": "Game Studio: 234-type procedural asset roster \u2014 warriors/knights variants, castle structures (gatehouse/keep/cathedral/temple/pyramid/pagoda), city buildings (apartment/hospital/police/fire/gas station/stadium), roads & infrastructure (roads/intersections/streetlights/barriers/powerlines/bridge), city vehicles (bus/taxi/police/ambulance/firetruck/bulldozer/tractor), animals (horse/wolf/bear/deer/eagle), siege weapons, nature set, 50+ props, leather texture, full keyword inference + AI roster guidance",
       "date": "2026-10-03",
       "restartRequired": false
     },
@@ -1797,7 +1797,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-180/patch-180.zip",
       "sha256": "803bc3565af779690293e82a8913061c91a5a5567cd7e0b6cdf7bf1c6e44e49d",
       "size": 425874804,
-      "description": "Game Studio Asset Store: 6,220 assets — 1,825 procedural variants/kits + 4,395 CC0 (Poly Haven models/PBR/HDRI + ambientCG), real thumbnails, store UI, SPAWN_ASSET AI directive",
+      "description": "Game Studio Asset Store: 6,220 assets \u2014 1,825 procedural variants/kits + 4,395 CC0 (Poly Haven models/PBR/HDRI + ambientCG), real thumbnails, store UI, SPAWN_ASSET AI directive",
       "date": "2026-10-04",
       "restartRequired": false
     },
@@ -1857,7 +1857,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-186/patch-186.zip",
       "sha256": "c270a77a8d1360e6da0fb35eadac3c200254f9032233b48cc15788e32c08766a",
       "size": 425905608,
-      "description": "Game Studio: custom sculpted-geometry tier — __realhuman (7.4-head anatomy, 3-layer eyes, real hands/shoes/clothing), __realcar (profile-extruded shell, clearcoat paint, real wheels, visible interior), __realbld (textured facades, storefronts, roof clutter) — 38 new types, Neon Coast fully switched",
+      "description": "Game Studio: custom sculpted-geometry tier \u2014 __realhuman (7.4-head anatomy, 3-layer eyes, real hands/shoes/clothing), __realcar (profile-extruded shell, clearcoat paint, real wheels, visible interior), __realbld (textured facades, storefronts, roof clutter) \u2014 38 new types, Neon Coast fully switched",
       "date": "2026-10-04",
       "restartRequired": false
     },
@@ -2157,7 +2157,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-216/patch-216.zip",
       "sha256": "91c2a5a569d6baf03240eba9e6d1798829d4b135c4193f1980c96639dfb6085b",
       "size": 425860791,
-      "description": "night mode lighting fix: moonlit readability floor, sun→moon dimming, cool hemisphere wash, lifted night sky/fog palette",
+      "description": "night mode lighting fix: moonlit readability floor, sun\u2192moon dimming, cool hemisphere wash, lifted night sky/fog palette",
       "date": "2026-10-07",
       "restartRequired": false
     },
@@ -2197,7 +2197,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-220/patch-220.zip",
       "sha256": "f925b7317c735091ba5200354c173cb3d78f1ed33d858564bf92171ba088fbec",
       "size": 429820646,
-      "description": "Kiln engine main-process IPC (status/render/validate/discover/verify/read-glb) — activates the Kiln Forge AI mode and KILN_ASSET directive shipped in patch 219",
+      "description": "Kiln engine main-process IPC (status/render/validate/discover/verify/read-glb) \u2014 activates the Kiln Forge AI mode and KILN_ASSET directive shipped in patch 219",
       "date": "2026-10-08",
       "restartRequired": true
     },
@@ -2237,7 +2237,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-224/patch-224.zip",
       "sha256": "0ebf45bb22e29655b9f3d0662a44fe39b2287cf8ab48bc8afa4ca03faac8d3d1",
       "size": 426046445,
-      "description": "Game Studio: deterministic quality auto-fix — bare primitives swap in-place to real Asset Store assets (transforms/scripts preserved), unmaterialized surfaces get heuristic PBR materials, degraded placeholders re-resolve against the store; quality gate now repairs before reporting",
+      "description": "Game Studio: deterministic quality auto-fix \u2014 bare primitives swap in-place to real Asset Store assets (transforms/scripts preserved), unmaterialized surfaces get heuristic PBR materials, degraded placeholders re-resolve against the store; quality gate now repairs before reporting",
       "date": "2026-10-08",
       "restartRequired": false
     },
@@ -2267,7 +2267,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-227/patch-227.zip",
       "sha256": "1144b922e55c2b8ee7a6b5b3fba253113953d33d5128d655a3e9aa29bf60082c",
       "size": 429956168,
-      "description": "Auto-Pilot per-platform post variants — new option rewrites each generated post natively per platform (X/Facebook/LinkedIn/etc get tailored text via platformContent), works in browser+API paths and approval queue",
+      "description": "Auto-Pilot per-platform post variants \u2014 new option rewrites each generated post natively per platform (X/Facebook/LinkedIn/etc get tailored text via platformContent), works in browser+API paths and approval queue",
       "date": "2026-10-08",
       "restartRequired": true
     },
@@ -2287,7 +2287,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-229/patch-229.zip",
       "sha256": "d8b7da0a2dd698a7c36fb15fa1f78d14c2d5515256f2a67b492cebedb978773f",
       "size": 426066451,
-      "description": "Game Studio: fix dark game scenes — runtime merges duplicate AAA_Environment carriers (envSystems + lighting preset both apply now); Sanctum of Ash brighter night lighting, PBR ground/crypt materials; Arcade asset harvester + AI builder asset/code reuse",
+      "description": "Game Studio: fix dark game scenes \u2014 runtime merges duplicate AAA_Environment carriers (envSystems + lighting preset both apply now); Sanctum of Ash brighter night lighting, PBR ground/crypt materials; Arcade asset harvester + AI builder asset/code reuse",
       "date": "2026-10-09",
       "restartRequired": false
     },
@@ -2297,7 +2297,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-230/patch-230.zip",
       "sha256": "e623dcfabf4708819edea63139429a8213e609a55717fec8d29ad0f8d21dd9e1",
       "size": 429983912,
-      "description": "MCP system completion: Settings→MCP Servers page (server mgmt, per-page profiles, trust modes, capabilities, resources/prompts/templates/subscribe/complete/ping, call log, JSON import); marketplace real installs + creative/engine catalog (Unity, Unreal, Godot, Blender, DaVinci, Ableton, OBS, ComfyUI, Meshy, Higgsfield, Runway, ElevenLabs, HA); npx cwd/env fix; reconnect backoff; workflow MCP node pickers; coding-page MCP tool scoping",
+      "description": "MCP system completion: Settings\u2192MCP Servers page (server mgmt, per-page profiles, trust modes, capabilities, resources/prompts/templates/subscribe/complete/ping, call log, JSON import); marketplace real installs + creative/engine catalog (Unity, Unreal, Godot, Blender, DaVinci, Ableton, OBS, ComfyUI, Meshy, Higgsfield, Runway, ElevenLabs, HA); npx cwd/env fix; reconnect backoff; workflow MCP node pickers; coding-page MCP tool scoping",
       "date": "2026-10-09",
       "restartRequired": true
     },
@@ -2377,7 +2377,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-238/patch-238.zip",
       "sha256": "f4ccdc3d0ec3583e04ad41fe1118f259165a8e5570c3e38184e30e027ca30ed1",
       "size": 424265217,
-      "description": "Crash reporting catches renderer/child-process deaths + unclean exits: app-level render-process-gone/child-process-gone capture, next-launch Crashpad scan + clean-exit flag, and page/file context pings — crashes like the coding-page file-open crash that produced no report will now reach the admin panel",
+      "description": "Crash reporting catches renderer/child-process deaths + unclean exits: app-level render-process-gone/child-process-gone capture, next-launch Crashpad scan + clean-exit flag, and page/file context pings \u2014 crashes like the coding-page file-open crash that produced no report will now reach the admin panel",
       "date": "2026-10-10",
       "restartRequired": true
     },
@@ -2407,7 +2407,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-241/patch-241.zip",
       "sha256": "316b8e3fab5df9892841d1cdaeab025337e10d75a96feb5289a7ef9b93ab055e",
       "size": 424279540,
-      "description": "Video Studio audit fixes — script-gen race, linked-clip double-move, proxy/scopes/social wiring, undo history, cold-start chunk split, real 404 for missing assets (also includes Jarvis Mesh cross-panel sync + session workspace from patch-240 source tree)",
+      "description": "Video Studio audit fixes \u2014 script-gen race, linked-clip double-move, proxy/scopes/social wiring, undo history, cold-start chunk split, real 404 for missing assets (also includes Jarvis Mesh cross-panel sync + session workspace from patch-240 source tree)",
       "date": "2026-10-10",
       "restartRequired": false
     },
@@ -2447,7 +2447,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-245/patch-245.zip",
       "sha256": "03f98b6379972b5b836a7fe73836b621164d28068509a5c500fd0002c6049734",
       "size": 420264869,
-      "description": "Jarvis Mesh: Kiln program quality — kilnDiscover helper docs injected into prompt + known-good example program, full render-error feedback in AI repairs",
+      "description": "Jarvis Mesh: Kiln program quality \u2014 kilnDiscover helper docs injected into prompt + known-good example program, full render-error feedback in AI repairs",
       "date": "2026-10-11",
       "restartRequired": false
     },
@@ -2477,7 +2477,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-248/patch-248.zip",
       "sha256": "9cb22025435440f9bc86344be7338897a79f894504eac3791bf5e5c36bb28d2c",
       "size": 420495484,
-      "description": "Exports use save-dialog IPC (real GUID.tmp fix — blob downloads lose filenames in Electron) across Jarvis Mesh, behavior trees, console logs, heightmaps, perf reports",
+      "description": "Exports use save-dialog IPC (real GUID.tmp fix \u2014 blob downloads lose filenames in Electron) across Jarvis Mesh, behavior trees, console logs, heightmaps, perf reports",
       "date": "2026-10-11",
       "restartRequired": false
     },
@@ -2517,7 +2517,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-252/patch-252.zip",
       "sha256": "86ab940b5d3f7cd211cb6a5b143ce7f78d500aa5d3eb476f52242ec818e9a918",
       "size": 425272939,
-      "description": "Migrate desktop clients to new Supabase project (uzorpsdgrtkodykaknqy) — old project permanently quota-restricted; env override via early overlay module",
+      "description": "Migrate desktop clients to new Supabase project (uzorpsdgrtkodykaknqy) \u2014 old project permanently quota-restricted; env override via early overlay module",
       "date": "2026-10-12",
       "restartRequired": false
     },
@@ -2537,7 +2537,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-254/patch-254.zip",
       "sha256": "7a94917354093dd51313a09fa4977345e56ee17bb42e7bb27f5d7f3b7c3dadf6",
       "size": 467720725,
-      "description": "Fix Video Studio stuck on Loading on first click — bypass React.lazy Suspense ping with manual async loader",
+      "description": "Fix Video Studio stuck on Loading on first click \u2014 bypass React.lazy Suspense ping with manual async loader",
       "date": "2026-10-13",
       "restartRequired": false
     },
@@ -2557,7 +2557,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-256/patch-256.zip",
       "sha256": "e669102c68bb5a7f44e7b23fbfb14c2b8ffd7877c47a4be963f3418baa610fce",
       "size": 471894790,
-      "description": "RE Studio: expanded REA command coverage to full 6.4.0 CLI surface — .NET, APK, artifacts, HAR, firmware, evidence workflows + provider fixes",
+      "description": "RE Studio: expanded REA command coverage to full 6.4.0 CLI surface \u2014 .NET, APK, artifacts, HAR, firmware, evidence workflows + provider fixes",
       "date": "2026-10-14",
       "restartRequired": false
     },
@@ -2577,7 +2577,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-258/patch-258.zip",
       "sha256": "f87bb9fe3fb4240d6454ca9f95206cdd6aabbe1dc612dd42ca926e7cc7b50d56",
       "size": 471915921,
-      "description": "AI Clips → Send to Auto-Pilot (per-account API/browser posting), real video uploads for X/TikTok/YouTube/Bluesky/Mastodon, persisted approval queue, dead approval-queue fix",
+      "description": "AI Clips \u2192 Send to Auto-Pilot (per-account API/browser posting), real video uploads for X/TikTok/YouTube/Bluesky/Mastodon, persisted approval queue, dead approval-queue fix",
       "date": "2026-10-14",
       "restartRequired": false
     },
@@ -2587,7 +2587,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-259/patch-259.zip",
       "sha256": "51cdb8ac28579a5759291173b332ca0c59f1a5dc566b83adab9f8e68937c618c",
       "size": 467748506,
-      "description": "Jarvis Cutter: floating agentic AI co-editor for Video Studio — draggable/resizable chat panel over all tabs, 40+ editor tools (timeline edits, captions, smart-cut, script→video pipeline, generation, virality scoring, autopilot handoff), per-project chat memory, confirmation gates + one-prompt-one-undo",
+      "description": "Jarvis Cutter: floating agentic AI co-editor for Video Studio \u2014 draggable/resizable chat panel over all tabs, 40+ editor tools (timeline edits, captions, smart-cut, script\u2192video pipeline, generation, virality scoring, autopilot handoff), per-project chat memory, confirmation gates + one-prompt-one-undo",
       "date": "2026-10-14",
       "restartRequired": false
     },
@@ -2647,7 +2647,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-265/patch-265.zip",
       "sha256": "a3d58d2c220d7c90066f50923dedd2b75fa365ba5d7552c02b9e305b77e3cb8a",
       "size": 467770855,
-      "description": "Video Studio copilot: real footage pipeline — build_video stock/AI-video visual modes, stock_footage + animate_image tools, direct-file stock URLs, path-based video results",
+      "description": "Video Studio copilot: real footage pipeline \u2014 build_video stock/AI-video visual modes, stock_footage + animate_image tools, direct-file stock URLs, path-based video results",
       "date": "2026-10-14",
       "restartRequired": false
     },
@@ -2737,7 +2737,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-274/patch-274.zip",
       "sha256": "c3eae298e88d1c5e970fc183ebba6bd5535bc40ecf645d1c756b05d4eac3852f",
       "size": 473180727,
-      "description": "Trading: all AI surfaces honor Jarvis provider+model — jarvis:* routing in tokenAnalyzer/signals/extraChannels, model pass-through, maxTokens floor, upstream config sync, symlink-safe vendor merge with mtime invalidation",
+      "description": "Trading: all AI surfaces honor Jarvis provider+model \u2014 jarvis:* routing in tokenAnalyzer/signals/extraChannels, model pass-through, maxTokens floor, upstream config sync, symlink-safe vendor merge with mtime invalidation",
       "date": "2026-10-16",
       "restartRequired": true
     },
@@ -2787,7 +2787,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-279/patch-279.zip",
       "sha256": "909c68fcefc3c1fc878e9b7b4759c17c81e12fd236c9a0fddba458e4b2c295c8",
       "size": 473860090,
-      "description": "Trading: wire 30 dead channels — OCO/bracket/time/conditional orders, smart+KOL wallets, funding alerts, risk settings/pause, portfolio risk, backtest, Jupiter Lend; numeric row ids fix ~24 dead onclick buttons",
+      "description": "Trading: wire 30 dead channels \u2014 OCO/bracket/time/conditional orders, smart+KOL wallets, funding alerts, risk settings/pause, portfolio risk, backtest, Jupiter Lend; numeric row ids fix ~24 dead onclick buttons",
       "date": "2026-10-16",
       "restartRequired": true
     },
@@ -2807,7 +2807,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-281/patch-281.zip",
       "sha256": "f5455069afc307235e05781701b9d37a967ec8d395428aba4c96ffee13d2cda6",
       "size": 527752485,
-      "description": "Game Studio: deterministic playability repair — camera/terrain snap incl. cameras+lights, per-frame camera ground clamp, autoFixPlayability (player controller/collider/camera creation), GLB-first resolver, cloneMeshAliases runtime bridge",
+      "description": "Game Studio: deterministic playability repair \u2014 camera/terrain snap incl. cameras+lights, per-frame camera ground clamp, autoFixPlayability (player controller/collider/camera creation), GLB-first resolver, cloneMeshAliases runtime bridge",
       "date": "2026-10-18",
       "restartRequired": false
     },
@@ -2927,7 +2927,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-293/patch-293.zip",
       "sha256": "bf0ab377c2e6ee01d078242d7e94ab82c53e71523b9a03bcfc409af0ef677e80",
       "size": 527784285,
-      "description": "RE Studio AI agent chat — in-page copilot that runs REA commands itself (analyze/decompile/read-bytes loop) + provider/model selector",
+      "description": "RE Studio AI agent chat \u2014 in-page copilot that runs REA commands itself (analyze/decompile/read-bytes loop) + provider/model selector",
       "date": "2026-10-20",
       "restartRequired": false
     },
@@ -2997,7 +2997,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-300/patch-300.zip",
       "sha256": "a5ca6847a76fd4526a0b3a528a6bc1c2f8cfc09dbfae037a2ff28b1d7f7056e8",
       "size": 532280253,
-      "description": "Web Video Bridge: browser-driven free web tiers (Qwen/Flow/Kling/PixVerse/Dreamina/ModelScope/Genspark/Leonardo/Firefly/Meta/OpenArt/APOB/A2E + Agnes claims) — shared signed-in Chrome profile, quota-check failover, daily-claim scheduler, watermark stripping, Settings health panel, fallback toggle",
+      "description": "Web Video Bridge: browser-driven free web tiers (Qwen/Flow/Kling/PixVerse/Dreamina/ModelScope/Genspark/Leonardo/Firefly/Meta/OpenArt/APOB/A2E + Agnes claims) \u2014 shared signed-in Chrome profile, quota-check failover, daily-claim scheduler, watermark stripping, Settings health panel, fallback toggle",
       "date": "2026-10-21",
       "restartRequired": true
     },
@@ -3051,7 +3051,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-305/patch-305.zip",
       "sha256": "8c341063dfde6dc8324fffc758002779c8d44efa21a61394b9e02935f8982521",
       "size": 532631305,
-      "description": "Web Video Bridge: Agnes AI becomes a full generation site — agent-chat composer selectors, commit-verified send (Lexical), prompt echo submit-verify, video-intent prefix, artifact-card result capture. Engine adds promptPrefix/promptEcho/verifyCommit/uiDownload-card support.",
+      "description": "Web Video Bridge: Agnes AI becomes a full generation site \u2014 agent-chat composer selectors, commit-verified send (Lexical), prompt echo submit-verify, video-intent prefix, artifact-card result capture. Engine adds promptPrefix/promptEcho/verifyCommit/uiDownload-card support.",
       "date": "2026-10-24",
       "restartRequired": false
     },
@@ -3062,7 +3062,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-306/patch-306.zip",
       "sha256": "0b82399ef4e3b13799c78758b3d9d4a5489134eff8b8b35c0c49d75cd1fdd1f8",
       "size": 532701937,
-      "description": "Jarvis VPN: per-profile network exits for browser profiles — sing-box gateway with per-profile SOCKS5 inbounds + kill-switch routing, WireGuard/proxy URL import, IP leak verify + leak reports, WARP exit creation, SSH + Oracle provisioning, VPN page UI",
+      "description": "Jarvis VPN: per-profile network exits for browser profiles \u2014 sing-box gateway with per-profile SOCKS5 inbounds + kill-switch routing, WireGuard/proxy URL import, IP leak verify + leak reports, WARP exit creation, SSH + Oracle provisioning, VPN page UI",
       "date": "2026-10-24",
       "restartRequired": true
     },
@@ -3095,7 +3095,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-309/patch-309.zip",
       "sha256": "479b77d89e49db20610547fb0939d22c10b3807ebb1f0f4fdacefbd80cf115a8",
       "size": 532734091,
-      "description": "Remote GPU (Colab) + Kaggle video generation — remote ComfyUI server support, kaggle kernels provider, settings UI",
+      "description": "Remote GPU (Colab) + Kaggle video generation \u2014 remote ComfyUI server support, kaggle kernels provider, settings UI",
       "date": "2026-10-24",
       "restartRequired": true
     },
@@ -3106,7 +3106,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-310/patch-310.zip",
       "sha256": "ee5da0cc350ad34810b5f7cac1d8688b090157a85d2b41bfac6ed366bc4b0201",
       "size": 532739277,
-      "description": "Cloud GPU providers global — blue cloud providers in every video menu, notebook button fallback fix, readable settings cards, open-in-browser, onboarding step",
+      "description": "Cloud GPU providers global \u2014 blue cloud providers in every video menu, notebook button fallback fix, readable settings cards, open-in-browser, onboarding step",
       "date": "2026-10-24",
       "restartRequired": true
     },
@@ -3128,7 +3128,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-312/patch-312.zip",
       "sha256": "74f3dc355bfd2c1b19c571d131ca6e7c3176310fd2ed242bf7dabc21d34417ec",
       "size": 532749376,
-      "description": "Kaggle auth fix — writes real kaggle.json + KAGGLE_CONFIG_DIR (env-var creds rejected by newer CLI)",
+      "description": "Kaggle auth fix \u2014 writes real kaggle.json + KAGGLE_CONFIG_DIR (env-var creds rejected by newer CLI)",
       "date": "2026-10-24",
       "restartRequired": true
     },
@@ -3139,7 +3139,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-313/patch-313.zip",
       "sha256": "c840f17f3614845c68a53195ccee947d63b039d7bdda9c78a0837bcd20a2cd1b",
       "size": 532753998,
-      "description": "Colab Automate button + Chrome profile picker — full hands-free setup on user's real browser",
+      "description": "Colab Automate button + Chrome profile picker \u2014 full hands-free setup on user's real browser",
       "date": "2026-10-24",
       "restartRequired": true
     },
@@ -3271,7 +3271,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-325/patch-325.zip",
       "sha256": "a2e9183a66b3f700d56287678457d482703e980370ad63c86b7c7ee24ee2e52e",
       "size": 532848587,
-      "description": "Fix TikTok scoped-profile posting — browser-profile accounts no longer blocked by global platform toggle",
+      "description": "Fix TikTok scoped-profile posting \u2014 browser-profile accounts no longer blocked by global platform toggle",
       "date": "2026-10-26",
       "restartRequired": false
     },
@@ -3293,7 +3293,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-327/patch-327.zip",
       "sha256": "8ca62d4c7c596920175f515156908449ebe628783082db9e8e6b36cd3899a199",
       "size": 532850883,
-      "description": "AutoPilot crash fix — string-typed config list fields (replyTargets) crashed schedule check",
+      "description": "AutoPilot crash fix \u2014 string-typed config list fields (replyTargets) crashed schedule check",
       "date": "2026-10-26",
       "restartRequired": false
     },
@@ -3414,7 +3414,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-338/patch-338.zip",
       "sha256": "80e69a2b259d9637f106156588af69aa8d82f07904545e118cd071608162e54b",
       "size": 527854952,
-      "description": "Fix socialbot/botaccounts render — visitedViews mount blocks + validViews + pageFeatures + aliases",
+      "description": "Fix socialbot/botaccounts render \u2014 visitedViews mount blocks + validViews + pageFeatures + aliases",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3458,7 +3458,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-342/patch-342.zip",
       "sha256": "688047f1d992dad9c370671b447600bf5fd591f9e002a221cd5f8d83aed5642c",
       "size": 533050361,
-      "description": "Social page crash fix — post2.slice on postedHistory object entries (YouTube/TikTok autopilot): data sanitized, writer pushes strings, renderer defensive",
+      "description": "Social page crash fix \u2014 post2.slice on postedHistory object entries (YouTube/TikTok autopilot): data sanitized, writer pushes strings, renderer defensive",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3469,7 +3469,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-343/patch-343.zip",
       "sha256": "8c789c3fee05aa191404e3903bc06875181222bc39f3d1f571ce05aa4e4b06b3",
       "size": 533053414,
-      "description": "Remaining gaps — Social: target enrichment, follower-band, pod reciprocity, VOD comments, viewer-band, reddit allowlist, LLM budget, OS toast, typing corrections, A/B styles, bulk queue-edit. Grok: Search X, PTT, projects, tools, share, attachment refs, request IDs",
+      "description": "Remaining gaps \u2014 Social: target enrichment, follower-band, pod reciprocity, VOD comments, viewer-band, reddit allowlist, LLM budget, OS toast, typing corrections, A/B styles, bulk queue-edit. Grok: Search X, PTT, projects, tools, share, attachment refs, request IDs",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3480,7 +3480,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-344/patch-344.zip",
       "sha256": "89b599a7587b85c63cbe165c1f7a234f462c847c64c95d9960c10d08acbf26f5",
       "size": 533053190,
-      "description": "Custom Suno downloader (usesuno-equivalent) — public link → clip API → DRM-detect → mp4 audio extraction; works for any public song, wired as primary download method + jarvis:web-music-download IPC",
+      "description": "Custom Suno downloader (usesuno-equivalent) \u2014 public link \u2192 clip API \u2192 DRM-detect \u2192 mp4 audio extraction; works for any public song, wired as primary download method + jarvis:web-music-download IPC",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3491,7 +3491,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-345/patch-345.zip",
       "sha256": "b56ee7b154064a7a27c9a7aa2fc5408729a149e3a0930beff32c339b5455eebf",
       "size": 533057104,
-      "description": "Jarvis Bot Grok-parity — typed job runner (real executors: prompt/search/gen-image/gen-video/file/browser/wait, {{prev}} chaining, AbortController cancel, heartbeat+crash recovery, progress events, approval gates, routines, workspaces) + Tools panel + approvals UI + routines",
+      "description": "Jarvis Bot Grok-parity \u2014 typed job runner (real executors: prompt/search/gen-image/gen-video/file/browser/wait, {{prev}} chaining, AbortController cancel, heartbeat+crash recovery, progress events, approval gates, routines, workspaces) + Tools panel + approvals UI + routines",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3502,7 +3502,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-346/patch-346.zip",
       "sha256": "c29bc1985717abb662129deb639c8f990b1cc1972a34df248627743d9e8b5381",
       "size": 533058162,
-      "description": "Full Grok-parity — specialist orchestration chain (researcher→writer→critic→synthesizer with artifact handoff), job watcher + attention badge, attachments→workspace, plan-before-tools, routines, memory context",
+      "description": "Full Grok-parity \u2014 specialist orchestration chain (researcher\u2192writer\u2192critic\u2192synthesizer with artifact handoff), job watcher + attention badge, attachments\u2192workspace, plan-before-tools, routines, memory context",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3513,7 +3513,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-347/patch-347.zip",
       "sha256": "b5df8ce301e2ba6e9864d2f06dd96cc163333f51e248dcb96aa402ded7ad2eb2",
       "size": 533058991,
-      "description": "Final Grok-parity — memory as learning system (facts as {text,source,confidence,scope,ts} + scope-filtered injection + edit/forget) + project workspace (durable record, task/file tagging, ◆ chip)",
+      "description": "Final Grok-parity \u2014 memory as learning system (facts as {text,source,confidence,scope,ts} + scope-filtered injection + edit/forget) + project workspace (durable record, task/file tagging, \u25c6 chip)",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3524,7 +3524,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-348/patch-348.zip",
       "sha256": "9b4f4f8d8994da72dde99fb086010747d4f608e54c3d719f4369743a5f80b36e",
       "size": 533060574,
-      "description": "Mobile Studio 100% — real chat-edit (file writes), deps auto-install (feature→package map), _layout.tsx wiring, typecheck fix-loop (3 retries), preview readiness+logs, EAS auth/eas.json/bundle-id/status/artifact, file tree+editor, backend+polish wiring",
+      "description": "Mobile Studio 100% \u2014 real chat-edit (file writes), deps auto-install (feature\u2192package map), _layout.tsx wiring, typecheck fix-loop (3 retries), preview readiness+logs, EAS auth/eas.json/bundle-id/status/artifact, file tree+editor, backend+polish wiring",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3535,7 +3535,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-349/patch-349.zip",
       "sha256": "b4ed01d3e6e5474b8d851682ecdc95cc472e1c5471a548b6a978590ffef9b89f",
       "size": 533061485,
-      "description": "Mobile Studio 100% complete — P3 local-Android (SDK check + expo run:android free path + adb install) + P4 hardening (zombie preview cleanup, port scan, build lock, web-compat flag, unit-test hook)",
+      "description": "Mobile Studio 100% complete \u2014 P3 local-Android (SDK check + expo run:android free path + adb install) + P4 hardening (zombie preview cleanup, port scan, build lock, web-compat flag, unit-test hook)",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3546,7 +3546,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-350/patch-350.zip",
       "sha256": "dbf24b8c1a6b1d9cda194c8dd0413809b766a4cb2708a78c8eafbfb9f7dd7c37",
       "size": 533039024,
-      "description": "Social Bot full-blown — like/comment/share/repost on all platforms (shareButton+repostButton selectors for 7 platforms, share/repost actions via cfg.actions) + Bot Accounts merged into Social Bot page (Accounts tab, botaccounts route redirects to socialbot)",
+      "description": "Social Bot full-blown \u2014 like/comment/share/repost on all platforms (shareButton+repostButton selectors for 7 platforms, share/repost actions via cfg.actions) + Bot Accounts merged into Social Bot page (Accounts tab, botaccounts route redirects to socialbot)",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3557,7 +3557,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-351/patch-351.zip",
       "sha256": "5de61b2d8ae7b90781d514d388d628d97ac0fa2712c87d4db5f08eb75893bd8f",
       "size": 533039633,
-      "description": "Social Bot full-blown complete — provider/model menu in campaign form (omniroute/local + 8-model list), per-platform action chips (like/comment/share/repost/follow/dm/watch/replyComment/save), model+provider+actions wired into campaign-create for all platforms",
+      "description": "Social Bot full-blown complete \u2014 provider/model menu in campaign form (omniroute/local + 8-model list), per-platform action chips (like/comment/share/repost/follow/dm/watch/replyComment/save), model+provider+actions wired into campaign-create for all platforms",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3568,7 +3568,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-352/patch-352.zip",
       "sha256": "dd5ff12a432120e2c3622484f53e397050121369d2315c933b1ea96059565b6b",
       "size": 533040042,
-      "description": "Social Bot gap-closure — unfollow action (unfollowButton selectors for 7 platforms + click path) + real DM path (messageButton/dmInput/dmSend — open thread→type→send, not live-chat) + unfollow in action chips",
+      "description": "Social Bot gap-closure \u2014 unfollow action (unfollowButton selectors for 7 platforms + click path) + real DM path (messageButton/dmInput/dmSend \u2014 open thread\u2192type\u2192send, not live-chat) + unfollow in action chips",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3579,7 +3579,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-353/patch-353.zip",
       "sha256": "e45c2701789865937ad3cdf781f40803291630773fb5a4ce9241254696937373",
       "size": 533040205,
-      "description": "Social Bot — all 13 platforms selector-complete (share/repost/unfollow/message/dm selectors for twitch/kick/threads/pinterest/bluesky/discord) + dm→chat mapping fix (dm runs its own open-thread→type→send path)",
+      "description": "Social Bot \u2014 all 13 platforms selector-complete (share/repost/unfollow/message/dm selectors for twitch/kick/threads/pinterest/bluesky/discord) + dm\u2192chat mapping fix (dm runs its own open-thread\u2192type\u2192send path)",
       "date": "2026-10-27",
       "restartRequired": false
     },
@@ -3590,7 +3590,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-354/patch-354.zip",
       "sha256": "bc30cced52aa0e308f1dacf2678b539f43390817aa578a3d318f3f41edbfeb54",
       "size": 532954823,
-      "description": "Revert to patch-353 code state — removes all un-patched post-353 work: autopilot Stop-All change, queue-priority + job-timeout changes, omniroute model-resolution change, autopilot postNow API, autopilot text provider/model dropdowns, browser-profile dir mapping, media-model-list filter",
+      "description": "Revert to patch-353 code state \u2014 removes all un-patched post-353 work: autopilot Stop-All change, queue-priority + job-timeout changes, omniroute model-resolution change, autopilot postNow API, autopilot text provider/model dropdowns, browser-profile dir mapping, media-model-list filter",
       "date": "2026-10-28",
       "restartRequired": false
     },
@@ -3601,7 +3601,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-355/patch-355.zip",
       "sha256": "53144d8e06a4dfca6846479a3c3527a7189dcc4bd63a635e6b4365d0727ee5de",
       "size": 532954794,
-      "description": "AutoPilot text/post generation reads the Social page's top-right provider+model menus (jarvis:page-models['social-media'] authoritative — cfg fields gap-fallback only; image/video gen untouched) + enable flag only changes via the user's toggle: account/platform/stop-all paths stop cycles + clear queues but never write enabled:false",
+      "description": "AutoPilot text/post generation reads the Social page's top-right provider+model menus (jarvis:page-models['social-media'] authoritative \u2014 cfg fields gap-fallback only; image/video gen untouched) + enable flag only changes via the user's toggle: account/platform/stop-all paths stop cycles + clear queues but never write enabled:false",
       "date": "2026-10-28",
       "restartRequired": false
     },
@@ -3612,7 +3612,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-356/patch-356.zip",
       "sha256": "e78ef7cacd5903dad6f7cfcc6891f7ac95d86e72dfc114e56ea0bea4a3ba3d19",
       "size": 532954903,
-      "description": "Jarvis Bot — full AIProviderModelSelector (provider+model menus, taskId=jarvisbot, persisted via jarvis:page-models) replaces the model-only select; provider threaded through every chat/search call",
+      "description": "Jarvis Bot \u2014 full AIProviderModelSelector (provider+model menus, taskId=jarvisbot, persisted via jarvis:page-models) replaces the model-only select; provider threaded through every chat/search call",
       "date": "2026-10-28",
       "restartRequired": false
     },
@@ -3623,7 +3623,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-357/patch-357.zip",
       "sha256": "759fa579a17707027ab435a73c19f393218708e29e3d244002c6a60653e07fe4",
       "size": 532955085,
-      "description": "AutoPilot text-gen deep-dive fix — maxTokens 4096→16384 (auto/* aliases route to reasoning models that burned the 4k cap and returned finish_reason:length + empty content — the autopilot-only failures; normal pages use 16k) + OmniRoute readiness probe before stream attempts; page-models provider/model stays authoritative; noFailover kept per no-provider-switch rule",
+      "description": "AutoPilot text-gen deep-dive fix \u2014 maxTokens 4096\u219216384 (auto/* aliases route to reasoning models that burned the 4k cap and returned finish_reason:length + empty content \u2014 the autopilot-only failures; normal pages use 16k) + OmniRoute readiness probe before stream attempts; page-models provider/model stays authoritative; noFailover kept per no-provider-switch rule",
       "date": "2026-10-28",
       "restartRequired": false
     },
@@ -3634,7 +3634,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-358/patch-358.zip",
       "sha256": "d85010f832bab68b85186ac9668bd5eb079ca99a700f95fb7fa81f821c6a9563",
       "size": 532955176,
-      "description": "TikTok autopilot pipeline fix — bounded pre-generation research steps (webSearch 60s, researchTrendingHashtags/X-scrape 90s via Promise.race) so a hung browser scrape can't wedge the whole cycle before generation; TikTok videoProvider→rotate + WVB brokenUntil cleared + stale connected:false flag fixed",
+      "description": "TikTok autopilot pipeline fix \u2014 bounded pre-generation research steps (webSearch 60s, researchTrendingHashtags/X-scrape 90s via Promise.race) so a hung browser scrape can't wedge the whole cycle before generation; TikTok videoProvider\u2192rotate + WVB brokenUntil cleared + stale connected:false flag fixed",
       "date": "2026-10-28",
       "restartRequired": false
     },
@@ -3645,7 +3645,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-359/patch-359.zip",
       "sha256": "d2a0751d84f55ecef6619379008a21185f9ccbd3c2ae129512f9f816332f3c58",
       "size": 532955161,
-      "description": "Restore merge — all pre-revert work back (autopilot-at-top, Music Studio, settings features, all main modules) + post-restore fixes kept (16k gen tokens, bounded research steps, JarvisBotView provider/model selector)",
+      "description": "Restore merge \u2014 all pre-revert work back (autopilot-at-top, Music Studio, settings features, all main modules) + post-restore fixes kept (16k gen tokens, bounded research steps, JarvisBotView provider/model selector)",
       "date": "2026-10-28",
       "restartRequired": false
     },
@@ -3656,7 +3656,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-360/patch-360.zip",
       "sha256": "99325222a624156519dd05891a9db7c07ec3fd536fbc396aa2a6ef8796446eb3",
       "size": 532955343,
-      "description": "TikTok autopilot pipeline fix — realProfileDir aligned to the chrome--<id> session dir: sign-in was writing profile-<id> while posting read chrome--<id>, so every post saw 'not logged in' (verified live: Successfully posted to tiktok); pickSound logging + broader selectors",
+      "description": "TikTok autopilot pipeline fix \u2014 realProfileDir aligned to the chrome--<id> session dir: sign-in was writing profile-<id> while posting read chrome--<id>, so every post saw 'not logged in' (verified live: Successfully posted to tiktok); pickSound logging + broader selectors",
       "date": "2026-10-28",
       "restartRequired": false
     },
@@ -3667,7 +3667,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-361/patch-361.zip",
       "sha256": "a4cd40c8de580db73c63339664a836770ef2b6d47ea6e73c597071052801dfb4",
       "size": 532892693,
-      "description": "Jarvis Bot = Grok Bot — full teammate layer: named bots by message, permissioned tool catalog, bot-to-bot delegation + shared thread, approval inbox + LLM Auto Review, per-bot memory + screens on a shared computer, teach-by-demonstration, routines with plain-words schedules + run history + test runs, webhook/botmail triggers + GitHub/X event polling, mid-step abort",
+      "description": "Jarvis Bot = Grok Bot \u2014 full teammate layer: named bots by message, permissioned tool catalog, bot-to-bot delegation + shared thread, approval inbox + LLM Auto Review, per-bot memory + screens on a shared computer, teach-by-demonstration, routines with plain-words schedules + run history + test runs, webhook/botmail triggers + GitHub/X event polling, mid-step abort",
       "date": "2026-10-28",
       "restartRequired": false
     },
@@ -3678,7 +3678,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-362/patch-362.zip",
       "sha256": "402e9b403c5b340931a85327216badbf4ed7bd5e3245d3251e872e33cf0b1600",
       "size": 532895955,
-      "description": "Mobile Studio gaps — Android emulator check + run-on-device preview, local APK build fallback, EAS build-status surface with artifact URL, icon/splash generation, real supabase/local backend scaffolder, OTA update, store metadata, version bump",
+      "description": "Mobile Studio gaps \u2014 Android emulator check + run-on-device preview, local APK build fallback, EAS build-status surface with artifact URL, icon/splash generation, real supabase/local backend scaffolder, OTA update, store metadata, version bump",
       "date": "2026-10-28",
       "restartRequired": false
     },
@@ -3689,7 +3689,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-363/patch-363.zip",
       "sha256": "aecc86922892e4676af95dcc336fdfa7c5fa55b62857189cef4ae4c29c0653ba",
       "size": 527795655,
-      "description": "Jarvis Exchange complete — review/report UI wired to live handlers, Flag import fix, voice-commands panel close fix",
+      "description": "Jarvis Exchange complete \u2014 review/report UI wired to live handlers, Flag import fix, voice-commands panel close fix",
       "date": "2026-10-28",
       "restartRequired": false
     },
@@ -3722,7 +3722,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-366/patch-366.zip",
       "sha256": "6db1fb7e44a44e9b1d45e0a528ae3455a7dbbd6f39a09bfb1ba81a30a694befa",
       "size": 527807005,
-      "description": "Fix: remove stale .js shadow files + array guards — SeoStudio/SafeWorkspace render",
+      "description": "Fix: remove stale .js shadow files + array guards \u2014 SeoStudio/SafeWorkspace render",
       "date": "2026-10-29",
       "restartRequired": false
     },
@@ -3733,7 +3733,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-367/patch-367.zip",
       "sha256": "d730d025a18f361635800680b314252e399767d5ca9247841a7245763e7361fa",
       "size": 527806915,
-      "description": "Fix: SeoStudioView infinite-render loop — pages actually render now",
+      "description": "Fix: SeoStudioView infinite-render loop \u2014 pages actually render now",
       "date": "2026-10-29",
       "restartRequired": false
     },
@@ -3744,7 +3744,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-368/patch-368.zip",
       "sha256": "f4e081d5378b7169c7b480215a5ef9ca808e15d0cc418217da64d2d35524613b",
       "size": 527806686,
-      "description": "Fix: register seostudio + safeworkspace in pageFeatures — pages render now",
+      "description": "Fix: register seostudio + safeworkspace in pageFeatures \u2014 pages render now",
       "date": "2026-10-29",
       "restartRequired": false
     },
@@ -3755,7 +3755,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-369/patch-369.zip",
       "sha256": "209a856281b5a09a8b2b8d8c999dd71036241f45a6198b19626355a6bb8e9634",
       "size": 532818786,
-      "description": "Fix: autopilot OmniRoute warmup retry — 8 attempts ~3min covers cold pool backend",
+      "description": "Fix: autopilot OmniRoute warmup retry \u2014 8 attempts ~3min covers cold pool backend",
       "date": "2026-10-29",
       "restartRequired": true
     },
@@ -3777,7 +3777,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-371/patch-371.zip",
       "sha256": "598c040b307c6e5cab1289f76a7655787097721863defdc05779b5fb835aafca",
       "size": 527807021,
-      "description": "Fix SEO Studio + Safe Workspace blank pages — missing visitedViews.has() LRU render entries (never mounted)",
+      "description": "Fix SEO Studio + Safe Workspace blank pages \u2014 missing visitedViews.has() LRU render entries (never mounted)",
       "date": "2026-10-29",
       "restartRequired": false
     },
@@ -3788,7 +3788,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-372/patch-372.zip",
       "sha256": "df5aaa7c312c2898d96bdc96a4dcd566e54037cf206087d5111a9add8d4cb014",
       "size": 532869050,
-      "description": "WVB fix — restored gutted site-pack selectors + web-bridge priority + logging + launch/session fixes",
+      "description": "WVB fix \u2014 restored gutted site-pack selectors + web-bridge priority + logging + launch/session fixes",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3799,7 +3799,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-373/patch-373.zip",
       "sha256": "116cf73b84e494e79fe9d68ed3bfd9b42a2140ca0315baba24a4179588d56be3",
       "size": 532869123,
-      "description": "omniroute social fix — ensureOmniRouteProvider readiness + warmup retry + auto/best-coding restored",
+      "description": "omniroute social fix \u2014 ensureOmniRouteProvider readiness + warmup retry + auto/best-coding restored",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3810,7 +3810,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-374/patch-374.zip",
       "sha256": "c0af1458be68e595d0f5f225202eebd265ca33ce6fce9c173d321df2287a22d0",
       "size": 532878550,
-      "description": "SEO backlink engine — autonomous footprint discovery + multi-type submit + campaign loop + linkbuilder UI",
+      "description": "SEO backlink engine \u2014 autonomous footprint discovery + multi-type submit + campaign loop + linkbuilder UI",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3821,7 +3821,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-375/patch-375.zip",
       "sha256": "7a322246ff17177ab27863dfdbf8787eda59fb8db5dcb1ca16fc7013adab1d7c",
       "size": 532885923,
-      "description": "SEO advanced suite — tech audit + real SERP + content-score + local + health + AI-visibility + auto-fix",
+      "description": "SEO advanced suite \u2014 tech audit + real SERP + content-score + local + health + AI-visibility + auto-fix",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3832,7 +3832,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-376/patch-376.zip",
       "sha256": "fc4fc1d19ecdec366a86c029c26653b5556ab8d52b4bd7d1d2e1b4ad2c31ca31",
       "size": 532903321,
-      "description": "SEO full suite — integrations + analysis + workflow + data/monitor tabs",
+      "description": "SEO full suite \u2014 integrations + analysis + workflow + data/monitor tabs",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3843,7 +3843,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-377/patch-377.zip",
       "sha256": "3326d1e36b3d008b1933f450e2b6d598e065079e06ce76fd90d1a3e056c8c87f",
       "size": 532908479,
-      "description": "safe-workspace enforcer — unsafe-command routing + egress filter + caps + audit + snapshot/restore",
+      "description": "safe-workspace enforcer \u2014 unsafe-command routing + egress filter + caps + audit + snapshot/restore",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3854,7 +3854,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-378/patch-378.zip",
       "sha256": "39a0e6767abc09260c2233ec58323b69f685960ef4febd1572e62f55b6e11fb7",
       "size": 532909759,
-      "description": "safe-workspace hardened — Docker real-isolation + obfuscation detection + file-diff + tree-kill",
+      "description": "safe-workspace hardened \u2014 Docker real-isolation + obfuscation detection + file-diff + tree-kill",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3865,7 +3865,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-379/patch-379.zip",
       "sha256": "206288e6e287a5b036165e83c49f5490ff39fbc66a940a6607f959d86e43daf3",
       "size": 532915374,
-      "description": "freevideo integration — MiniMax-H3 engine clone/launch/auto-update + page + provider + dispatcher",
+      "description": "freevideo integration \u2014 MiniMax-H3 engine clone/launch/auto-update + page + provider + dispatcher",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3876,7 +3876,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-380/patch-380.zip",
       "sha256": "c26d24ce4de39c0a20ea777d72ff7e3ac04c10a6e1dc65b9762e632c339d65fe",
       "size": 532915151,
-      "description": "freevideo dispatcher fix — ensure + fvGenerate + dataUrl result",
+      "description": "freevideo dispatcher fix \u2014 ensure + fvGenerate + dataUrl result",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3887,7 +3887,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-381/patch-381.zip",
       "sha256": "bded4459eb6c1c1f95f654be5040f4af0cdfec4a426cbd61daef25c4c0ba7581",
       "size": 532915704,
-      "description": "freevideo corrected — real CLI engine (setup + generate), CLI-driven page, doctor/plan",
+      "description": "freevideo corrected \u2014 real CLI engine (setup + generate), CLI-driven page, doctor/plan",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3909,7 +3909,7 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-383/patch-383.zip",
       "sha256": "1c8d880f835f03bbf4c4458e2a576e24adfa209639eb8ed740ff95667a1c1526",
       "size": 532916715,
-      "description": "tiktok confirm-dialog post — click the dialog's Post/Confirm after the first Post opens it",
+      "description": "tiktok confirm-dialog post \u2014 click the dialog's Post/Confirm after the first Post opens it",
       "date": "2026-10-30",
       "restartRequired": true
     },
@@ -3953,18 +3953,18 @@
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-387/patch-387.zip",
       "sha256": "31186faed3470e8c8266712b4de12f44b1d9fbcdb0d08f7de923eb5fff2a17d0",
       "size": 533116129,
-      "description": "scoped browserProfileId authorizes browser post mode — TikTok/managed accounts post via their own Chrome",
+      "description": "scoped browserProfileId authorizes browser post mode \u2014 TikTok/managed accounts post via their own Chrome",
       "date": "2026-10-31",
       "restartRequired": true
     },
     {
       "id": "388",
-      "version": "1.0.912",
+      "version": "1.0.913",
       "sourceVersion": "1.0.913",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-388/patch-388.zip",
       "sha256": "fcd1cb551cbfdd404fa9aa3e121ab6574e751e6e9e80cc9d87079a18aa457ba8",
       "size": 527889141,
-      "description": "autopilot tab renders full ComposeTab autopilot surface (autopilotOnly — account chips, live status, all controls) + Composer renamed Social Post",
+      "description": "autopilot tab renders full ComposeTab autopilot surface (autopilotOnly \u2014 account chips, live status, all controls) + Composer renamed Social Post",
       "date": "2026-10-31",
       "restartRequired": false
     }
