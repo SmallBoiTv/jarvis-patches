@@ -1,5 +1,5 @@
 {
-  "latestPatch": "395",
+  "latestPatch": "396",
   "patches": [
     {
       "id": "001",
@@ -4042,6 +4042,17 @@
       "sha256": "5d0d0a201617b53adc1197033377bbae1036f5687113cf99238cf064872aa62d",
       "size": 533112723,
       "description": "Social page crash fix (React-31 accountLabels), slideshow portrait sizing, narratorVoice dropdown",
+      "date": "2026-10-31",
+      "restartRequired": true
+    },
+    {
+      "id": "396",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-396/patch-396.zip",
+      "sha256": "7c81c17a269e9f665db8bba14f0f750a9bdaf5fda5808b8c07f23cab9113afe7",
+      "size": 533112920,
+      "description": "WVB site-pack fixes \u2014 dreamina card-detection, deepseek/openart 900s waits",
       "date": "2026-10-31",
       "restartRequired": true
     }
