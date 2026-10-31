@@ -1,5 +1,5 @@
 {
-  "latestPatch": "397",
+  "latestPatch": "398",
   "patches": [
     {
       "id": "001",
@@ -4064,6 +4064,17 @@
       "sha256": "4f64867e2bc1a26eddf59036c28be6142430cb742e71a37b092e5808dac7bfa5",
       "size": 527890011,
       "description": "Provider/model persistence \u2014 restore task-model backend\u2192localStorage so saved picks survive restarts",
+      "date": "2026-10-31",
+      "restartRequired": false
+    },
+    {
+      "id": "398",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-398/patch-398.zip",
+      "sha256": "16f5dcc1354d610c6612cca408230e22d4e7d552b688fb26f27099f221f08503",
+      "size": 527890516,
+      "description": "Provider/model selector \u2014 hydrate-gate the task-model save + retry restore on provider-load (fixes jarvis/default reversion)",
       "date": "2026-10-31",
       "restartRequired": false
     }
