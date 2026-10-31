@@ -1,5 +1,5 @@
 {
-  "latestPatch": "402",
+  "latestPatch": "403",
   "patches": [
     {
       "id": "001",
@@ -4121,6 +4121,17 @@
       "description": "preload contextIsolation fix \u2014 expose advanced fns via contextBridge (seo/workspace/fv) + seoCompare bare-domain URL fix",
       "date": "2026-10-31",
       "restartRequired": true
+    },
+    {
+      "id": "403",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-403/patch-403.zip",
+      "sha256": "05a47caaac6e4ecf099fe58a7fb5770cc46e89823ecc932148d0bb6a6428fef5",
+      "size": 527894674,
+      "description": "Safe Workspace guided redesign \u2014 one-click actions + all IPCs surfaced",
+      "date": "2026-10-31",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
