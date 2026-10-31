@@ -1,5 +1,5 @@
 {
-  "latestPatch": "385",
+  "latestPatch": "386",
   "patches": [
     {
       "id": "001",
@@ -3934,6 +3934,17 @@
       "description": "fix social nav RotateCcw->Recycle crash + restore all sidebar tabs",
       "date": "2026-10-30",
       "restartRequired": false
+    },
+    {
+      "id": "386",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-386/patch-386.zip",
+      "sha256": "1b84d8c0f04dc79f10bbe126b7df6baf2b611f2b3853244633c0476a07b13295",
+      "size": 533115929,
+      "description": "simultaneous platform posting (Promise.all) + model in activity + cap counts verified posts only",
+      "date": "2026-10-31",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
