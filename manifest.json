@@ -1,5 +1,5 @@
 {
-  "latestPatch": "388",
+  "latestPatch": "389",
   "patches": [
     {
       "id": "001",
@@ -3965,6 +3965,17 @@
       "sha256": "fcd1cb551cbfdd404fa9aa3e121ab6574e751e6e9e80cc9d87079a18aa457ba8",
       "size": 527889141,
       "description": "autopilot tab renders full ComposeTab autopilot surface (autopilotOnly \u2014 account chips, live status, all controls) + Composer renamed Social Post",
+      "date": "2026-10-31",
+      "restartRequired": false
+    },
+    {
+      "id": "389",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-389/patch-389.zip",
+      "sha256": "53be25395257d3f3e918fdd5afdac5c23a600e43434d401923e34d296599efdc",
+      "size": 527889136,
+      "description": "remove autopilot tab \u2014 Auto-Pilot card in Social Post is the single autopilot (Post Now button + cleaner card) + Composer renamed Social Post",
       "date": "2026-10-31",
       "restartRequired": false
     }
