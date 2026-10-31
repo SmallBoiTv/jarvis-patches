@@ -1,5 +1,5 @@
 {
-  "latestPatch": "386",
+  "latestPatch": "387",
   "patches": [
     {
       "id": "001",
@@ -3943,6 +3943,17 @@
       "sha256": "1b84d8c0f04dc79f10bbe126b7df6baf2b611f2b3853244633c0476a07b13295",
       "size": 533115929,
       "description": "simultaneous platform posting (Promise.all) + model in activity + cap counts verified posts only",
+      "date": "2026-10-31",
+      "restartRequired": true
+    },
+    {
+      "id": "387",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-387/patch-387.zip",
+      "sha256": "31186faed3470e8c8266712b4de12f44b1d9fbcdb0d08f7de923eb5fff2a17d0",
+      "size": 533116129,
+      "description": "scoped browserProfileId authorizes browser post mode — TikTok/managed accounts post via their own Chrome",
       "date": "2026-10-31",
       "restartRequired": true
     }
