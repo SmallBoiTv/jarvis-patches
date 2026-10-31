@@ -1,5 +1,5 @@
 {
-  "latestPatch": "389",
+  "latestPatch": "390",
   "patches": [
     {
       "id": "001",
@@ -3976,6 +3976,17 @@
       "sha256": "53be25395257d3f3e918fdd5afdac5c23a600e43434d401923e34d296599efdc",
       "size": 527889136,
       "description": "remove autopilot tab \u2014 Auto-Pilot card in Social Post is the single autopilot (Post Now button + cleaner card) + Composer renamed Social Post",
+      "date": "2026-10-31",
+      "restartRequired": false
+    },
+    {
+      "id": "390",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-390/patch-390.zip",
+      "sha256": "08d0e149eee2823c09fad7db9ffbec9c4067cb5fa9b6b24d9b5d2b95b6830548",
+      "size": 527889240,
+      "description": "fix React #130 crash \u2014 undefined element in navGroups tabs array from autopilot tab removal + Post Now button on Auto-Pilot card + Composer renamed Social Post",
       "date": "2026-10-31",
       "restartRequired": false
     }
