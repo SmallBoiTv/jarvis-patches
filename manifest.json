@@ -1,5 +1,5 @@
 {
-  "latestPatch": "404",
+  "latestPatch": "405",
   "patches": [
     {
       "id": "001",
@@ -4141,6 +4141,17 @@
       "sha256": "8a799bf4a166d194c8e2ee3a396c5332e228343661615075b0affaa900910f52",
       "size": 528173619,
       "description": "Hub: full Discord parity — markdown, threads, voice presence, slash cmds, events, forum, saved, group DMs, notif prefs, settings, emoji",
+      "date": "2026-10-31",
+      "restartRequired": false
+    },
+    {
+      "id": "405",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-405/patch-405.zip",
+      "sha256": "a7a1753cbe899f3a41fe225c31d3d908df78f6352da3f6b993887864db09428b",
+      "size": 528197952,
+      "description": "Hub parity: 22-tab settings, rules gate, channel reorder, notif-prefs, DM pin/close/calls, rich presence, unread divider, forum tags, media gallery, text-in-voice, crosspost, quick reactions, invite preview, search jump, emoji/sticker uploads, applyToGuild",
       "date": "2026-10-31",
       "restartRequired": false
     }
