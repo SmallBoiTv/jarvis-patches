@@ -1,5 +1,5 @@
 {
-  "latestPatch": "387",
+  "latestPatch": "388",
   "patches": [
     {
       "id": "001",
@@ -3956,6 +3956,17 @@
       "description": "scoped browserProfileId authorizes browser post mode — TikTok/managed accounts post via their own Chrome",
       "date": "2026-10-31",
       "restartRequired": true
+    },
+    {
+      "id": "388",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-388/patch-388.zip",
+      "sha256": "fcd1cb551cbfdd404fa9aa3e121ab6574e751e6e9e80cc9d87079a18aa457ba8",
+      "size": 527889141,
+      "description": "autopilot tab renders full ComposeTab autopilot surface (autopilotOnly — account chips, live status, all controls) + Composer renamed Social Post",
+      "date": "2026-10-31",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
