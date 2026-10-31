@@ -1,5 +1,5 @@
 {
-  "latestPatch": "400",
+  "latestPatch": "401",
   "patches": [
     {
       "id": "001",
@@ -4097,6 +4097,17 @@
       "sha256": "71612c233ba98f5e59fadb9ded91e52dc46cb39b9671abdfd9e9c5b0b2adec60",
       "size": 533116196,
       "description": "seoKeywords/gap/links .match non-string fix",
+      "date": "2026-10-31",
+      "restartRequired": true
+    },
+    {
+      "id": "401",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-401/patch-401.zip",
+      "sha256": "043d396a356123a2c84f9a0b1ba5831244c92c2d23306c7d1cdc5bd12449a03b",
+      "size": 533116389,
+      "description": "seo genText \u2014 extract text from object-string generate returns",
       "date": "2026-10-31",
       "restartRequired": true
     }
