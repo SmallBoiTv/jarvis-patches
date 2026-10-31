@@ -1,5 +1,5 @@
 {
-  "latestPatch": "394",
+  "latestPatch": "395",
   "patches": [
     {
       "id": "001",
@@ -4031,6 +4031,17 @@
       "sha256": "7be1d515efeadbfd23c2ac34574b533f91fba78d41e03a2a624f2a4d1d8edd1d",
       "size": 533112440,
       "description": "WVB site-pack model fixes \u2014 dreamina entryButton + seedance-1.5 modelPrefs, pixverse modelButton + free-model prefs + YouTube viral keywords + ~70 natural voices",
+      "date": "2026-10-31",
+      "restartRequired": true
+    },
+    {
+      "id": "395",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-395/patch-395.zip",
+      "sha256": "5d0d0a201617b53adc1197033377bbae1036f5687113cf99238cf064872aa62d",
+      "size": 533112723,
+      "description": "Social page crash fix (React-31 accountLabels), slideshow portrait sizing, narratorVoice dropdown",
       "date": "2026-10-31",
       "restartRequired": true
     }
