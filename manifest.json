@@ -1,5 +1,5 @@
 {
-  "latestPatch": "391",
+  "latestPatch": "392",
   "patches": [
     {
       "id": "001",
@@ -3998,6 +3998,17 @@
       "sha256": "9c30d7baa4401fd1f2238da1cdab0f32d06875c46a92fb191dfd557c31a512eb",
       "size": 533108569,
       "description": "WVB failure classification \u2014 credits/notLoggedIn rotate not circuit-break + lastFailType/blockedToday/needsRelogin in status + Mr Beast YouTube thumbnail prompt",
+      "date": "2026-10-31",
+      "restartRequired": true
+    },
+    {
+      "id": "392",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-392/patch-392.zip",
+      "sha256": "094ec7b076b605fe95006af9a8a3ca789aaba22fe734e5db237bdc4770b829ab",
+      "size": 533109334,
+      "description": "multi-scene longform custom settings \u2014 longformSceneCount + longformStyleCard + youtubeFormat/shorts/longform UI on autopilot card",
       "date": "2026-10-31",
       "restartRequired": true
     }
