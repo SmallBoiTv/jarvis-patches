@@ -1,5 +1,5 @@
 {
-  "latestPatch": "399",
+  "latestPatch": "400",
   "patches": [
     {
       "id": "001",
@@ -4088,6 +4088,17 @@
       "description": "SEO Studio professional redesign (dashboard + grouped nav + score rings)",
       "date": "2026-10-31",
       "restartRequired": false
+    },
+    {
+      "id": "400",
+      "version": "1.0.913",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-400/patch-400.zip",
+      "sha256": "71612c233ba98f5e59fadb9ded91e52dc46cb39b9671abdfd9e9c5b0b2adec60",
+      "size": 533116196,
+      "description": "seoKeywords/gap/links .match non-string fix",
+      "date": "2026-10-31",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
