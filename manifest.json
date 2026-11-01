@@ -1,5 +1,5 @@
 {
-  "latestPatch": "408",
+  "latestPatch": "409",
   "patches": [
     {
       "id": "001",
@@ -4185,6 +4185,17 @@
       "sha256": "6c3eee5e170d0998b37cd543c31a9a39f876343b12caee62faa054968c7570ae",
       "size": 528217060,
       "description": "Remove duplicate top-10 nav items from Command Center sidebar (groups already cover all pages)",
+      "date": "2026-11-01",
+      "restartRequired": false
+    },
+    {
+      "id": "409",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-409/patch-409.zip",
+      "sha256": "18a79afcf167f2e956c7e9cbd4648cd7951d81accbdd9bd557759532c7e7c1d0",
+      "size": 528219308,
+      "description": "Onboarding docs — detailed entries for Command Center, Jarvis Hub, Conversations, Inbox, Social Bot, Bot Accounts, Trading, E-commerce, SEO Studio, Music Bridge",
       "date": "2026-11-01",
       "restartRequired": false
     }
