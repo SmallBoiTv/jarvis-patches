@@ -1,5 +1,5 @@
 {
-  "latestPatch": "405",
+  "latestPatch": "406",
   "patches": [
     {
       "id": "001",
@@ -4153,6 +4153,17 @@
       "size": 528197952,
       "description": "Hub parity: 22-tab settings, rules gate, channel reorder, notif-prefs, DM pin/close/calls, rich presence, unread divider, forum tags, media gallery, text-in-voice, crosspost, quick reactions, invite preview, search jump, emoji/sticker uploads, applyToGuild",
       "date": "2026-10-31",
+      "restartRequired": false
+    },
+    {
+      "id": "406",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-406/patch-406.zip",
+      "sha256": "051b1dd0ad2a1307191b619512d5f1089e2c5df4765fd1ccf58b51b50b07e873",
+      "size": 528214563,
+      "description": "Command Center chrome — cyber-cyan shell (sidebar, top bar, modes, clock, voice status) wrapping app pages",
+      "date": "2026-11-01",
       "restartRequired": false
     }
   ],
