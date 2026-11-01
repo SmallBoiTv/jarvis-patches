@@ -1,5 +1,5 @@
 {
-  "latestPatch": "407",
+  "latestPatch": "408",
   "patches": [
     {
       "id": "001",
@@ -4174,6 +4174,17 @@
       "sha256": "c0e41d137c1fa4be7b3e041c46eac788f01c15a805bb33a3d1cbda5f0147c81b",
       "size": 528216886,
       "description": "Command Center chrome + full grouped nav (all app pages, collapsible cyber groups)",
+      "date": "2026-11-01",
+      "restartRequired": false
+    },
+    {
+      "id": "408",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-408/patch-408.zip",
+      "sha256": "6c3eee5e170d0998b37cd543c31a9a39f876343b12caee62faa054968c7570ae",
+      "size": 528217060,
+      "description": "Remove duplicate top-10 nav items from Command Center sidebar (groups already cover all pages)",
       "date": "2026-11-01",
       "restartRequired": false
     }
