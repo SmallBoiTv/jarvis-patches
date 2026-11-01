@@ -1,5 +1,5 @@
 {
-  "latestPatch": "406",
+  "latestPatch": "407",
   "patches": [
     {
       "id": "001",
@@ -4163,6 +4163,17 @@
       "sha256": "051b1dd0ad2a1307191b619512d5f1089e2c5df4765fd1ccf58b51b50b07e873",
       "size": 528214563,
       "description": "Command Center chrome — cyber-cyan shell (sidebar, top bar, modes, clock, voice status) wrapping app pages",
+      "date": "2026-11-01",
+      "restartRequired": false
+    },
+    {
+      "id": "407",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-407/patch-407.zip",
+      "sha256": "c0e41d137c1fa4be7b3e041c46eac788f01c15a805bb33a3d1cbda5f0147c81b",
+      "size": 528216886,
+      "description": "Command Center chrome + full grouped nav (all app pages, collapsible cyber groups)",
       "date": "2026-11-01",
       "restartRequired": false
     }
