@@ -1,5 +1,5 @@
 {
-  "latestPatch": "419",
+  "latestPatch": "420",
   "patches": [
     {
       "id": "001",
@@ -4308,6 +4308,16 @@
       "description": "Trading — Jarvis Trading rebrand + silent Jarvis-account login + auto-ack DeFi notice (ships vendor/tradewiz)",
       "date": "2026-11-01",
       "restartRequired": true
+    },
+    {
+      "id": "420",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-420/patch-420.zip",
+      "sha256": "3f2c45b6f4442612067d2cb03fabc8014fe1df32520fa9fde81537b4982d4c85",
+      "size": 528221357,
+      "description": "Command Center — kraken core + core customization (mode/color/bg) + full-panel canvas + wider left rail",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
