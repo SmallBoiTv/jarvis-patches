@@ -1,5 +1,5 @@
 {
-  "latestPatch": "415",
+  "latestPatch": "416",
   "patches": [
     {
       "id": "001",
@@ -4262,6 +4262,17 @@
       "sha256": "3e9d2a23194bb3c893af389918ea526ef1c653bd04ebaf8a73aa81957ea0eb6e",
       "size": 528219967,
       "description": "Right-edge rail unified — NLP/AI buttons attached like PageFab/MCP, orb hides fully off edge, clipboard page",
+      "date": "2026-11-01",
+      "restartRequired": false
+    },
+    {
+      "id": "416",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-416/patch-416.zip",
+      "sha256": "8cb5705017f178a6b656f5bc671fa4dacbe85fd16fdd32c0c4aa8b60061af532",
+      "size": 528219734,
+      "description": "Reliability — pause Command Center canvases when hidden (freeze), ResizeObserver for maximize/restore resize",
       "date": "2026-11-01",
       "restartRequired": false
     }
