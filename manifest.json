@@ -1,5 +1,5 @@
 {
-  "latestPatch": "411",
+  "latestPatch": "412",
   "patches": [
     {
       "id": "001",
@@ -4218,6 +4218,17 @@
       "sha256": "1aeae8b8370572158d5401774e38356805c79ad9b7875263daec31f2b30c81f5",
       "size": 528219666,
       "description": "Nav cleanup — remove dead/misplaced items (Voice, AppBuilder, Memory, KnowledgeBase, Notes, Conversations, Party, Companion, Wingman, Replay, TradingDesk, CRMSupport, AgentOps, MusicBridge); add Multi Box + Living World; rename Hub",
+      "date": "2026-11-01",
+      "restartRequired": false
+    },
+    {
+      "id": "412",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-412/patch-412.zip",
+      "sha256": "57cd3747d7985652e27115a01d92cc3dcc9f3e1bac1356f8382557f4fadf2ce8",
+      "size": 528220198,
+      "description": "Default layout — Command Center shell + cyber-cyan theme as shipped defaults (DEFAULT_THEME=Command Center, hudv18 inherits, classic-CC toggles both ways)",
       "date": "2026-11-01",
       "restartRequired": false
     }
