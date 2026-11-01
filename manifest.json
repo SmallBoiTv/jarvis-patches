@@ -1,5 +1,5 @@
 {
-  "latestPatch": "416",
+  "latestPatch": "417",
   "patches": [
     {
       "id": "001",
@@ -4275,6 +4275,17 @@
       "description": "Reliability — pause Command Center canvases when hidden (freeze), ResizeObserver for maximize/restore resize",
       "date": "2026-11-01",
       "restartRequired": false
+    },
+    {
+      "id": "417",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-417/patch-417.zip",
+      "sha256": "079cd9f56e47b9d70fde20bbaec640a4c5fd993825e675075279a150c66a2ec4",
+      "size": 533877082,
+      "description": "Social autopilot — movie-poster image preset, slideshow (multi-image carousel), quick-select style buttons",
+      "date": "2026-11-01",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
