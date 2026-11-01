@@ -1,5 +1,5 @@
 {
-  "latestPatch": "418",
+  "latestPatch": "419",
   "patches": [
     {
       "id": "001",
@@ -4295,6 +4295,17 @@
       "sha256": "466ca0f2f4452312ccd00a76766a0d6d053616fd79bd6224edab58d9e10a4568",
       "size": 534248909,
       "description": "Trading page — Jarvis Trading title, fix webview reload loop, silent Jarvis-account login (fresh JWT)",
+      "date": "2026-11-01",
+      "restartRequired": true
+    },
+    {
+      "id": "419",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-419/patch-419.zip",
+      "sha256": "96ecf0085145db9a75a6b6e7f6ef580f8f16c756716f2fddcf6af08b94f22445",
+      "size": 701233545,
+      "description": "Trading — Jarvis Trading rebrand + silent Jarvis-account login + auto-ack DeFi notice (ships vendor/tradewiz)",
       "date": "2026-11-01",
       "restartRequired": true
     }
