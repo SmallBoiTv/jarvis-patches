@@ -1,5 +1,5 @@
 {
-  "latestPatch": "417",
+  "latestPatch": "418",
   "patches": [
     {
       "id": "001",
@@ -4284,6 +4284,17 @@
       "sha256": "079cd9f56e47b9d70fde20bbaec640a4c5fd993825e675075279a150c66a2ec4",
       "size": 533877082,
       "description": "Social autopilot — movie-poster image preset, slideshow (multi-image carousel), quick-select style buttons",
+      "date": "2026-11-01",
+      "restartRequired": true
+    },
+    {
+      "id": "418",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-418/patch-418.zip",
+      "sha256": "466ca0f2f4452312ccd00a76766a0d6d053616fd79bd6224edab58d9e10a4568",
+      "size": 534248909,
+      "description": "Trading page — Jarvis Trading title, fix webview reload loop, silent Jarvis-account login (fresh JWT)",
       "date": "2026-11-01",
       "restartRequired": true
     }
