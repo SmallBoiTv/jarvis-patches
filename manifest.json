@@ -1,5 +1,5 @@
 {
-  "latestPatch": "412",
+  "latestPatch": "413",
   "patches": [
     {
       "id": "001",
@@ -4229,6 +4229,17 @@
       "sha256": "57cd3747d7985652e27115a01d92cc3dcc9f3e1bac1356f8382557f4fadf2ce8",
       "size": 528220198,
       "description": "Default layout — Command Center shell + cyber-cyan theme as shipped defaults (DEFAULT_THEME=Command Center, hudv18 inherits, classic-CC toggles both ways)",
+      "date": "2026-11-01",
+      "restartRequired": false
+    },
+    {
+      "id": "413",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-413/patch-413.zip",
+      "sha256": "c25304781afd87c0fd65e0e8aeef0a6d84e3f66d1db1fbfa1f8eb91108f0d725",
+      "size": 528219755,
+      "description": "Command Center page — 1:1 JARVIS HUD clone (filled AI-core sphere + orbit rings, dual right rails, thick glass panels, sine waveform, all data panels + emergency) swappable + real data",
       "date": "2026-11-01",
       "restartRequired": false
     }
