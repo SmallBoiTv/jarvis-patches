@@ -1,5 +1,5 @@
 {
-  "latestPatch": "420",
+  "latestPatch": "421",
   "patches": [
     {
       "id": "001",
@@ -4314,9 +4314,20 @@
       "version": "1.0.912",
       "sourceVersion": "1.0.913",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-420/patch-420.zip",
-      "sha256": "3f2c45b6f4442612067d2cb03fabc8014fe1df32520fa9fde81537b4982d4c85",
-      "size": 528221357,
+      "sha256": "f53a981aaf5930d81ad35f921ac7eda3271fef910c4b8d76e694321e9d9f3eee",
+      "size": 695205993,
       "description": "Command Center — kraken core + core customization (mode/color/bg) + full-panel canvas + wider left rail",
+      "date": "2026-11-01",
+      "restartRequired": false
+    },
+    {
+      "id": "421",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-421/patch-421.zip",
+      "sha256": "4ecafc3a99238b292604eb702852a2bbf34d8a85893180943b0debf0a9d64e93",
+      "size": 528223309,
+      "description": "Command Center — real WebGL KrakenScene core + color-edit + full page customization (hue/sat/bright/bg + panels)",
       "restartRequired": false
     }
   ],
