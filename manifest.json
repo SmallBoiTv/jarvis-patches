@@ -1,5 +1,5 @@
 {
-  "latestPatch": "409",
+  "latestPatch": "410",
   "patches": [
     {
       "id": "001",
@@ -4198,6 +4198,17 @@
       "description": "Onboarding docs — detailed entries for Command Center, Jarvis Hub, Conversations, Inbox, Social Bot, Bot Accounts, Trading, E-commerce, SEO Studio, Music Bridge",
       "date": "2026-11-01",
       "restartRequired": false
+    },
+    {
+      "id": "410",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-410/patch-410.zip",
+      "sha256": "0900bbbafb923edcb2d34126b8afd151c0671ca541e373cf42f2ac9710476880",
+      "size": 533444820,
+      "description": "Safe Workspace — real Windows Sandbox GUI (LogonCommand auto-open browse/run-file/cmd, vGPU+IO, enable-sandbox IPC, edition detect, export/transfer fixes) + nav fix",
+      "date": "2026-11-01",
+      "restartRequired": true
     }
   ],
   "version": "1.0.908"
