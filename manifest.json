@@ -1,5 +1,5 @@
 {
-  "latestPatch": "413",
+  "latestPatch": "414",
   "patches": [
     {
       "id": "001",
@@ -4240,6 +4240,17 @@
       "sha256": "c25304781afd87c0fd65e0e8aeef0a6d84e3f66d1db1fbfa1f8eb91108f0d725",
       "size": 528219755,
       "description": "Command Center page — 1:1 JARVIS HUD clone (filled AI-core sphere + orbit rings, dual right rails, thick glass panels, sine waveform, all data panels + emergency) swappable + real data",
+      "date": "2026-11-01",
+      "restartRequired": false
+    },
+    {
+      "id": "414",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-414/patch-414.zip",
+      "sha256": "43f89199216f5d8cd5302aba6c338330e96d0ff512c7a11f3dbbf24565785e2f",
+      "size": 528219568,
+      "description": "Right-edge dock — NLP + AI-chat buttons in dock, JarvisFab parks peeking off right edge, clipboard page fixed",
       "date": "2026-11-01",
       "restartRequired": false
     }
