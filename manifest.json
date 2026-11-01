@@ -1,5 +1,5 @@
 {
-  "latestPatch": "410",
+  "latestPatch": "411",
   "patches": [
     {
       "id": "001",
@@ -4209,6 +4209,17 @@
       "description": "Safe Workspace — real Windows Sandbox GUI (LogonCommand auto-open browse/run-file/cmd, vGPU+IO, enable-sandbox IPC, edition detect, export/transfer fixes) + nav fix",
       "date": "2026-11-01",
       "restartRequired": true
+    },
+    {
+      "id": "411",
+      "version": "1.0.912",
+      "sourceVersion": "1.0.913",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-411/patch-411.zip",
+      "sha256": "1aeae8b8370572158d5401774e38356805c79ad9b7875263daec31f2b30c81f5",
+      "size": 528219666,
+      "description": "Nav cleanup — remove dead/misplaced items (Voice, AppBuilder, Memory, KnowledgeBase, Notes, Conversations, Party, Companion, Wingman, Replay, TradingDesk, CRMSupport, AgentOps, MusicBridge); add Multi Box + Living World; rename Hub",
+      "date": "2026-11-01",
+      "restartRequired": false
     }
   ],
   "version": "1.0.908"
