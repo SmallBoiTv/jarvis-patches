@@ -4339,6 +4339,17 @@
    "sha256": "8acfab1d8324961e74613da46171268e1199ab4654c3b092e492624cd73e9c08",
    "size": 528230537,
    "description": "Autoreload fix \u2014 MAX_MOUNTED_VIEWS 5\u219212 (mounted pages stay resident) + autopilot poll skips setConfig while user is mid-edit"
+  },
+  {
+   "id": "autoreload-mountfix",
+   "version": "1.0.914",
+   "sourceVersion": "1.0.914",
+   "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-autoreload-mountfix/patch-autoreload-mountfix.zip",
+   "sha256": "aa09a36480c094316e30063bb249c0f92a11b61070f7435d1f55dd875f18e2c1",
+   "size": 695215173,
+   "description": "autoreload fix \u2014 mounted-view cap 5\u219212 + autopilot poll edit-guard",
+   "date": "2026-11-02",
+   "restartRequired": false
   }
  ],
  "version": "1.0.914"
