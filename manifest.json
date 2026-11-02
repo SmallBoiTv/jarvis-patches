@@ -4325,9 +4325,10 @@
       "version": "1.0.912",
       "sourceVersion": "1.0.913",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-421/patch-421.zip",
-      "sha256": "4ecafc3a99238b292604eb702852a2bbf34d8a85893180943b0debf0a9d64e93",
-      "size": 528223309,
+      "sha256": "7e0c44a070e07cbbb55b3367474b05a4965ec597ece58aa265045ce3c1ea1bbc",
+      "size": 695207945,
       "description": "Command Center — real WebGL KrakenScene core + color-edit + full page customization (hue/sat/bright/bg + panels)",
+      "date": "2026-11-01",
       "restartRequired": false
     }
   ],
