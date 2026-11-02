@@ -1,5 +1,5 @@
 {
-  "latestPatch": "423",
+  "latestPatch": "424",
   "patches": [
     {
       "id": "001",
@@ -4359,6 +4359,17 @@
       "sha256": "c9722a742a3d1191c74fc06ac2352945f6e9138dbb52ffc44d8cc2889d417d7e",
       "size": 700657282,
       "description": "Android companion link: control server + cloudflared tunnel + devices rendezvous, pairing (account token or code), task/approval remote control, PC event feed",
+      "date": "2026-11-02",
+      "restartRequired": true
+    },
+    {
+      "id": "424",
+      "version": "1.0.914",
+      "sourceVersion": "1.0.914",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-424/patch-424.zip",
+      "sha256": "ea8cbac6850096bc7a4dd38fc53810203c8046c7299e924fec9558dd91791fd8",
+      "size": 700659884,
+      "description": "Android companion: PC remote controls (screenshot/lock/sleep/volume/open-view), OmniRoute+BYOK proxies, PC event feed wiring",
       "date": "2026-11-02",
       "restartRequired": true
     }
