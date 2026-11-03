@@ -1,5 +1,5 @@
 {
-  "latestPatch": "431",
+  "latestPatch": "432",
   "patches": [
     {
       "id": "001",
@@ -4447,6 +4447,17 @@
       "sha256": "dc5a522296da07f5cf0ba01e75f72fac5c403705dd974aa68b6563a76b44a6d3",
       "size": 703039698,
       "description": "RESTART: ship set-pin/hasUserPin/regen-code in main+preload (permanent PIN pairing works) + pocket render fix",
+      "date": "2026-11-03",
+      "restartRequired": true
+    },
+    {
+      "id": "432",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-432/patch-432.zip",
+      "sha256": "874dd38daf85f6599f9b464e81b7a5a1b16f85e35c3a22473e0a567242f43cd6",
+      "size": 531309710,
+      "description": "Companion: pin_hash publishing, remote input actions (tap/scroll/type/key), copy tunnel URL",
       "date": "2026-11-03",
       "restartRequired": true
     }
