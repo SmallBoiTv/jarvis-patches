@@ -1,5 +1,5 @@
 {
-  "latestPatch": "427",
+  "latestPatch": "428",
   "patches": [
     {
       "id": "001",
@@ -4405,6 +4405,17 @@
       "description": "Pocket nav: remove forced-enable so user prefs control visibility (default now opt-in)",
       "date": "2026-11-03",
       "restartRequired": false
+    },
+    {
+      "id": "428",
+      "version": "1.0.914",
+      "sourceVersion": "1.0.914",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-428/patch-428.zip",
+      "sha256": "5fcb0039d05b7ea4ca39102964e65dc4d42b968bfd3ced017ffa3753636368b3",
+      "size": 533672058,
+      "description": "ComfyUI stutter fix: 30s cache on getRequiredModels (was rescanning all model files every 3s) + renderer poll split",
+      "date": "2026-11-03",
+      "restartRequired": true
     }
   ],
   "version": "1.0.914"
