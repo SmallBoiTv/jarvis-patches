@@ -1,5 +1,5 @@
 {
-  "latestPatch": "429",
+  "latestPatch": "430",
   "patches": [
     {
       "id": "001",
@@ -4425,6 +4425,17 @@
       "sha256": "b151d5c31e4b272a4b0a38e29ca301b46c68b50be4289c877154ea8a720bd9e5",
       "size": 528080153,
       "description": "Pocket Jarvis page reachable in nav (enabled by default) + nav search bar + permanent PIN pairing (no QR)",
+      "date": "2026-11-03",
+      "restartRequired": false
+    },
+    {
+      "id": "430",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-430/patch-430.zip",
+      "sha256": "1924af8af93c6e9b451a0793610c31aedbbc5ada6cc2cf5a3540e41dbe2c3fd8",
+      "size": 528233589,
+      "description": "Pocket Jarvis actually renders (missing renderViewContent case) + nav search + permanent PIN pairing (no QR) + pocket enabled by default",
       "date": "2026-11-03",
       "restartRequired": false
     }
