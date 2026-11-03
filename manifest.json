@@ -1,5 +1,5 @@
 {
-  "latestPatch": "430",
+  "latestPatch": "431",
   "patches": [
     {
       "id": "001",
@@ -4438,6 +4438,17 @@
       "description": "Pocket Jarvis actually renders (missing renderViewContent case) + nav search + permanent PIN pairing (no QR) + pocket enabled by default",
       "date": "2026-11-03",
       "restartRequired": false
+    },
+    {
+      "id": "431",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-431/patch-431.zip",
+      "sha256": "e68a97b4f9596a10d502866d3e0688aab570a7dfab0c121adaabddb3b4421941",
+      "size": 703054110,
+      "description": "RESTART: ship set-pin/hasUserPin/regen-code in main+preload (permanent PIN pairing works) + pocket render fix",
+      "date": "2026-11-03",
+      "restartRequired": true
     }
   ],
   "version": "1.0.914"
