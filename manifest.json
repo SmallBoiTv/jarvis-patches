@@ -4444,8 +4444,8 @@
       "version": "1.0.917",
       "sourceVersion": "1.0.917",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-431/patch-431.zip",
-      "sha256": "e68a97b4f9596a10d502866d3e0688aab570a7dfab0c121adaabddb3b4421941",
-      "size": 703054110,
+      "sha256": "974e7078cc209f9f857f5fbaf53b13fd584bfba172ffe9dc9e2ce2173c243a1f",
+      "size": 703039698,
       "description": "RESTART: ship set-pin/hasUserPin/regen-code in main+preload (permanent PIN pairing works) + pocket render fix",
       "date": "2026-11-03",
       "restartRequired": true
