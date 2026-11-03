@@ -1,5 +1,5 @@
 {
-  "latestPatch": "425",
+  "latestPatch": "426",
   "patches": [
     {
       "id": "001",
@@ -4381,6 +4381,17 @@
       "sha256": "15516f7b7f965e1727293373d1358c5277d9a769f392348aa8cb9285b8017609",
       "size": 700655829,
       "description": "Companion bridge: want_url_at republish watcher, provider switch fix, chat events, fs/clipboard endpoints; Pocket forced onto main nav (HUD group), enabled by default",
+      "date": "2026-11-03",
+      "restartRequired": true
+    },
+    {
+      "id": "426",
+      "version": "1.0.914",
+      "sourceVersion": "1.0.914",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-426/patch-426.zip",
+      "sha256": "f14fb8532eb5c42deec109b6abb0feb05911a7b3afd06c5cb9ba3fd48e211912",
+      "size": 533672018,
+      "description": "ComfyUI/diffusers server manual-start gate + spawn dedupe — fixes RAM exhaustion freeze (stacked diffusers-server copies)",
       "date": "2026-11-03",
       "restartRequired": true
     }
