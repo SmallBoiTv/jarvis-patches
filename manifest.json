@@ -1,5 +1,5 @@
 {
-  "latestPatch": "426",
+  "latestPatch": "427",
   "patches": [
     {
       "id": "001",
@@ -4389,11 +4389,22 @@
       "version": "1.0.914",
       "sourceVersion": "1.0.914",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-426/patch-426.zip",
-      "sha256": "f14fb8532eb5c42deec109b6abb0feb05911a7b3afd06c5cb9ba3fd48e211912",
-      "size": 533672018,
-      "description": "ComfyUI/diffusers server manual-start gate + spawn dedupe — fixes RAM exhaustion freeze (stacked diffusers-server copies)",
+      "sha256": "f0af0015180786a1bba3d47d2ec62491ddbb5b6f980286967643ecfe93aa85da",
+      "size": 700656654,
+      "description": "ComfyUI/diffusers server manual-start gate + spawn dedupe — fixes RAM exhaustion freeze (25 stacked diffusers-server copies)",
       "date": "2026-11-03",
       "restartRequired": true
+    },
+    {
+      "id": "427",
+      "version": "1.0.914",
+      "sourceVersion": "1.0.914",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-427/patch-427.zip",
+      "sha256": "ea69b9381c35b8b075c26f4d0ea318ab28a7c7d65a993fa890975d082eb98993",
+      "size": 528232391,
+      "description": "Pocket nav: remove forced-enable so user prefs control visibility (default now opt-in)",
+      "date": "2026-11-03",
+      "restartRequired": false
     }
   ],
   "version": "1.0.914"
