@@ -4510,9 +4510,20 @@
       "version": "1.0.918",
       "sourceVersion": "1.0.918",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-437/patch-437.zip",
-      "sha256": "2540e64c5d92766deef2c21412e696dd39ba88ed8a0788fcf615c4a96cb053a7",
+      "sha256": "c949bd468c266dcbfdb7a75a7f28c4b989a70dbd7cdfdb204134252270fd6680",
       "size": 676707109,
       "description": "Companion input injection rewrite: powershell -File .ps1 path (inline -c quoting silently broke all mouse/keyboard); frame->display coord scaling; want-tunnel watcher + service-role API write",
+      "date": "2026-11-04",
+      "restartRequired": true
+    },
+    {
+      "id": "437",
+      "version": "1.0.918",
+      "sourceVersion": "1.0.918",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-437/patch-437.zip",
+      "sha256": "c949bd468c266dcbfdb7a75a7f28c4b989a70dbd7cdfdb204134252270fd6680",
+      "size": 746825647,
+      "description": "Companion input injection rewrite: .ps1 file path fixes mouse/keyboard on RemoteScreen (inline powershell -c quoting silently failed); frame->display coordinate scaling (1600x900 shot on 2560x1440 landed taps 1.6x off); want-tunnel watcher + verified API write",
       "date": "2026-11-04",
       "restartRequired": true
     }
