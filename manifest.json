@@ -1,5 +1,5 @@
 {
-  "latestPatch": "438",
+  "latestPatch": "440",
   "patches": [
     {
       "id": "001",
@@ -4524,6 +4524,17 @@
       "sha256": "87088ab56255c139e1435de19077415df5af6c6460f0c00489e50ea17179863c",
       "size": 531465174,
       "description": "Companion: restart tunnel on want-request (dead tunnel silently ignored refresh discovery); fixes companion-bridge syntax crash shipped in 437",
+      "date": "2026-11-04",
+      "restartRequired": true
+    },
+    {
+      "id": "440",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-440/patch-440.zip",
+      "sha256": "571bb250ee1d11b90eab4b9015eae4ccc6ea7e04896a97f4b7f4d19b38e1cf14",
+      "size": 531474618,
+      "description": "Twilio BYOK: calls + SMS + voice/text commands + telemarketing campaigns (AMD, opt-out, quiet hours)",
       "date": "2026-11-04",
       "restartRequired": true
     }
