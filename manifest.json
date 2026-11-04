@@ -1,5 +1,5 @@
 {
-  "latestPatch": "443",
+  "latestPatch": "444",
   "patches": [
     {
       "id": "001",
@@ -4570,6 +4570,17 @@
       "description": "Telegram: owner-id gate + inline keyboard + full control (screenshot/open/run/lock/volume/speak) + tunnel auto-send",
       "date": "2026-11-04",
       "restartRequired": true
+    },
+    {
+      "id": "444",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-444/patch-444.zip",
+      "sha256": "06377cbf47df5f9fb762b65c033861105e9c589e5b7bab59fbfd7bfeea148cab",
+      "size": 531481078,
+      "description": "CRITICAL: Hub sign-in + desktop-row creation (discovery) + plan-gate fix + telegram owner-gate/control + remote screen",
+      "date": "2026-11-04",
+      "restartRequired": false
     }
   ],
   "version": "1.0.914"
