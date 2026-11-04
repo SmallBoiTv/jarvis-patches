@@ -1,5 +1,5 @@
 {
-  "latestPatch": "440",
+  "latestPatch": "441",
   "patches": [
     {
       "id": "001",
@@ -4535,6 +4535,17 @@
       "sha256": "571bb250ee1d11b90eab4b9015eae4ccc6ea7e04896a97f4b7f4d19b38e1cf14",
       "size": 531474618,
       "description": "Twilio BYOK: calls + SMS + voice/text commands + telemarketing campaigns (AMD, opt-out, quiet hours)",
+      "date": "2026-11-04",
+      "restartRequired": true
+    },
+    {
+      "id": "441",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-441/patch-441.zip",
+      "sha256": "1f5fe9f96a32f569d0e3e3d603914b17d0348239fb0c91a46748543cf66f8e72",
+      "size": 531477496,
+      "description": "Remote screen: trackpad mode + moverel + focal zoom + email marketing + keyboard bar",
       "date": "2026-11-04",
       "restartRequired": true
     }
