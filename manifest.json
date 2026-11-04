@@ -1,5 +1,5 @@
 {
-  "latestPatch": 434,
+  "latestPatch": 436,
   "patches": [
     {
       "id": "001",
@@ -4482,6 +4482,28 @@
       "description": "Flicker fixes: hoist inline Toggle/Row components (remount-per-render bug) in Pocket/Recall/SocialBot/Wingman; poll guards skip unchanged state; VpnView stale-closure fix",
       "date": "2026-11-04",
       "restartRequired": false
+    },
+    {
+      "id": "435",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-435/patch-435.zip",
+      "sha256": "d6abc0dc07c24084c02157e9be45a6e34ea65f69c7457fd32039d1b090b4d7ba",
+      "size": 533531112,
+      "description": "Companion: real input injection (SendInput/keybd_event/mouse drag/move) + OmniRoute startup grace",
+      "date": "2026-11-04",
+      "restartRequired": true
+    },
+    {
+      "id": "436",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-436/patch-436.zip",
+      "sha256": "e065bd67b298ea04df2054ef2d744aaa86263526e74ac125a184e2d05419c068",
+      "size": 604709117,
+      "description": "Companion refresh-discovery fix: desktop want_url_at watcher 30s->5s (phone waits 10s \u2014 guaranteed race); tunnel-restart cooldown to stop URL churn; phone waits for real republish ACK",
+      "date": "2026-11-04",
+      "restartRequired": true
     }
   ],
   "version": "1.0.914"
