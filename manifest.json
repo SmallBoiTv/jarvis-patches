@@ -1,5 +1,5 @@
 {
-  "latestPatch": "441",
+  "latestPatch": "443",
   "patches": [
     {
       "id": "001",
@@ -4546,6 +4546,28 @@
       "sha256": "1f5fe9f96a32f569d0e3e3d603914b17d0348239fb0c91a46748543cf66f8e72",
       "size": 531477496,
       "description": "Remote screen: trackpad mode + moverel + focal zoom + email marketing + keyboard bar",
+      "date": "2026-11-04",
+      "restartRequired": true
+    },
+    {
+      "id": "442",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-442/patch-442.zip",
+      "sha256": "b738f920cd737238c42e51825ed7614a46a13a61b39df39011b9f115f431dabc",
+      "size": 531478397,
+      "description": "Telegram owner-id gate; tunnel URL auto-sends to Telegram; DTMF + transfer; trackpad/moverel + quick keys; email marketing",
+      "date": "2026-11-04",
+      "restartRequired": true
+    },
+    {
+      "id": "443",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-443/patch-443.zip",
+      "sha256": "60354021110906f752c355db1b5df878fced2c0956d5de2e4da8f45f0474fa0f",
+      "size": 531480418,
+      "description": "Telegram: owner-id gate + inline keyboard + full control (screenshot/open/run/lock/volume/speak) + tunnel auto-send",
       "date": "2026-11-04",
       "restartRequired": true
     }
