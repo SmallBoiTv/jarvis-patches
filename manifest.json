@@ -1,5 +1,5 @@
 {
-  "latestPatch": 436,
+  "latestPatch": 437,
   "patches": [
     {
       "id": "001",
@@ -4502,6 +4502,17 @@
       "sha256": "e065bd67b298ea04df2054ef2d744aaa86263526e74ac125a184e2d05419c068",
       "size": 604709117,
       "description": "Companion refresh-discovery fix: desktop want_url_at watcher 30s->5s (phone waits 10s \u2014 guaranteed race); tunnel-restart cooldown to stop URL churn; phone waits for real republish ACK",
+      "date": "2026-11-04",
+      "restartRequired": true
+    },
+    {
+      "id": "437",
+      "version": "1.0.918",
+      "sourceVersion": "1.0.918",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-437/patch-437.zip",
+      "sha256": "2540e64c5d92766deef2c21412e696dd39ba88ed8a0788fcf615c4a96cb053a7",
+      "size": 676707109,
+      "description": "Companion input injection rewrite: powershell -File .ps1 path (inline -c quoting silently broke all mouse/keyboard); frame->display coord scaling; want-tunnel watcher + service-role API write",
       "date": "2026-11-04",
       "restartRequired": true
     }
