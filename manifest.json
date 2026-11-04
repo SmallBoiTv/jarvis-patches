@@ -1,5 +1,5 @@
 {
-  "latestPatch": "437",
+  "latestPatch": "438",
   "patches": [
     {
       "id": "001",
@@ -4513,6 +4513,17 @@
       "sha256": "3154c5b94a871656bb092a802a76a243b2b9b8cd6186280b84410631da8cb4d5",
       "size": 531465085,
       "description": "Companion: input injection + OmniRoute grace + remote-input fixes",
+      "date": "2026-11-04",
+      "restartRequired": true
+    },
+    {
+      "id": "438",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-438/patch-438.zip",
+      "sha256": "87088ab56255c139e1435de19077415df5af6c6460f0c00489e50ea17179863c",
+      "size": 531465174,
+      "description": "Companion: restart tunnel on want-request (dead tunnel silently ignored refresh discovery); fixes companion-bridge syntax crash shipped in 437",
       "date": "2026-11-04",
       "restartRequired": true
     }
