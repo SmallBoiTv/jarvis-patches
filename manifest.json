@@ -1,5 +1,5 @@
 {
-  "latestPatch": "448",
+  "latestPatch": "449",
   "patches": [
     {
       "id": "001",
@@ -4623,6 +4623,17 @@
       "sha256": "5428f4e1e40f8be841c49e73e580ef40b2817f9a1f30b3a87c49ec50cded49e0",
       "size": 703865186,
       "description": "Remote desktop latency: JPEG frames (3-5x smaller payload), adaptive frame pull with change detection, coalesced pointer sends, DPI-correct input coords",
+      "date": "2026-11-04",
+      "restartRequired": true
+    },
+    {
+      "id": "449",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-449/patch-449.zip",
+      "sha256": "2b77cb8151f2a6a47ddba6410b8634624b1a8c06e510b7804fb31a4cf184888b",
+      "size": 703866015,
+      "description": "Pages stay mounted: stable view wrapper (no remount on re-render), keep-alive in Command Center shell, no LRU eviction, HUD visit no longer unmounts pages, desktop task-start fix",
       "date": "2026-11-04",
       "restartRequired": true
     }
