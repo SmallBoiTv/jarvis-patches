@@ -1,5 +1,5 @@
 {
-  "latestPatch": "444",
+  "latestPatch": "445",
   "patches": [
     {
       "id": "001",
@@ -4579,6 +4579,17 @@
       "sha256": "06377cbf47df5f9fb762b65c033861105e9c589e5b7bab59fbfd7bfeea148cab",
       "size": 531481078,
       "description": "CRITICAL: Hub sign-in + desktop-row creation (discovery) + plan-gate fix + telegram owner-gate/control + remote screen",
+      "date": "2026-11-04",
+      "restartRequired": false
+    },
+    {
+      "id": "445",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-445/patch-445-v2.zip",
+      "sha256": "0af4fb02408ad41c68c499987ad7993acdf775c765bf091548e7ae96ed15e792",
+      "size": 531485197,
+      "description": "Remote screen: real PC cursor + poll-pause + pop-out pin",
       "date": "2026-11-04",
       "restartRequired": false
     }
