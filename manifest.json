@@ -1,5 +1,5 @@
 {
-  "latestPatch": "457",
+  "latestPatch": "458",
   "patches": [
     {
       "id": "001",
@@ -4722,6 +4722,17 @@
       "sha256": "c9b632e2d6045b5649867905d28616bbc7420d7337529116f853979beb547945",
       "size": 703920457,
       "description": "Social: BOM-safe config reads (settings no longer wiped), chrome profile mapping fix",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "458",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-458/patch-458.zip",
+      "sha256": "5abe5f1f4546a3b144bdf26e0e9738fe230cf3fbe89cea17f65bf7b30a381253",
+      "size": 703921220,
+      "description": "Kaggle video: choose a Python that can run the CLI, managed-environment install fallbacks",
       "date": "2026-11-05",
       "restartRequired": true
     }
