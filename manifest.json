@@ -1,5 +1,5 @@
 {
-  "latestPatch": "455",
+  "latestPatch": "456",
   "patches": [
     {
       "id": "001",
@@ -4700,6 +4700,17 @@
       "sha256": "29b5edccc6ca03f3ddcd6dca7b25f2a3c1762e3d0c3eb9c360b773fc7a73b82d",
       "size": 703919604,
       "description": "Social: adopt existing Chrome sessions (logged-in fix), never use disabled video sites, clear account errors",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "456",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-456/patch-456.zip",
+      "sha256": "fb615885c91c31140953d5acdf636abd732e067abb895f808197cfa59f1a1965",
+      "size": 703919906,
+      "description": "Web video bridge: park failing sites (no more credit-wall retry loops), never use disabled sites",
       "date": "2026-11-05",
       "restartRequired": true
     }
