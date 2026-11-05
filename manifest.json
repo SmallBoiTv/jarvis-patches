@@ -1,5 +1,5 @@
 {
-  "latestPatch": "456",
+  "latestPatch": "457",
   "patches": [
     {
       "id": "001",
@@ -4711,6 +4711,17 @@
       "sha256": "fb615885c91c31140953d5acdf636abd732e067abb895f808197cfa59f1a1965",
       "size": 703919906,
       "description": "Web video bridge: park failing sites (no more credit-wall retry loops), never use disabled sites",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "457",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-457/patch-457.zip",
+      "sha256": "c9b632e2d6045b5649867905d28616bbc7420d7337529116f853979beb547945",
+      "size": 703920457,
+      "description": "Social: BOM-safe config reads (settings no longer wiped), chrome profile mapping fix",
       "date": "2026-11-05",
       "restartRequired": true
     }
