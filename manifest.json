@@ -1,5 +1,5 @@
 {
-  "latestPatch": "453",
+  "latestPatch": "454",
   "patches": [
     {
       "id": "001",
@@ -4678,6 +4678,17 @@
       "sha256": "cad7a9cc94d8087e7a71fda57c2cab7caa48aafe9c6b8d051d3be0f3968f3df9",
       "size": 703916069,
       "description": "Desktop: 308 host fix (Hub/Billing/Pocket sign-in), phone camera viewer, remote keyboard modifiers",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "454",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-454/patch-454.zip",
+      "sha256": "631496cad9112960c1e5baea4a75fadec425c00460d022dff9104ab7eef04003",
+      "size": 703917480,
+      "description": "Social autopilot: corrupt-config guard (char-indexed wipe), DevSocial cross-platform reconcile",
       "date": "2026-11-05",
       "restartRequired": true
     }
