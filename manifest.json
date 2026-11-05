@@ -1,5 +1,5 @@
 {
-  "latestPatch": "449",
+  "latestPatch": "450",
   "patches": [
     {
       "id": "001",
@@ -4635,6 +4635,17 @@
       "size": 703866015,
       "description": "Pages stay mounted: stable view wrapper (no remount on re-render), keep-alive in Command Center shell, no LRU eviction, HUD visit no longer unmounts pages, desktop task-start fix",
       "date": "2026-11-04",
+      "restartRequired": true
+    },
+    {
+      "id": "450",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-450/patch-450.zip",
+      "sha256": "ab9ee716f3cc7c8d52cd975745db637cf827ae070be3b1ee43829f52d197d1c7",
+      "size": 703901712,
+      "description": "Telegram/Pocket bot: single-consumer token registry (duplicate bot refused with owner named), 409 diagnostics + poll heartbeat logging, wait-out stale long-poll on restart (no more 409 churn), Settings > Integrations Test bot / Revoke & stop with live getMe+getWebhookInfo, Twilio/campaign/email send-path logging + Verify credentials / campaign Dry run / Send test email diagnostics, single-owner Chrome profile arbitration between the social autopilot and the web-video bridge, media-attachment resolver proof",
+      "date": "2026-11-05",
       "restartRequired": true
     }
   ],
