@@ -1,5 +1,5 @@
 {
-  "latestPatch": "461",
+  "latestPatch": "462",
   "patches": [
     {
       "id": "001",
@@ -4766,6 +4766,17 @@
       "sha256": "62c0294bbf45c4d09f0b191773513a3767866848088fa8d6c9dd8e8d127554e2",
       "size": 703924099,
       "description": "Autopilot: disk heartbeat (step trail visible even when the cycle holds the renderer)",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "462",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-462/patch-462.zip",
+      "sha256": "8714948453aa165e7fb0fd2856ece14e0db65bee2c22f02891cd912c14f04abe",
+      "size": 703924232,
+      "description": "Social: TikTok posts to the upload composer (not /explore) and only counts a real video URL as posted",
       "date": "2026-11-05",
       "restartRequired": true
     }
