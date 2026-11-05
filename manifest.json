@@ -1,5 +1,5 @@
 {
-  "latestPatch": "450",
+  "latestPatch": "451",
   "patches": [
     {
       "id": "001",
@@ -4645,6 +4645,17 @@
       "sha256": "ab9ee716f3cc7c8d52cd975745db637cf827ae070be3b1ee43829f52d197d1c7",
       "size": 703901712,
       "description": "Telegram/Pocket bot: single-consumer token registry (duplicate bot refused with owner named), 409 diagnostics + poll heartbeat logging, wait-out stale long-poll on restart (no more 409 churn), Settings > Integrations Test bot / Revoke & stop with live getMe+getWebhookInfo, Twilio/campaign/email send-path logging + Verify credentials / campaign Dry run / Send test email diagnostics, single-owner Chrome profile arbitration between the social autopilot and the web-video bridge, media-attachment resolver proof",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "451",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-451/patch-451.zip",
+      "sha256": "d546a9486ae1b21dc9ac32614ae2667e72157f6fbde6605105eb19dac630cbb8",
+      "size": 703911973,
+      "description": "Hub/plan API 401 fix: the live site 308-redirects jarviscoding.online to www, and fetch drops the Authorization header on a cross-origin redirect, so every signed-in desktop call arrived unauthenticated (Hub showed sign in while signed in). Adds a header-preserving web-API fetch plus a self-disabling fetch host hook so API calls go to the canonical host; Hub now boots with the real profile",
       "date": "2026-11-05",
       "restartRequired": true
     }
