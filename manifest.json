@@ -1,5 +1,5 @@
 {
-  "latestPatch": "459",
+  "latestPatch": "460",
   "patches": [
     {
       "id": "001",
@@ -4744,6 +4744,17 @@
       "sha256": "2072725870a7d6991138a7a9ca2a07063ed1c450e7294457c2a93e682f7d09b3",
       "size": 703923373,
       "description": "Autopilot: use the page provider/model menu, only enabled+credit web sites, always post (image/text fallback when video fails)",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "460",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-460/patch-460.zip",
+      "sha256": "f29b4df2c0ad52a40cb2d37c56296fcc7153d73386110d573a60355133e3cc1c",
+      "size": 703923717,
+      "description": "Autopilot: media time budget (never block the post step on dead video providers)",
       "date": "2026-11-05",
       "restartRequired": true
     }
