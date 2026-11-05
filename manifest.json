@@ -1,5 +1,5 @@
 {
-  "latestPatch": "452",
+  "latestPatch": "453",
   "patches": [
     {
       "id": "001",
@@ -4667,6 +4667,17 @@
       "sha256": "2a6cc5aa09ec976beee98e5c0b8435aa87bd7d198e16b711463c820f9c15dcdb",
       "size": 703912791,
       "description": "Hot-patch manager fixes: extract via bsdtar (Expand-Archive died on >260-char vendor paths + 60s exec timeout orphaned powershell mid-extract — every large patch apply failed), EBUSY write-stream guard + in-flight apply lock, applied-patch.json BOM tolerance, make-patch tar remote-path fix",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "453",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-453/patch-453.zip",
+      "sha256": "cad7a9cc94d8087e7a71fda57c2cab7caa48aafe9c6b8d051d3be0f3968f3df9",
+      "size": 703916069,
+      "description": "Desktop: 308 host fix (Hub/Billing/Pocket sign-in), phone camera viewer, remote keyboard modifiers",
       "date": "2026-11-05",
       "restartRequired": true
     }
