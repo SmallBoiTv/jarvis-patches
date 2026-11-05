@@ -1,5 +1,5 @@
 {
-  "latestPatch": "451",
+  "latestPatch": "452",
   "patches": [
     {
       "id": "001",
@@ -4656,6 +4656,17 @@
       "sha256": "d546a9486ae1b21dc9ac32614ae2667e72157f6fbde6605105eb19dac630cbb8",
       "size": 703911973,
       "description": "Hub/plan API 401 fix: the live site 308-redirects jarviscoding.online to www, and fetch drops the Authorization header on a cross-origin redirect, so every signed-in desktop call arrived unauthenticated (Hub showed sign in while signed in). Adds a header-preserving web-API fetch plus a self-disabling fetch host hook so API calls go to the canonical host; Hub now boots with the real profile",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "452",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-452/patch-452.zip",
+      "sha256": "2a6cc5aa09ec976beee98e5c0b8435aa87bd7d198e16b711463c820f9c15dcdb",
+      "size": 703912791,
+      "description": "Hot-patch manager fixes: extract via bsdtar (Expand-Archive died on >260-char vendor paths + 60s exec timeout orphaned powershell mid-extract — every large patch apply failed), EBUSY write-stream guard + in-flight apply lock, applied-patch.json BOM tolerance, make-patch tar remote-path fix",
       "date": "2026-11-05",
       "restartRequired": true
     }
