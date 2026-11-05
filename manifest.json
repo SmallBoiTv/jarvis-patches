@@ -1,5 +1,5 @@
 {
-  "latestPatch": "454",
+  "latestPatch": "455",
   "patches": [
     {
       "id": "001",
@@ -4689,6 +4689,17 @@
       "sha256": "631496cad9112960c1e5baea4a75fadec425c00460d022dff9104ab7eef04003",
       "size": 703917480,
       "description": "Social autopilot: corrupt-config guard (char-indexed wipe), DevSocial cross-platform reconcile",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "455",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-455/patch-455.zip",
+      "sha256": "29b5edccc6ca03f3ddcd6dca7b25f2a3c1762e3d0c3eb9c360b773fc7a73b82d",
+      "size": 703919604,
+      "description": "Social: adopt existing Chrome sessions (logged-in fix), never use disabled video sites, clear account errors",
       "date": "2026-11-05",
       "restartRequired": true
     }
