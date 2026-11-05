@@ -1,5 +1,5 @@
 {
-  "latestPatch": "462",
+  "latestPatch": "463",
   "patches": [
     {
       "id": "001",
@@ -4777,6 +4777,17 @@
       "sha256": "8714948453aa165e7fb0fd2856ece14e0db65bee2c22f02891cd912c14f04abe",
       "size": 703924232,
       "description": "Social: TikTok posts to the upload composer (not /explore) and only counts a real video URL as posted",
+      "date": "2026-11-05",
+      "restartRequired": true
+    },
+    {
+      "id": "463",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-463/patch-463.zip",
+      "sha256": "fa6ba9f7d195b051880a156ea19a400dc65079b6dc1f80bea955dfcb7960db79",
+      "size": 703924661,
+      "description": "Social: always resolve the account's Chrome profile before posting (no default-profile fallback)",
       "date": "2026-11-05",
       "restartRequired": true
     }
