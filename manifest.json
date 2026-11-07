@@ -1,5 +1,5 @@
 {
-  "latestPatch": "464",
+  "latestPatch": "465",
   "patches": [
     {
       "id": "001",
@@ -4799,6 +4799,17 @@
       "sha256": "ba33c54cf1af04285c7aa45f9bdf40c232f6f6e71b6a294256e2a50fe2db844b",
       "size": 703931728,
       "description": "Fix OmniRoute crashes: known-bad version repair/downgrade, wedged-server watchdog kill, ensure+login circuit breakers, renderer memory watchdog, replace missing electron-store",
+      "date": "2026-11-07",
+      "restartRequired": true
+    },
+    {
+      "id": "465",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-465/patch-465.zip",
+      "sha256": "c41976ee9f56672a0ca90e280b022e622c02fb2a423adec3663a0761826643b6",
+      "size": 703932374,
+      "description": "OmniRoute hardening follow-up: JARVIS_SINGLE_INSTANCE=0 escape hatch for zombie-lock recovery, blacklist OmniRoute 3.8.52 alongside 3.8.53",
       "date": "2026-11-07",
       "restartRequired": true
     }
