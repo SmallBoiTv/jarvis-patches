@@ -1,5 +1,5 @@
 {
-  "latestPatch": "466",
+  "latestPatch": "467",
   "patches": [
     {
       "id": "001",
@@ -4823,6 +4823,17 @@
       "description": "Fix MemWatch renderer metric (nested memory.workingSetSize) so the OOM watchdog reads real values",
       "date": "2026-11-07",
       "restartRequired": true
+    },
+    {
+      "id": "467",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-467/patch-467.zip",
+      "sha256": "4c1161d88bc2e9dd0779a86f4bdc6539f776a328db2977d67fc8575c491c1539",
+      "size": 386344303,
+      "description": "Social Media UI redesign: Accounts tab + Auto-Pilot zones (step 1+2)",
+      "date": "2026-11-07",
+      "restartRequired": false
     }
   ],
   "version": "1.0.914"
