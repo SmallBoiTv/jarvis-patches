@@ -1,5 +1,5 @@
 {
-  "latestPatch": "467",
+  "latestPatch": "468",
   "patches": [
     {
       "id": "001",
@@ -4834,6 +4834,17 @@
       "description": "Social Media UI redesign: Accounts tab + Auto-Pilot zones (step 1+2)",
       "date": "2026-11-07",
       "restartRequired": false
+    },
+    {
+      "id": "468",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-468/patch-468.zip",
+      "sha256": "99774ccc45dc969b24456d4ac55f4a872e6f6d8d64e9091d352088dbdc53c135",
+      "size": 704272489,
+      "description": "Stop browser windows on logged-out social sessions + reap per-account Chrome (CDP) instances on idle-close",
+      "date": "2026-11-07",
+      "restartRequired": true
     }
   ],
   "version": "1.0.914"
