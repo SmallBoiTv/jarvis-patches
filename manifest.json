@@ -1,5 +1,5 @@
 {
-  "latestPatch": "465",
+  "latestPatch": "466",
   "patches": [
     {
       "id": "001",
@@ -4810,6 +4810,17 @@
       "sha256": "c41976ee9f56672a0ca90e280b022e622c02fb2a423adec3663a0761826643b6",
       "size": 703932374,
       "description": "OmniRoute hardening follow-up: JARVIS_SINGLE_INSTANCE=0 escape hatch for zombie-lock recovery, blacklist OmniRoute 3.8.52 alongside 3.8.53",
+      "date": "2026-11-07",
+      "restartRequired": true
+    },
+    {
+      "id": "466",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-466/patch-466.zip",
+      "sha256": "b6d9fc736bfb4327ccd4970cca800257cee7a152189950aae75241ebf5248607",
+      "size": 704270699,
+      "description": "Fix MemWatch renderer metric (nested memory.workingSetSize) so the OOM watchdog reads real values",
       "date": "2026-11-07",
       "restartRequired": true
     }
