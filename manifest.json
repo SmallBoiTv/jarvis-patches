@@ -4862,11 +4862,11 @@
       "version": "1.0.917",
       "sourceVersion": "1.0.917",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-470/patch-470.zip",
-      "sha256": "ae49d883da8caab737c4af7e67f3743c44715d02b61f93159aa599ed893a2b13",
-      "size": 386345738,
-      "description": "Auto-Pilot: collapsible Media settings group + accounts empty-state copy fix",
+      "sha256": "780837ff8b1ab8f40d99500f18be43bd1cb04b65ad0ad2caf52b1052db8eece1",
+      "size": 704343081,
+      "description": "Social kill-switches: per-account + per-profile disable, factory reset, dead-Chrome guards",
       "date": "2026-11-08",
-      "restartRequired": false
+      "restartRequired": true
     }
   ],
   "version": "1.0.914"
