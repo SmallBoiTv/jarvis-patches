@@ -1,5 +1,5 @@
 {
-  "latestPatch": "476",
+  "latestPatch": "freefield-studio",
   "patches": [
     {
       "id": "001",
@@ -4933,6 +4933,28 @@
       "description": "Pin JARVIS Cloud (managed GPU) to top of provider menus across Video Studio, Jarvis Studio, Social Media and shared selector",
       "date": "2026-11-08",
       "restartRequired": false
+    },
+    {
+      "id": "cloud-video-gen",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-cloud-video-gen/patch-cloud-video-gen.zip",
+      "sha256": "fe2ff95fd61eff32b5f496a61416b9216ba6b0f07a147e12ae0e7dac5c25327e",
+      "size": 698334534,
+      "description": "Cloud GPU video generation end-to-end — job poller, jarvis-cloud provider, settings tab",
+      "date": "2026-11-08",
+      "restartRequired": false
+    },
+    {
+      "id": "freefield-studio",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-freefield-studio/patch-freefield-studio.zip",
+      "sha256": "5d97242c03bcb80a81a6ac1f6ae6d338203c6bfce337df564d48505a73d6ad45",
+      "size": 922714999,
+      "description": "FreeField Studio — open-source Higgsfield bundle inside JARVIS Cloud",
+      "date": "2026-11-08",
+      "restartRequired": true
     }
   ],
   "version": "1.0.914"
