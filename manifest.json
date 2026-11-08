@@ -1,5 +1,5 @@
 {
-  "latestPatch": "468",
+  "latestPatch": "469",
   "patches": [
     {
       "id": "001",
@@ -4845,6 +4845,17 @@
       "description": "Stop browser windows on logged-out social sessions + reap per-account Chrome (CDP) instances on idle-close",
       "date": "2026-11-07",
       "restartRequired": true
+    },
+    {
+      "id": "469",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-469/patch-469.zip",
+      "sha256": "61d4087be3da53ede38a14350ccf65dea5ef750a9d377743478db05310ea4640",
+      "size": 698270458,
+      "description": "Social Post + Accounts tabs rework: Compose/Auto-Pilot panes, numbered steps, accounts-first ordering, session-expired chips",
+      "date": "2026-11-08",
+      "restartRequired": false
     }
   ],
   "version": "1.0.914"
