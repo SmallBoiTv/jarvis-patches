@@ -4928,8 +4928,8 @@
       "version": "1.0.917",
       "sourceVersion": "1.0.917",
       "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-476/patch-476.zip",
-      "sha256": "239fda60bd16df278a09ee091618bc1aaa29c3d77beaf7d2c96d5af246c8e4e2",
-      "size": 698318768,
+      "sha256": "1eeaf021dcb8e3a97dd7ee62b960f80f734bc9551039a661b050b15172aa2016",
+      "size": 698318332,
       "description": "Pin JARVIS Cloud (managed GPU) to top of provider menus across Video Studio, Jarvis Studio, Social Media and shared selector",
       "date": "2026-11-08",
       "restartRequired": false
