@@ -1,5 +1,5 @@
 {
-  "latestPatch": "470",
+  "latestPatch": "471",
   "patches": [
     {
       "id": "001",
@@ -4865,6 +4865,17 @@
       "sha256": "780837ff8b1ab8f40d99500f18be43bd1cb04b65ad0ad2caf52b1052db8eece1",
       "size": 704343081,
       "description": "Social kill-switches: per-account + per-profile disable, factory reset, dead-Chrome guards",
+      "date": "2026-11-08",
+      "restartRequired": true
+    },
+    {
+      "id": "471",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-471/patch-471.zip",
+      "sha256": "f3cf0a30e8a35228257196cf38f6f251cb45d160ef2a98b0baca4a176acfdb80",
+      "size": 704347380,
+      "description": "SEO Studio autopilot v2 + deep checks, social compose chip redesign, JarvisBot holographic UI, compose draft persistence",
       "date": "2026-11-08",
       "restartRequired": true
     }
