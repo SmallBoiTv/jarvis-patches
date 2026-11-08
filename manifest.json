@@ -1,5 +1,5 @@
 {
-  "latestPatch": "474",
+  "latestPatch": "476",
   "patches": [
     {
       "id": "001",
@@ -4911,6 +4911,28 @@
       "description": "Jarvis Mesh: unified provider/model catalog, auto-pick, multi-model routing + classifier/routing fixes",
       "date": "2026-11-08",
       "restartRequired": true
+    },
+    {
+      "id": "475",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-475/patch-475.zip",
+      "sha256": "db4ea829b102ced5610d2acef90ef2d2c13f8c70f6fecc5c53306213681476d0",
+      "size": 704419932,
+      "description": "Jarvis Mesh: page-routing auto-pick provider fix + picked-model visibility in dropdowns",
+      "date": "2026-11-08",
+      "restartRequired": true
+    },
+    {
+      "id": "476",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-476/patch-476.zip",
+      "sha256": "239fda60bd16df278a09ee091618bc1aaa29c3d77beaf7d2c96d5af246c8e4e2",
+      "size": 698318768,
+      "description": "Pin JARVIS Cloud (managed GPU) to top of provider menus across Video Studio, Jarvis Studio, Social Media and shared selector",
+      "date": "2026-11-08",
+      "restartRequired": false
     }
   ],
   "version": "1.0.914"
