@@ -1,5 +1,5 @@
 {
-  "latestPatch": "472",
+  "latestPatch": "473",
   "patches": [
     {
       "id": "001",
@@ -4889,6 +4889,17 @@
       "description": "Social: merge Browser Accounts into Accounts→Advanced (one accounts hub)",
       "date": "2026-11-08",
       "restartRequired": false
+    },
+    {
+      "id": "473",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-473/patch-473.zip",
+      "sha256": "60cc9565c50326a3ef7f29c0493135c87c1a90cbd7187044fb53976960c8a6bd",
+      "size": 704418264,
+      "description": "Jarvis Mesh: unified provider/model catalog, auto-detect provider changes, capability-based auto-pick, multi-model routing (parallel/cascade/consensus), media auto-pick for image/video/music",
+      "date": "2026-11-08",
+      "restartRequired": true
     }
   ],
   "version": "1.0.914"
