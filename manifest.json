@@ -1,5 +1,5 @@
 {
-  "latestPatch": "471",
+  "latestPatch": "472",
   "patches": [
     {
       "id": "001",
@@ -4878,6 +4878,17 @@
       "description": "SEO Studio autopilot v2 + deep checks, social compose chip redesign, JarvisBot holographic UI, compose draft persistence",
       "date": "2026-11-08",
       "restartRequired": true
+    },
+    {
+      "id": "472",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-472/patch-472.zip",
+      "sha256": "fd9dc06674c5950bb520c97b141deba157372fb1daf1d35c6b550fdf191fc98b",
+      "size": 698294751,
+      "description": "Social: merge Browser Accounts into Accounts→Advanced (one accounts hub)",
+      "date": "2026-11-08",
+      "restartRequired": false
     }
   ],
   "version": "1.0.914"
