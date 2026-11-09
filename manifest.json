@@ -1,5 +1,5 @@
 {
-  "latestPatch": "cloud-settings-v2",
+  "latestPatch": "cloud-settings-v3",
   "patches": [
     {
       "id": "001",
@@ -4964,6 +4964,17 @@
       "sha256": "e9f44054b738e9ba64444f103ea535996d7783374b8f93bf00ceb4e876eeb340",
       "size": 922719905,
       "description": "GPU bundles + rental-duration autokill + media storage + narrator packs",
+      "date": "2026-11-09",
+      "restartRequired": true
+    },
+    {
+      "id": "cloud-settings-v3",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-cloud-settings-v3/patch-cloud-settings-v3.zip",
+      "sha256": "c0d23db5f9eaca50dab9c2dc01b3f8d0c2f1ff32340143e98ed66c615937f532",
+      "size": 922826739,
+      "description": "Everything: bundles, media storage, JARVIS Video Studio, music/TTS, YT agent, cloud badge",
       "date": "2026-11-09",
       "restartRequired": true
     }
