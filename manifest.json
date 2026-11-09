@@ -1,5 +1,5 @@
 {
-  "latestPatch": "cloud-settings-v7",
+  "latestPatch": "cloud-settings-v8",
   "patches": [
     {
       "id": "001",
@@ -5019,6 +5019,17 @@
       "sha256": "cc1f5edf799fdf914c0f484746b43290607bc281b8205c8af81514405a0cfbbd",
       "size": 922828531,
       "description": "Full flagship recommend + MI210 64GB + L40 45GB + pack presets + everything from v6",
+      "date": "2026-11-09",
+      "restartRequired": true
+    },
+    {
+      "id": "cloud-settings-v8",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-cloud-settings-v8/patch-cloud-settings-v8.zip",
+      "sha256": "97bd97c2c42570f2128ab59ce5afa23f1dce71c86bb019f61d1db8a3992255fe",
+      "size": 922829184,
+      "description": "Live ops board + always-boot FreeField + resilient settings save",
       "date": "2026-11-09",
       "restartRequired": true
     }
