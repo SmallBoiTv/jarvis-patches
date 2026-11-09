@@ -1,5 +1,5 @@
 {
-  "latestPatch": "cloud-settings-v5",
+  "latestPatch": "cloud-settings-v7",
   "patches": [
     {
       "id": "001",
@@ -4997,6 +4997,28 @@
       "sha256": "fbff1d2a11df79fc625a9a34fad7ef114164e40925e8fd4bbd6ea8c5f57611b4",
       "size": 922827785,
       "description": "FreeField one-click GPU provision + pack presets + GPU fleet + best-for labels",
+      "date": "2026-11-09",
+      "restartRequired": true
+    },
+    {
+      "id": "cloud-settings-v6",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-cloud-settings-v6/patch-cloud-settings-v6.zip",
+      "sha256": "0c2437ab7b963eaa02a234bfa9b6e069108bcde9b9e1fa5a344ac81ced8cc1f9",
+      "size": 916713496,
+      "description": "Recommended-for-GPU auto-fill + pack presets on safety page",
+      "date": "2026-11-09",
+      "restartRequired": false
+    },
+    {
+      "id": "cloud-settings-v7",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-cloud-settings-v7/patch-cloud-settings-v7.zip",
+      "sha256": "cc1f5edf799fdf914c0f484746b43290607bc281b8205c8af81514405a0cfbbd",
+      "size": 922828531,
+      "description": "Full flagship recommend + MI210 64GB + L40 45GB + pack presets + everything from v6",
       "date": "2026-11-09",
       "restartRequired": true
     }
