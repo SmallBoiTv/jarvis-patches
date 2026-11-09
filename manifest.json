@@ -1,5 +1,5 @@
 {
-  "latestPatch": "freefield-studio",
+  "latestPatch": "cloud-settings-v2",
   "patches": [
     {
       "id": "001",
@@ -4954,6 +4954,17 @@
       "size": 922714999,
       "description": "FreeField Studio — open-source Higgsfield bundle inside JARVIS Cloud",
       "date": "2026-11-08",
+      "restartRequired": true
+    },
+    {
+      "id": "cloud-settings-v2",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.917",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-cloud-settings-v2/patch-cloud-settings-v2.zip",
+      "sha256": "1e3c321c62c01367f459c4f6bebcf2181b22462135d81b8e5f2db874f57163a9",
+      "size": 922718723,
+      "description": "Multi-GPU picker + 100GB disk min + media storage + narrator pack + media studio fix",
+      "date": "2026-11-09",
       "restartRequired": true
     }
   ],
