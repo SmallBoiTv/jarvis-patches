@@ -1,5 +1,5 @@
 {
-  "latestPatch": "cloud-settings-v8",
+  "latestPatch": "patch-cloud-music-providers",
   "patches": [
     {
       "id": "001",
@@ -5032,7 +5032,26 @@
       "description": "Live ops board + always-boot FreeField + resilient settings save",
       "date": "2026-11-09",
       "restartRequired": true
+    },
+    {
+      "id": "patch-cloud-music-providers",
+      "version": "1.0.917",
+      "sourceVersion": "1.0.919",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-patch-cloud-music-providers/patch-patch-cloud-music-providers.zip",
+      "sha256": "7de26d28ed4119f9ec725a2e96a61672b6c596c6e1835690f8349d339f27cdca",
+      "size": 924291586,
+      "description": "JARVIS Cloud provider in Music Studio + chat menus (pinned under Jarvis Mesh, cyan), Media Studio lazy-retry confirmed, freevideo-manager dead-import boot fix",
+      "date": "2026-11-09",
+      "restartRequired": false
     }
   ],
-  "version": "1.0.914"
+  "version": "1.0.914",
+  "format": 2,
+  "bases": {
+    "1.0.920": {
+      "filemap": "filemaps/1.0.920.json",
+      "latestSeq": 0,
+      "patches": []
+    }
+  }
 }
