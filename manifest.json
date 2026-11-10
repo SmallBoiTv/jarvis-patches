@@ -5080,8 +5080,33 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 0,
-      "patches": []
+      "latestSeq": 2,
+      "patches": [
+        {
+          "seq": 1,
+          "id": "489",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-489/patch-489.zip",
+          "sha256": "619dfcb161bf4023366a73c42b8117654da4134d1276405c04e3f3f54fe42d76",
+          "size": 925709203,
+          "description": "Jarvis Agent: watcher bots, CUA fix, session pairing fix, provider fleet, cloud+job activity logging, safety tab read path, hermes autostart",
+          "date": "2026-11-10",
+          "restartRequired": true,
+          "fileCount": 38936,
+          "deletedCount": 0
+        },
+        {
+          "seq": 2,
+          "id": "490",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-490/patch-490.zip",
+          "sha256": "ace18a50360800482225fd86bef504cdac59e844c32b27b14ffa06f0c14fa507",
+          "size": 72198972,
+          "description": "Jarvis Agent CUA file-channel parentPort, agents-drawer titlebar fix, social-post browser fallback",
+          "date": "2026-11-10",
+          "restartRequired": true,
+          "fileCount": 303,
+          "deletedCount": 289
+        }
+      ]
     }
   }
 }
