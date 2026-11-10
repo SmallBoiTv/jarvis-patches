@@ -5062,8 +5062,21 @@
   "bases": {
     "1.0.920": {
       "filemap": "filemaps/1.0.920.json",
-      "latestSeq": 0,
-      "patches": []
+      "latestSeq": 1,
+      "patches": [
+        {
+          "seq": 1,
+          "id": "488",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-488/patch-488.zip",
+          "sha256": "e78ec9cd733b9b3b888bc929b0a28622f29225659ef49e1afc6c3c4d0cc9cec5",
+          "size": 74154102,
+          "description": "setupIPC crash fix (restores ~200 missing handlers), JVE stale-artifact purge, agent social/browser/content tools, remotion + composio + voice",
+          "date": "2026-11-10",
+          "restartRequired": true,
+          "fileCount": 313,
+          "deletedCount": 293
+        }
+      ]
     }
   }
 }
