@@ -1,5 +1,5 @@
 {
-  "latestPatch": "patch-cloud-music-providers",
+  "latestPatch": "487",
   "patches": [
     {
       "id": "001",
@@ -5043,6 +5043,18 @@
       "description": "JARVIS Cloud provider in Music Studio + chat menus (pinned under Jarvis Mesh, cyan), Media Studio lazy-retry confirmed, freevideo-manager dead-import boot fix",
       "date": "2026-11-09",
       "restartRequired": false
+    },
+    {
+      "id": "487",
+      "version": "1.0.920",
+      "sourceVersion": "1.0.920",
+      "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-487/patch-487.zip",
+      "sha256": "85fe23dabaa9208d87130c0233bff306e86abd43ff406cf12b4f0187db6c511e",
+      "size": 922950496,
+      "description": "Bridge to delta patching: nav reorder, plugin handler fix, Jarvis Agent media tools + cloud engine, hot-patch V2 manager",
+      "date": "2026-11-10",
+      "restartRequired": true,
+      "fileCount": 38935
     }
   ],
   "version": "1.0.914",
