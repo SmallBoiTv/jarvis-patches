@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 20,
+      "latestSeq": 21,
       "patches": [
         {
           "seq": 1,
@@ -5543,6 +5543,18 @@
           "restartRequired": true,
           "fileCount": 3,
           "deletedCount": 0
+        },
+        {
+          "seq": 21,
+          "id": "527",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-527/patch-527.zip",
+          "sha256": "1f5c0a92f771b91c30bff6c4bb6d3392c8fe61f93549d8a4c4a55ac481af59a9",
+          "size": 71392367,
+          "description": "Expand GPU preset list — 9→25 options (PRO 4000/4500/5000/6000, L4, A40, 6000/5880 Ada, A100 40GB, V100, H200, B200, 4080/5080/5070/5060 Ti)",
+          "date": "2026-11-11",
+          "restartRequired": false,
+          "fileCount": 288,
+          "deletedCount": 1984
         }
       ]
     }
