@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 13,
+      "latestSeq": 14,
       "patches": [
         {
           "seq": 1,
@@ -5459,6 +5459,18 @@
           "restartRequired": true,
           "fileCount": 299,
           "deletedCount": 287
+        },
+        {
+          "seq": 14,
+          "id": "520",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-520/patch-520.zip",
+          "sha256": "9b9918cace4fad481058fb3360605f94c2132f8b94cd8bbe1ace1c0800587397",
+          "size": 48138,
+          "description": "Fix overlay layered-resolution: sibling requires from layered modules fell back to asar, running stale main code (patch-519 handlers never registered)",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 6,
+          "deletedCount": 0
         }
       ]
     }
