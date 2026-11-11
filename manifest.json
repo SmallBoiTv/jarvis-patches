@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 21,
+      "latestSeq": 22,
       "patches": [
         {
           "seq": 1,
@@ -5555,6 +5555,18 @@
           "restartRequired": false,
           "fileCount": 288,
           "deletedCount": 1984
+        },
+        {
+          "seq": 22,
+          "id": "528",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-528/patch-528.zip",
+          "sha256": "95321cd54aab138740ad7034c8629a8401ef4d364038d68a3df04381c7dc1ffd",
+          "size": 71383889,
+          "description": "Movie Studio bundle + cinema model packs (Wan 2.1 14B T2V/I2V-720p/FLF2V/Fun-Camera/VACE, SkyReels, MMAudio, 4x-UltraSharp)",
+          "date": "2026-11-11",
+          "restartRequired": false,
+          "fileCount": 288,
+          "deletedCount": 287
         }
       ]
     }
