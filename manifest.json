@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 3,
+      "latestSeq": 4,
       "patches": [
         {
           "seq": 1,
@@ -5338,6 +5338,18 @@
           "date": "2026-11-11",
           "restartRequired": false,
           "fileCount": 290,
+          "deletedCount": 289
+        },
+        {
+          "seq": 4,
+          "id": "510",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-510/patch-510.zip",
+          "sha256": "32ee708b85a55d4e7bd7d80440a073097a7ed2af6de1fec670901d691dc48189",
+          "size": 78441669,
+          "description": "Pre-warm Jarvis Agent at startup — backend ensureJarvisAgent + renderer chunk preload",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 1985,
           "deletedCount": 289
         }
       ]
