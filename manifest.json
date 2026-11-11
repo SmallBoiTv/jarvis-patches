@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 3,
+      "latestSeq": 4,
       "patches": [
         {
           "seq": 1,
@@ -5117,6 +5117,18 @@
           "restartRequired": false,
           "fileCount": 291,
           "deletedCount": 1977
+        },
+        {
+          "seq": 4,
+          "id": "492",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-492/patch-492.zip",
+          "sha256": "6c33c35726039ffa5e546223594df4802c5cf977eaccac2e79a431c252c4aebe",
+          "size": 78426965,
+          "description": "Jarvis Cloud in Jarvis Agent provider menu — fleet entry + hosted model list seed",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 1977,
+          "deletedCount": 291
         }
       ]
     }
