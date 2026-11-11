@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 10,
+      "latestSeq": 11,
       "patches": [
         {
           "seq": 1,
@@ -5200,6 +5200,18 @@
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 19,
+          "deletedCount": 0
+        },
+        {
+          "seq": 11,
+          "id": "499",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-499/patch-499.zip",
+          "sha256": "ae3b102d26be50c3a99f8ce0ec13732a6f82487fd4947c007646698132c83ffb",
+          "size": 80485,
+          "description": "Extend launch-gate — bot-chrome/code-gen/web-video spawns gated",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 9,
           "deletedCount": 0
         }
       ]
