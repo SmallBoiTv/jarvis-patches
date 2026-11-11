@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 9,
+      "latestSeq": 10,
       "patches": [
         {
           "seq": 1,
@@ -5411,6 +5411,18 @@
           "restartRequired": false,
           "fileCount": 290,
           "deletedCount": 287
+        },
+        {
+          "seq": 10,
+          "id": "516",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-516/patch-516.zip",
+          "sha256": "598f61378242de743f591b9551136bf9459eaa0f825939d32afb7626a02bd3b3",
+          "size": 6302286,
+          "description": "Fix watcher bots dead jarvis-mesh combo — resolve to auto/best-chat + migrate persisted bots",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 1695,
+          "deletedCount": 0
         }
       ]
     }
