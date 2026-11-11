@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 7,
+      "latestSeq": 8,
       "patches": [
         {
           "seq": 1,
@@ -5161,6 +5161,18 @@
           "sha256": "bfdf6bcd6d4bdc6c7327505f8c26e41f535c064bc5b6fc6b7c0fdb7fab6fe3ab",
           "size": 26887,
           "description": "jarvis_social_accounts tool + social_post accountId/title — Video Forge asks which account, fills all metadata",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 8,
+          "id": "496",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-496/patch-496.zip",
+          "sha256": "7d4c3522de7cc60b1dfe433ec16784352eb71f77bf4fd2f9f7376b55d79238e5",
+          "size": 27502,
+          "description": "jarvis_social_trending_post — chat-model post gen, works for all bots",
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 3,
