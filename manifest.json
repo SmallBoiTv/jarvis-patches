@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 16,
+      "latestSeq": 18,
       "patches": [
         {
           "seq": 1,
@@ -5272,6 +5272,30 @@
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 5,
+          "deletedCount": 0
+        },
+        {
+          "seq": 17,
+          "id": "505",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-505/patch-505.zip",
+          "sha256": "64b2df13b94769be4370bef4bc5638607acf7474865af6e4c1e734967320d12e",
+          "size": 124850,
+          "description": "gate realChromeContextFor before CDP probe",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 18,
+          "id": "506",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-506/patch-506.zip",
+          "sha256": "7ecf52959e88f0452d805b9569a4744a18a85bcd4421480b566e9796e52c28ff",
+          "size": 32012,
+          "description": "gate chrome-social getBrowserFor",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
