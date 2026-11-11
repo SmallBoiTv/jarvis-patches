@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 11,
+      "latestSeq": 12,
       "patches": [
         {
           "seq": 1,
@@ -5435,6 +5435,18 @@
           "restartRequired": true,
           "fileCount": 288,
           "deletedCount": 287
+        },
+        {
+          "seq": 12,
+          "id": "518",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-518/patch-518.zip",
+          "sha256": "af362393f9201ad9d75c3b447f1e0b69e2bfa2b9a34b5bc87cb824019a8f23a4",
+          "size": 13476,
+          "description": "Stop migrateLegacyOverlay nuking v2 support overlay (main-module resolve hook needs it)",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
         }
       ]
     }
