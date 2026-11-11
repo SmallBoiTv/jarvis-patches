@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 11,
+      "latestSeq": 12,
       "patches": [
         {
           "seq": 1,
@@ -5213,6 +5213,18 @@
           "restartRequired": true,
           "fileCount": 9,
           "deletedCount": 0
+        },
+        {
+          "seq": 12,
+          "id": "500",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-500/patch-500.zip",
+          "sha256": "65a49466d4a96e86c1835fc18842d7bf5fbe9227d691d3f3e864e4c6a89b3f25",
+          "size": 72146057,
+          "description": "opencut initializeGpu + launch-gate intent at IPC boundary",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 290,
+          "deletedCount": 289
         }
       ]
     }
