@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 17,
+      "latestSeq": 18,
       "patches": [
         {
           "seq": 1,
@@ -5503,6 +5503,18 @@
           "sha256": "567c5e2e2cbe50dd4eb82b3e8dd8063d1f963e8f6460ef3462c4c470cdb03541",
           "size": 32231,
           "description": "Combo hygiene interval 90s — frozen main.js seeder re-pollutes jarvis-mesh on every catalog broadcast",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 18,
+          "id": "524",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-524/patch-524.zip",
+          "sha256": "cc0732395971309592adcd3ed81e3ba0971df283a782bd1ade35207744bd7b54",
+          "size": 32224,
+          "description": "Watcher bots back to curated jarvis-mesh (auto/best-chat picks 4k-ctx/tiny-TPM members); pass jarvis-mesh through omniroute instance config",
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 3,
