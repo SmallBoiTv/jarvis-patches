@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 19,
+      "latestSeq": 20,
       "patches": [
         {
           "seq": 1,
@@ -5527,6 +5527,18 @@
           "sha256": "4ead6df994ae2b8773f8da1decdb943776ef6a8f6e37f88acb4c2ad1de9d576b",
           "size": 32527,
           "description": "Mesh ranking by real successes (agnes/gemini flash top); drop agnes provider blacklist, exclude locked-out + last-413 models",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 20,
+          "id": "526",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-526/patch-526.zip",
+          "sha256": "454d326855846a02e6dca8f092d96df87f9d65583630dad33427a99beaf00ab2",
+          "size": 33661,
+          "description": "Live watcher restore via owner-token API (stranded-engine + stale thread overrides -> omniroute/jarvis-mesh)",
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 3,
