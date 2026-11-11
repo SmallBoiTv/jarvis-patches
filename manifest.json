@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 5,
+      "latestSeq": 6,
       "patches": [
         {
           "seq": 1,
@@ -5363,6 +5363,18 @@
           "restartRequired": false,
           "fileCount": 290,
           "deletedCount": 1984
+        },
+        {
+          "seq": 6,
+          "id": "512",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-512/patch-512.zip",
+          "sha256": "fc1194383438a9ad0ab309e64616afd3f04746ce2b1ffb50bc97f9037b894a87",
+          "size": 78682504,
+          "description": "Remove OpenCut (Classic default), fix social sign-in launch gate, Jarvis Agent app TTS/STT bridge",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 1986,
+          "deletedCount": 293
         }
       ]
     }
