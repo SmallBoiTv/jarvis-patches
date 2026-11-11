@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 8,
+      "latestSeq": 9,
       "patches": [
         {
           "seq": 1,
@@ -5399,6 +5399,18 @@
           "restartRequired": false,
           "fileCount": 288,
           "deletedCount": 1984
+        },
+        {
+          "seq": 9,
+          "id": "515",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-515/patch-515.zip",
+          "sha256": "e4b50dc20f8461145ecc27709318d1873b81807e8c24734e133dff4edaf1a012",
+          "size": 71455765,
+          "description": "Fix Jarvis Agent settings reload loop — narrow pair-watchdog to pairing text + code input",
+          "date": "2026-11-11",
+          "restartRequired": false,
+          "fileCount": 290,
+          "deletedCount": 287
         }
       ]
     }
