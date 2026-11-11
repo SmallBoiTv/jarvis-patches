@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 14,
+      "latestSeq": 15,
       "patches": [
         {
           "seq": 1,
@@ -5470,6 +5470,18 @@
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 15,
+          "id": "521",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-521/patch-521.zip",
+          "sha256": "7c5ca0573479d76728ef0d5dda9247412857f9d2c7090aa157f20a1f257c64b9",
+          "size": 568068,
+          "description": "Fix Jarvis Agent: watcher color trim crash (emerald/violet/amber not in palette), migrate dead jarviscloud chat instance to opencodeGo, clean jarvis-mesh+static combos (proven providers, >=32k ctx, chat-only)",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 5,
           "deletedCount": 0
         }
       ]
