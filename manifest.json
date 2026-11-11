@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 2,
+      "latestSeq": 3,
       "patches": [
         {
           "seq": 1,
@@ -5105,6 +5105,18 @@
           "restartRequired": true,
           "fileCount": 303,
           "deletedCount": 289
+        },
+        {
+          "seq": 3,
+          "id": "491",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-491/patch-491.zip",
+          "sha256": "96ddd9e3eeaff8554ba3457728c96c193664d006a7f6b21dfa77c868d3efc721",
+          "size": 72230515,
+          "description": "Open Cut remote GPU crash fix + Hermes page reload fix",
+          "date": "2026-11-11",
+          "restartRequired": false,
+          "fileCount": 291,
+          "deletedCount": 1977
         }
       ]
     }
