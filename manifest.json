@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 10,
+      "latestSeq": 11,
       "patches": [
         {
           "seq": 1,
@@ -5423,6 +5423,18 @@
           "restartRequired": true,
           "fileCount": 1695,
           "deletedCount": 0
+        },
+        {
+          "seq": 11,
+          "id": "517",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-517/patch-517.zip",
+          "sha256": "d25fe54e9ea157d10df41935b48dd9bfe56ed6717bd0449f819d8bd645737d20",
+          "size": 71382967,
+          "description": "Fix agent settings scroll reload (watchdog in-app latch) + TTS shim via executeJavaScript (CSP-blocked injection)",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 288,
+          "deletedCount": 287
         }
       ]
     }
