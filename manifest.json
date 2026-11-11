@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 18,
+      "latestSeq": 19,
       "patches": [
         {
           "seq": 1,
@@ -5515,6 +5515,18 @@
           "sha256": "cc0732395971309592adcd3ed81e3ba0971df283a782bd1ade35207744bd7b54",
           "size": 32224,
           "description": "Watcher bots back to curated jarvis-mesh (auto/best-chat picks 4k-ctx/tiny-TPM members); pass jarvis-mesh through omniroute instance config",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 19,
+          "id": "525",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-525/patch-525.zip",
+          "sha256": "4ead6df994ae2b8773f8da1decdb943776ef6a8f6e37f88acb4c2ad1de9d576b",
+          "size": 32527,
+          "description": "Mesh ranking by real successes (agnes/gemini flash top); drop agnes provider blacklist, exclude locked-out + last-413 models",
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 3,
