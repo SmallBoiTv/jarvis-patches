@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 8,
+      "latestSeq": 9,
       "patches": [
         {
           "seq": 1,
@@ -5177,6 +5177,18 @@
           "restartRequired": true,
           "fileCount": 3,
           "deletedCount": 0
+        },
+        {
+          "seq": 9,
+          "id": "497",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-497/patch-497.zip",
+          "sha256": "70f6bd8081da0ba10962d3d04943f408b2f0d4bd834e486101b0b3207734e58c",
+          "size": 72736173,
+          "description": "Social: browser-spawn crash fix + video-folder autopilot (once-per-platform dedupe + log)",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 305,
+          "deletedCount": 289
         }
       ]
     }
