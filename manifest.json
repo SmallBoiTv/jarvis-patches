@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 2,
+      "latestSeq": 3,
       "patches": [
         {
           "seq": 1,
@@ -5323,6 +5323,18 @@
           "sha256": "370cde3d403d9ed1d877f5e296f0a57a16a8b43ff0ca083f874c896c2988fc75",
           "size": 72146292,
           "description": "Fix video editor TooltipProvider crash — editor view error boundary",
+          "date": "2026-11-11",
+          "restartRequired": false,
+          "fileCount": 290,
+          "deletedCount": 289
+        },
+        {
+          "seq": 3,
+          "id": "509",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-509/patch-509.zip",
+          "sha256": "006404819bf6965224da947e0b751f0905f0613c72abf54962e6fa88d1fa1ad5",
+          "size": 72146691,
+          "description": "Software compositor for video editor — WASM stubs replaced with 2D canvas render",
           "date": "2026-11-11",
           "restartRequired": false,
           "fileCount": 290,
