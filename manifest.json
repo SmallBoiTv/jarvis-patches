@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 12,
+      "latestSeq": 13,
       "patches": [
         {
           "seq": 1,
@@ -5447,6 +5447,18 @@
           "restartRequired": true,
           "fileCount": 3,
           "deletedCount": 0
+        },
+        {
+          "seq": 13,
+          "id": "519",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-519/patch-519.zip",
+          "sha256": "de48ab2f171ddebd56658a7b44c68a85f8c6e1402c51b7ebbe8fc1c71fbbaa93",
+          "size": 71671660,
+          "description": "Fix social browser: launch-gate blocks on Open/sign-in, wrong profile dir, CDP retry, persist platform dropdown picks",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 299,
+          "deletedCount": 287
         }
       ]
     }
