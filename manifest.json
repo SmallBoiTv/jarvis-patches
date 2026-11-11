@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 12,
+      "latestSeq": 13,
       "patches": [
         {
           "seq": 1,
@@ -5225,6 +5225,18 @@
           "restartRequired": true,
           "fileCount": 290,
           "deletedCount": 289
+        },
+        {
+          "seq": 13,
+          "id": "501",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-501/patch-501.zip",
+          "sha256": "46d4830b1ea4cd396b4e502205601ee458d7a32126a5de0e00115d634666823a",
+          "size": 124500,
+          "description": "Gate launchPersistentContext fallback — stops per-platform Chrome spam",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
         }
       ]
     }
