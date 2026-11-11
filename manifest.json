@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 5,
+      "latestSeq": 6,
       "patches": [
         {
           "seq": 1,
@@ -5140,6 +5140,18 @@
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 4,
+          "deletedCount": 0
+        },
+        {
+          "seq": 6,
+          "id": "494",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-494/patch-494.zip",
+          "sha256": "42b1a420f7828e6e1e7610b814db84007b8e912eb3297619a9b42e74b317083f",
+          "size": 26513,
+          "description": "Video Forge multi-model — chat on omniroute, video on jarvis-cloud",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
