@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 15,
+      "latestSeq": 16,
       "patches": [
         {
           "seq": 1,
@@ -5482,6 +5482,18 @@
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 5,
+          "deletedCount": 0
+        },
+        {
+          "seq": 16,
+          "id": "522",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-522/patch-522.zip",
+          "sha256": "eb2a40085e55c91c6de514f330538f20e5d37f7b3df050d6481ced7de97acb91",
+          "size": 32142,
+          "description": "Jarvis Agent: combo hygiene from patchable module (jarvis-mesh + static-* pruned to proven >=32k chat models; main.js entry can't be hot-patched) + watcher migration on adopted server",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
