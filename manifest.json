@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 6,
+      "latestSeq": 7,
       "patches": [
         {
           "seq": 1,
@@ -5375,6 +5375,18 @@
           "restartRequired": true,
           "fileCount": 1986,
           "deletedCount": 293
+        },
+        {
+          "seq": 7,
+          "id": "513",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-513/patch-513.zip",
+          "sha256": "5d294eb3b2896d7db150e528bbfeeb64345a976a479f4a04c512c1707520340a",
+          "size": 178079,
+          "description": "Fix social sign-in launch intent (restore overlay), agent ogb voice bridge via contextBridge, preload-path patch resolution",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 10,
+          "deletedCount": 0
         }
       ]
     }
