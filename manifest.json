@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 4,
+      "latestSeq": 5,
       "patches": [
         {
           "seq": 1,
@@ -5129,6 +5129,18 @@
           "restartRequired": true,
           "fileCount": 1977,
           "deletedCount": 291
+        },
+        {
+          "seq": 5,
+          "id": "493",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-493/patch-493.zip",
+          "sha256": "05a9c7058723386a9c78e5c479478b806e6597412ca7a2b15524c40ab093ba54",
+          "size": 26860,
+          "description": "Video Forge pinned bot — dedicated jarvis-cloud video creator, jarviscloud in agent fleet",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 4,
+          "deletedCount": 0
         }
       ]
     }
