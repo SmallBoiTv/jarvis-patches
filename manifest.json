@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 14,
+      "latestSeq": 15,
       "patches": [
         {
           "seq": 1,
@@ -5245,6 +5245,18 @@
           "sha256": "f25383646860de7a63682ecce955172f828937c53d55fcfad3849f9d8d83adc4",
           "size": 124605,
           "description": "spawn instrumentation",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 15,
+          "id": "503",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-503/patch-503.zip",
+          "sha256": "5097d9886fa9b29129c0184d23210782258fe8037ed7d91995a561d3959b956e",
+          "size": 124806,
+          "description": "launchBlocked reads return persisted",
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 3,
