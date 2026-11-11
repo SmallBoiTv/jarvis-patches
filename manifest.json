@@ -5299,6 +5299,24 @@
           "deletedCount": 0
         }
       ]
+    },
+    "1.0.922": {
+      "filemap": "filemaps/1.0.922.json",
+      "latestSeq": 1,
+      "patches": [
+        {
+          "seq": 1,
+          "id": "507",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-507/patch-507.zip",
+          "sha256": "a1ecc692e8d1e9b4e623ca418feab4f445c6ca1ceab6326660d97343fac5aff9",
+          "size": 72152860,
+          "description": "Fix video editor infinite project-create loop flooding renderer",
+          "date": "2026-11-11",
+          "restartRequired": false,
+          "fileCount": 290,
+          "deletedCount": 1984
+        }
+      ]
     }
   }
 }
