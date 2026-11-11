@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 6,
+      "latestSeq": 7,
       "patches": [
         {
           "seq": 1,
@@ -5149,6 +5149,18 @@
           "sha256": "42b1a420f7828e6e1e7610b814db84007b8e912eb3297619a9b42e74b317083f",
           "size": 26513,
           "description": "Video Forge multi-model — chat on omniroute, video on jarvis-cloud",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 7,
+          "id": "495",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-495/patch-495.zip",
+          "sha256": "bfdf6bcd6d4bdc6c7327505f8c26e41f535c064bc5b6fc6b7c0fdb7fab6fe3ab",
+          "size": 26887,
+          "description": "jarvis_social_accounts tool + social_post accountId/title — Video Forge asks which account, fills all metadata",
           "date": "2026-11-11",
           "restartRequired": true,
           "fileCount": 3,
