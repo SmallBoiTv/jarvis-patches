@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 7,
+      "latestSeq": 8,
       "patches": [
         {
           "seq": 1,
@@ -5387,6 +5387,18 @@
           "restartRequired": true,
           "fileCount": 10,
           "deletedCount": 0
+        },
+        {
+          "seq": 8,
+          "id": "514",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-514/patch-514.zip",
+          "sha256": "686a5f21e0ab933a333ec31cb155e5eb790a887b4f8b3259ca95de5f56fb9c90",
+          "size": 71388617,
+          "description": "Fix JarvisBotView crash loop — null-guard .title reads (page 'reloading all the time')",
+          "date": "2026-11-11",
+          "restartRequired": false,
+          "fileCount": 288,
+          "deletedCount": 1984
         }
       ]
     }
