@@ -5080,7 +5080,7 @@
     },
     "1.0.921": {
       "filemap": "filemaps/1.0.921.json",
-      "latestSeq": 9,
+      "latestSeq": 10,
       "patches": [
         {
           "seq": 1,
@@ -5189,6 +5189,18 @@
           "restartRequired": true,
           "fileCount": 305,
           "deletedCount": 289
+        },
+        {
+          "seq": 10,
+          "id": "498",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-498/patch-498.zip",
+          "sha256": "53b87045922f5f83775f1877f62d705f5ee5357a0f81e3197c65e77b86f19f5a",
+          "size": 205975,
+          "description": "Global browser-launch gate — real Chrome only spawns on explicit action",
+          "date": "2026-11-11",
+          "restartRequired": true,
+          "fileCount": 19,
+          "deletedCount": 0
         }
       ]
     }
