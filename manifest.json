@@ -5302,7 +5302,7 @@
     },
     "1.0.922": {
       "filemap": "filemaps/1.0.922.json",
-      "latestSeq": 4,
+      "latestSeq": 5,
       "patches": [
         {
           "seq": 1,
@@ -5351,6 +5351,18 @@
           "restartRequired": true,
           "fileCount": 1985,
           "deletedCount": 289
+        },
+        {
+          "seq": 5,
+          "id": "511",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-511/patch-511.zip",
+          "sha256": "458aec594d3f4607942963d58ff42eaacebc5aee268b2c3109b388f89704638b",
+          "size": 72153455,
+          "description": "Pre-warm Jarvis Agent via renderer IPC — chunk preload + jarvisAgentStart at idle (main.js can't be hot-patched)",
+          "date": "2026-11-11",
+          "restartRequired": false,
+          "fileCount": 290,
+          "deletedCount": 1984
         }
       ]
     }
