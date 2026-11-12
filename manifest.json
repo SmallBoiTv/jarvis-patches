@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 6,
+      "latestSeq": 7,
       "patches": [
         {
           "seq": 1,
@@ -5641,6 +5641,18 @@
           "sha256": "0847170b7ef3e2d5dbbb72734dbb99cf66a951a6a2b9e728d40cd9c1c4599a2b",
           "size": 37421,
           "description": "Watcher souls get jarvis_tools_ prefix note; cloud resume-instance control action",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 7,
+          "id": "535",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-535/patch-535.zip",
+          "sha256": "fc43305d5fb49ea68ef48132700cb92385257ab8f0c3925b97e4f1f8c4cac625",
+          "size": 37672,
+          "description": "fix: video attachments in agent chat (mp4/webm/mov mime gate) + external video API providers through jarvis_video_generate",
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 3,
