@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 20,
+      "latestSeq": 21,
       "patches": [
         {
           "seq": 1,
@@ -5812,6 +5812,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 5,
+          "deletedCount": 0
+        },
+        {
+          "seq": 21,
+          "id": "549",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-549/patch-549.zip",
+          "sha256": "2f0ee1df80ea52a2bbdb78834d4456ec70e82743d79258d4879a5d1f1408fa8b",
+          "size": 10567,
+          "description": "fix: concat letterboxes to common canvas",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 4,
           "deletedCount": 0
         }
       ]
