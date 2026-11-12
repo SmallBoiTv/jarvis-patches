@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 16,
+      "latestSeq": 17,
       "patches": [
         {
           "seq": 1,
@@ -5761,6 +5761,18 @@
           "sha256": "3525818e139184d72c5b9ecb356da2922a354c26c2c780f229b7c4d6cbd9aab5",
           "size": 21467,
           "description": "fix: Suno free-account download — drive the /song page Download control (clean owner mp3) instead of a nonexistent right-click menu; reject DRM-scrambled streams instead of filing them; sunoDownload falls back to card-menu path",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 17,
+          "id": "545",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-545/patch-545.zip",
+          "sha256": "f602439e1e5b93a30012bf4ed8527cc820e738d12e61d1d37fd9fa6633ad4f47",
+          "size": 22831,
+          "description": "fix: Suno free-tier download via MSE decoded-stream capture — official Download is gated for free users, so play the song and reassemble decoded SourceBuffer segments into real m4a; verified live (opus 48k stereo, full duration)",
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 3,
