@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 4,
+      "latestSeq": 5,
       "patches": [
         {
           "seq": 1,
@@ -5620,6 +5620,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 9,
+          "deletedCount": 0
+        },
+        {
+          "seq": 5,
+          "id": "533",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-533/patch-533.zip",
+          "sha256": "36ede4498e6ed59fa26cf83bd4e4f4b2424e4c55d1d204aeda226242bae7888a",
+          "size": 577317,
+          "description": "Video queue forwards seed/steps/audio to generator; media_status shows live queue",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
