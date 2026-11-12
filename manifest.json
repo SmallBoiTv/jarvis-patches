@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 17,
+      "latestSeq": 18,
       "patches": [
         {
           "seq": 1,
@@ -5776,6 +5776,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 18,
+          "id": "546",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-546/patch-546.zip",
+          "sha256": "0b0408b1151efeefab1bcd8b8c615250012a82f378905c91a6ff7bee422374a7",
+          "size": 616938,
+          "description": "agent media understanding + local editing ops",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 14,
           "deletedCount": 0
         }
       ]
