@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 11,
+      "latestSeq": 12,
       "patches": [
         {
           "seq": 1,
@@ -5704,6 +5704,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 8,
+          "deletedCount": 0
+        },
+        {
+          "seq": 12,
+          "id": "540",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-540/patch-540.zip",
+          "sha256": "66f1cd69ace39e5fb3d5df07b73544318a40854624e4bac81370d81819e4ff51",
+          "size": 65686,
+          "description": "fix: ffmpeg resolution prefers app bundled binary (dev-repo .pnpm leak broke frame extraction + trim on machines with source tree); analyze surfaces transcript errors",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
