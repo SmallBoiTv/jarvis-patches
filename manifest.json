@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 10,
+      "latestSeq": 11,
       "patches": [
         {
           "seq": 1,
@@ -5692,6 +5692,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 11,
+          "id": "539",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-539/patch-539.zip",
+          "sha256": "f9bf77f1bf8cb89b693b14db09b4257bfa95dcf84c552403b97092d6a5cf2e49",
+          "size": 75207,
+          "description": "Agent feature tools: browser signin window, URL download-to-vault, video analyze (frames+transcript), app page navigation, music library index+reuse, browser-agent screenshot returns",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 8,
           "deletedCount": 0
         }
       ]
