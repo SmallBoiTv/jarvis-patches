@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 15,
+      "latestSeq": 16,
       "patches": [
         {
           "seq": 1,
@@ -5752,6 +5752,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 10,
+          "deletedCount": 0
+        },
+        {
+          "seq": 16,
+          "id": "544",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-544/patch-544.zip",
+          "sha256": "3525818e139184d72c5b9ecb356da2922a354c26c2c780f229b7c4d6cbd9aab5",
+          "size": 21467,
+          "description": "fix: Suno free-account download — drive the /song page Download control (clean owner mp3) instead of a nonexistent right-click menu; reject DRM-scrambled streams instead of filing them; sunoDownload falls back to card-menu path",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
