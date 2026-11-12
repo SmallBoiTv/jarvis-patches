@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 3,
+      "latestSeq": 4,
       "patches": [
         {
           "seq": 1,
@@ -5608,6 +5608,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 4,
+          "id": "532",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-532/patch-532.zip",
+          "sha256": "310bdf57e441cefe68faf994c1d3f5de597b7da6d514197439224e21ca31453a",
+          "size": 581773,
+          "description": "Video Forge cloud tools: narration/music args, multi-scene movie queue, pod music, updated soul",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 9,
           "deletedCount": 0
         }
       ]
