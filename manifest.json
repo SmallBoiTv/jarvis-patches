@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 7,
+      "latestSeq": 8,
       "patches": [
         {
           "seq": 1,
@@ -5656,6 +5656,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 8,
+          "id": "536",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-536/patch-536.zip",
+          "sha256": "09ef5781815f5dd3fdad1fc8b3d3a7579d02dc14d3432fe026a0229c9f21c521",
+          "size": 82633,
+          "description": "fix: video attachments actually reach agent (vendor sync + asset cache clear + no-cache assets + external video API providers)",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 11,
           "deletedCount": 0
         }
       ]
