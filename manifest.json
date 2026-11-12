@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 14,
+      "latestSeq": 15,
       "patches": [
         {
           "seq": 1,
@@ -5740,6 +5740,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 8,
+          "deletedCount": 0
+        },
+        {
+          "seq": 15,
+          "id": "543",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-543/patch-543.zip",
+          "sha256": "05c176bafe9ebe3e2b94a388b3e83b34890301f43c440e97d1518255cad86536",
+          "size": 96427,
+          "description": "fix: music+video bridge generate/download/probe run inside launch-intent (browser-launch gate blocked every generation); explicit suno-web provider pick auto-enables the bridge",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 10,
           "deletedCount": 0
         }
       ]
