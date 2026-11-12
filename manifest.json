@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 22,
+      "latestSeq": 23,
       "patches": [
         {
           "seq": 1,
@@ -5836,6 +5836,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 14,
+          "deletedCount": 0
+        },
+        {
+          "seq": 23,
+          "id": "551",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-551/patch-551.zip",
+          "sha256": "8d9f7e9dd54890e9f680ca98aeba4889e7f97861dd8c5b88a708cfe0accbd6f6",
+          "size": 55692,
+          "description": "jarvis_studio tool: deep control of coding/website/mobile/game studio pages",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
