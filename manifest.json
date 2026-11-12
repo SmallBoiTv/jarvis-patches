@@ -5572,8 +5572,21 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 0,
-      "patches": []
+      "latestSeq": 1,
+      "patches": [
+        {
+          "seq": 1,
+          "id": "529",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-529/patch-529.zip",
+          "sha256": "a3bcca05de970395fbbf5ffbd8b66ad3d0335deadbb84b03395c88022dae04fd",
+          "size": 71384239,
+          "description": "fix: JARVIS Cloud managed GPU blocked by external-API-key gate in Jarvis Studio",
+          "date": "2026-11-12",
+          "restartRequired": false,
+          "fileCount": 288,
+          "deletedCount": 287
+        }
+      ]
     }
   }
 }
