@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 12,
+      "latestSeq": 13,
       "patches": [
         {
           "seq": 1,
@@ -5716,6 +5716,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 13,
+          "id": "541",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-541/patch-541.zip",
+          "sha256": "f117ca612a1a4362af0152b68db2a398c6a235caf406a1386cd5b608e03e0ba0",
+          "size": 45406,
+          "description": "fix: video_analyze surfaces whisper error instead of [object Object]",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
