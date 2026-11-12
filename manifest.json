@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 25,
+      "latestSeq": 26,
       "patches": [
         {
           "seq": 1,
@@ -5872,6 +5872,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 26,
+          "id": "554",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-554/patch-554.zip",
+          "sha256": "46595e28fea022d2eda75c21f82eb96e7f8593a350d2e3d0f2a9e909948b9466",
+          "size": 56681,
+          "description": "jarvis_studio: full window.jarvis API surface + dom action",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
