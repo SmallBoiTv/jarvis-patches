@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 18,
+      "latestSeq": 19,
       "patches": [
         {
           "seq": 1,
@@ -5788,6 +5788,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 14,
+          "deletedCount": 0
+        },
+        {
+          "seq": 19,
+          "id": "547",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-547/patch-547.zip",
+          "sha256": "79977f4ef4b243a8c4f473565b55ba3b41f00b2eaa84f6a53a70790a6ecc37ac",
+          "size": 79699,
+          "description": "fix: whisper running-field, audio_analyze metadata, media_fetch data-urls, concat audio-less clips, vision via direct OmniRoute",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 12,
           "deletedCount": 0
         }
       ]
