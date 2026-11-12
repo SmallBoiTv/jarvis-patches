@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 13,
+      "latestSeq": 14,
       "patches": [
         {
           "seq": 1,
@@ -5728,6 +5728,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 14,
+          "id": "542",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-542/patch-542.zip",
+          "sha256": "8c61b3615d8bc3c6fbb7c7e462f3d25ddd9e07f31f23bf2354869fbb7b3b1196",
+          "size": 78067,
+          "description": "free stock music pack: 6 mood-tagged tracks (cinematic/tension/chill/upbeat/ambient/corporate) synthesized locally via ffmpeg, auto-seeded into the library index so common requests resolve instantly offline",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 8,
           "deletedCount": 0
         }
       ]
