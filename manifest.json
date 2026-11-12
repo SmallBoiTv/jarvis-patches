@@ -5569,6 +5569,11 @@
           "deletedCount": 287
         }
       ]
+    },
+    "1.0.924": {
+      "filemap": "filemaps/1.0.924.json",
+      "latestSeq": 0,
+      "patches": []
     }
   }
 }
