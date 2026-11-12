@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 23,
+      "latestSeq": 24,
       "patches": [
         {
           "seq": 1,
@@ -5848,6 +5848,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 24,
+          "id": "552",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-552/patch-552.zip",
+          "sha256": "c77ea9ec3d809ffecb89c39150cc2c9c3abff83765320bb9db3d7f1d77332bc2",
+          "size": 67833,
+          "description": "fix cross-layer sibling requires (requireLayered) + overlay-bootstrap index probe",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
