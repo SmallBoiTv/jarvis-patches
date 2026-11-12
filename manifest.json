@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 24,
+      "latestSeq": 25,
       "patches": [
         {
           "seq": 1,
@@ -5860,6 +5860,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 25,
+          "id": "553",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-553/patch-553.zip",
+          "sha256": "9d991bad633f832dc681eb4b054640989dd753bad1c0eec2dd6dbca76ec4e99a",
+          "size": 55626,
+          "description": "withLaunchIntent for signin-check/session-fetch/download-file",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 2,
           "deletedCount": 0
         }
       ]
