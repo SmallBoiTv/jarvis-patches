@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 2,
+      "latestSeq": 3,
       "patches": [
         {
           "seq": 1,
@@ -5593,6 +5593,18 @@
           "sha256": "0d738b7c88b269e11ea720affb4fc6f328766bf79523f605a19bdd48a392649c",
           "size": 83009,
           "description": "Wan2.2 native-node workflow for stock ComfyUI pods (Video Forge / Jarvis Studio cloud GPU)",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 3,
+          "id": "531",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-531/patch-531.zip",
+          "sha256": "d676184142d588a56bca448abec384698902896bdf8bae3b6fa8b6fae9249d88",
+          "size": 35082,
+          "description": "jarvis_cloud_pod tool + jarvis-tools MCP newline-JSON framing fix",
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 3,
