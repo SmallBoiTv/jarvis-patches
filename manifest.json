@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 19,
+      "latestSeq": 20,
       "patches": [
         {
           "seq": 1,
@@ -5800,6 +5800,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 12,
+          "deletedCount": 0
+        },
+        {
+          "seq": 20,
+          "id": "548",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-548/patch-548.zip",
+          "sha256": "be0b6f17ebdf558049552dfe6477c527de521bb42548e4ebeb8da13f04cdc199",
+          "size": 13600,
+          "description": "fix: concat pixel-format normalize, whisper /inference fallback + 5min timeout",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 5,
           "deletedCount": 0
         }
       ]
