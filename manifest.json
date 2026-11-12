@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 1,
+      "latestSeq": 2,
       "patches": [
         {
           "seq": 1,
@@ -5585,6 +5585,18 @@
           "restartRequired": false,
           "fileCount": 288,
           "deletedCount": 287
+        },
+        {
+          "seq": 2,
+          "id": "530",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-530/patch-530.zip",
+          "sha256": "0d738b7c88b269e11ea720affb4fc6f328766bf79523f605a19bdd48a392649c",
+          "size": 83009,
+          "description": "Wan2.2 native-node workflow for stock ComfyUI pods (Video Forge / Jarvis Studio cloud GPU)",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
         }
       ]
     }
