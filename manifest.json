@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 8,
+      "latestSeq": 9,
       "patches": [
         {
           "seq": 1,
@@ -5668,6 +5668,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 11,
+          "deletedCount": 0
+        },
+        {
+          "seq": 9,
+          "id": "537",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-537/patch-537.zip",
+          "sha256": "57e26c3ae0e02c25cb81653a03c4546b8d3e46c4b555e63035548e6b453655f4",
+          "size": 3976393,
+          "description": "fix: broken vendored locale chunks (crash) + jarvis_video_edit tool + video attachments",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 20,
           "deletedCount": 0
         }
       ]
