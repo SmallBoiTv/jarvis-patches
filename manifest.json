@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 21,
+      "latestSeq": 22,
       "patches": [
         {
           "seq": 1,
@@ -5824,6 +5824,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 4,
+          "deletedCount": 0
+        },
+        {
+          "seq": 22,
+          "id": "550",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-550/patch-550.zip",
+          "sha256": "0c16fb9237c478cb64dfdd21be01da102e9aff0f077caaba8accbd6a32a975c6",
+          "size": 96642,
+          "description": "batches C-G: browser downloads/tabs/signin-check/session-fetch, app UI control, media library+prefs, jobs/schedule/budget",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 14,
           "deletedCount": 0
         }
       ]
