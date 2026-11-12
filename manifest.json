@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 26,
+      "latestSeq": 27,
       "patches": [
         {
           "seq": 1,
@@ -5884,6 +5884,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 27,
+          "id": "555",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-555/patch-555.zip",
+          "sha256": "c8893e2b3fe354870b25bd76b6c652f6a611e7ef82df938334cdffb6d73743d0",
+          "size": 237084,
+          "description": "Browser spawn-loop fix: single-flight CDP launch (social poster), spawn circuit-breakers, orphan Chrome cleanup on connect/timeout failures",
+          "date": "2026-11-12",
+          "restartRequired": true,
+          "fileCount": 10,
           "deletedCount": 0
         }
       ]
