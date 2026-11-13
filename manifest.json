@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 37,
+      "latestSeq": 38,
       "patches": [
         {
           "seq": 1,
@@ -6029,6 +6029,18 @@
           "restartRequired": true,
           "fileCount": 4,
           "deletedCount": 0
+        },
+        {
+          "seq": 38,
+          "id": "567",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-567/patch-567.zip",
+          "sha256": "c152fc4ad43a32f76a7f1c2eeba6ef41aa87432cfd54aaad5faa732c10a657df",
+          "size": 71599554,
+          "description": "Free TTS: edge-venv/piper/SAPI resolver + agent voice toggle + tts-to-file fix",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 309,
+          "deletedCount": 287
         }
       ]
     }
