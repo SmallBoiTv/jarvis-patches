@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 30,
+      "latestSeq": 31,
       "patches": [
         {
           "seq": 1,
@@ -5929,6 +5929,18 @@
           "sha256": "0c8577d9fdf7f4dfca45d9d5fa6ed7e19886f7b08968f75580ac5bf8c2a0f4e7",
           "size": 57918,
           "description": "OmniRoute mesh: exclude thinking models outright (empty-content flake) + veo3.x media-model regex fix",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 31,
+          "id": "559",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-559/patch-559.zip",
+          "sha256": "641f610fdd0dcfdded5896d29cd9bc91d90f057808518c461bdec55736bd0a9c",
+          "size": 57849,
+          "description": "OmniRoute: thinking models demoted to last-resort (exclusion emptied the pool causing ALL_TARGETS_SKIPPED)",
           "date": "2026-11-13",
           "restartRequired": true,
           "fileCount": 3,
