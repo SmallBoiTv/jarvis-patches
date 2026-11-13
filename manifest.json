@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 40,
+      "latestSeq": 41,
       "patches": [
         {
           "seq": 1,
@@ -6065,6 +6065,18 @@
           "restartRequired": true,
           "fileCount": 296,
           "deletedCount": 287
+        },
+        {
+          "seq": 41,
+          "id": "570",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-570/patch-570.zip",
+          "sha256": "537a0842fae810ec0a6a14466f74c40ffc08710de8f8d00d8b95326118bfa90e",
+          "size": 72220,
+          "description": "Agent replies TTS: sync bots.json speakReplies with agent-voice toggle",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 8,
+          "deletedCount": 0
         }
       ]
     }
