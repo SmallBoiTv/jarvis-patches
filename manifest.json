@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 44,
+      "latestSeq": 45,
       "patches": [
         {
           "seq": 1,
@@ -6112,6 +6112,18 @@
           "date": "2026-11-13",
           "restartRequired": true,
           "fileCount": 4,
+          "deletedCount": 0
+        },
+        {
+          "seq": 45,
+          "id": "574",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-574/patch-574.zip",
+          "sha256": "85c7ecdc7926708bad4ffdc35759932f05dbd48d65fa8fc66a782508989e8db5",
+          "size": 127364,
+          "description": "Render Scout free-video watcher + video/free-status + colab launch-gate fix",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 8,
           "deletedCount": 0
         }
       ]
