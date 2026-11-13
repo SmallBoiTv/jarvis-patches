@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 27,
+      "latestSeq": 28,
       "patches": [
         {
           "seq": 1,
@@ -5896,6 +5896,18 @@
           "date": "2026-11-12",
           "restartRequired": true,
           "fileCount": 10,
+          "deletedCount": 0
+        },
+        {
+          "seq": 28,
+          "id": "556",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-556/patch-556.zip",
+          "sha256": "9ac13ac7270981ed45579c77d40ea2d4490ea27cb952f910c801deeeb4a75d31",
+          "size": 57543,
+          "description": "OmniRoute mesh: keep models whose last result was 200 despite a past 413 (restores groq/gpt-oss-120b, qwen3.8-27b)",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
