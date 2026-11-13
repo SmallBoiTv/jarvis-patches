@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 41,
+      "latestSeq": 42,
       "patches": [
         {
           "seq": 1,
@@ -6076,6 +6076,18 @@
           "date": "2026-11-13",
           "restartRequired": true,
           "fileCount": 8,
+          "deletedCount": 0
+        },
+        {
+          "seq": 42,
+          "id": "571",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-571/patch-571.zip",
+          "sha256": "a7fe65f4a7cf3466f3ffb364c78cbe802f4b45e883b5a9fa86fd96d10a1de08c",
+          "size": 84380,
+          "description": "jarvis-everything provider-rotation combos + 200-attempt retry budget + faster hygiene",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
