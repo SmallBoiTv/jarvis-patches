@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 31,
+      "latestSeq": 32,
       "patches": [
         {
           "seq": 1,
@@ -5941,6 +5941,18 @@
           "sha256": "641f610fdd0dcfdded5896d29cd9bc91d90f057808518c461bdec55736bd0a9c",
           "size": 57849,
           "description": "OmniRoute: thinking models demoted to last-resort (exclusion emptied the pool causing ALL_TARGETS_SKIPPED)",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 32,
+          "id": "560",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-560/patch-560.zip",
+          "sha256": "b981370d18e76fa2337fc515c2e0add03a733a140a56a29573bfe992870be689",
+          "size": 54598,
+          "description": "Chrome spam real fix: per-profile spawn mutex — a spawn on an already-running profile delegates into the live instance and opens a NEW WINDOW per call; every launch now serializes + re-checks CDP",
           "date": "2026-11-13",
           "restartRequired": true,
           "fileCount": 3,
