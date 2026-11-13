@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 43,
+      "latestSeq": 44,
       "patches": [
         {
           "seq": 1,
@@ -6100,6 +6100,18 @@
           "date": "2026-11-13",
           "restartRequired": true,
           "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 44,
+          "id": "573",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-573/patch-573.zip",
+          "sha256": "44b40f4bb53bd37312c2a848820e2e06b7835f1988db3434d579e5bb0a3c7e18",
+          "size": 77047,
+          "description": "Agent cloud control: launch/gpu-offers/settings/autopilot CRUD + pod terminate flag",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 4,
           "deletedCount": 0
         }
       ]
