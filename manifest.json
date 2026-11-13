@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 42,
+      "latestSeq": 43,
       "patches": [
         {
           "seq": 1,
@@ -6088,6 +6088,18 @@
           "date": "2026-11-13",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 43,
+          "id": "572",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-572/patch-572.zip",
+          "sha256": "1508879004c976d8fa50f6e6cb652790a42351ecac0f748e177576c0f0869ac1",
+          "size": 63187,
+          "description": "everything-combos: exclude non-chat media-worker models (unreal/3d/texture/parakeet class)",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 2,
           "deletedCount": 0
         }
       ]
