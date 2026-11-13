@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 29,
+      "latestSeq": 30,
       "patches": [
         {
           "seq": 1,
@@ -5920,6 +5920,18 @@
           "date": "2026-11-13",
           "restartRequired": true,
           "fileCount": 7,
+          "deletedCount": 0
+        },
+        {
+          "seq": 30,
+          "id": "558",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-558/patch-558.zip",
+          "sha256": "0c8577d9fdf7f4dfca45d9d5fa6ed7e19886f7b08968f75580ac5bf8c2a0f4e7",
+          "size": 57918,
+          "description": "OmniRoute mesh: exclude thinking models outright (empty-content flake) + veo3.x media-model regex fix",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
