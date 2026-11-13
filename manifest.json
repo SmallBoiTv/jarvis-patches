@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 33,
+      "latestSeq": 37,
       "patches": [
         {
           "seq": 1,
@@ -5968,6 +5968,54 @@
           "date": "2026-11-13",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 34,
+          "id": "562",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-562/patch-562.zip",
+          "sha256": "3371939a4e2e7f0dbbd611fba9aa1c21ebf5ed02ed6b2ad3b41324dad22797a3",
+          "size": 72125938,
+          "description": "Video Studio copilot/agent tools: lip-sync, video extend, motion transfer, first/last-frame i2v, camera motion, face blur, transcript cut, b-roll match, project save/load, SRT/VTT export, thumbnails, freeze frame, batch ops, track mgmt, 10 new caption styles, 22 text presets, 15 new canvas effects",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 302,
+          "deletedCount": 287
+        },
+        {
+          "seq": 35,
+          "id": "563",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-563/patch-563.zip",
+          "sha256": "de58c7ae7d01bf1696521c55f6fd362b9ba544a0655939845e8915051150d37f",
+          "size": 11553,
+          "description": "jarvis-tools MCP schemas: jarvis_video_lipsync + jarvis_video_extend tool definitions",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 1,
+          "deletedCount": 0
+        },
+        {
+          "seq": 36,
+          "id": "564",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-564/patch-564.zip",
+          "sha256": "74eeac5dfe1b178ba87fc687b5d94ca13b3261c7b50faaa99529e384c95f951c",
+          "size": 72055825,
+          "description": "lipsync handler → ipc-guard-installer (hot-patchable), FLF override + video-flf module, jx bridge fix",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 303,
+          "deletedCount": 287
+        },
+        {
+          "seq": 37,
+          "id": "565",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-565/patch-565.zip",
+          "sha256": "fad0b94854678c6c5a22b7a52871f50072d6a746d84935962a3e8a7da413efae",
+          "size": 11625,
+          "description": "jarvis-tools schema: endImage arg",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 1,
           "deletedCount": 0
         }
       ]
