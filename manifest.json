@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 28,
+      "latestSeq": 29,
       "patches": [
         {
           "seq": 1,
@@ -5908,6 +5908,18 @@
           "date": "2026-11-13",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 29,
+          "id": "557",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-557/patch-557.zip",
+          "sha256": "b97fb96fa720712ea119e1aa0a3539e10ca3e6a4e95e5b3ded8c518cc28ed80f",
+          "size": 79005,
+          "description": "OmniRoute: re-sanitize mesh right after provider-catalog re-seeds (frozen main.ts seeder was re-fattening to 80 every broadcast) + demote thinking models that return empty content",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 7,
           "deletedCount": 0
         }
       ]
