@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 38,
+      "latestSeq": 39,
       "patches": [
         {
           "seq": 1,
@@ -6041,6 +6041,18 @@
           "restartRequired": true,
           "fileCount": 309,
           "deletedCount": 287
+        },
+        {
+          "seq": 39,
+          "id": "568",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-568/patch-568.zip",
+          "sha256": "fe97d9efae665188f41001efc8bc6de96804bb44d2f7b3f24cc1809459bb58f9",
+          "size": 6615,
+          "description": "TTS fallback: edge-tts catches every voice without a working provider (fixes silent replies)",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
         }
       ]
     }
