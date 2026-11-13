@@ -6017,6 +6017,18 @@
           "restartRequired": true,
           "fileCount": 1,
           "deletedCount": 0
+        },
+        {
+          "seq": 38,
+          "id": "566",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-566/patch-566.zip",
+          "sha256": "954d6659c8acfd7203779bff7230b03dff0a6d5dd796fb31307c380c86eada18",
+          "size": 44820,
+          "description": "jarvis-agent connect fix: preload-path existsSync guard (stale layer ref killed window.ogb) + ogb.openExternal for the OMB connector flow",
+          "date": "2026-11-13",
+          "restartRequired": true,
+          "fileCount": 4,
+          "deletedCount": 0
         }
       ]
     }
