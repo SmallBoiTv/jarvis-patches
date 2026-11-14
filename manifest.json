@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 77,
+      "latestSeq": 78,
       "patches": [
         {
           "seq": 1,
@@ -6505,6 +6505,18 @@
           "sha256": "ba4de7efe9a6b75797bd24d300033f2f6002a4d584b051ed0449b5a891173e6d",
           "size": 56706,
           "description": "hailuo quota selector fix — read real credit balance from Upgrade chip",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 78,
+          "id": "607",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-607/patch-607.zip",
+          "sha256": "322808c2f2b14ca345a9b41ca9c3df0a0e742c0c16be86b2984ffc9c3247ac33",
+          "size": 56702,
+          "description": "hailuo outOfCredits — remove 'upgrade' pattern (permanent sidebar button caused instant block)",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 2,
