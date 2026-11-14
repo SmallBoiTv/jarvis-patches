@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 59,
+      "latestSeq": 60,
       "patches": [
         {
           "seq": 1,
@@ -6292,6 +6292,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 60,
+          "id": "589",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-589/patch-589.zip",
+          "sha256": "b96da1ffa6aff95bfc33469cd8d332606bde590df86d9005521572975f381a1e",
+          "size": 68418,
+          "description": "remotion render output default to video-studio-media (was OS Videos dir)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 2,
           "deletedCount": 0
         }
       ]
