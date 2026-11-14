@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 64,
+      "latestSeq": 65,
       "patches": [
         {
           "seq": 1,
@@ -6349,6 +6349,18 @@
           "sha256": "9f013893f8502fc87b27f41c6e0e99044b79a33159895bb9323c4cc89d256c67",
           "size": 26876,
           "description": "hf-spaces/modal dispatch via video-gen-patch (patchable module — asar main.js can't be layered)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 65,
+          "id": "594",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-594/patch-594.zip",
+          "sha256": "b33e7a448f9c77a1fb7a0549e5ff5cb0167218167fd95469b1b15e00bcf5ff6f",
+          "size": 7391,
+          "description": "hf-spaces: read Settings apiKeys['huggingface'] + point users at the Settings field",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
