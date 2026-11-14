@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 54,
+      "latestSeq": 55,
       "patches": [
         {
           "seq": 1,
@@ -6232,6 +6232,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 55,
+          "id": "584",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-584/patch-584.zip",
+          "sha256": "6a7ef647468f5216e41beba83adca85142c9cdd6051aea63beb85d7fe72b2cfa",
+          "size": 398890,
+          "description": "slash commands in agent chat picker + omniroute jarvis-everything-fast as default model",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
