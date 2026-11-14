@@ -948,9 +948,9 @@
  "dist/main/jarvis-agent-preload.js": "caaff432cc5d3d69d3732b830c0c05baebfc9db0f06256a5a0788a31fdb4e5c5",
  "dist/main/jarvis-agent-preload.js.map": "46e7bbdc03f8d07531d46b96ede8e2248674e0e23682317920f5479f680472f1",
  "dist/main/jarvis-agent.d.ts": "9ef9e0519de4e6b9d034510bffb78910ded94b789fa2e1c47faf9dae2c1ed0f1",
- "dist/main/jarvis-agent.d.ts.map": "204dc1670c496732ddcfccfa13553c5ee88e19178d9dd4dc64855d20098f8d86",
- "dist/main/jarvis-agent.js": "9cc2edc585e7b0c432213725b2d1c491a03e4cff9107009bf6f0025962f2fe32",
- "dist/main/jarvis-agent.js.map": "f82aa567ddc4d138fbacfafbe6abaac9c160368b67e862644e6d1dfabb8224c8",
+ "dist/main/jarvis-agent.d.ts.map": "5c63022d9e77e7a25f06b1d7a8a6e6c9341cd8db809931c82288ca8ca11f31c0",
+ "dist/main/jarvis-agent.js": "dd36699636eb57f90f08f1c7f9df7f0c5df298d700b066936a3d88f1efe26c92",
+ "dist/main/jarvis-agent.js.map": "7367997b29f0ac0b5dd36478e8a92da45d1ab4c2480502691c6345d17995059c",
  "dist/main/jarvis-deep-research.d.ts": "fe3ac544ed3e81385a96670f8433092a7b2e4ce42929166bda7c289c5355d472",
  "dist/main/jarvis-deep-research.d.ts.map": "640324c1eea4158370f5262791fe8674bb801f5f1b5a16157f9dcfa6f6839c99",
  "dist/main/jarvis-deep-research.js": "b4b404ab0ee54c8de8d3a49816a5c934498898c19d30114f3b614aceb36a4f62",
@@ -38656,7 +38656,7 @@
  "vendor/jarvis-agent/dist/assets/chunk-HW4U2H7C.js": "c18c314dba80c9442917faae804c8aeaa44c0145902d81781877a4d735a0aeae",
  "vendor/jarvis-agent/server/static-files.ts": "24c40b183f8660af4c99bf063cab853eae963c3e9e3319e4eb3bbc15825fd95d",
  "vendor/jarvis-agent/src/lib/composer-attachments.ts": "9352453df3aa0f86b6f99e635b0bc618f509a22acd99f707921fdd8743aac034",
- "vendor/jarvis-agent/mcp/jarvis-tools.mjs": "da4f5d654ed3ae4516c30cb9eedd7e0cae276fef494a3852a03bc18d6b1b93c0",
+ "vendor/jarvis-agent/mcp/jarvis-tools.mjs": "d0d0ccca540b5d8e90c97a42e5b60ae9617545a71c63d2a24e7803ccb57e9c85",
  "vendor/jarvis-agent/dist/assets/chunk-DL2Z54UV.js": "db0678883cf12d31136f3d9988efda3d6cede51299561c473106f2223cd97e2d",
  "vendor/jarvis-agent/dist/assets/de-SRN3F4MA.js": "f94e6f3777461665e96239d375921e93aa23c99a5b590bcf1f691236dcd1df98",
  "vendor/jarvis-agent/dist/assets/es-FS6GQJOR.js": "7d83b8b18b7ef139ef6d0d3f0536fcd63c7ae866aac1ba7fb705baa1cc39e259",
@@ -38985,6 +38985,6 @@
  "build/assets/yaml-CqGJJSDm.js": "039f3b978b51d01e120ddec08495303c1af40e3e4d8598bdfe1ad35c5e16490e",
  "build/assets/youtube-PsZuEsD-.js": "bd4d631d1f57969d1e7c82e1dfbc5d399ce6e5ea3038ed9c7e12f6c98d4efb40",
  "vendor/jarvis-agent/server/index.ts": "5aa5273924211bf24ef7b1b43fc6ab95f41aaf1b18ab6209adcbfeacf136cf5f",
- "vendor/jarvis-agent/server/routes/bot-messages.ts": "fce326cd557a1cf8bac5ec61cd3c6f6fa43df5c7fc2f15e2dddb86fc9b360b64",
- "vendor/jarvis-agent/dist/assets/App-LIGDP3WR.js": "609e4ccf35f027aa104279fa6c99f6fc915ece7f0f7ecc2366049fd0640abf35"
+ "vendor/jarvis-agent/server/routes/bot-messages.ts": "62d7a23aa187e39432180f83721dbd34394fcdcea912f5bfbd6f1417ac0bc191",
+ "vendor/jarvis-agent/dist/assets/App-LIGDP3WR.js": "0d608b0927cfb8b7b743f13b52359faf70dcdc17dd0947ef95fa03b9e07879c7"
 }

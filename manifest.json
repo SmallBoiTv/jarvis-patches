@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 55,
+      "latestSeq": 56,
       "patches": [
         {
           "seq": 1,
@@ -6244,6 +6244,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 56,
+          "id": "585",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-585/patch-585.zip",
+          "sha256": "a62bec2ee4db519084a4fb6430bdc677a364545e7bc15b1dd68862ec430e3ae3",
+          "size": 428037,
+          "description": "studio slash commands (game/coding/web/mobile/aiclips) in agent picker + server expansion + jarvis_studio aiclips support",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
