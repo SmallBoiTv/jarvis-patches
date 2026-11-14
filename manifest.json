@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 61,
+      "latestSeq": 62,
       "patches": [
         {
           "seq": 1,
@@ -6313,6 +6313,18 @@
           "sha256": "390095f487e7ec244a0de020b9d2f6ea0f538429a00a1e8d99b0f27329c61d18",
           "size": 7416,
           "description": "video-queue: provider-aware fallback dispatch — kaggle/web-bridge jobs never hit the ComfyUI server gate",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 62,
+          "id": "591",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-591/patch-591.zip",
+          "sha256": "c8472faaa41d86f88bba2077e3a1be76b2ea2ce27649fff9015fd03dca8e75de",
+          "size": 14986,
+          "description": "kaggle-video: in-kernel pip/DNS retry + bounded kernel re-push on transient failures",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
