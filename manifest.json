@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 70,
+      "latestSeq": 71,
       "patches": [
         {
           "seq": 1,
@@ -6424,6 +6424,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 5,
+          "deletedCount": 0
+        },
+        {
+          "seq": 71,
+          "id": "600",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-600/patch-600.zip",
+          "sha256": "f10a5369bda602e4687af1ba0aa9b1344de15cc0172a983c684a8e2349aae5dd",
+          "size": 74578,
+          "description": "web-video-bridge: bing-image pack — free Bing image gen saved to media dir (i2v source)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 8,
           "deletedCount": 0
         }
       ]
