@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 81,
+      "latestSeq": 82,
       "patches": [
         {
           "seq": 1,
@@ -6553,6 +6553,18 @@
           "sha256": "793697ffd8c6c046e770d15e8c5d8ffbc116d542d696ca3dc2eb7c138cd9e3ec",
           "size": 58251,
           "description": "dreamina entry-button narrowed to session-gallery + qwen uiDownload result-card detection",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 82,
+          "id": "611",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-611/patch-611.zip",
+          "sha256": "2fb56067d4654ad48b1f171e38e494679cf5610e1ac24a6e5a6ff6c34de0b471",
+          "size": 58216,
+          "description": "dreamina: remove entryButton — clicks rerouted to stuck canvas/marketing-studio; URL lands on tool",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
