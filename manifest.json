@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 80,
+      "latestSeq": 81,
       "patches": [
         {
           "seq": 1,
@@ -6541,6 +6541,18 @@
           "sha256": "cb87d54d74519affb4df0c3bcf9aecc0fa77a6e33ea1a19bf3831b1ca3fa1163",
           "size": 58055,
           "description": "dreamina: prompt typed into sizer-mirror composer — remove mirror-matching fallbacks",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 81,
+          "id": "610",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-610/patch-610.zip",
+          "sha256": "793697ffd8c6c046e770d15e8c5d8ffbc116d542d696ca3dc2eb7c138cd9e3ec",
+          "size": 58251,
+          "description": "dreamina entry-button narrowed to session-gallery + qwen uiDownload result-card detection",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
