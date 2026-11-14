@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 74,
+      "latestSeq": 75,
       "patches": [
         {
           "seq": 1,
@@ -6469,6 +6469,18 @@
           "sha256": "403e435000fdb0c1a7eea580cf1713d5e5a03c3948d6b8cca74759258ebae4cf",
           "size": 69399,
           "description": "jarvis-agent: remotion node resolver prefers a node that carries npm (resources node.exe is bare)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 75,
+          "id": "604",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-604/patch-604.zip",
+          "sha256": "491abb2b685418f1308151e14c992f87862e1d4430f13b94fcaeae8d7e7fd546",
+          "size": 69809,
+          "description": "jarvis-agent: remotion calls real cli JS (not .bin shim) + self-heals missing tsconfig",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
