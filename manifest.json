@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 75,
+      "latestSeq": 76,
       "patches": [
         {
           "seq": 1,
@@ -6484,6 +6484,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 76,
+          "id": "605",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-605/patch-605.zip",
+          "sha256": "e5305277de960c0e720448df20c846323d67ad5a9b7f9e95c5c134d5ad11aa3a",
+          "size": 71805,
+          "description": "web-video-bridge: hailuo (MiniMax) site pack + agent tool/soul awareness",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 4,
           "deletedCount": 0
         }
       ]
