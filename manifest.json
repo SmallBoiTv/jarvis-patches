@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 52,
+      "latestSeq": 53,
       "patches": [
         {
           "seq": 1,
@@ -6208,6 +6208,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 1,
+          "deletedCount": 0
+        },
+        {
+          "seq": 53,
+          "id": "582",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-582/patch-582.zip",
+          "sha256": "3154f5d88d8d6d57a61fbcec0ef7fa939752d371f6acf39615803b998bf0c10a",
+          "size": 14239,
+          "description": "kaggle: wait_for_hub DNS warm-up + longer backoff before snapshot_download",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
