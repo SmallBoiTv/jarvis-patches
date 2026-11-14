@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 65,
+      "latestSeq": 66,
       "patches": [
         {
           "seq": 1,
@@ -6361,6 +6361,18 @@
           "sha256": "b33e7a448f9c77a1fb7a0549e5ff5cb0167218167fd95469b1b15e00bcf5ff6f",
           "size": 7391,
           "description": "hf-spaces: read Settings apiKeys['huggingface'] + point users at the Settings field",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 66,
+          "id": "595",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-595/patch-595.zip",
+          "sha256": "782d46a98887d76c4e17daf0c93ef4405945a0fa437e96bcd0a00b8fa66fb4e2",
+          "size": 7421,
+          "description": "hf-spaces: fix __jarvisCore accessor (it's a getter fn, not an object)",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
