@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 48,
+      "latestSeq": 49,
       "patches": [
         {
           "seq": 1,
@@ -6160,6 +6160,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 26,
+          "deletedCount": 0
+        },
+        {
+          "seq": 49,
+          "id": "578",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-578/patch-578.zip",
+          "sha256": "516180a65d80e3c19ae6f39befcebe529748e190b2a5a2b7010baf345542f755",
+          "size": 89684,
+          "description": "jarvis-tools MCP enabled:true in seeded config (bots never mounted tools); chrome-import locked-cookie hint",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 8,
           "deletedCount": 0
         }
       ]
