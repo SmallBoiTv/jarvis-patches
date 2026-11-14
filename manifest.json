@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 63,
+      "latestSeq": 64,
       "patches": [
         {
           "seq": 1,
@@ -6340,6 +6340,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 16,
+          "deletedCount": 0
+        },
+        {
+          "seq": 64,
+          "id": "593",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-593/patch-593.zip",
+          "sha256": "9f013893f8502fc87b27f41c6e0e99044b79a33159895bb9323c4cc89d256c67",
+          "size": 26876,
+          "description": "hf-spaces/modal dispatch via video-gen-patch (patchable module — asar main.js can't be layered)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
