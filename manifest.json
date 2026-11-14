@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 69,
+      "latestSeq": 70,
       "patches": [
         {
           "seq": 1,
@@ -6412,6 +6412,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 70,
+          "id": "599",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-599/patch-599.zip",
+          "sha256": "c0f987bf84bc4e95d160a866748148f15522833fe9231791351c17793a8c365d",
+          "size": 124047,
+          "description": "web-video-bridge: bing video-mode gate (fail fast on image-only composer) + jarvis session tools use bridge profile",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 5,
           "deletedCount": 0
         }
       ]
