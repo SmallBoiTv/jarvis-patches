@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 46,
+      "latestSeq": 47,
       "patches": [
         {
           "seq": 1,
@@ -6136,6 +6136,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 47,
+          "id": "576",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-576/patch-576.zip",
+          "sha256": "145fd5906705bdc6fb3ab6559e3b434c41855784af592e8d01ebfda9f587ea68",
+          "size": 108058,
+          "description": "chrome-spam guards (browser-agent real-Chrome lock/cooldown, web-video global spawn budget, bot-manager launch dedupe) + video tool schema enumerates free providers (web-bridge/kaggle/etc vs paid jarvis-cloud)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 10,
           "deletedCount": 0
         }
       ]
