@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 53,
+      "latestSeq": 54,
       "patches": [
         {
           "seq": 1,
@@ -6220,6 +6220,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 54,
+          "id": "583",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-583/patch-583.zip",
+          "sha256": "979cc42203f2746516b519871faa2dd4c270d688e9ce11049ebe163ee836defd",
+          "size": 351259,
+          "description": "anti-spam: chrome-launch throttle in computerCallGate + signin cooldown + music suno routing + agent slash commands",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
