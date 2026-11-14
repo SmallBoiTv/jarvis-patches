@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 78,
+      "latestSeq": 79,
       "patches": [
         {
           "seq": 1,
@@ -6520,6 +6520,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 79,
+          "id": "608",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-608/patch-608.zip",
+          "sha256": "02964096cb17ac6f6e8a64166e9a49af10aa29da90714fd54c4f3b3d50e72400",
+          "size": 57955,
+          "description": "web-video-bridge: Flow credit-warning detection, Dreamina resolution-vs-cost misparse + current model prefs, kimi/deepseek dedupe",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
