@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 60,
+      "latestSeq": 61,
       "patches": [
         {
           "seq": 1,
@@ -6304,6 +6304,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 61,
+          "id": "590",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-590/patch-590.zip",
+          "sha256": "390095f487e7ec244a0de020b9d2f6ea0f538429a00a1e8d99b0f27329c61d18",
+          "size": 7416,
+          "description": "video-queue: provider-aware fallback dispatch — kaggle/web-bridge jobs never hit the ComfyUI server gate",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
