@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 45,
+      "latestSeq": 46,
       "patches": [
         {
           "seq": 1,
@@ -6124,6 +6124,18 @@
           "date": "2026-11-13",
           "restartRequired": true,
           "fileCount": 8,
+          "deletedCount": 0
+        },
+        {
+          "seq": 46,
+          "id": "575",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-575/patch-575.zip",
+          "sha256": "3d079cbc9c8411cda4fc43310040a557dc424b64a66e2a13aaec836e8ea66324",
+          "size": 13621,
+          "description": "kaggle kernel script: hf_transfer + retry on transient HF load failures",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
