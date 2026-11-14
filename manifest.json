@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 67,
+      "latestSeq": 68,
       "patches": [
         {
           "seq": 1,
@@ -6385,6 +6385,18 @@
           "sha256": "2134373ceb194e50baeb15441da6893ffa8314845b96918abb1e7247ba189eee",
           "size": 9712,
           "description": "video-queue: per-provider lanes (HF/Kaggle/web-bridge/modal run independently)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 4,
+          "deletedCount": 0
+        },
+        {
+          "seq": 68,
+          "id": "597",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-597/patch-597.zip",
+          "sha256": "04681b63c0568d00229e3abb87888bb329d4b32b3d05d6530ef2dccd0b7bc2ab",
+          "size": 617823,
+          "description": "agent plugin: /hfvideo /bing /modalvideo /promo commands + picker entries + media attach roots + MEDIA DELIVERY directive",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 4,
