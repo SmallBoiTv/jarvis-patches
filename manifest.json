@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 56,
+      "latestSeq": 57,
       "patches": [
         {
           "seq": 1,
@@ -6256,6 +6256,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 57,
+          "id": "586",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-586/patch-586.zip",
+          "sha256": "63cf4b0c329dfce7886ac62d6396228abe934d6d4ac7c299bbbfa76390b616c1",
+          "size": 14034,
+          "description": "fix jarvis-tools.mjs syntax (unescaped quotes broke MCP mount)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 1,
           "deletedCount": 0
         }
       ]
