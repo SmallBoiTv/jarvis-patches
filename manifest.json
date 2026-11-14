@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 47,
+      "latestSeq": 48,
       "patches": [
         {
           "seq": 1,
@@ -6148,6 +6148,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 10,
+          "deletedCount": 0
+        },
+        {
+          "seq": 48,
+          "id": "577",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-577/patch-577.zip",
+          "sha256": "dadac4c14e5ebd544d51cde73b0bd09532729ba78d1ff1bd096b299b7c3df0f9",
+          "size": 829639,
+          "description": "Real-Chrome-profile import into bridge/bot profiles, accountKey plumbing through video tools+queue, per-bot browserProfile",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 26,
           "deletedCount": 0
         }
       ]
