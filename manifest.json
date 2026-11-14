@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 62,
+      "latestSeq": 63,
       "patches": [
         {
           "seq": 1,
@@ -6328,6 +6328,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 63,
+          "id": "592",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-592/patch-592.zip",
+          "sha256": "36779c433bc61698e207b43920e1bef729481b908974a5b64a58339f1443b5f3",
+          "size": 614993,
+          "description": "HF ZeroGPU + Modal providers, Bing site-pack, /hfvideo /bing /modalvideo /promo commands",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 16,
           "deletedCount": 0
         }
       ]
