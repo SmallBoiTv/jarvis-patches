@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 72,
+      "latestSeq": 73,
       "patches": [
         {
           "seq": 1,
@@ -6445,6 +6445,18 @@
           "sha256": "b30c129ca852814e36c94165a518073ac27b820f04bd6f864b85c82c09b8eafd",
           "size": 56960,
           "description": "web-video-bridge: bing-image detects result via th.bing.com OIG resource-log diff (survives result-page navigation) + full-res URL",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 73,
+          "id": "602",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-602/patch-602.zip",
+          "sha256": "0b3e68476bb1e63fb6785b71ebf39e4961394544f0aef956c15f8c37b9f12a1b",
+          "size": 69236,
+          "description": "jarvis-agent: remotion falls back to system Node when portable node-runtime missing",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
