@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 68,
+      "latestSeq": 69,
       "patches": [
         {
           "seq": 1,
@@ -6400,6 +6400,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 4,
+          "deletedCount": 0
+        },
+        {
+          "seq": 69,
+          "id": "598",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-598/patch-598.zip",
+          "sha256": "2f6aa10eefc7d68b9f338bacee427ab88968150cdfbbb71ffc44c6b47b3eba53",
+          "size": 7793,
+          "description": "hf-spaces: real space schemas — duration caps (5s), wan aspect enum, steps caps; better rejection error",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
