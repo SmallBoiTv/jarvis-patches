@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 71,
+      "latestSeq": 72,
       "patches": [
         {
           "seq": 1,
@@ -6436,6 +6436,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 8,
+          "deletedCount": 0
+        },
+        {
+          "seq": 72,
+          "id": "601",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-601/patch-601.zip",
+          "sha256": "b30c129ca852814e36c94165a518073ac27b820f04bd6f864b85c82c09b8eafd",
+          "size": 56960,
+          "description": "web-video-bridge: bing-image detects result via th.bing.com OIG resource-log diff (survives result-page navigation) + full-res URL",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
