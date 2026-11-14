@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 79,
+      "latestSeq": 80,
       "patches": [
         {
           "seq": 1,
@@ -6529,6 +6529,18 @@
           "sha256": "02964096cb17ac6f6e8a64166e9a49af10aa29da90714fd54c4f3b3d50e72400",
           "size": 57955,
           "description": "web-video-bridge: Flow credit-warning detection, Dreamina resolution-vs-cost misparse + current model prefs, kimi/deepseek dedupe",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 80,
+          "id": "609",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-609/patch-609.zip",
+          "sha256": "cb87d54d74519affb4df0c3bcf9aecc0fa77a6e33ea1a19bf3831b1ca3fa1163",
+          "size": 58055,
+          "description": "dreamina: prompt typed into sizer-mirror composer — remove mirror-matching fallbacks",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
