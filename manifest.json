@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 66,
+      "latestSeq": 67,
       "patches": [
         {
           "seq": 1,
@@ -6376,6 +6376,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 67,
+          "id": "596",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-596/patch-596.zip",
+          "sha256": "2134373ceb194e50baeb15441da6893ffa8314845b96918abb1e7247ba189eee",
+          "size": 9712,
+          "description": "video-queue: per-provider lanes (HF/Kaggle/web-bridge/modal run independently)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 4,
           "deletedCount": 0
         }
       ]
