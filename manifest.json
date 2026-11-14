@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 73,
+      "latestSeq": 74,
       "patches": [
         {
           "seq": 1,
@@ -6457,6 +6457,18 @@
           "sha256": "0b3e68476bb1e63fb6785b71ebf39e4961394544f0aef956c15f8c37b9f12a1b",
           "size": 69236,
           "description": "jarvis-agent: remotion falls back to system Node when portable node-runtime missing",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 74,
+          "id": "603",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-603/patch-603.zip",
+          "sha256": "403e435000fdb0c1a7eea580cf1713d5e5a03c3948d6b8cca74759258ebae4cf",
+          "size": 69399,
+          "description": "jarvis-agent: remotion node resolver prefers a node that carries npm (resources node.exe is bare)",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
