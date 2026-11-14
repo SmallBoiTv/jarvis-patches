@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 82,
+      "latestSeq": 83,
       "patches": [
         {
           "seq": 1,
@@ -6565,6 +6565,18 @@
           "sha256": "2fb56067d4654ad48b1f171e38e494679cf5610e1ac24a6e5a6ff6c34de0b471",
           "size": 58216,
           "description": "dreamina: remove entryButton — clicks rerouted to stuck canvas/marketing-studio; URL lands on tool",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 83,
+          "id": "612",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-612/patch-612.zip",
+          "sha256": "c9e46022cc1254a112c5a37c9f00ef0e55e1ba63e07c5860a0ebf07ef4cac4c3",
+          "size": 58307,
+          "description": "Dreamina: drop 'subscribe to'/'upgrade to pro' outOfCredits patterns — permanent upsell chrome false-positives the block scan",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
