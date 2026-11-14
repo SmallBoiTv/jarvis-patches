@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 83,
+      "latestSeq": 84,
       "patches": [
         {
           "seq": 1,
@@ -6577,6 +6577,18 @@
           "sha256": "c9e46022cc1254a112c5a37c9f00ef0e55e1ba63e07c5860a0ebf07ef4cac4c3",
           "size": 58307,
           "description": "Dreamina: drop 'subscribe to'/'upgrade to pro' outOfCredits patterns — permanent upsell chrome false-positives the block scan",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 84,
+          "id": "613",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-613/patch-613.zip",
+          "sha256": "f39f2731a51a1cdf3423f1703e7bdb4f08cc219c3f2344733000153786744935",
+          "size": 58457,
+          "description": "Dreamina: scope generateButton to submit-button-container (promo Generate CTAs opened CommerceDrawer, mask ate the real click); add lv-drawer/CommerceDrawer close to dismiss",
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
