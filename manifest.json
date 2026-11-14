@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 49,
+      "latestSeq": 50,
       "patches": [
         {
           "seq": 1,
@@ -6172,6 +6172,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 8,
+          "deletedCount": 0
+        },
+        {
+          "seq": 50,
+          "id": "579",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-579/patch-579.zip",
+          "sha256": "7dea7004f2da7ee3f95107395f15b7d4dbdcd19349592fceb666039d45b6da36",
+          "size": 55578,
+          "description": "Flow CDN-video detection (kill 600s timeouts) + jarvis_video_movie name fix (mount bug)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
