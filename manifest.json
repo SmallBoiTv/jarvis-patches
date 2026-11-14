@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 76,
+      "latestSeq": 77,
       "patches": [
         {
           "seq": 1,
@@ -6496,6 +6496,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 4,
+          "deletedCount": 0
+        },
+        {
+          "seq": 77,
+          "id": "606",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-606/patch-606.zip",
+          "sha256": "ba4de7efe9a6b75797bd24d300033f2f6002a4d584b051ed0449b5a891173e6d",
+          "size": 56706,
+          "description": "hailuo quota selector fix — read real credit balance from Upgrade chip",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 2,
           "deletedCount": 0
         }
       ]
