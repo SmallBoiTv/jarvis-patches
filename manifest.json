@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 58,
+      "latestSeq": 59,
       "patches": [
         {
           "seq": 1,
@@ -6280,6 +6280,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 10,
+          "deletedCount": 0
+        },
+        {
+          "seq": 59,
+          "id": "588",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-588/patch-588.zip",
+          "sha256": "30dfe11aa6698660255427b744f37ea2b0c10550b04f3a16f628be1911db9b54",
+          "size": 75071,
+          "description": "video queue visible via jarvis_jobs list + video-gen activity feed entries",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
