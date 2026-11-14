@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 51,
+      "latestSeq": 52,
       "patches": [
         {
           "seq": 1,
@@ -6196,6 +6196,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 52,
+          "id": "581",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-581/patch-581.zip",
+          "sha256": "b35a68fa946b70f026f5d614c2184bbebbacd8a63300fc155a85c411b2a35196",
+          "size": 13809,
+          "description": "Ship fixed jarvis-tools.mjs via --vagent (movie tool name fix persists across restarts)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 1,
           "deletedCount": 0
         }
       ]
