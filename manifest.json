@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 57,
+      "latestSeq": 58,
       "patches": [
         {
           "seq": 1,
@@ -6268,6 +6268,18 @@
           "date": "2026-11-14",
           "restartRequired": true,
           "fileCount": 1,
+          "deletedCount": 0
+        },
+        {
+          "seq": 58,
+          "id": "587",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-587/patch-587.zip",
+          "sha256": "1675dbc2c11044e967603e66cd314a0938aa507902dc3f24ff673a95c5205a63",
+          "size": 57022,
+          "description": "global real-Chrome spawn throttle + spawn logging (browser-agent, chrome-social-poster)",
+          "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 10,
           "deletedCount": 0
         }
       ]
