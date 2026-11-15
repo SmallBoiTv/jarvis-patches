@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 92,
+      "latestSeq": 93,
       "patches": [
         {
           "seq": 1,
@@ -6688,6 +6688,18 @@
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 93,
+          "id": "622",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-622/patch-622.zip",
+          "sha256": "41cddabc4dfcc39067133d3070d03420cc15277d0106c3a427e9aca2dec4339d",
+          "size": 640334,
+          "description": "durability: queue+schedule resume, job reconcile, routine supervisor; brand kit + jarvis_brand_kit/jarvis_agent_health tools; jarvis-everything-long pool; tool-result cap; remotion empty-scene guard",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 17,
           "deletedCount": 0
         }
       ]
