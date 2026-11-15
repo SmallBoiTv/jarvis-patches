@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 86,
+      "latestSeq": 87,
       "patches": [
         {
           "seq": 1,
@@ -6613,6 +6613,18 @@
           "sha256": "d88875d26e6133ba72036a52a875c049afa2f94cca9bbb8d5a04c38984d1bc80",
           "size": 59467,
           "description": "Dreamina: single precise send selector (n=4 multi-click → multi-gen session export); clampVideoSize: transcode outputs >80MB so attach_file never hits the 100MB ceiling",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 87,
+          "id": "616",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-616/patch-616.zip",
+          "sha256": "b06e6ecd80f859a5f1a620e02e118e7bfda4f48661bded8a1ddcc185c087c74a",
+          "size": 59726,
+          "description": "blockedPath URL check: subscribe/upgrade redirects fail fast as credits instead of dead-polling (hailuo /subscribe); hailuo pack wires it",
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
