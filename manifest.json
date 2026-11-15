@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 97,
+      "latestSeq": 98,
       "patches": [
         {
           "seq": 1,
@@ -6745,6 +6745,18 @@
           "sha256": "fccb60856c7ce813a18b0d3acc52b71d6de49de5cb813a0a9f2ea52eebf19092",
           "size": 74719,
           "description": "remotion: --props channel + Root.tsx self-heal via getInputProps + public/ image staging",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 98,
+          "id": "627",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-627/patch-627.zip",
+          "sha256": "5e00b6bc84c929fe9405bc145a8b6c988efb8a49cb7f78f10a462a5d4c0f0594",
+          "size": 74834,
+          "description": "remotion: data-URI images + --props file — public/ staging 404'd inside app-spawned renders",
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
