@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 89,
+      "latestSeq": 90,
       "patches": [
         {
           "seq": 1,
@@ -6652,6 +6652,18 @@
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 90,
+          "id": "619",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-619/patch-619.zip",
+          "sha256": "9256717c415303940554ab2828f7b14d8664c32cdcfbf138b63addd383938f32",
+          "size": 59137,
+          "description": "a2e: repoint to /image-to-video — all T2V pages (seedance/wan) are 'Paid User Only' on free plan; A2E.AI V2 i2v is the only credit-spendable tool (~40cr). Requires opts.image.",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 2,
           "deletedCount": 0
         }
       ]
