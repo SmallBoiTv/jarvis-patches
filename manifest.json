@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 85,
+      "latestSeq": 86,
       "patches": [
         {
           "seq": 1,
@@ -6601,6 +6601,18 @@
           "sha256": "86a63a4210be1a15a24360b3ea4b86812b699285e7d166468b4dbb56b2c097b0",
           "size": 58786,
           "description": "Poll heartbeat: log page URL + result-card count every 30s so dead submits show as stuck-home in progress.log",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 86,
+          "id": "615",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-615/patch-615.zip",
+          "sha256": "d88875d26e6133ba72036a52a875c049afa2f94cca9bbb8d5a04c38984d1bc80",
+          "size": 59467,
+          "description": "Dreamina: single precise send selector (n=4 multi-click → multi-gen session export); clampVideoSize: transcode outputs >80MB so attach_file never hits the 100MB ceiling",
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
