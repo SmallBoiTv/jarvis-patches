@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 88,
+      "latestSeq": 89,
       "patches": [
         {
           "seq": 1,
@@ -6637,6 +6637,18 @@
           "sha256": "8c1bc8dfb7c44a48607467c43e603f88c543a1bcfdf0e77109840b6ece3f0907",
           "size": 59805,
           "description": "a2e+leonardo: drop bare 'upgrade'/'subscribe' outOfCredits patterns — permanent freemium chrome false-positives the block scan (a2e failed despite 190cr balance)",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 89,
+          "id": "618",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-618/patch-618.zip",
+          "sha256": "0c285c27bda829aa8fea9c237d5e602172af8a5d244aee3aa65d62a24532f4b3",
+          "size": 59881,
+          "description": "a2e: 'paid user only' gate detection + free-model-first prefs (Seedance 1.5 Pro is crown-gated; switch to wan/kling/free rows)",
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
