@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 95,
+      "latestSeq": 97,
       "patches": [
         {
           "seq": 1,
@@ -6721,6 +6721,30 @@
           "sha256": "d8b45ebf73243cc38a414dc87db35b1a6ca61bc2b550d30e692fac5cef3a8a75",
           "size": 73593,
           "description": "remotion: accept image/images/prompt shortcut args — map to scenes so agents render their content, not the fixed outro",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 96,
+          "id": "625",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-625/patch-625.zip",
+          "sha256": "a569d1255056ec50fbed379713ff8f6521dc09535f5e8456ceb9bfe386028fec",
+          "size": 74023,
+          "description": "remotion: --props channel + getInputProps + public/ image staging — renders were outro-only since day one",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 97,
+          "id": "626",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-626/patch-626.zip",
+          "sha256": "fccb60856c7ce813a18b0d3acc52b71d6de49de5cb813a0a9f2ea52eebf19092",
+          "size": 74719,
+          "description": "remotion: --props channel + Root.tsx self-heal via getInputProps + public/ image staging",
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
