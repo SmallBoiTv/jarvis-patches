@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 90,
+      "latestSeq": 91,
       "patches": [
         {
           "seq": 1,
@@ -6664,6 +6664,18 @@
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 91,
+          "id": "620",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-620/patch-620.zip",
+          "sha256": "a3e08f1f208ba69b35cb9f36287ac3f232616f5ff2753d8d5c6732cbdd8453cc",
+          "size": 60056,
+          "description": "i2v upload fix: file inputs are display:none behind dropzones — don't require visibility or setInputFiles silently skips (a2e failed 'Upload a source image first')",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
