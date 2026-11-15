@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 94,
+      "latestSeq": 95,
       "patches": [
         {
           "seq": 1,
@@ -6709,6 +6709,18 @@
           "sha256": "b367f14291d04f94f734768c08ec57ddac78a9ba4354c478bc00ef0e37180aa1",
           "size": 73245,
           "description": "fix: strip jarvis_tools_ prefix in dispatchTool (jobs/schedules were failing 'unknown tool'); ship hf-spaces-video for stale layer require",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 95,
+          "id": "624",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-624/patch-624.zip",
+          "sha256": "d8b45ebf73243cc38a414dc87db35b1a6ca61bc2b550d30e692fac5cef3a8a75",
+          "size": 73593,
+          "description": "remotion: accept image/images/prompt shortcut args — map to scenes so agents render their content, not the fixed outro",
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
