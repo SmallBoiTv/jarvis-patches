@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 91,
+      "latestSeq": 92,
       "patches": [
         {
           "seq": 1,
@@ -6673,6 +6673,18 @@
           "sha256": "a3e08f1f208ba69b35cb9f36287ac3f232616f5ff2753d8d5c6732cbdd8453cc",
           "size": 60056,
           "description": "i2v upload fix: file inputs are display:none behind dropzones — don't require visibility or setInputFiles silently skips (a2e failed 'Upload a source image first')",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 92,
+          "id": "621",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-621/patch-621.zip",
+          "sha256": "bc2925aa3c151f0b9c5c70bbac1e229e3f396af05f496bf9c4871ffc0592a762",
+          "size": 60199,
+          "description": "i2v upload: a2e renders file input disabled until React wires the dropzone — setInputFiles throws on disabled elements, unlock it first",
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
