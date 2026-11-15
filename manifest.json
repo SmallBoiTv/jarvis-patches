@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 84,
+      "latestSeq": 85,
       "patches": [
         {
           "seq": 1,
@@ -6590,6 +6590,18 @@
           "size": 58457,
           "description": "Dreamina: scope generateButton to submit-button-container (promo Generate CTAs opened CommerceDrawer, mask ate the real click); add lv-drawer/CommerceDrawer close to dismiss",
           "date": "2026-11-14",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 85,
+          "id": "614",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-614/patch-614.zip",
+          "sha256": "86a63a4210be1a15a24360b3ea4b86812b699285e7d166468b4dbb56b2c097b0",
+          "size": 58786,
+          "description": "Poll heartbeat: log page URL + result-card count every 30s so dead submits show as stuck-home in progress.log",
+          "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
           "deletedCount": 0
