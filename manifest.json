@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 93,
+      "latestSeq": 94,
       "patches": [
         {
           "seq": 1,
@@ -6700,6 +6700,18 @@
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 17,
+          "deletedCount": 0
+        },
+        {
+          "seq": 94,
+          "id": "623",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-623/patch-623.zip",
+          "sha256": "b367f14291d04f94f734768c08ec57ddac78a9ba4354c478bc00ef0e37180aa1",
+          "size": 73245,
+          "description": "fix: strip jarvis_tools_ prefix in dispatchTool (jobs/schedules were failing 'unknown tool'); ship hf-spaces-video for stale layer require",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
