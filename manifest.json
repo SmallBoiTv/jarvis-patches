@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 87,
+      "latestSeq": 88,
       "patches": [
         {
           "seq": 1,
@@ -6625,6 +6625,18 @@
           "sha256": "b06e6ecd80f859a5f1a620e02e118e7bfda4f48661bded8a1ddcc185c087c74a",
           "size": 59726,
           "description": "blockedPath URL check: subscribe/upgrade redirects fail fast as credits instead of dead-polling (hailuo /subscribe); hailuo pack wires it",
+          "date": "2026-11-15",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 88,
+          "id": "617",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-617/patch-617.zip",
+          "sha256": "8c1bc8dfb7c44a48607467c43e603f88c543a1bcfdf0e77109840b6ece3f0907",
+          "size": 59805,
+          "description": "a2e+leonardo: drop bare 'upgrade'/'subscribe' outOfCredits patterns — permanent freemium chrome false-positives the block scan (a2e failed despite 190cr balance)",
           "date": "2026-11-15",
           "restartRequired": true,
           "fileCount": 3,
