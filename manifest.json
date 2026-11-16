@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 99,
+      "latestSeq": 100,
       "patches": [
         {
           "seq": 1,
@@ -6773,6 +6773,18 @@
           "restartRequired": true,
           "fileCount": 296,
           "deletedCount": 287
+        },
+        {
+          "seq": 100,
+          "id": "629",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-629/patch-629.zip",
+          "sha256": "77015a4a497f51bf6a0f9f1b2157ebe41130f5666884c0a152c0527726a1274b",
+          "size": 82673,
+          "description": "tool server CORS preflight fix (Agent Ops health tab fetch)",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 4,
+          "deletedCount": 0
         }
       ]
     }
