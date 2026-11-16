@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 101,
+      "latestSeq": 102,
       "patches": [
         {
           "seq": 1,
@@ -6797,6 +6797,18 @@
           "restartRequired": true,
           "fileCount": 3,
           "deletedCount": 0
+        },
+        {
+          "seq": 102,
+          "id": "631",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-631/patch-631.zip",
+          "sha256": "ef10710a37717073774f0d66a180bbd12763530d53be8f4b0ef18a03fbe98356",
+          "size": 71716630,
+          "description": "Fix Social page React #31 crash — unwrap {accountId} objects in autopilot account ids (Post Now envelope double-wrap)",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 292,
+          "deletedCount": 289
         }
       ]
     }
