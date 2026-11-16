@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 106,
+      "latestSeq": 107,
       "patches": [
         {
           "seq": 1,
@@ -6853,6 +6853,18 @@
           "sha256": "6c4a6126b259802b6ce5124b7eb332794b54619e461fd23ddaa4cd7e85721504",
           "size": 126716,
           "description": "Browser social: stop spawning a second Chrome for error screenshots — skip the shot when the failed page is gone instead of launching chrome--default",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 107,
+          "id": "636",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-636/patch-636.zip",
+          "sha256": "9d186d7035b66ee9b55a6b1b70329b6125ea9798aeec099b744e349ba21fe682",
+          "size": 82271,
+          "description": "Jarvis Agent: raise MCP tool-call timeout 10→60 min — video renders were killed mid-flight so bots stopped before tasks completed",
           "date": "2026-11-16",
           "restartRequired": true,
           "fileCount": 3,
