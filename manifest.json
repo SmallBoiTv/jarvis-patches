@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 98,
+      "latestSeq": 99,
       "patches": [
         {
           "seq": 1,
@@ -6761,6 +6761,18 @@
           "restartRequired": true,
           "fileCount": 3,
           "deletedCount": 0
+        },
+        {
+          "seq": 99,
+          "id": "628",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-628/patch-628.zip",
+          "sha256": "790bf79d470ed7d975342de232410507398b7f0ffa81b0e613c38b2c2d1e60e2",
+          "size": 71492711,
+          "description": "agent ops: thread watchdog, memory layer, approvals queue, storyboard, second-opinion, say, freevideo-worker, health tab",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 296,
+          "deletedCount": 287
         }
       ]
     }
