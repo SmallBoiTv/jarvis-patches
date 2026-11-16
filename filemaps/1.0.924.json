@@ -209,7 +209,7 @@
  "build/globe-textures/earth-topology.png": "839b12da2e4dd346b256cebae72e10c479a102c8980a22084c41275e4b9a0e12",
  "build/globe-textures/earth-water.png": "3a8132db56aac4e64e7fcbf2928ee970c075ac6a96b38798d0bb8be82836a4d3",
  "build/globe-textures/night-sky.png": "7e1d5e780301e3a33bd79fd3ac414f7a742465f33ae4605abca743d43a3ab983",
- "build/index.html": "39ee96458fc3416d99a2d1bbb57f2101e0c025e2b7dbeaedcf1e9d4307fa3eae",
+ "build/index.html": "bc9a2ce6c1ec2916057fa5c28f8195958d52042e455409b392db3a1d4f3e7863",
  "build/jarvis-ui/force_sim.wasm": "363a0869160976bf0723de95cac9d43bb83244e593a5590a8916e1785247101f",
  "build/jarvis-ui/index.css": "2c865606baf4e11db0162c364c2d18c79eacfccaef6b9a00c0c6521daf6ac7d2",
  "build/onboarding/agent-run.png": "18982c0e4bc6d5c58457d9178dca1c5d291809707350a729b9dd32711d36b711",
@@ -1691,9 +1691,9 @@
  "dist/main/social-growth.js": "36cf50cdae73012d2166b61b0228d688b2b26352c311c783ddf8bbd8743d2906",
  "dist/main/social-growth.js.map": "c05183c17082d048806367c63d83fcb20bd27908a0144b5a1d17883f5bdec8b5",
  "dist/main/social-media-manager.d.ts": "2f38534bdb92dc3fd47009418a3278c257046a3e7a4f5da8f7281fde345dbf46",
- "dist/main/social-media-manager.d.ts.map": "2040c6f8798b03a1c7e644d92b2802875c09b37199ac4354ece16086f2ba2bbf",
- "dist/main/social-media-manager.js": "f3d08357720b8bfb94e0bfb3127d348029efd89f17b425959ecfe62b97aefa12",
- "dist/main/social-media-manager.js.map": "43ef4636be20a38ef264359624f74b733851eb94e8ee7bcf770b31f89134e3a6",
+ "dist/main/social-media-manager.d.ts.map": "93911f58b69b731645afc298edaeb377778ec2806b5ee72bfcfd44909c5dda12",
+ "dist/main/social-media-manager.js": "45cd57c43e5770c3b9a50c10f1b094d35e3b223cdf596e634a27fd3e366f6ac7",
+ "dist/main/social-media-manager.js.map": "743b2c94dd8426ba0f7fdd5577e2fba4fd53712d99d99a3b674cce0f173cd161",
  "dist/main/sprint4-enhancements.d.ts": "47849d7798d52913f541e86d540be6dce1819e443c18cbf5bc0086edc1523398",
  "dist/main/sprint4-enhancements.d.ts.map": "7e25452716f12e70e43d3126fa196ca488c6da31fea860b2468a2f5f80380600",
  "dist/main/sprint4-enhancements.js": "653537513b6b571c83eaa3313439e8d72023476dd9f4a0f8cf8d423770187d68",
@@ -39000,5 +39000,7 @@
  "build/assets/xml-xqPekcmk.js": "07485c9767afb315ffb1f9a4504ef7cd5c39816054da763c3571a82f6979f2e5",
  "build/assets/xychartDiagram-S5SC5T6Z-CW2Gdhw3.js": "89c43c896e44529e18359b171c89987e7f6d12ed90d6939ba368458e598996e2",
  "build/assets/yaml-u9tQD4B6.js": "8b1e38f363fdb3551702b6f3470fbd892e9217ce7fd8dcf7286f4cf4202641e8",
- "build/assets/youtube-BhAXns__.js": "686afe9f82ed54826e5cfebc7532521bfeaa091f1b82118d2161a6e3b3f194cd"
+ "build/assets/youtube-BhAXns__.js": "686afe9f82ed54826e5cfebc7532521bfeaa091f1b82118d2161a6e3b3f194cd",
+ "build/icon.ico": "ea10c08932be8207a10bfd247dd8398242a1730d3ea1c89dbd7feba8d855828d",
+ "build/license.txt": "376cc403635df6ac1764e3c9ce520c83c89acee36343dc694c5d81e8fc145abe"
 }

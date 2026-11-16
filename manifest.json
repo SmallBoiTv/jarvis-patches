@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 102,
+      "latestSeq": 103,
       "patches": [
         {
           "seq": 1,
@@ -6809,6 +6809,18 @@
           "restartRequired": true,
           "fileCount": 292,
           "deletedCount": 289
+        },
+        {
+          "seq": 103,
+          "id": "632",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-632/patch-632.zip",
+          "sha256": "dba275daa5fef8205dffc9a32cef90196b573e5f962f62f5c227ac9d853870c6",
+          "size": 363698,
+          "description": "Fix Social Auto-Pilot crash (React #31): unwrap {accountId} envelope objects in autopilot log/queue/accountLabels renders + normalize accountId across main-process IPC/config paths",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 6,
+          "deletedCount": 0
         }
       ]
     }
