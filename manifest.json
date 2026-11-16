@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 105,
+      "latestSeq": 106,
       "patches": [
         {
           "seq": 1,
@@ -6841,6 +6841,18 @@
           "sha256": "4c2236568b6b965a5b539edf316cfc187df039c1db7487601eb280ebd22ad827",
           "size": 289327,
           "description": "Budget trending-post media generation — post without media after 4 min instead of timing out the whole schedule-check",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 106,
+          "id": "635",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-635/patch-635.zip",
+          "sha256": "6c4a6126b259802b6ce5124b7eb332794b54619e461fd23ddaa4cd7e85721504",
+          "size": 126716,
+          "description": "Browser social: stop spawning a second Chrome for error screenshots — skip the shot when the failed page is gone instead of launching chrome--default",
           "date": "2026-11-16",
           "restartRequired": true,
           "fileCount": 3,
