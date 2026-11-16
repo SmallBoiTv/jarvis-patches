@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 108,
+      "latestSeq": 109,
       "patches": [
         {
           "seq": 1,
@@ -6881,6 +6881,18 @@
           "restartRequired": true,
           "fileCount": 14,
           "deletedCount": 0
+        },
+        {
+          "seq": 109,
+          "id": "638",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-638/patch-638.zip",
+          "sha256": "459a6bee7ec282f66de8548ad4dcdcc73e6b471afba6bec82895fa7bc98a25ce",
+          "size": 71980350,
+          "description": "Video: Wan-first HF Spaces + fix LTX 'shapes' bug (9 frames→dur*24), model aliases, anonymous retry on token quota",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 296,
+          "deletedCount": 287
         }
       ]
     }
