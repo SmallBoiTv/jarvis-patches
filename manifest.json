@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 103,
+      "latestSeq": 104,
       "patches": [
         {
           "seq": 1,
@@ -6820,6 +6820,18 @@
           "date": "2026-11-16",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 104,
+          "id": "633",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-633/patch-633.zip",
+          "sha256": "c03b328cb04a582ea03d8cd8f8c4c19ebf331390c7f2f59756ef2714cee50e83",
+          "size": 288984,
+          "description": "Auto-Pilot scheduler: coalesce per-scope schedule-checks — heavy scopes filled the serialized job queue so other accounts' checks ran hours late and missed every post window",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
