@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 109,
+      "latestSeq": 110,
       "patches": [
         {
           "seq": 1,
@@ -6893,6 +6893,18 @@
           "restartRequired": true,
           "fileCount": 296,
           "deletedCount": 287
+        },
+        {
+          "seq": 110,
+          "id": "639",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-639/patch-639.zip",
+          "sha256": "1d09288353966ece34613e6f86cf82eff7c6779550ad1e91c058ab7fe53bd332",
+          "size": 104945,
+          "description": "OmniRoute reliability v2: exclude broken dva provider, matrix-dead as tail not exclusion, thinking demote",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 7,
+          "deletedCount": 0
         }
       ]
     }
