@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 100,
+      "latestSeq": 101,
       "patches": [
         {
           "seq": 1,
@@ -6784,6 +6784,18 @@
           "date": "2026-11-16",
           "restartRequired": true,
           "fileCount": 4,
+          "deletedCount": 0
+        },
+        {
+          "seq": 101,
+          "id": "630",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-630/patch-630.zip",
+          "sha256": "7bffaf311c7f51d9edb26c6e620b8943ae4a245c239140c5ce179109939e4d48",
+          "size": 60940,
+          "description": "web-video bridge: don't declare credit-wall on ambient page text — baseline blocked signals pre-submit, progress evidence outranks body matches",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
