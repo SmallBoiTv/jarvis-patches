@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 107,
+      "latestSeq": 108,
       "patches": [
         {
           "seq": 1,
@@ -6868,6 +6868,18 @@
           "date": "2026-11-16",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 108,
+          "id": "637",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-637/patch-637.zip",
+          "sha256": "797f6a7bf8c3807406caed4e76c8402cc10a94f8dcc49fcd743d80e9b7bd65e5",
+          "size": 116758,
+          "description": "OmniRoute reliability: dead-model registry, empty-content failover, pool probes, tighter combo filters",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 14,
           "deletedCount": 0
         }
       ]
