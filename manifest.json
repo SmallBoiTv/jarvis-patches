@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 104,
+      "latestSeq": 105,
       "patches": [
         {
           "seq": 1,
@@ -6829,6 +6829,18 @@
           "sha256": "c03b328cb04a582ea03d8cd8f8c4c19ebf331390c7f2f59756ef2714cee50e83",
           "size": 288984,
           "description": "Auto-Pilot scheduler: coalesce per-scope schedule-checks — heavy scopes filled the serialized job queue so other accounts' checks ran hours late and missed every post window",
+          "date": "2026-11-16",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 105,
+          "id": "634",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-634/patch-634.zip",
+          "sha256": "4c2236568b6b965a5b539edf316cfc187df039c1db7487601eb280ebd22ad827",
+          "size": 289327,
+          "description": "Budget trending-post media generation — post without media after 4 min instead of timing out the whole schedule-check",
           "date": "2026-11-16",
           "restartRequired": true,
           "fileCount": 3,
