@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 111,
+      "latestSeq": 112,
       "patches": [
         {
           "seq": 1,
@@ -6917,6 +6917,18 @@
           "restartRequired": true,
           "fileCount": 300,
           "deletedCount": 287
+        },
+        {
+          "seq": 112,
+          "id": "641",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-641/patch-641.zip",
+          "sha256": "8eb0b0db9912b84ee80e83edae5ccda66e2fb2a79c8f9d0f2edb5442e1776b1e",
+          "size": 37301,
+          "description": "Hot-patch resolver: fix cross-layer relative require fallback (missing dist/main/ prefix crashed boot on modules that only exist in another layer)",
+          "date": "2026-11-17",
+          "restartRequired": true,
+          "fileCount": 2,
+          "deletedCount": 0
         }
       ]
     }
