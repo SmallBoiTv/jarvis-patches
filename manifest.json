@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 112,
+      "latestSeq": 113,
       "patches": [
         {
           "seq": 1,
@@ -6928,6 +6928,18 @@
           "date": "2026-11-17",
           "restartRequired": true,
           "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 113,
+          "id": "642",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-642/patch-642.zip",
+          "sha256": "ad9ec75204137bb081cd259cf0c1d00905f2099350a847d9285e0b3e8075f071",
+          "size": 9558,
+          "description": "Media Vault: scan classic-editor output dir (jarvis-data/video-audio) + agent roots (media-vault, agent-shots, downloads, tts); skip zero-byte files",
+          "date": "2026-11-17",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
