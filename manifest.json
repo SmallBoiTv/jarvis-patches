@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 110,
+      "latestSeq": 111,
       "patches": [
         {
           "seq": 1,
@@ -6905,6 +6905,18 @@
           "restartRequired": true,
           "fileCount": 7,
           "deletedCount": 0
+        },
+        {
+          "seq": 111,
+          "id": "640",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-640/patch-640.zip",
+          "sha256": "c8a7a37f1a5d202a6f3ca93992b87019b62d4b035983e211b1f73b9fb9b08336",
+          "size": 71857278,
+          "description": "Media Vault watcher bot + Send-to-agent button in media vault + raise 25MB attach caps",
+          "date": "2026-11-17",
+          "restartRequired": true,
+          "fileCount": 300,
+          "deletedCount": 287
         }
       ]
     }
