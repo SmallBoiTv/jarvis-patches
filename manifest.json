@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 115,
+      "latestSeq": 116,
       "patches": [
         {
           "seq": 1,
@@ -6964,6 +6964,18 @@
           "date": "2026-11-17",
           "restartRequired": true,
           "fileCount": 11,
+          "deletedCount": 0
+        },
+        {
+          "seq": 116,
+          "id": "645",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-645/patch-645.zip",
+          "sha256": "628e806233aa02715417319441083f74c844fc408004cb5beab64fc453527190",
+          "size": 100620,
+          "description": "Kaggle: new /kaggle/input/datasets mount layout + offline wheels bundle + LTX complete dataset; ComfyUI fp8_e4m3fn_scaled enum",
+          "date": "2026-11-17",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
