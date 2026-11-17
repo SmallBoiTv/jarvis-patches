@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 114,
+      "latestSeq": 115,
       "patches": [
         {
           "seq": 1,
@@ -6952,6 +6952,18 @@
           "date": "2026-11-17",
           "restartRequired": true,
           "fileCount": 15,
+          "deletedCount": 0
+        },
+        {
+          "seq": 115,
+          "id": "644",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-644/patch-644.zip",
+          "sha256": "52dd90d3c6f61e58ed6327d98fcdf2566585d083a16b940395f5f973d61d12d8",
+          "size": 119454,
+          "description": "ComfyUI ZLUDA repair (cu118 install + injected verify), Kaggle duplicate-kernel resume registry, Wan model precision variants, Colab quota regex, music input index fix",
+          "date": "2026-11-17",
+          "restartRequired": true,
+          "fileCount": 11,
           "deletedCount": 0
         }
       ]
