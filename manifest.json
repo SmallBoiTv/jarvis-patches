@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 121,
+      "latestSeq": 122,
       "patches": [
         {
           "seq": 1,
@@ -7037,6 +7037,18 @@
           "restartRequired": true,
           "fileCount": 299,
           "deletedCount": 287
+        },
+        {
+          "seq": 122,
+          "id": "651",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-651/patch-651.zip",
+          "sha256": "10531ae6dda59870be98bea54eb1f23dcb0021e735e815ca01fcb64f24c9ca7d",
+          "size": 37828,
+          "description": "HLS proxy: rewrite bare URI lines (variant playlists + segments) through loopback — fixes stalled live playback",
+          "date": "2026-11-22",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
         }
       ]
     }
