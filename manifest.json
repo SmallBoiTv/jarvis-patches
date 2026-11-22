@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 119,
+      "latestSeq": 120,
       "patches": [
         {
           "seq": 1,
@@ -7013,6 +7013,18 @@
           "restartRequired": true,
           "fileCount": 298,
           "deletedCount": 288
+        },
+        {
+          "seq": 120,
+          "id": "649",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-649/patch-649.zip",
+          "sha256": "12fabac46d2de13c2b587d57c74707d999e02ecca113a4b8d5cb96dcb358ac6b",
+          "size": 71429026,
+          "description": "Min virality score gate — user-set minimum score; below-bar candidates are skipped before render",
+          "date": "2026-11-22",
+          "restartRequired": false,
+          "fileCount": 288,
+          "deletedCount": 287
         }
       ]
     }
