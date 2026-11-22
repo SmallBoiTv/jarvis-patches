@@ -7007,7 +7007,7 @@
           "id": "648",
           "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-648/patch-648.zip",
           "sha256": "f64dec21e2292eb85757e9d73d05d09a296de86af5d7697d719497a808c19a94",
-          "size": 71659640,
+          "size": 71659516,
           "description": "Clip automation: text banner, streamer facecam stack, live Twitch watch + live clips, community-clip signal, OOM render guard, trending scanner cron",
           "date": "2026-11-22",
           "restartRequired": true,
