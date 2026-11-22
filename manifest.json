@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 120,
+      "latestSeq": 121,
       "patches": [
         {
           "seq": 1,
@@ -7024,6 +7024,18 @@
           "date": "2026-11-22",
           "restartRequired": false,
           "fileCount": 288,
+          "deletedCount": 287
+        },
+        {
+          "seq": 121,
+          "id": "650",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-650/patch-650.zip",
+          "sha256": "299b49cb91c0e217b4c7ea74d6c67b8dc5fca9673dc0aa1bab207b277526b179",
+          "size": 71590886,
+          "description": "Live: HLS loopback proxy (fixes stalled playback), preset streamers, live chat-spike monitor + auto-clip, facecam top/bottom, platform+streamer banner tokens",
+          "date": "2026-11-22",
+          "restartRequired": true,
+          "fileCount": 299,
           "deletedCount": 287
         }
       ]
