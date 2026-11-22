@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 116,
+      "latestSeq": 117,
       "patches": [
         {
           "seq": 1,
@@ -6977,6 +6977,18 @@
           "restartRequired": true,
           "fileCount": 6,
           "deletedCount": 0
+        },
+        {
+          "seq": 117,
+          "id": "646",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-646/patch-646.zip",
+          "sha256": "fa28426870df5852361964fc3c2af36e2a60ef20267c2cf2d170d14a6f7d11dc",
+          "size": 72603297,
+          "description": "Clip Farm + Twitch stream-scan: AI Clips chat-spike detection (TwitchDownloaderCLI), stream-scan windowed transcription, vision review; Clip Farm board page + submit flow (signed-URL upload); web /clip-farm page + APIs + admin tab + Twitch stats cron",
+          "date": "2026-11-22",
+          "restartRequired": true,
+          "fileCount": 335,
+          "deletedCount": 288
         }
       ]
     }
