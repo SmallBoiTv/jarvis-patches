@@ -6989,6 +6989,18 @@
           "restartRequired": true,
           "fileCount": 335,
           "deletedCount": 288
+        },
+        {
+          "seq": 118,
+          "id": "647",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-647/patch-647.zip",
+          "sha256": "d3f51943c03cf6e958f9325408a14790c0ef4e461d52932394f49d1bc7f3555b",
+          "size": 71509980,
+          "description": "AI Clips viral-moment awareness: emote-weighted chat spikes, clip-request detection (clip it/CLIPPED), spike-snapped clip bounds, audience heat in scoring; 60s default target for Twitch clips (renderer-only)",
+          "date": "2026-11-22",
+          "restartRequired": false,
+          "fileCount": 288,
+          "deletedCount": 287
         }
       ]
     }
