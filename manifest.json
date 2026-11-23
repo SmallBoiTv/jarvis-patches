@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 127,
+      "latestSeq": 128,
       "patches": [
         {
           "seq": 1,
@@ -7109,6 +7109,18 @@
           "restartRequired": true,
           "fileCount": 3,
           "deletedCount": 0
+        },
+        {
+          "seq": 128,
+          "id": "657",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-657/patch-657.zip",
+          "sha256": "f3ca761ef5d94e74eb75c3d0552b63dfb1a1b52d900d7c5df9f75e6caede5720",
+          "size": 77309068,
+          "description": "AI Clips render-options card in Social account settings — per-account farm target + full render config (aspect, captions, score gate, facecam, banner)",
+          "date": "2026-11-23",
+          "restartRequired": false,
+          "fileCount": 310,
+          "deletedCount": 309
         }
       ]
     }
