@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 139,
+      "latestSeq": 140,
       "patches": [
         {
           "seq": 1,
@@ -7249,6 +7249,18 @@
           "sha256": "618a37ae11c50ce7497ef6eb81d6b0124f5e9e97f1f689de6dba8164e71d37e2",
           "size": 71457057,
           "description": "AI Clips menu reorganization — per-platform live cards (Twitch/Kick/YouTube), Moment detection / Clip output / Live capture / Clip farm sections",
+          "date": "2026-11-23",
+          "restartRequired": false,
+          "fileCount": 288,
+          "deletedCount": 287
+        },
+        {
+          "seq": 140,
+          "id": "669",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-669/patch-669.zip",
+          "sha256": "cc306ef78e18d3f12a0c8a24ab5e5b1a9a4ed7e20b5f02cc8a2c140781e85ef0",
+          "size": 71457726,
+          "description": "AI Clips live cards — Kick + YouTube top-streamer preset chips",
           "date": "2026-11-23",
           "restartRequired": false,
           "fileCount": 288,
