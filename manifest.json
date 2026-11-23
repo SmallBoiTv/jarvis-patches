@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 135,
+      "latestSeq": 136,
       "patches": [
         {
           "seq": 1,
@@ -7205,6 +7205,18 @@
           "restartRequired": true,
           "fileCount": 291,
           "deletedCount": 287
+        },
+        {
+          "seq": 136,
+          "id": "665",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-665/patch-665.zip",
+          "sha256": "34380ef2a5ca5d0ae121096b92ef7fab9c60e6227bf5e5a0528436143b9c4820",
+          "size": 33577,
+          "description": "Kick live fix: playback_url is top-level on channel API (was read from livestream → always null), ffmpeg maps only first v+a streams (timed_id3 data stream broke bundled ffmpeg on Kick HLS), stderr tail CRLF-split for real error msgs",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 2,
+          "deletedCount": 0
         }
       ]
     }
