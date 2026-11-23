@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 140,
+      "latestSeq": 141,
       "patches": [
         {
           "seq": 1,
@@ -7264,6 +7264,18 @@
           "date": "2026-11-23",
           "restartRequired": false,
           "fileCount": 288,
+          "deletedCount": 287
+        },
+        {
+          "seq": 141,
+          "id": "670",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-670/patch-670.zip",
+          "sha256": "05c9accca7f4b5ccde80e7d1ff1851b44acea740df1cac8025a1b5f41aebdb30",
+          "size": 72305661,
+          "description": "Media Vault — clip-studio scan, jarvis-media playback, remux mp4, vault grid",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 369,
           "deletedCount": 287
         }
       ]
