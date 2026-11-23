@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 141,
+      "latestSeq": 142,
       "patches": [
         {
           "seq": 1,
@@ -7277,6 +7277,18 @@
           "restartRequired": true,
           "fileCount": 369,
           "deletedCount": 287
+        },
+        {
+          "seq": 142,
+          "id": "671",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-671/patch-671.zip",
+          "sha256": "44165f4d6258cb73fdab81002b7bbb8c07027148cf423afca8e545367d650ffb",
+          "size": 71550413,
+          "description": "Media Vault: send-to actions (AI Clips/Video Editor/Jarvis Agent/Auto-Pilot/Clip Farm), source filter, more vault dirs (clip sources/projects, code-video, Deep-Live-Cam), fix mediagallery nav",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 292,
+          "deletedCount": 288
         }
       ]
     }
