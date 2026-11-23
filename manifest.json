@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 138,
+      "latestSeq": 139,
       "patches": [
         {
           "seq": 1,
@@ -7241,6 +7241,18 @@
           "restartRequired": true,
           "fileCount": 3,
           "deletedCount": 0
+        },
+        {
+          "seq": 139,
+          "id": "668",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-668/patch-668.zip",
+          "sha256": "618a37ae11c50ce7497ef6eb81d6b0124f5e9e97f1f689de6dba8164e71d37e2",
+          "size": 71457057,
+          "description": "AI Clips menu reorganization — per-platform live cards (Twitch/Kick/YouTube), Moment detection / Clip output / Live capture / Clip farm sections",
+          "date": "2026-11-23",
+          "restartRequired": false,
+          "fileCount": 288,
+          "deletedCount": 287
         }
       ]
     }
