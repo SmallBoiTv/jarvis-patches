@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 129,
+      "latestSeq": 130,
       "patches": [
         {
           "seq": 1,
@@ -7132,6 +7132,18 @@
           "date": "2026-11-23",
           "restartRequired": true,
           "fileCount": 300,
+          "deletedCount": 287
+        },
+        {
+          "seq": 130,
+          "id": "659",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-659/patch-659.zip",
+          "sha256": "9847ee9e9499aa2c99d5e23d0345209225326cb02ce9f3bb41bf5dbb6818b0f5",
+          "size": 71631347,
+          "description": "AI Clips phase 2: live: watchlist sources (rolling-buffer + chat-spike auto-clips into farm queue), posting windows (best-time drain), crash-resume checkpoints for long VODs, cross-source collab dedup via transcript fingerprints, feedback tuning (engagement → minScore), Clip Farm campaign matching on farmed clips, VOD edge/muted-range filters + UI controls",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 296,
           "deletedCount": 287
         }
       ]
