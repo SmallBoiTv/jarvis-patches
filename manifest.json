@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 123,
+      "latestSeq": 124,
       "patches": [
         {
           "seq": 1,
@@ -7061,6 +7061,18 @@
           "restartRequired": true,
           "fileCount": 294,
           "deletedCount": 287
+        },
+        {
+          "seq": 124,
+          "id": "653",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-653/patch-653.zip",
+          "sha256": "8bc5c4c990ba70de10c2119d1c472d31a8c2fce95901aa5ab262bd8b0f5a7c5f",
+          "size": 72215764,
+          "description": "AI Clips as Jarvis Agent tools (clips_farm_status/run/config) + AI Clips card in Social Auto-Pilot account settings + professional clip defaults",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 298,
+          "deletedCount": 289
         }
       ]
     }
