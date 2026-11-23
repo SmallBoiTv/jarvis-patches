@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 131,
+      "latestSeq": 132,
       "patches": [
         {
           "seq": 1,
@@ -7156,6 +7156,18 @@
           "date": "2026-11-23",
           "restartRequired": true,
           "fileCount": 292,
+          "deletedCount": 288
+        },
+        {
+          "seq": 132,
+          "id": "661",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-661/patch-661.zip",
+          "sha256": "cd485d45a054769e8bb3d5f5795680e7f8beb637ca5c7b69236ee3b1b8ab11a5",
+          "size": 71695509,
+          "description": "Multi-stream clipping + hands-free live auto-clip: autopilot farms up to 5 VOD + 4 live sources per run (new maxSourcesPerRun/maxLivePerRun), Twitch recorders run concurrently with chat+audio-spike auto-clip, kick/yt live via liveRecordOnce; panel Auto-watch arms the recorder itself every 20s (no Record press), stops on offline; IRC reconnect + chatless audio-energy spike fallback",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 290,
           "deletedCount": 288
         }
       ]
