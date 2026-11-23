@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 128,
+      "latestSeq": 129,
       "patches": [
         {
           "seq": 1,
@@ -7121,6 +7121,18 @@
           "restartRequired": false,
           "fileCount": 310,
           "deletedCount": 309
+        },
+        {
+          "seq": 129,
+          "id": "658",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-658/patch-658.zip",
+          "sha256": "9d3f5a0af97ef1ad0a1d741972b748eb24532b41fadce351b38288337ef94fef",
+          "size": 71627600,
+          "description": "AI Clips intelligence: content-type archetypes (non-gaming streams), auto layout, ad-break guard, pending-post spacing/daily caps/approval, blacklist + dead-window filters, per-source overrides, download reuse",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 300,
+          "deletedCount": 287
         }
       ]
     }
