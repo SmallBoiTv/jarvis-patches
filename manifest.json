@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 143,
+      "latestSeq": 144,
       "patches": [
         {
           "seq": 1,
@@ -7300,6 +7300,18 @@
           "date": "2026-11-23",
           "restartRequired": true,
           "fileCount": 306,
+          "deletedCount": 288
+        },
+        {
+          "seq": 144,
+          "id": "673",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-673/patch-673.zip",
+          "sha256": "bdfb75c42036d1b93c0fea1416674977ad30dcf89c00e7920368f5b36446e4d1",
+          "size": 71539568,
+          "description": "AI Clips quality: start-side refine + silence-gap snapping, adjacent-moment merge, music flag + badge, length-fit scoring",
+          "date": "2026-11-23",
+          "restartRequired": false,
+          "fileCount": 289,
           "deletedCount": 288
         }
       ]
