@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 137,
+      "latestSeq": 138,
       "patches": [
         {
           "seq": 1,
@@ -7228,6 +7228,18 @@
           "date": "2026-11-23",
           "restartRequired": true,
           "fileCount": 1,
+          "deletedCount": 0
+        },
+        {
+          "seq": 138,
+          "id": "667",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-667/patch-667.zip",
+          "sha256": "07fd98303d1f13b77ea11c18ded49bcd45b868ddd354b9ce8771c7a6b127b9da",
+          "size": 28571,
+          "description": "Overlay-index fix: meta-less patch layers (hand-built zips w/o .patchmeta.json) contributed nothing to rebuildIndex — their files never mapped and stale tombstones 404'd live chunks (AI Clips 'm.default' lazy-import crash). Index meta-less layers from disk.",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
