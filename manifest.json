@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 134,
+      "latestSeq": 135,
       "patches": [
         {
           "seq": 1,
@@ -7192,6 +7192,18 @@
           "date": "2026-11-23",
           "restartRequired": false,
           "fileCount": 288,
+          "deletedCount": 287
+        },
+        {
+          "seq": 135,
+          "id": "664",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-664/patch-664.zip",
+          "sha256": "fd5806e00620f74e851cb5b415ca9d3a2e5f265fd77f0bd7588b8f72a8f35ae6",
+          "size": 71561300,
+          "description": "Kick/YouTube live split A/V format fix (resolveMediaUrl falls back + picks paired v+a, liveRecordOnce muxes both inputs, -t output-pos), Kick playbackUrl fast-path via channel API status, richer kick liveInfo (viewers/game/title), fancy banner: platform accent + slide-in + styled bar, renderer wiring",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 291,
           "deletedCount": 287
         }
       ]
