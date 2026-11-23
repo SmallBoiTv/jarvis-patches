@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 122,
+      "latestSeq": 123,
       "patches": [
         {
           "seq": 1,
@@ -7049,6 +7049,18 @@
           "restartRequired": true,
           "fileCount": 3,
           "deletedCount": 0
+        },
+        {
+          "seq": 123,
+          "id": "652",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-652/patch-652.zip",
+          "sha256": "9377007d72b934ed60d437d1b6bb4278ea399e02ffd72490fa73c0f053be7cfc",
+          "size": 71591009,
+          "description": "Clip autopilot — farm Twitch/VOD sources on a schedule into social auto-pilot (latest-VOD resolver, dedup state, score-gated pipeline → autopilot queue)",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 294,
+          "deletedCount": 287
         }
       ]
     }
