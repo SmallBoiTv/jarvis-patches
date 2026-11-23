@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 144,
+      "latestSeq": 145,
       "patches": [
         {
           "seq": 1,
@@ -7313,6 +7313,18 @@
           "restartRequired": false,
           "fileCount": 289,
           "deletedCount": 288
+        },
+        {
+          "seq": 145,
+          "id": "674",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-674/patch-674.zip",
+          "sha256": "657959e90ca482e8704ea0355cdaed43cafd57cf9a36a4ac8266a6a4ecf84149",
+          "size": 59670,
+          "description": "ComfyUI crash containment: hardened ZLUDA flags, fp8 probe, VRAM/RAM resource gate, watchdog+crash marker, single-flight, Wan2.2 two-expert+GGUF catalog, music instance fix",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 1,
+          "deletedCount": 0
         }
       ]
     }
