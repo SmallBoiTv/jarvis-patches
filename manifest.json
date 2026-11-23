@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 126,
+      "latestSeq": 127,
       "patches": [
         {
           "seq": 1,
@@ -7093,6 +7093,18 @@
           "sha256": "91e5a79af337ed69e09f7a64e7fefcd377c6abe4ed8179155660da1d3a2c063a",
           "size": 40872,
           "description": "agent tools entry logging — diagnose registration path",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 127,
+          "id": "656",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-656/patch-656.zip",
+          "sha256": "bae447cc6383dd3915bc0e26763611d918d9ef20dd76bab2062f7c1fc10dba1f",
+          "size": 41057,
+          "description": "fix clips_* agent tool registration — entry main.js is always the asar copy, so invoke registerClipAgentTools from setupClipStudio() with global.__jarvisCore poll",
           "date": "2026-11-23",
           "restartRequired": true,
           "fileCount": 3,
