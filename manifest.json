@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 132,
+      "latestSeq": 133,
       "patches": [
         {
           "seq": 1,
@@ -7169,6 +7169,18 @@
           "restartRequired": true,
           "fileCount": 290,
           "deletedCount": 288
+        },
+        {
+          "seq": 133,
+          "id": "662",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-662/patch-662.zip",
+          "sha256": "c7281c3967f227b6557974da2050be9be32841d8a3573b7ce257c34ed1531549",
+          "size": 76953664,
+          "description": "AI Clips UI completeness — platform-aware live input (kick:/yt:/youtube/kick.com → liveRecordOnce record-to-mp4 → pipeline; twitch keeps rolling recorder + auto-watch/auto-clip), Farm settings block (post spacing, daily cap, VODs+live per run, live watch minutes, approval mode, posting windows, feedback tuning, trending suggestions, farm auto-submit), per-source platform chips on the watchlist, and the missing render-opt toggles (AI titles, chat replay overlay, montage, visual dedup). Renderer-only.",
+          "date": "2026-11-23",
+          "restartRequired": false,
+          "fileCount": 310,
+          "deletedCount": 311
         }
       ]
     }
