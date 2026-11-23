@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 125,
+      "latestSeq": 126,
       "patches": [
         {
           "seq": 1,
@@ -7084,6 +7084,18 @@
           "date": "2026-11-23",
           "restartRequired": true,
           "fileCount": 5,
+          "deletedCount": 0
+        },
+        {
+          "seq": 126,
+          "id": "655",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-655/patch-655.zip",
+          "sha256": "91e5a79af337ed69e09f7a64e7fefcd377c6abe4ed8179155660da1d3a2c063a",
+          "size": 40872,
+          "description": "agent tools entry logging — diagnose registration path",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
