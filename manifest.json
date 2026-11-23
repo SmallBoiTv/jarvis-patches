@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 142,
+      "latestSeq": 143,
       "patches": [
         {
           "seq": 1,
@@ -7288,6 +7288,18 @@
           "date": "2026-11-23",
           "restartRequired": true,
           "fileCount": 292,
+          "deletedCount": 288
+        },
+        {
+          "seq": 143,
+          "id": "672",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-672/patch-672.zip",
+          "sha256": "573b346e1cab12968555e8a9d50b6f0f4208623bd1bd1972309db6802443e4d8",
+          "size": 71929111,
+          "description": "Media Vault: full clip-studio coverage + labels, multi-display page windows, drag-and-drop send-to routing",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 306,
           "deletedCount": 288
         }
       ]
