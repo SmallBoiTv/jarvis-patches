@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 133,
+      "latestSeq": 134,
       "patches": [
         {
           "seq": 1,
@@ -7181,6 +7181,18 @@
           "restartRequired": false,
           "fileCount": 310,
           "deletedCount": 311
+        },
+        {
+          "seq": 134,
+          "id": "663",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-663/patch-663.zip",
+          "sha256": "4ee5f60f173b2b79444136a34604875a96bf6c8c08ba6348b0fcbb6c9d75696d",
+          "size": 71196693,
+          "description": "AI Clips farm settings completion — Post-as account selector (socialMediaAccountsList), live watch min, approval mode, posting windows, VOD/live per-run caps, post spacing/daily cap, feedback tune, trending suggest, farm auto-submit + missing render-opt toggles (AI titles, chat overlay, montage, visual dedup); Auto-watch armed chip hidden for non-twitch platforms. Renderer-only.",
+          "date": "2026-11-23",
+          "restartRequired": false,
+          "fileCount": 288,
+          "deletedCount": 287
         }
       ]
     }
