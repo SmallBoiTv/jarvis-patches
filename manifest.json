@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 136,
+      "latestSeq": 137,
       "patches": [
         {
           "seq": 1,
@@ -7216,6 +7216,18 @@
           "date": "2026-11-23",
           "restartRequired": true,
           "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 137,
+          "id": "666",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-666/patch-666.zip",
+          "sha256": "d6ff581ad3c5918e831fa52409169ac5f26f27183b74677e405a12a09f7360b2",
+          "size": 31860,
+          "description": "Kick VOD fetch fix: yt-dlp kick:vod extractor broken upstream — fetchUrl resolves kick.com/video/<uuid> + <slug>/videos/<uuid> via api/v1/video to direct HLS source",
+          "date": "2026-11-23",
+          "restartRequired": true,
+          "fileCount": 1,
           "deletedCount": 0
         }
       ]
