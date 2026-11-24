@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 151,
+      "latestSeq": 152,
       "patches": [
         {
           "seq": 1,
@@ -7393,6 +7393,18 @@
           "sha256": "fb61d87201d02f8f89c28e3d0f9070198881bd2a797268d961071bf651e68eca",
           "size": 71512427,
           "description": "Clip posts carry streamer info + Jarvis auto-clip promo (caption + YouTube description)",
+          "date": "2026-11-24",
+          "restartRequired": false,
+          "fileCount": 290,
+          "deletedCount": 289
+        },
+        {
+          "seq": 152,
+          "id": "681",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-681/patch-681.zip",
+          "sha256": "f727f7a96e25e9a50314f848adf447146c2b3e051c81f6f2f1433547697be16c",
+          "size": 71513353,
+          "description": "Per-account Run Now/Farm Now buttons on Social Media account cards + Media Gallery lazy video thumbnails (fixes scroll freeze)",
           "date": "2026-11-24",
           "restartRequired": false,
           "fileCount": 290,
