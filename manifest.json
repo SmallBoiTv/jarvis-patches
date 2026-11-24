@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 2,
+      "latestSeq": 3,
       "patches": [
         {
           "seq": 1,
@@ -7450,6 +7450,18 @@
           "date": "2026-11-24",
           "restartRequired": true,
           "fileCount": 7,
+          "deletedCount": 0
+        },
+        {
+          "seq": 3,
+          "id": "685",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-685/patch-685.zip",
+          "sha256": "990a66035b5cea60529c73917fd38f15d99a03ef14b389e921153feb0635410c",
+          "size": 16397,
+          "description": "model-hop: candidate universe from advertised /v1/models + provider credential health gate (fixes hops to unroutable/dead-provider models)",
+          "date": "2026-11-24",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
