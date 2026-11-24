@@ -7426,8 +7426,21 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 0,
-      "patches": []
+      "latestSeq": 1,
+      "patches": [
+        {
+          "seq": 1,
+          "id": "683",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-683/patch-683.zip",
+          "sha256": "e48c1851e53750153cf88ab277f7b9a403cd05e6ffdc2d67072f596755a78501",
+          "size": 121576,
+          "description": "Jarvis Agent never dies on a model failure: auto-hops to the next tool-capable model or combo on the same engine (OmniRoute pool ranked by advertised tool_calling), other engines as tail, waits out resets and retries until the task completes; everything/mesh combos now require tool-capable members",
+          "date": "2026-11-24",
+          "restartRequired": true,
+          "fileCount": 10,
+          "deletedCount": 0
+        }
+      ]
     }
   }
 }
