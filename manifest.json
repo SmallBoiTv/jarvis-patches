@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 147,
+      "latestSeq": 148,
       "patches": [
         {
           "seq": 1,
@@ -7348,6 +7348,18 @@
           "date": "2026-11-24",
           "restartRequired": true,
           "fileCount": 4,
+          "deletedCount": 0
+        },
+        {
+          "seq": 148,
+          "id": "677",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-677/patch-677.zip",
+          "sha256": "f2e6ed6bc28e68719805e29ed20890c3e04677d53afaa4082af59021577a647f",
+          "size": 293426,
+          "description": "Autopilot: stream watchdog for hung LLM generation, pool fallback when video platforms lack media, content-invalid results don't trip breaker",
+          "date": "2026-11-24",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
