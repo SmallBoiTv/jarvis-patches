@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 1,
+      "latestSeq": 2,
       "patches": [
         {
           "seq": 1,
@@ -7438,6 +7438,18 @@
           "date": "2026-11-24",
           "restartRequired": true,
           "fileCount": 10,
+          "deletedCount": 0
+        },
+        {
+          "seq": 2,
+          "id": "684",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-684/patch-684.zip",
+          "sha256": "d0570d4231a18c73a06b52e5cb0f5df16e31fd208279e22bb6a45313b67d742c",
+          "size": 190382,
+          "description": "Fix Jarvis OmniRoute card never activating: menus PATCH now sends threadId (multi-thread bots refused bot-level modelSelection change with 409), vendored jarvis-menus.js/.css + dist/index.html so the card survives installs, and the hermes default-bot seed no longer stomps the user's model pick",
+          "date": "2026-11-24",
+          "restartRequired": true,
+          "fileCount": 7,
           "deletedCount": 0
         }
       ]

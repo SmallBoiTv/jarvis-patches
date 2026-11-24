@@ -1268,10 +1268,10 @@
  "dist/main/jarvis-agent-preload.d.ts.map": "29177601f5f25b39287337b702f11e7308cfa174b3a498683520ddfd049f4dc6",
  "dist/main/jarvis-agent-preload.js": "2a68109390f3e762288a8c55baabeb70b9efbffa6a8d23c6f8f2499a0ea03981",
  "dist/main/jarvis-agent-preload.js.map": "45359ae1e4e0ba6c237b9daecbb7f8201c832b658cbefb6f6eecf916f6a62337",
- "dist/main/jarvis-agent.d.ts": "a76191a5e7a5956c3d35dbe864da3064a078448fa9658bd8f30a895d415f91e3",
- "dist/main/jarvis-agent.d.ts.map": "17d2b736d1845aa6b513f4d56d44da374df46a36843793c5cd467d0873ef0cc0",
- "dist/main/jarvis-agent.js": "0db7e54bc95b4b18719c5501732e505c9783a5a2db8342723082b8a5d0c9d2fb",
- "dist/main/jarvis-agent.js.map": "e579c85c7c526a0aeb0778613774d2d044ce8daa41b52fa45707265aa4260633",
+ "dist/main/jarvis-agent.d.ts": "0064f8022ddd292d526dabefddfff97cb7e73a6c064bf41336f4ed0a9a3df154",
+ "dist/main/jarvis-agent.d.ts.map": "36bf28f4f3feae2526b8e5adc5ca4bb7ce5b0b0a16ab9e5dd4dfffe4956a4762",
+ "dist/main/jarvis-agent.js": "6e48aca0396879855db55243429b95ee9af888ae2df4d8c9c7bb65fc149d96bd",
+ "dist/main/jarvis-agent.js.map": "13c350ae9602acd2752e34bcb4df2e9bdff49279fb5347c668388b1057e5ac2d",
  "dist/main/jarvis-deep-research.d.ts": "fe3ac544ed3e81385a96670f8433092a7b2e4ce42929166bda7c289c5355d472",
  "dist/main/jarvis-deep-research.d.ts.map": "640324c1eea4158370f5262791fe8674bb801f5f1b5a16157f9dcfa6f6839c99",
  "dist/main/jarvis-deep-research.js": "b4b404ab0ee54c8de8d3a49816a5c934498898c19d30114f3b614aceb36a4f62",
@@ -39037,5 +39037,8 @@
  "vendor/jarvis-agent/server/model-hop.ts": "5d80b6407ec1c960dbb6aff798ad3b102d1e1018b40f3f03c30f0e9d9a46f523",
  "vendor/jarvis-agent/server/model-hop.test.ts": "fb3573c1ca7d0e7c4e60a5ee60a2fdbba450081a37f8b23e533ea0167d88cfa2",
  "vendor/jarvis-agent/server/quota-switch.ts": "2067b76bd0bcbe8655b02a08a885767cf49aa4badecebcbff399cbaf45436110",
- "vendor/jarvis-agent/server/host/quota-switch.ts": "03a01920558a7c14b72f11c10050e0bfcf7e3e003b4c1836dac1294fe1857fe9"
+ "vendor/jarvis-agent/server/host/quota-switch.ts": "03a01920558a7c14b72f11c10050e0bfcf7e3e003b4c1836dac1294fe1857fe9",
+ "vendor/jarvis-agent/dist/assets/jarvis-menus.js": "6a57cd8f5d879fc97dc7e6722525abe729a07e2a40163fdad8ef0752ceef6500",
+ "vendor/jarvis-agent/dist/assets/jarvis-menus.css": "f3990e705c230829a51d7f571ecb54680b0d273ba190f41c842d46cc9409a322",
+ "vendor/jarvis-agent/dist/index.html": "a6497ccc74f1de0a5e0a71d5c1206b60dae2c7230c65a0dfe0921d359bbffe4d"
 }
