@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 145,
+      "latestSeq": 146,
       "patches": [
         {
           "seq": 1,
@@ -7325,6 +7325,18 @@
           "restartRequired": true,
           "fileCount": 1,
           "deletedCount": 0
+        },
+        {
+          "seq": 146,
+          "id": "675",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-675/patch-675.zip",
+          "sha256": "e3d19b47764684fad9c50c60720b61f3381e263283e4c186aab254f407bd7448",
+          "size": 73230748,
+          "description": "Social autopilot: browser-enable fix, VA pool fallback, auto-narration, mood sound query; clip-farm talk floor, kick/yt watchlist, yt-dlp retry",
+          "date": "2026-11-24",
+          "restartRequired": true,
+          "fileCount": 414,
+          "deletedCount": 288
         }
       ]
     }
