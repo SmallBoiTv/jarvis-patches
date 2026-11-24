@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 152,
+      "latestSeq": 153,
       "patches": [
         {
           "seq": 1,
@@ -7408,6 +7408,18 @@
           "date": "2026-11-24",
           "restartRequired": false,
           "fileCount": 290,
+          "deletedCount": 289
+        },
+        {
+          "seq": 153,
+          "id": "682",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-682/patch-682.zip",
+          "sha256": "6acd7c8b9fa3c9f1444df000b05ed3cc2022d95cc0ec38bc6e78d93fd41699c6",
+          "size": 71833297,
+          "description": "Pool-fallback videos get narration + trending sound (silent TikTok fix); per-account Audio & Sounds settings + full-editor deep link",
+          "date": "2026-11-24",
+          "restartRequired": true,
+          "fileCount": 294,
           "deletedCount": 289
         }
       ]
