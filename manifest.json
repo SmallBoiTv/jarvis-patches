@@ -7423,6 +7423,11 @@
           "deletedCount": 289
         }
       ]
+    },
+    "1.0.925": {
+      "filemap": "filemaps/1.0.925.json",
+      "latestSeq": 0,
+      "patches": []
     }
   }
 }
