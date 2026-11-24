@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 149,
+      "latestSeq": 150,
       "patches": [
         {
           "seq": 1,
@@ -7372,6 +7372,18 @@
           "date": "2026-11-24",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 150,
+          "id": "679",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-679/patch-679.zip",
+          "sha256": "90c1930769bf60bb8fc961682cfa7e14b795fecd0bef6f8aa6cf32acb98c6d04",
+          "size": 301634,
+          "description": "Pool-video claimed→posted marking on trending path + 'failed' claim release on both post paths",
+          "date": "2026-11-24",
+          "restartRequired": true,
+          "fileCount": 7,
           "deletedCount": 0
         }
       ]
