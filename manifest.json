@@ -5572,7 +5572,7 @@
     },
     "1.0.924": {
       "filemap": "filemaps/1.0.924.json",
-      "latestSeq": 148,
+      "latestSeq": 149,
       "patches": [
         {
           "seq": 1,
@@ -7360,6 +7360,18 @@
           "date": "2026-11-24",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 149,
+          "id": "678",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-678/patch-678.zip",
+          "sha256": "21b9768712be7b0bd3d4bc094aea06a6873075d818f584e9e5992957c625fe4e",
+          "size": 421095,
+          "description": "YouTube Studio upload: wait for uploads dialog (30s) + drive Create menu when it doesn't open — fixes 'Failed to upload media' on every YT post; clear media-budget timer after race resolves",
+          "date": "2026-11-24",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
