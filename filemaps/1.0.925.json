@@ -39041,5 +39041,5 @@
  "vendor/jarvis-agent/dist/assets/jarvis-menus.js": "6a57cd8f5d879fc97dc7e6722525abe729a07e2a40163fdad8ef0752ceef6500",
  "vendor/jarvis-agent/dist/assets/jarvis-menus.css": "f3990e705c230829a51d7f571ecb54680b0d273ba190f41c842d46cc9409a322",
  "vendor/jarvis-agent/dist/index.html": "a6497ccc74f1de0a5e0a71d5c1206b60dae2c7230c65a0dfe0921d359bbffe4d",
- "vendor/jarvis-agent/server/drivers/openai-compat.ts": "9cf7139068147a506428a66286685c3eb20357cf234122e4d420b3e5e4c3b3fd"
+ "vendor/jarvis-agent/server/drivers/openai-compat.ts": "9afd23db88639c867174a4d8ca60bcd184716fd65440e740773429f812d7ecb7"
 }

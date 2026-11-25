@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 13,
+      "latestSeq": 14,
       "patches": [
         {
           "seq": 1,
@@ -7582,6 +7582,18 @@
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 14,
+          "id": "696",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-696/patch-696.zip",
+          "sha256": "8657bd9739b5eb9a930e1401e93eda6cd66bf235ad1e0ed7ae6d0aa2ae4de63c",
+          "size": 7019,
+          "description": "agent driver: advertisedContextWindow reads meta.n_ctx from /v1/models rows (llama.cpp served window without /props roundtrip)",
+          "date": "2026-11-25",
+          "restartRequired": false,
+          "fileCount": 1,
           "deletedCount": 0
         }
       ]
