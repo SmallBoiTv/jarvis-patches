@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 19,
+      "latestSeq": 20,
       "patches": [
         {
           "seq": 1,
@@ -7654,6 +7654,18 @@
           "date": "2026-11-25",
           "restartRequired": false,
           "fileCount": 290,
+          "deletedCount": 289
+        },
+        {
+          "seq": 20,
+          "id": "702",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-702/patch-702.zip",
+          "sha256": "ac33d1bd26092323d717d763c75b569c655ec7e97a8f77e3480419064ab273eb",
+          "size": 71534575,
+          "description": "OmniRoute empty-stream retry x3->x8, chat() candidate walk cap 3->8, LSP error chip counts string severities",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 291,
           "deletedCount": 289
         }
       ]
