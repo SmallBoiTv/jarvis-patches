@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 8,
+      "latestSeq": 9,
       "patches": [
         {
           "seq": 1,
@@ -7522,6 +7522,18 @@
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 9,
+          "id": "691",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-691/patch-691.zip",
+          "sha256": "68ef96350343b285250554c6b0a7a837fee847ff32d4e5916521f4abe88fa9db",
+          "size": 103292,
+          "description": "local provider API: honor aiConfig.maxOutputTokens when callers omit max_tokens + /no_think on thinking models for agent tool calls",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 4,
           "deletedCount": 0
         }
       ]
