@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 5,
+      "latestSeq": 6,
       "patches": [
         {
           "seq": 1,
@@ -7483,6 +7483,18 @@
           "sha256": "39ec205930798a7d72564a3c7aa52827b0adf27615c564f7d60b2443a6d3465b",
           "size": 103732,
           "description": "persist metrics-dead models into omni-dead-models registry (survives OmniRoute restart; 12h TTL preserves self-heal)",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 6,
+          "id": "688",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-688/patch-688.zip",
+          "sha256": "cb38a2176423097ff527d0555d00dc3e8b51481a324d91ba1e986900e9b16302",
+          "size": 104166,
+          "description": "Register Jarvis Local AI (:8765 GGUF server) as agent provider instance",
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 3,
