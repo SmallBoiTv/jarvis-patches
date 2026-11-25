@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 16,
+      "latestSeq": 17,
       "patches": [
         {
           "seq": 1,
@@ -7619,6 +7619,18 @@
           "restartRequired": true,
           "fileCount": 6,
           "deletedCount": 0
+        },
+        {
+          "seq": 17,
+          "id": "699",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-699/patch-699.zip",
+          "sha256": "b33d872ba08879a8a1004b5fa67fce3df5d87951d9bf46e1497f192249e663d1",
+          "size": 71521747,
+          "description": "Problems panel: workspace tsc sweep parses exec-command string output; per-file diagnostics via Monaco TS worker (typescript pkg not bundled in asar — IPC always returned [])",
+          "date": "2026-11-25",
+          "restartRequired": false,
+          "fileCount": 290,
+          "deletedCount": 289
         }
       ]
     }
