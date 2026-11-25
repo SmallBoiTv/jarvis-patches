@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 11,
+      "latestSeq": 12,
       "patches": [
         {
           "seq": 1,
@@ -7558,6 +7558,18 @@
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 4,
+          "deletedCount": 0
+        },
+        {
+          "seq": 12,
+          "id": "694",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-694/patch-694.zip",
+          "sha256": "3fdb5d1f6f76873bfdd301d6483cf13286a2224b2f4d08c712cd35a75059c5c0",
+          "size": 105649,
+          "description": "jarvisbms seed: fall back to live /v1/models when plugin listModels unavailable so managedModels+contextWindow persist",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
