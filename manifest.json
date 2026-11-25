@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 4,
+      "latestSeq": 5,
       "patches": [
         {
           "seq": 1,
@@ -7474,6 +7474,18 @@
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 5,
+          "id": "687",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-687/patch-687.zip",
+          "sha256": "39ec205930798a7d72564a3c7aa52827b0adf27615c564f7d60b2443a6d3465b",
+          "size": 103732,
+          "description": "persist metrics-dead models into omni-dead-models registry (survives OmniRoute restart; 12h TTL preserves self-heal)",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
