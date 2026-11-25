@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 12,
+      "latestSeq": 13,
       "patches": [
         {
           "seq": 1,
@@ -7567,6 +7567,18 @@
           "sha256": "3fdb5d1f6f76873bfdd301d6483cf13286a2224b2f4d08c712cd35a75059c5c0",
           "size": 105649,
           "description": "jarvisbms seed: fall back to live /v1/models when plugin listModels unavailable so managedModels+contextWindow persist",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 13,
+          "id": "695",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-695/patch-695.zip",
+          "sha256": "9bf9850dfbd7657ec4a986c0091fd939579cbd4a29a359791ed955b145b53850",
+          "size": 106250,
+          "description": "jarvisbms seed: deferred retry fills managedModels once BMS finishes model warmup (running server picks it up live via config stamp)",
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 3,
