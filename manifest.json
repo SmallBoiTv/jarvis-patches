@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 6,
+      "latestSeq": 7,
       "patches": [
         {
           "seq": 1,
@@ -7495,6 +7495,18 @@
           "sha256": "cb38a2176423097ff527d0555d00dc3e8b51481a324d91ba1e986900e9b16302",
           "size": 104166,
           "description": "Register Jarvis Local AI (:8765 GGUF server) as agent provider instance",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 7,
+          "id": "689",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-689/patch-689.zip",
+          "sha256": "5f8d0f2beb7a9dc416f195b997ce4e85a10d280d8af43e43727c57dd8069be24",
+          "size": 104556,
+          "description": "Fix config-killing icon bug: 'jarvis' preset invalidates whole config.json; register Jarvis Local AI (:8765) + scrub invalid provider icons",
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 3,
