@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 10,
+      "latestSeq": 11,
       "patches": [
         {
           "seq": 1,
@@ -7546,6 +7546,18 @@
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 11,
+          "id": "693",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-693/patch-693.zip",
+          "sha256": "1cd3afd9d39ca48de20eb4099f02f3fe8e8544242fcf7657888d9dbb6c341389",
+          "size": 112103,
+          "description": "Declare 32K contextWindow on jarvislocal/jarvisbms managed models so agent compaction budget matches the served window",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 4,
           "deletedCount": 0
         }
       ]

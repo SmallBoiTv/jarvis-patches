@@ -1269,9 +1269,9 @@
  "dist/main/jarvis-agent-preload.js": "2a68109390f3e762288a8c55baabeb70b9efbffa6a8d23c6f8f2499a0ea03981",
  "dist/main/jarvis-agent-preload.js.map": "45359ae1e4e0ba6c237b9daecbb7f8201c832b658cbefb6f6eecf916f6a62337",
  "dist/main/jarvis-agent.d.ts": "0064f8022ddd292d526dabefddfff97cb7e73a6c064bf41336f4ed0a9a3df154",
- "dist/main/jarvis-agent.d.ts.map": "9d6121634f7ec2d48e88a4535d3d366157f9c3f84e13b86c0744eb54eea2ed0a",
- "dist/main/jarvis-agent.js": "a8fc58910ec08fa006a86300fc2a87182ed469cd65bd31de47970e6c08547614",
- "dist/main/jarvis-agent.js.map": "82e28fc743a2ac370ad8eaf264ccf70c315e62634278a50393eea75f109c7821",
+ "dist/main/jarvis-agent.d.ts.map": "d686559f92baaa29f024d15b2ac54f4ef2293c04a14c381174eddc3956988e8d",
+ "dist/main/jarvis-agent.js": "0d0c906250cd8022c0427d0b5eb6bf6ce8d031d54d02f5cf50bc430ed115c5e3",
+ "dist/main/jarvis-agent.js.map": "5e3a2b9aa7dfb6a4058484a6137b477352162910d3e007c0cdc9e75e7fd19b03",
  "dist/main/jarvis-deep-research.d.ts": "fe3ac544ed3e81385a96670f8433092a7b2e4ce42929166bda7c289c5355d472",
  "dist/main/jarvis-deep-research.d.ts.map": "640324c1eea4158370f5262791fe8674bb801f5f1b5a16157f9dcfa6f6839c99",
  "dist/main/jarvis-deep-research.js": "b4b404ab0ee54c8de8d3a49816a5c934498898c19d30114f3b614aceb36a4f62",
@@ -39040,5 +39040,6 @@
  "vendor/jarvis-agent/server/host/quota-switch.ts": "03a01920558a7c14b72f11c10050e0bfcf7e3e003b4c1836dac1294fe1857fe9",
  "vendor/jarvis-agent/dist/assets/jarvis-menus.js": "6a57cd8f5d879fc97dc7e6722525abe729a07e2a40163fdad8ef0752ceef6500",
  "vendor/jarvis-agent/dist/assets/jarvis-menus.css": "f3990e705c230829a51d7f571ecb54680b0d273ba190f41c842d46cc9409a322",
- "vendor/jarvis-agent/dist/index.html": "a6497ccc74f1de0a5e0a71d5c1206b60dae2c7230c65a0dfe0921d359bbffe4d"
+ "vendor/jarvis-agent/dist/index.html": "a6497ccc74f1de0a5e0a71d5c1206b60dae2c7230c65a0dfe0921d359bbffe4d",
+ "vendor/jarvis-agent/server/drivers/openai-compat.ts": "9cf7139068147a506428a66286685c3eb20357cf234122e4d420b3e5e4c3b3fd"
 }
