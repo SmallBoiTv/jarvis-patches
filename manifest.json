@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 3,
+      "latestSeq": 4,
       "patches": [
         {
           "seq": 1,
@@ -7462,6 +7462,18 @@
           "date": "2026-11-24",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 4,
+          "id": "686",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-686/patch-686.zip",
+          "sha256": "83fb52a3575cc993f7ea6e64641a4fa6a175daeb50521f7cd319ece5240f97c6",
+          "size": 120341,
+          "description": "combo reliability: hygiene loop consumes /api/combos/metrics (members with 3+ fails 0 successes sink to tail, observed winners rank up), connUp respects testStatus (aion/moonshot demoted), model-hop drops metrics-dead candidates",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
