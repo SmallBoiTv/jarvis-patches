@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 9,
+      "latestSeq": 10,
       "patches": [
         {
           "seq": 1,
@@ -7534,6 +7534,18 @@
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 4,
+          "deletedCount": 0
+        },
+        {
+          "seq": 10,
+          "id": "692",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-692/patch-692.zip",
+          "sha256": "2b3ec167750656f8d3d7934a140c0c6a78a901f4fae0f0d2d828ddd882f07644",
+          "size": 99214,
+          "description": "local provider API: auto-load models at 32K context (was 4K) for /v1/* calls + reload-with-bigger-window when a small-context instance is already resident — fixes exceed_context_size on agent prompts",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 3,
           "deletedCount": 0
         }
       ]
