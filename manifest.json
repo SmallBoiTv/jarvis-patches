@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 20,
+      "latestSeq": 21,
       "patches": [
         {
           "seq": 1,
@@ -7667,6 +7667,18 @@
           "restartRequired": true,
           "fileCount": 291,
           "deletedCount": 289
+        },
+        {
+          "seq": 21,
+          "id": "703",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-703/patch-703.zip",
+          "sha256": "228d8381f887f480b25a4b4075439530d68d26c68f179dfabd8a798e60cbb0ec",
+          "size": 21548,
+          "description": "OmniRoute: retry empty stream on bare EOF (no DONE/finish_reason) — mark dead + walk candidates x8",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
         }
       ]
     }
