@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 7,
+      "latestSeq": 8,
       "patches": [
         {
           "seq": 1,
@@ -7507,6 +7507,18 @@
           "sha256": "5f8d0f2beb7a9dc416f195b997ce4e85a10d280d8af43e43727c57dd8069be24",
           "size": 104556,
           "description": "Fix config-killing icon bug: 'jarvis' preset invalidates whole config.json; register Jarvis Local AI (:8765) + scrub invalid provider icons",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 8,
+          "id": "690",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-690/patch-690.zip",
+          "sha256": "8561e7346159e02e8962ee20d28e844f850b0bc126484f24a086fd32655f8eed",
+          "size": 104929,
+          "description": "jarvis-agent: seed jarvisbms instance (openai-compat -> BMS server, pinned port 18080 w/ live-URL override)",
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 3,
