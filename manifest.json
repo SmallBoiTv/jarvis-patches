@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 18,
+      "latestSeq": 19,
       "patches": [
         {
           "seq": 1,
@@ -7639,6 +7639,18 @@
           "sha256": "0dc72a2f8148b3f37e4b8918e549d6665971cbd36357db05503ab3bf77f5f960",
           "size": 71521605,
           "description": "Problems panel: fix Monaco worker factory call (getTypeScriptWorker resolves a factory, not the client) so per-file diagnostics actually populate",
+          "date": "2026-11-25",
+          "restartRequired": false,
+          "fileCount": 290,
+          "deletedCount": 289
+        },
+        {
+          "seq": 19,
+          "id": "701",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-701/patch-701.zip",
+          "sha256": "81fff9f2a2c548ba2613e20a31ed6593867b9c594c19fc6b1ea921dc6bc15cf3",
+          "size": 71521819,
+          "description": "Problems panel: parse CRLF in tsc sweep output (split /\\r?\\n/ — '.' can't match \\r so every line failed to parse on Windows)",
           "date": "2026-11-25",
           "restartRequired": false,
           "fileCount": 290,
