@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 14,
+      "latestSeq": 15,
       "patches": [
         {
           "seq": 1,
@@ -7595,6 +7595,18 @@
           "restartRequired": false,
           "fileCount": 1,
           "deletedCount": 0
+        },
+        {
+          "seq": 15,
+          "id": "697",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-697/patch-697.zip",
+          "sha256": "1a6536482a274874ada5b9bd3cd1a3ec692b776cf9f8a1f6784fc47b18bf8ae4",
+          "size": 71559650,
+          "description": "Studio fixes: mobile scaffold dir + Windows toolchain + error surfacing; OmniRoute auto fallback + empty-stream detection; website gen deadline + brief gate + UI throttle; coding WRITE-block escalation + local timeout floors + stale plan retire + workspace tsc problems",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 296,
+          "deletedCount": 289
         }
       ]
     }
