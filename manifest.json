@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 17,
+      "latestSeq": 18,
       "patches": [
         {
           "seq": 1,
@@ -7627,6 +7627,18 @@
           "sha256": "b33d872ba08879a8a1004b5fa67fce3df5d87951d9bf46e1497f192249e663d1",
           "size": 71521747,
           "description": "Problems panel: workspace tsc sweep parses exec-command string output; per-file diagnostics via Monaco TS worker (typescript pkg not bundled in asar — IPC always returned [])",
+          "date": "2026-11-25",
+          "restartRequired": false,
+          "fileCount": 290,
+          "deletedCount": 289
+        },
+        {
+          "seq": 18,
+          "id": "700",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-700/patch-700.zip",
+          "sha256": "0dc72a2f8148b3f37e4b8918e549d6665971cbd36357db05503ab3bf77f5f960",
+          "size": 71521605,
+          "description": "Problems panel: fix Monaco worker factory call (getTypeScriptWorker resolves a factory, not the client) so per-file diagnostics actually populate",
           "date": "2026-11-25",
           "restartRequired": false,
           "fileCount": 290,
