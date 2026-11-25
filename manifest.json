@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 15,
+      "latestSeq": 16,
       "patches": [
         {
           "seq": 1,
@@ -7607,6 +7607,18 @@
           "restartRequired": true,
           "fileCount": 296,
           "deletedCount": 289
+        },
+        {
+          "seq": 16,
+          "id": "698",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-698/patch-698.zip",
+          "sha256": "ec8e52a7945e51375c77b8a6a45269f96b7a9c493f998afe411d3006b66cdb6e",
+          "size": 39894,
+          "description": "OmniRoute: empty-stream (reasoning-only) retries next candidate x3; Mobile scaffold: fix package.json name + patch template Themed.tsx ComponentProps so typecheck gate passes",
+          "date": "2026-11-25",
+          "restartRequired": true,
+          "fileCount": 6,
+          "deletedCount": 0
         }
       ]
     }
