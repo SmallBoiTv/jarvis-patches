@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 33,
+      "latestSeq": 34,
       "patches": [
         {
           "seq": 1,
@@ -7823,6 +7823,18 @@
           "restartRequired": true,
           "fileCount": 303,
           "deletedCount": 296
+        },
+        {
+          "seq": 34,
+          "id": "716",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-716/patch-716.zip",
+          "sha256": "03b361d2217b902ab675ddcfaf839c74cc1553544fb9339a9da8b07ac0cd54b1",
+          "size": 71760641,
+          "description": "Notch: Jarvis Agent in the pill — Ask runs real agent tasks (tools/files/shell) with live step streaming (notch-agent-step/done bridge; engine only pushes progress to window[0]), agent/chat mode chip, live agent cards with stop + summary + files-changed, terminal-status companion notices",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 303,
+          "deletedCount": 297
         }
       ]
     }
