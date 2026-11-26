@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 24,
+      "latestSeq": 25,
       "patches": [
         {
           "seq": 1,
@@ -7714,6 +7714,18 @@
           "date": "2026-11-26",
           "restartRequired": true,
           "fileCount": 6,
+          "deletedCount": 0
+        },
+        {
+          "seq": 25,
+          "id": "707",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-707/patch-707.zip",
+          "sha256": "f9f918536c08c7be0467f3a6a22e1b4f535f9968656be049f3b9548c20f9b71f",
+          "size": 258717,
+          "description": "/app fix: unconfigured bots (connectorTools undefined = unrestricted) resolve all globally-connected services — lazy connectedServices fetch at the rewrite site, else /app wrongly reports 'not connected'",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 2,
           "deletedCount": 0
         }
       ]

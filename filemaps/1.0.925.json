@@ -39046,8 +39046,8 @@
  "dist/main/cascade-model-hop.d.ts.map": "228b7fe6f37d6eb3b0b503b7afe931be1c521da0ae72790b0b210e8c1e45be8f",
  "dist/main/cascade-model-hop.js": "cc894b7666e60708040a8a51a7c085faa45351c72f04bd37e46a05f7b94f6ba2",
  "dist/main/cascade-model-hop.js.map": "531747773ecd8dec6631615f3a88ed10092d08c0d8819684d6b5a2fb11dec4a6",
- "vendor/jarvis-agent/server/app-command.ts": "a5bc4431aee64b74c05d49333674ec6e63156b94d4998bd11d2f978834569d21",
- "vendor/jarvis-agent/server/index.ts": "57d8bb78ca1ebdcb195c75587bb65213e588dfee94b3c40ed94eb9ade89d252b",
+ "vendor/jarvis-agent/server/app-command.ts": "228b348696c03c57ceb4dcca63cefda1205b6caed7442a180695864620fdf483",
+ "vendor/jarvis-agent/server/index.ts": "e1d7daca051c5e6132dab1edf00ff410b3cb01f92ba1df10b3d8f10d4a4da683",
  "vendor/jarvis-agent/shared/skill-command.ts": "1bc0d023b0bd86114f0ffce2480d1c93d5b2769a99d13adb0370711f6571758c",
  "vendor/jarvis-agent/src/lib/composer-commands.ts": "fea2c2acd3c9fc58eb12f16d6c65873c1cafd5d977cfed677101cd001548ffd1"
 }
