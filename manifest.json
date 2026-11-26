@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 29,
+      "latestSeq": 30,
       "patches": [
         {
           "seq": 1,
@@ -7775,6 +7775,18 @@
           "restartRequired": true,
           "fileCount": 2,
           "deletedCount": 0
+        },
+        {
+          "seq": 30,
+          "id": "712",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-712/patch-712.zip",
+          "sha256": "3f7813df37cb037f1351c45951b63009d5411e5509156fec84db445bc1852077",
+          "size": 72337326,
+          "description": "Jarvis Notch — Dynamic-Island-style always-on-top island docked top-center (Alt+Shift+Space): spring-morph pill + expanded panel with Agent fleet/approvals/steer, Assistant, Media Studio quick-gen+queue, timers, music GSMTC, clipboard, stats, shelf, notes, calendar, captures, files, heatmap, palette; Settings toggle; concept ported from OpenNotch (MIT)",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 308,
+          "deletedCount": 290
         }
       ]
     }
