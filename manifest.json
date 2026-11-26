@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 32,
+      "latestSeq": 33,
       "patches": [
         {
           "seq": 1,
@@ -7811,6 +7811,18 @@
           "restartRequired": true,
           "fileCount": 3,
           "deletedCount": 0
+        },
+        {
+          "seq": 33,
+          "id": "715",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-715/patch-715.zip",
+          "sha256": "82fae3bffff94d48109769ba5288dd03d171be3ff612ea266c87448d198db4ad",
+          "size": 71758816,
+          "description": "Notch v2: multi-display (follow-cursor default + per-monitor cycle button + set-display IPC), always-visible background mode (all-workspaces pin + alwaysShow boot), dock align L/C/R, live progress ring IPC, approve-all-safe, pinned do: templates, media→social composer, accent picker, Settings controls (intensity/hoverExpand/alwaysShow/accent), Android notice mirror via companion bridge",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 303,
+          "deletedCount": 296
         }
       ]
     }
