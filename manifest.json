@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 30,
+      "latestSeq": 31,
       "patches": [
         {
           "seq": 1,
@@ -7787,6 +7787,18 @@
           "restartRequired": true,
           "fileCount": 308,
           "deletedCount": 290
+        },
+        {
+          "seq": 31,
+          "id": "713",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-713/patch-713.zip",
+          "sha256": "d752b3904bae0b3f89ca0b6164e38cecc9ec548566bd9d0c99f9f25e16549674",
+          "size": 13621,
+          "description": "Notch fix: lazy dep bootstrap via __agenticEngine global + window-scan — bundled entry main.js top-level never re-runs under layers so initNotch() never fired; guard layer now self-inits (hotkey, cfg, timers)",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 3,
+          "deletedCount": 0
         }
       ]
     }
