@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 26,
+      "latestSeq": 27,
       "patches": [
         {
           "seq": 1,
@@ -7735,6 +7735,18 @@
           "sha256": "2d819d743e99753b98dd189c5760c502bb239c9ed18b554372d3028100b30104",
           "size": 15897,
           "description": "/app menu rows inserted after /setup (top-visible) instead of appended below the 320px scroll fold; removed 8-row cap that hid /app youtube; bare /app row now inserts '/app ' cleanly",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 27,
+          "id": "709",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-709/patch-709.zip",
+          "sha256": "6498606a32a7e640a79c9d52e442e206af34ad189f32acefcfb0b71b463e81b3",
+          "size": 16154,
+          "description": "/app menu rows: anchor detection now matches leaf text nodes (row textContent concatenates label+desc so /setup\\b never matched) — rows land right after /setup in-order, all 9 services listed",
           "date": "2026-11-26",
           "restartRequired": true,
           "fileCount": 2,
