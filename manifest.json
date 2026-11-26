@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 23,
+      "latestSeq": 24,
       "patches": [
         {
           "seq": 1,
@@ -7703,6 +7703,18 @@
           "restartRequired": true,
           "fileCount": 298,
           "deletedCount": 289
+        },
+        {
+          "seq": 24,
+          "id": "706",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-706/patch-706.zip",
+          "sha256": "bb4e59a8ae668293fb31fdc2dcf9634f2c79b07e611142e548b7022a9b2fd554",
+          "size": 278292,
+          "description": "Jarvis Agent /app command: scope a turn to a connected app (server rewrite /app <service> -> [Command /app] instruction naming granted connector tools; 'app' reserved in BUILT_IN_SLASH_COMMANDS; slash-menu rows + /app service-completion popup injected into the COMMANDS menu via webview preload)",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 6,
+          "deletedCount": 0
         }
       ]
     }
