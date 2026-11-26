@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 28,
+      "latestSeq": 29,
       "patches": [
         {
           "seq": 1,
@@ -7763,6 +7763,18 @@
           "restartRequired": true,
           "fileCount": 302,
           "deletedCount": 289
+        },
+        {
+          "seq": 29,
+          "id": "711",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-711/patch-711.zip",
+          "sha256": "1512a6174f9cf59b823b96d347ee5f22d84d58f328696fcf2ad24957f9174ee2",
+          "size": 17394,
+          "description": "jarvis slash commands (/videoedit etc) into agent / COMMANDS menu",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 2,
+          "deletedCount": 0
         }
       ]
     }
