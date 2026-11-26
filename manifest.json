@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 25,
+      "latestSeq": 26,
       "patches": [
         {
           "seq": 1,
@@ -7723,6 +7723,18 @@
           "sha256": "f9f918536c08c7be0467f3a6a22e1b4f535f9968656be049f3b9548c20f9b71f",
           "size": 258717,
           "description": "/app fix: unconfigured bots (connectorTools undefined = unrestricted) resolve all globally-connected services — lazy connectedServices fetch at the rewrite site, else /app wrongly reports 'not connected'",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 26,
+          "id": "708",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-708/patch-708.zip",
+          "sha256": "2d819d743e99753b98dd189c5760c502bb239c9ed18b554372d3028100b30104",
+          "size": 15897,
+          "description": "/app menu rows inserted after /setup (top-visible) instead of appended below the 320px scroll fold; removed 8-row cap that hid /app youtube; bare /app row now inserts '/app ' cleanly",
           "date": "2026-11-26",
           "restartRequired": true,
           "fileCount": 2,
