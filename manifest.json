@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 22,
+      "latestSeq": 23,
       "patches": [
         {
           "seq": 1,
@@ -7691,6 +7691,18 @@
           "restartRequired": true,
           "fileCount": 6,
           "deletedCount": 0
+        },
+        {
+          "seq": 23,
+          "id": "705",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-705/patch-705.zip",
+          "sha256": "f63a01228b866d14b1c1fcf0bc10cf0c939c9967e5779d857f42d0a6a47ec833",
+          "size": 71686487,
+          "description": "Cascade model-hop: Coding Phase-D now walks jarvis-agent ranked candidates (tool-capable combos > proven tool models > unknowns, provider-health + metrics-dead + persisted dead-registry gated, local installed >=7B as tail) instead of dumb name-heuristic fallback",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 298,
+          "deletedCount": 289
         }
       ]
     }
