@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 27,
+      "latestSeq": 28,
       "patches": [
         {
           "seq": 1,
@@ -7751,6 +7751,18 @@
           "restartRequired": true,
           "fileCount": 2,
           "deletedCount": 0
+        },
+        {
+          "seq": 28,
+          "id": "710",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-710/patch-710.zip",
+          "sha256": "b0f31c607928731434853b0d89218515f608e2866089925761cbaf27e2b0391d",
+          "size": 71930027,
+          "description": "hop: skip credits/auth-dead providers, context floor, SSE keepalive on local cold-load, preferLocal, composio prompt names connected apps",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 302,
+          "deletedCount": 289
         }
       ]
     }
