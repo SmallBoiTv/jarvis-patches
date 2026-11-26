@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 21,
+      "latestSeq": 22,
       "patches": [
         {
           "seq": 1,
@@ -7678,6 +7678,18 @@
           "date": "2026-11-25",
           "restartRequired": true,
           "fileCount": 3,
+          "deletedCount": 0
+        },
+        {
+          "seq": 22,
+          "id": "704",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-704/patch-704.zip",
+          "sha256": "b35223c32d6756a6029b6984d920fc54358773d40fbf458f90aeb12d2335468d",
+          "size": 124020,
+          "description": "Idle-unload guard: never reap a model mid-generation (in-flight set + lastUsed refresh on end); keepalive pseudo-model excluded from OmniRoute resolved-model capture",
+          "date": "2026-11-26",
+          "restartRequired": true,
+          "fileCount": 6,
           "deletedCount": 0
         }
       ]
