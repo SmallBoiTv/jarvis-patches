@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 46,
+      "latestSeq": 47,
       "patches": [
         {
           "seq": 1,
@@ -7978,6 +7978,18 @@
           "date": "2026-11-27",
           "restartRequired": true,
           "fileCount": 227,
+          "deletedCount": 0
+        },
+        {
+          "seq": 47,
+          "id": "729",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-729/patch-729.zip",
+          "sha256": "85c59ec9adb5c7cbea5d0a8cdf3442a40b2271ca70a7327ff66a6744080daad6",
+          "size": 130868,
+          "description": "APInex model catalog corrected to live /v1/models (45 models, 21 free/*) — plus complete package reship carried by 728",
+          "date": "2026-11-27",
+          "restartRequired": true,
+          "fileCount": 49,
           "deletedCount": 0
         }
       ]
