@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 36,
+      "latestSeq": 37,
       "patches": [
         {
           "seq": 1,
@@ -7858,6 +7858,18 @@
           "date": "2026-11-27",
           "restartRequired": false,
           "fileCount": 297,
+          "deletedCount": 296
+        },
+        {
+          "seq": 37,
+          "id": "719",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-719/patch-719.zip",
+          "sha256": "175c176a3725a840e510511f8f8b4644aa3f4d8c88297384f8ee83d588b1adf3",
+          "size": 71686077,
+          "description": "Notch per-module panel height — Agent chat gets 700px (was cramped at 470), Media 540, others unchanged; clamped to display work-area; notch-set-panel-height IPC",
+          "date": "2026-11-27",
+          "restartRequired": true,
+          "fileCount": 302,
           "deletedCount": 296
         }
       ]
