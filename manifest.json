@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 42,
+      "latestSeq": 43,
       "patches": [
         {
           "seq": 1,
@@ -7929,6 +7929,18 @@
           "description": "AI Clips: tiled face detection so the webcam is actually found (MediaPipe short-range detector missed small cam faces -> corner-guess NPC band)",
           "date": "2026-11-27",
           "restartRequired": true,
+          "fileCount": 297,
+          "deletedCount": 296
+        },
+        {
+          "seq": 43,
+          "id": "725",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-725/patch-725.zip",
+          "sha256": "61b324df935697ac4a9f2ecf816d0bdd7fa757e9088b412acb6ab12359908ba9",
+          "size": 71554656,
+          "description": "AI Clips: thumbnails taken from the rendered clip (show the real stacked cam layout)",
+          "date": "2026-11-27",
+          "restartRequired": false,
           "fileCount": 297,
           "deletedCount": 296
         }
