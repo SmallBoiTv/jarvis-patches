@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 35,
+      "latestSeq": 36,
       "patches": [
         {
           "seq": 1,
@@ -7846,6 +7846,18 @@
           "date": "2026-11-27",
           "restartRequired": true,
           "fileCount": 300,
+          "deletedCount": 296
+        },
+        {
+          "seq": 36,
+          "id": "718",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-718/patch-718.zip",
+          "sha256": "d4352086bb9748284a669f507f3db253caced19736540186642b7ba42c831aae",
+          "size": 71551511,
+          "description": "Notch Agent module fix: reuse already-healthy OMB server (external:true is the normal boot pre-warm path, not an error) — Agent webview never mounted",
+          "date": "2026-11-27",
+          "restartRequired": false,
+          "fileCount": 297,
           "deletedCount": 296
         }
       ]
