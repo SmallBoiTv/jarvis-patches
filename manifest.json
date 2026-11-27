@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 38,
+      "latestSeq": 39,
       "patches": [
         {
           "seq": 1,
@@ -7882,6 +7882,18 @@
           "date": "2026-11-27",
           "restartRequired": false,
           "fileCount": 297,
+          "deletedCount": 296
+        },
+        {
+          "seq": 39,
+          "id": "721",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-721/patch-721.zip",
+          "sha256": "a8936ff9de3ba328e217092a08c4b2a1272dfc8bb07e329fb1f3ec405e0ca300",
+          "size": 71893690,
+          "description": "AI Clips: kill blurred padding (crop-fill + black letterbox), webcam-scored facecam placement, scene-aware content zone, autopilot retry sweep + dedup",
+          "date": "2026-11-27",
+          "restartRequired": true,
+          "fileCount": 308,
           "deletedCount": 296
         }
       ]
