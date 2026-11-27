@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 44,
+      "latestSeq": 45,
       "patches": [
         {
           "seq": 1,
@@ -7954,6 +7954,18 @@
           "date": "2026-11-27",
           "restartRequired": true,
           "fileCount": 71,
+          "deletedCount": 0
+        },
+        {
+          "seq": 45,
+          "id": "727",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-727/patch-727.zip",
+          "sha256": "4cf244c1e7bf526f85e4db5021a9dc5f55e68c81e775882578def96fe4d0e86e",
+          "size": 39466,
+          "description": "Fix @jarvis/* package resolution in layered patches (shared/ai/voice patched code never loaded — asar-root node_modules paths bypassed the layer index) + APInex provider support",
+          "date": "2026-11-27",
+          "restartRequired": true,
+          "fileCount": 2,
           "deletedCount": 0
         }
       ]
