@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 47,
+      "latestSeq": 48,
       "patches": [
         {
           "seq": 1,
@@ -7991,6 +7991,18 @@
           "restartRequired": true,
           "fileCount": 49,
           "deletedCount": 0
+        },
+        {
+          "seq": 48,
+          "id": "730",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-730/patch-730.zip",
+          "sha256": "38a490bab9473af574f09cbbdd908152b23223f2015dae017b8f8d752dac1ae0",
+          "size": 71556650,
+          "description": "Viral reaction detection: reaction-phrase scoring, energy-contrast spikes, SIGNALS hints in highlight prompt, signal-seeded candidates for moments transcript analysis misses",
+          "date": "2026-11-27",
+          "restartRequired": false,
+          "fileCount": 297,
+          "deletedCount": 296
         }
       ]
     }
