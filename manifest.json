@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 43,
+      "latestSeq": 44,
       "patches": [
         {
           "seq": 1,
@@ -7943,6 +7943,18 @@
           "restartRequired": false,
           "fileCount": 297,
           "deletedCount": 296
+        },
+        {
+          "seq": 44,
+          "id": "726",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-726/patch-726.zip",
+          "sha256": "69ef0dc7b57d2a2340a99c25edd393fad684c058e652a2725b247f96edc461ac",
+          "size": 898589,
+          "description": "APInex provider (apinex.bond): 46-model chat (free/* + paid tiers), image gen+edit (grok-imagine-2/gemini-flash-image), Nova-3 STT in Clip Studio, Aura-2 TTS voices, preferred web-search/contents/research backend, twitter+translate+deep-research+balance agent tools, USD balance in Settings, web BYOK + mobile companion support",
+          "date": "2026-11-27",
+          "restartRequired": true,
+          "fileCount": 71,
+          "deletedCount": 0
         }
       ]
     }
