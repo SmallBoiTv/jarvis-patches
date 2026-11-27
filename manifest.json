@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 37,
+      "latestSeq": 38,
       "patches": [
         {
           "seq": 1,
@@ -7870,6 +7870,18 @@
           "date": "2026-11-27",
           "restartRequired": true,
           "fileCount": 302,
+          "deletedCount": 296
+        },
+        {
+          "seq": 38,
+          "id": "720",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-720/patch-720.zip",
+          "sha256": "ce3bf6f440a509694a973eafe27f6b794268eaa7799512d7460618c104d0f826",
+          "size": 71551898,
+          "description": "Notch height fix: html/body/#root 100% + root fixed inset-0 — panel collapsed to ~200px content height regardless of window bounds",
+          "date": "2026-11-27",
+          "restartRequired": false,
+          "fileCount": 297,
           "deletedCount": 296
         }
       ]
