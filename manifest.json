@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 39,
+      "latestSeq": 40,
       "patches": [
         {
           "seq": 1,
@@ -7894,6 +7894,18 @@
           "date": "2026-11-27",
           "restartRequired": true,
           "fileCount": 308,
+          "deletedCount": 296
+        },
+        {
+          "seq": 40,
+          "id": "722",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-722/patch-722.zip",
+          "sha256": "9b2812bde53f381cf3f7c4cd8c100af910d4b285faadf8707fbb74bb7e5be66d",
+          "size": 71567907,
+          "description": "Clip render: skip cam blur-patch when facecam is content-scale (fullscreen-cam moments)",
+          "date": "2026-11-27",
+          "restartRequired": true,
+          "fileCount": 300,
           "deletedCount": 296
         }
       ]
