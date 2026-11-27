@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 34,
+      "latestSeq": 35,
       "patches": [
         {
           "seq": 1,
@@ -7835,6 +7835,18 @@
           "restartRequired": true,
           "fileCount": 303,
           "deletedCount": 297
+        },
+        {
+          "seq": 35,
+          "id": "717",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-717/patch-717.zip",
+          "sha256": "4ce79d34715f0ed195e1ecc9afa10c2a1ec6e4ed6c0c8ddab1a983c500d0aad3",
+          "size": 71567144,
+          "description": "Jarvis Agent (OMB) embedded in the notch — webviewTag on notch window + Agent module w/ voice shim, CUA chip, preload-path resolution",
+          "date": "2026-11-27",
+          "restartRequired": true,
+          "fileCount": 300,
+          "deletedCount": 296
         }
       ]
     }
