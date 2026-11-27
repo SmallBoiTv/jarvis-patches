@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 40,
+      "latestSeq": 41,
       "patches": [
         {
           "seq": 1,
@@ -7906,6 +7906,18 @@
           "date": "2026-11-27",
           "restartRequired": true,
           "fileCount": 300,
+          "deletedCount": 296
+        },
+        {
+          "seq": 41,
+          "id": "723",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-723/patch-723.zip",
+          "sha256": "c66a6f413eef13eb22e7e5f80ae1afc25773ad523dec54db7938e8cb08785db7",
+          "size": 71573459,
+          "description": "AI Clips stacked: hi-res webcam locator (snaps to the real cam overlay, honors top/bottom), zero blur/zero black bars, adaptive cam band, content pans clear of cam",
+          "date": "2026-11-27",
+          "restartRequired": true,
+          "fileCount": 302,
           "deletedCount": 296
         }
       ]
