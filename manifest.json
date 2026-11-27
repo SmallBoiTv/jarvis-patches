@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 45,
+      "latestSeq": 46,
       "patches": [
         {
           "seq": 1,
@@ -7966,6 +7966,18 @@
           "date": "2026-11-27",
           "restartRequired": true,
           "fileCount": 2,
+          "deletedCount": 0
+        },
+        {
+          "seq": 46,
+          "id": "728",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-728/patch-728.zip",
+          "sha256": "3f25de1ce05c24da886621b447bb2ba20c32a6c84ecf2b436794854bf0f7b872",
+          "size": 410931,
+          "description": "Complete @jarvis/ai+shared+voice package reship — partial layer packages broke in-layer resolution (stall on 727, APInex never loaded on 726)",
+          "date": "2026-11-27",
+          "restartRequired": true,
+          "fileCount": 227,
           "deletedCount": 0
         }
       ]
