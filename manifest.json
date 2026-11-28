@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 51,
+      "latestSeq": 52,
       "patches": [
         {
           "seq": 1,
@@ -8038,6 +8038,18 @@
           "date": "2026-11-28",
           "restartRequired": true,
           "fileCount": 300,
+          "deletedCount": 296
+        },
+        {
+          "seq": 52,
+          "id": "734",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-734/patch-734.zip",
+          "sha256": "f3c197c21ddd28d8d71017495070c4ec3f46353e3a2277333bb11f2f8e5a3ef9",
+          "size": 71557902,
+          "description": "Fix tightened clip renders freezing by making the primary duration limit input-side",
+          "date": "2026-11-28",
+          "restartRequired": false,
+          "fileCount": 297,
           "deletedCount": 296
         }
       ]
