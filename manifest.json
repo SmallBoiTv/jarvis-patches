@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 50,
+      "latestSeq": 51,
       "patches": [
         {
           "seq": 1,
@@ -8026,6 +8026,18 @@
           "date": "2026-11-28",
           "restartRequired": false,
           "fileCount": 297,
+          "deletedCount": 296
+        },
+        {
+          "seq": 51,
+          "id": "733",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-733/patch-733.zip",
+          "sha256": "6ceb8d8dee2f7f57a55321f023de2e0f596b77ffe55e8b24eb6f68b0aaa9fadf",
+          "size": 71611966,
+          "description": "Parallelize clip transcription and hot-window analysis so autopilot reaches rendering and auto-posting quickly",
+          "date": "2026-11-28",
+          "restartRequired": true,
+          "fileCount": 300,
           "deletedCount": 296
         }
       ]
