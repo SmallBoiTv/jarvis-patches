@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 48,
+      "latestSeq": 49,
       "patches": [
         {
           "seq": 1,
@@ -8002,6 +8002,18 @@
           "date": "2026-11-27",
           "restartRequired": false,
           "fileCount": 297,
+          "deletedCount": 296
+        },
+        {
+          "seq": 49,
+          "id": "731",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-731/patch-731.zip",
+          "sha256": "b68e14b38c1dfb1786972bd0ac7a563d5e493b0eb2395092747e6ac1115e863d",
+          "size": 71908851,
+          "description": "Fix clip autopilot auto-posting: bounded IPC, stale-run recovery, Twitch fetch timeouts, failed post retries",
+          "date": "2026-11-28",
+          "restartRequired": true,
+          "fileCount": 306,
           "deletedCount": 296
         }
       ]
