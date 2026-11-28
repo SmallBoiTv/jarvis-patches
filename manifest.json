@@ -7426,7 +7426,7 @@
     },
     "1.0.925": {
       "filemap": "filemaps/1.0.925.json",
-      "latestSeq": 49,
+      "latestSeq": 50,
       "patches": [
         {
           "seq": 1,
@@ -8014,6 +8014,18 @@
           "date": "2026-11-28",
           "restartRequired": true,
           "fileCount": 306,
+          "deletedCount": 296
+        },
+        {
+          "seq": 50,
+          "id": "732",
+          "url": "https://github.com/SmallBoiTv/jarvis-patches/releases/download/patch-732/patch-732.zip",
+          "sha256": "6ee8febb9e699a73ae46044eb01d0710889b2f9cfcb53eb43ecb7b6968c768d5",
+          "size": 71558069,
+          "description": "Enable Twitch stream-scan in clip autopilot, heartbeat-based pipeline timeout, persistent run checkpoints",
+          "date": "2026-11-28",
+          "restartRequired": false,
+          "fileCount": 297,
           "deletedCount": 296
         }
       ]
